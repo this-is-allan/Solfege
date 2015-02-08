@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="melodicinterval">
+<title>Melodisches Intervall</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/melodicinterval-buttons.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Programms beim Üben von Intervallen mittels Knöpfen.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Diese Übung erzeugt zufällige Intervalle. Sie sollten versuchen, diese zu erkennen.</para>
+
+<para>Wenn Sie die Knopf-Oberfläche verwenden, klicken Sie mit der rechten Maustaste auf die Knöpfe, woraufhin das entsprechende Intervall abgespielt wird.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+<!--
+<sect2>
+<title>Config</title>
+<para>You can give detailed instructions on what intervals and how many of them to be asked. The statistics are only recorded when you practise only one interval.</para>
+</sect2>-->
+</sect1>

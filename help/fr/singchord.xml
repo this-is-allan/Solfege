@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Chanter un accord</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran du logiciel.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Si vous dirigez un choeur, vous devez chanter les notes de départ des différentes voix, et si vous n'avez pas de piano a proximité, vous devez utiliser un diapason. Si vous êtes un homme, vous chanterez les notes de femmes une octave plus bas, et vice versa. </para>
+
+<para>Le programme va jouer la note La (440 Hz), et afficher un accord que vous devez chanter. Solfege ne permet pas pour l'instant d'utiliser un microphone, il vous faudra donc juger par vous-même si la réponse est juste ou non.</para>
+
+</sect1>

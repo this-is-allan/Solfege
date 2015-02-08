@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Dakika başına vuruş sayısı</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Yazılım metronom gibi bir tempo çalacaktır. Dakika başına kaç vuruş çalındığını tahmin etmelisiniz. Her düğme bir tempoyu simgeler, ve yazılım sadece kalın metine sahip tempoları çalacaktır. Temponun durumunu değiştirmek için düğmenin üzerine sağ tıklayınız.</para>
+
+<para>Dikkat: ritmin bağlı olduğu özellik <literal>gtk timeout_add</literal> işlevidir, bu yüzden çok da kesin değildir.</para>
+
+</sect1>

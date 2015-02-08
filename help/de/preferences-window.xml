@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="preferences-window">
+<title>Einstellungsfenster</title>
+<sect2 id="pw-midi-stuff">
+<title>Instrumente</title>
+<informalfigure id="preferences-midi">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-midi.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »MIDI«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-tempo">
+<title>Tempo</title>
+<!-- translators: don't translate the module names in this paragraph. -->
+<para>Legt das Tempo (Schläge pro Minute) für Musik und Arpeggios fest. Diese Werte werden für Übungen verwendet, die mit folgenden Übungsmodulen erstellt werden: <literal>compareintervals</literal>, <literal>harmonicintervals</literal>, <literal>idtone</literal>, <literal>melodicinterval</literal>, <literal>singchord</literal>, <literal>singinterval</literal>, <literal>twelvetone</literal>, <literal>rhythm</literal>, <literal>identifybpm</literal> und <literal>nameinterval</literal>. Andere Übungen nutzen das in der Lektionsdatei oder in der Konfiguration der Übung festgelegte Tempo.</para>
+</sect3>
+<sect3 id="pw-preferred-instr">
+<title>Bevorzugtes Instrument</title>
+<para>Legt das MIDI-Instrument und die Lautstärke für die meisten Übungen fest.</para>
+</sect3>
+<sect3 id="pw-chord-instr">
+<title>Akkordinstrumente</title>
+<para>Solfege kann drei verschiedene Instrumente beim Spielen von Akkorden verwenden. Eines für den höchsten Ton, eines für den Mittelton und eines für den Bass. Das kann hilfreich sein, wenn Sie Schwierigkeiten damit haben, individuelle Töne aus Akkorden herauszuhören.</para>
+</sect3>
+<sect3 id="pw-perc-instr">
+<title>Bevorzugte Perkussionsinstrumente</title>
+<para>Legt das Perkussionsinstrument für das Einzählen vor Rhythmusfragen sowie zum Abspielen der Frage fest.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-user">
+<title>Benutzer</title>
+<informalfigure id="preferences-user">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-user.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Benutzer«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege verwendet diese Information in einigen Übungen, in denen Sie zum Singen aufgefordert werden.</para>
+<sect3 id="pw-low-high">
+<title>Niedrigster/höchster zu singender Ton</title>
+<para>In diesen Einstellfeldern geben Sie Solfege den tiefsten und höchsten Ton an, den Sie singen können. Diese Werte dienen dem Programm lediglich als Anhaltspunkt. Wenn Sie beispielsweise die Werte auf <literal>c</literal> und <literal>c'</literal> gesetzt haben, könnten Sie dennoch das Programm so konfiguriert haben, dass Sie zum Singen großer und kleiner Dezimen aufgefordert werden. In einem solchen Fall werden auch Töne außerhalb Ihres Stimmbereichs enthalten sein.</para> </sect3>
+
+<sect3 id="pw-sex">
+<title>Geschlecht</title>
+<para>Wenn es um das Singen geht, benötigt Solfege bei der Erstellung einiger Fragen die Information, ob der Sänger männlich oder weiblich ist, weil die Männerstimmen um eine Oktave tiefer liegen als die Frauenstimmen.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-external-programs">
+<title>Externe Programme</title>
+<informalfigure id="preferences-external-programs-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-external-programs.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Externe Programme«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege durchsucht den Inhalt der Variable PATH nach Programmen, die Sie hier angeben. Daher brauchen Sie den vollen Pfad zum Programm nur dann anzugeben, wenn dieses in der Variable PATH nicht gefunden werden kann. Ein Warnzeichen hinter dem als Dateiname eingegebenen Eintrag bedeutet, dass das Programm nicht gefunden werden konnte.</para>
+
+<para>Please check the download page on <ulink url="http://www.solfege.org">www.solfege.org</ulink> for up-to-date tips
+and download links if you run MS Windows and have to download and install
+the programs yourself.
+</para>
+
+<sect3 id="pw-convertors">
+<title>Konverter</title>
+<para>Geben Sie Befehlszeilen zum Umwandeln der verschiedenen Audioformate an. <literal>%(in)s</literal> wird durch den Namen der Originaldatei ersetzt und <literal>%(out)s</literal> durch den Namen der Ausgabedatei. Falls das Programm seine Ausgaben automatisch in neuen Dateien mit der korrekten Endung speichert, ist die Angabe von <literal>%(out)s</literal> nicht erforderlich.</para>
+</sect3>
+
+<sect3 id="pw-audio-players">
+<title>Audioplayer</title>
+<para>Befehlszeilen zum Abspielen verschiedener Audioformate. <literal>%s</literal> wird hierbei durch den echten Namen der abzuspielenden Datei ersetzt. Der Dateiname wird ans Ende der Zeichenkette angehängt, wenn Sie kein <literal>%s</literal> einfügen.</para>
+</sect3>
+
+<sect3 id="pw-misc">
+<title>Verschiedenes</title>
+<para>Eine Reihe von Übungen nutzen die Programme CSound und MMA. Lilypond-book wird benötigt, um Druckausgaben der Hörtests zu erstellen. Weiterhin ist LaTeX erforderlich, wenn die Druckausgabe im DVI-Format erfolgen soll. Ohne LaTeX können Sie lediglich HTML-Ausgaben erstellen.</para>
+
+<para>Falls die angegebene Datei die Endung <literal>.py</literal> hat, wird dieses Skript im gleichen Python-Interpreter wie Solfege selbst ausgeführt.</para>
+</sect3>
+
+</sect2>
+<sect2 id="preferences-gui">
+<title>Oberfläche</title>
+<informalfigure id="preferences-gui-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Interface«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Größenveränderbares Hauptfenster: Ermöglicht die Änderung der Größe des Hauptfensters von Solfege.</para>
+<para>Sprache auswählen: Sie können die Sprache manuell auswählen, falls Solfege diese nicht korrekt erkannt hat oder wenn Sie das Programm in einer anderen als der Sprache Ihres Systems ausführen wollen.</para>
+
+<sect3>
+<title>Identify tone keyboard accelerators</title>
+<informalfigure id="preferences-gui-idtone-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Interface«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>
+Here you can change the keyboard accelerators for the «Identify tone» exercise.
+Click on a row to select the tone you want to change the accelerator for,
+then click again on the second column of the row. Finally you can press
+the key you want to set as the accel for the tone.
+</para>
+<para>
+The «Dvorak» and «ASCII» buttons will set the accelerators to the
+default values for Dvorak and ASCII keyboards.
+</para>
+</sect3>
+
+<sect3>
+<title>Interval keyboard accelerators</title>
+<informalfigure id="preferences-gui-interval-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-interval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Interface«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>
+Here you can change the keyboard accelerators for the interval exercises,
+like the «Harmonic interval» and «Melodic interval» exercises.
+Click on a row to select the tone you want to change the accelerator for,
+then click again on the second column of the row. Finally you can press
+the key you want to set as the accel for the tone.
+</para>
+<para>
+The «Dvorak» and «ASCII» buttons will set the accelerators to the
+default values for Dvorak and ASCII keyboards.
+</para>
+</sect3>
+
+</sect2>
+
+<sect2 id="pw-practise">
+<title>Übungen</title>
+<informalfigure id="preferences-practise">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-practise.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Übungen«-Seite des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Keine neue Frage zulassen, bevor alte nicht gelöst wurde: Der »Neu«-Knopf wird so lange deaktiviert, bis entweder die Antwort korrekt ist oder bis Sie auf »Aufgeben« klicken.</para>
+<para>Frage wiederholen, wenn die Antwort falsch war: Den Klang wiederholt abspielen, wenn Sie eine inkorrekte Antwort gegeben haben.</para>
+<para>Expertenmodus: Aktivieren Sie diese Option in Übungen, welche die Module <link linkend="idbyname-module">idbyname</link> und <link linkend="idproperty-module">idproperty</link> verwenden. Dadurch wird es möglich, nur einen Teil der Übungen in der Lektionsdatei auszuführen. Für Übungen im Expertenmodus werden keine Statistiken angelegt.</para>
+</sect2>
+
+<sect2 id="pw-sound-setup">
+<title>Sound-Einstellungen</title>
+<informalfigure id="preferences-sound-setup">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der Seite »Sound-Einstellungen« des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<informalfigure id="preferences-sound-setup-wib32">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup-win32.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der »Sound-Einstellungen«-Seite des Einstellungsfensters auf Microsoft Windows XP.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-midi-setup">
+<title>MIDI-Setup</title>
+<variablelist>
+<title>In den Übungen, die Klänge erzeugen, gibt es drei Möglichkeiten, diese abzuspielen:</title>
+<varlistentry>
+<term>Kein Klang:</term>
+<listitem>
+<para>Verwenden Sie dies zur Fehlerdiagnose, wenn Sie Solfege portieren. Es werden keine Klänge ausgegeben und die MIDI-Ereignisse werden auf die Standardausgabe (stdout) weitergeleitet.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>ALSA-Gerät verwenden</term>
+<listitem>
+<para>If you have the Python modules for ALSA installed, you can use the
+ALSA sequencer. If your operating system is GNU/Linux, you have a menu item on
+the Help menu that can download and compile the modules for you.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Gerät verwenden:</term>
+<listitem>
+<para>Die beste Wahl ist hier <filename>/dev/music</filename>, weil dieses Gerät Perkussionsinstrumente am besten unterstützt. <filename>/dev/sequencer2</filename> ist üblicherweise eine symbolische Verknüpfung mit <filename>/dev/music</filename>. Falls auf Ihrem System <filename>/dev/music</filename> nicht existiert, können Sie dieses Gerät mit folgendem Befehl anlegen (sofern Sie den Linux-Kernel in Version 2.2 oder neuer verwenden):</para>
+<para>cd /dev mknod music u 14 8</para>
+<para>Auf Microsoft-Windows-Systemen ist diese Auswahl mit <literal>Windows-Multimedia-Ausgabe</literal> bezeichnet.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Externen MIDI-Player verwenden:</term>
+<listitem>
+<para>Dies kann nützlich sein, wenn Sie auf Systeme portieren, die kein OSS verwenden, oder wenn Sie einen ungenügenden MIDI-Synthesizer in Ihrer Soundkarte haben und daher Timidity verwenden wollen.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect3>
+</sect2>
+<sect2 id="pw-statistics">
+<title>Statistiken</title>
+<informalfigure id="preferences-statistics">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der Seite »Sound-Einstellungen« des Einstellungsfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3>
+<title>Statistiken aus Version 3.15 und älter</title>
+<para>Die Solfege-Versionen vor 3.16.0 speicherten die Statistiken in vielen kleinen Dateien. Neuere Versionen importieren diese Dateien in die neue Datenbankdatei, wenn Sie das Programm erstmalig starten, aber die alten Dateien werden auf Ihrem Rechner nicht gelöscht. Es ist sicher, wenn Sie diese Dateien löschen, sobald Solfege 3.16.0 einmal gestartet worden ist. Die alten Dateien sind im Ordner <emphasis>application data/statistics</emphasis> gespeichert.</para>
+</sect3>
+<sect3>
+  <title>Statistiken</title>
+  <para>Statistiken werden nun in der Datei <literal>statistics.sqlite</literal> im Ordner <emphasis>application data</emphasis> gespeichert. Den exakten Ort dieser Datei finden Sie in <guimenuitem>Dateispeicherorte</guimenuitem> im Menü <guimenu>Hilfe</guimenu>. Klicken Sie auf <guibutton>Löschen</guibutton>, um Ihre Statistiken zurückzusetzen und mit einer leeren Datei <literal>statistics.sqlite</literal> zu beginnen.</para>
+</sect3>
+</sect2>
+</sect1>

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="preferences-window">
+<title>Seçenekler penceresi</title>
+<sect2 id="pw-midi-stuff">
+<title>Çalgılar</title>
+<informalfigure id="preferences-midi">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-midi.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Midi' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-tempo">
+<title>Hız</title>
+<!-- translators: don't translate the module names in this paragraph. -->
+<para>Müzik ve arpejler için hızı (saniye başına vuruş sayısı)ayarların. Bu değerler sıralanan alıştırma modülleri tarafından kullanılacaktır: <literal>aralıklarıkarşılaştır</literal>, <literal>armonikaralıklar</literal>, <literal>tonutanımla</literal>, <literal>melodikaralık</literal>, <literal>akorusöyle</literal>, <literal>aralığısöyle</literal>, <literal>onikiton</literal>, <literal>ritm</literal>, <literal>dakikabaşınavuruşubelirle</literal>, <literal>aralığıadlandır</literal>. Diğer alıştırmaların hız ayarları dosyasından veya alıştırmanın ayarlar sayfasından yapılacaktır.</para>
+</sect3>
+<sect3 id="pw-preferred-instr">
+<title>Tercih edilen çalgı</title>
+<para>Çoğu alıştırmada kullanılan midi çalgısı ve ses yüksekliğini ayarlayınız.</para>
+</sect3>
+<sect3 id="pw-chord-instr">
+<title>Akor çalgıları</title>
+<para>Solfege akorları çalarken üç farklı çalgı kullanabilir. Bu çalgılardan biri en üstteki nota için, birisi ortadaki ses için diğeri de bas sesi için olacaktır. Eğer akorlardaki sesleri ayrıştırmakta zorlanıyorsanız böyle bir uygulama size yardımcı olacaktır.</para>
+</sect3>
+<sect3 id="pw-perc-instr">
+<title>Tercih edilen vurmalı çalgılar</title>
+<para>Ritm sorusu başlamadan önceki saymada kullanılacak çalgıyı, ve soru sorulurken kullanılacak olan çalgıyı ayarlayınız.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-user">
+<title>Kullanıcı</title>
+<informalfigure id="preferences-user">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-user.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Kullanıcı' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Kullanıcının sesleri söylemesi istendiğinde Solfege bu bilgiyi bazı alıştırmalarda kullanır. </para>
+<sect3 id="pw-low-high">
+<title>Kullanıcının söyleyebileceği en kalın/en ince ses</title>
+<para>Bu döndürme düğmeleri Solfege yazılımına kullanıcının söyleyebileceği en tiz ve en pes sesi anlatır. Bu değerler yazılımın önerdiği değerlerdir sadece. Örneğin değerler <literal>c</literal>  ile <literal>c'</literal> arasına ayarlanmış ise yazılımın size küçük ve büyük ondalık değerler aralığındaki parametrede sesleri söylemesini istemek üzere ayarlamışsınız demektir, bu oranın dışındaki sesleri söylemek zorundasınızdır.</para> </sect3>
+
+<sect3 id="pw-sex">
+<title>Cinsiyet</title>
+<para>Solfege yazılımı kullanıcının cinsiyetini bilmelidir. Erkek sesi bayan sesine göre bir oktav aşağıdan tınladığı için kullanıcının cevaplandıracağı sorular hazırlanırken bu fark göz önünde tutulmaktadır.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-external-programs">
+<title>Harici yazılımlar</title>
+<informalfigure id="preferences-external-programs-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-external-programs.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Dış yazılımlar' sayfasının  ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu sayfaya eklediğiniz programların YOLU, Solfege tarafından aranacaktır. Eğer programlar YOL dışındaki yerlere kurulmuş ise, bu yolun tam adresini girmeniz gerekecektir. Aksi taktirde, bu bir dosyayı açmak istediğinizde programın  bulunamadığına dair bir uyarı mesajı karşınıza gelecektir. </para>
+
+<para>Eğer MS Windows kullanıyor ve programı kendinizin indirmesi ve kurması gerekiyorsa ve güncel ipuçlarına göz atmak istiyorsanız, lütfen <ulink url="http://www.solfege.org">www.solfege.org</ulink> sayfasındaki indirme sayfasına göz atınız.</para>
+
+<sect3 id="pw-convertors">
+<title>Dönüştürücüler</title>
+<para>Farklı ses dosyalarının birbirleri arasında dönüştürmek için komut satırı verir. <literal>%(in)s</literal> dönüştürmemize kaynaklık eden dosyaya verilen ad olacak, ve <literal>%(out)s</literal> ise dönüştüğümüz dosyaya verilen ad olacaktır. Şöyle bir girdi yazmak  <literal>%(out)s</literal> eğer doğru dosya son eki ile kaydedilmiş ise gerekli değildir.</para>
+</sect3>
+
+<sect3 id="pw-audio-players">
+<title>Ses dosyası çalarlar</title>
+<para>Farklı ses dosyası çalan komut satırları. <literal>%s</literal> çalınacak olan dosya adını alacaktır. Eğer siz yazmaz iseniz dizgenin sonuna eklenen dosya adı şöyle olacaktır <literal>%s</literal>.</para>
+</sect3>
+
+<sect3 id="pw-misc">
+<title>Çeşitli</title>
+<para>CSound ve MMA programlarının kullanımını gerektiren bir kaç  alıştırma. Kulak eğitimi test çıktılarını elde etmek için sisteminizde lilypond-book kurulu olmalı, ve dvi formatındaki çıktıların alınabilmesi için latex kurulu olmalıdır. Sisteminizde latex kurulu değilse, sadece html çıktısı elde edersiniz.</para>
+
+<para>Eğer girilen dosyanın son eki <literal>.py</literal> ise, o zaman betik Solfege ile aynı şekilde aynı python yorumlayıcı tarafından çalıştırılacaktır.</para>
+</sect3>
+
+</sect2>
+<sect2 id="preferences-gui">
+<title>Arayüz</title>
+<informalfigure id="preferences-gui-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Arayüz' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Yeniden boyutlandırılabilen ana pencere: Bu pencere ana solfege penceresini isteğinize göre boyutlandırmanızı sağlar.</para>
+<para>Dili seç. Eğer Solfege otomatik olarak algılamaz ise dili elle seçebilirsiniz, veya Solfege yazılımınızı işletim sisteminizden farklı bir dilde çalıştırmak isteyebilirsiniz.</para>
+
+<sect3>
+<title>Ses klavye hızlandırıcılarını belirleyiniz</title>
+<informalfigure id="preferences-gui-idtone-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Arayüz' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Buradan «Sesi belirle» alıştırması için klavye hızlandırıcılarını değiştirebilirsiniz. Hızlandırıcı için değiştirmek istediğiniz sıradaki sese tıklayın, sonra sıranın ikinci sütununa tekrar tıklayın. Son olarak da, sesin hızlandırıcısı için istediğiniz tuşa basın.</para>
+<para>«Dvorak» ve «ASCII» düğmeleri Dvorak ve ASCII klavyeler için varsayılan değerleri ayarlayacaklardır.</para>
+</sect3>
+
+<sect3>
+<title>Aralık klavye hızlandırıcıları</title>
+<informalfigure id="preferences-gui-interval-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-interval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Arayüz' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Buradan «Armonik aralık» ve «Melodik aralık» gibi aralık alıştırmaları için klavye hızlandırıcılarını değiştirebilirsiniz. Hızlandırıcı için değiştirmek istediğiniz sıradaki sese tıklayın, sonra sıranın ikinci sütununa tekrar tıklayın. Son olarak da, sesin hızlandırıcısı için istediğiniz tuşa basın.</para>
+<para>«Dvorak» ve «ASCII» düğmeleri Dvorak ve ASCII klavyeler için varsayılan değerleri ayarlayacaklardır.</para>
+</sect3>
+
+</sect2>
+
+<sect2 id="pw-practise">
+<title>Pratik Yap</title>
+<informalfigure id="preferences-practise">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-practise.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Alıştırma yap' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Eskisi çözülmeden yeni sorulara izin verilmez: 'yeni' düğmesini soru doğru cevaplanmadan veya kullanıcı "vazgeç" seçeneğini işaretlemeden etkisizleştir.</para>
+<para>:Eğer soru yanlış ise soruyu tekrarla: Kullanıcı yanlış cevap verirse sesi tekrar çal.</para>
+<para>Uzman kipi: Bu seçeneği etkinleştirmek şu özellikleri kullanan alıştırma <link linkend="idbyname-module">isimletanımla</link> and <link linkend="idproperty-module">özelliğitanımla</link> modüllerinin sadece ders dosyasının alt kısmındaki soru seçenekleri ile çalışma yapmanıza imkan verecektir. Uzman kipi etkinleştirildiğinde istatistik kaydı tutulmayacaktır.</para>
+</sect2>
+
+<sect2 id="pw-sound-setup">
+<title>Ses ayarı</title>
+<informalfigure id="preferences-sound-setup">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Ses ayarı' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<informalfigure id="preferences-sound-setup-wib32">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup-win32.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>MS Windows XP işletim sisteminde, tercihler penceresi, 'Ses ayarı' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-midi-setup">
+<title>Midi ayarı</title>
+<variablelist>
+<title>Ses oluşturan alıştırmalar için, sesi çalmanın birkaç yolu vardır:</title>
+<varlistentry>
+<term>Ses yok:</term>
+<listitem>
+<para>Bunu hata ayıklamak için veya Solfege yazılımını taşımak için kullan. Hiçbir ses çalınmaz, midi olayları bekletilmektedir.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>ALSA aygıtını kullan</term>
+<listitem>
+<para>Kurulu ALSA için Python modülleriniz varsa, ALSA sekvansır'ını kullanabilirsiniz. Eğer işletim sisteminiz GNU/Linux ise, Yardım menüsünde istediğiniz modülleri indirip derleyebileceğiniz menü seçeneğiniz vardır.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Aygıtı kullan:</term>
+<listitem>
+<para>Burada en iyi seçim genellikle <filename>/dev/music</filename> çünkü en iyi vurma çalgılar desteğine sahiptir.  <filename>/dev/sequencer2</filename> bu genellikle şuna simgesel bir linktir  <filename>/dev/music</filename>. Eğer sisteminizde bu yoksa <filename>/dev/music</filename>, root olarak onu oluşturabilirsiniz (eğer linux çekirdeğinin 2.2 veya daha üstünü kullanıyorsanız):</para>
+<para>cd /dev mknod music u 14 8</para>
+<para>MS Windows işletim sisteminde bu seçenek <literal>Windows çokluortam çıkışı</literal> olarak etiketlenmiştir.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Dış midiçalar kullan:</term>
+<listitem>
+<para>Bu seçenek eğer harici bir ses düzeneği kullanıyor veya  ses kartınızdaki midi sentezleyici kötü ve timidity kullanmak istiyorsanız faydalı olabilir.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect3>
+</sect2>
+<sect2 id="pw-statistics">
+<title>İstatistikler</title>
+<informalfigure id="preferences-statistics">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tercihler penceresindeki 'Ses ayarı' sayfasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3>
+<title>3.15 veya daha eski sürümden İstatistikler</title>
+<para>3.16.0 önceki Solfege sürümü istatistikleri pek çok küçük dosyada saklar. Solfege 3.16.0 sürümü bu dosyaları programı ilk kez kullandığınızda hiçbir şekilde yeni veri dosyalarına aktaramayacak, ancak eski dosyalar bilgisayarınızda duracaktır. Solfege 3.16.0 veya yeni bir sürüm kullanıyorsanız bu dosyaları silmek daha güvenli bir yoldur. Bu dosyaların saklandığı yerler: <emphasis>application data</emphasis> dizini altındaki <literal>statistics</literal> dizini.</para>
+</sect3>
+<sect3>
+  <title>İstatistikler</title>
+  <para>İstatistiklerin saklandığı dosyanın yeri <literal>statistics.sqlite</literal> dizini içindeki <emphasis>application data</emphasis> dizini. Dizinin tam yerine <guimenuitem>Dosya Yerleri</guimenuitem> menüsünün  <guimenu>Yardım</guimenu> üstmenüsünden ulaşabilirsiniz. <guibutton>Sil</guibutton> düğmesine tıklayarak istatistiklerinizi sıfırlayabilir ve boş bir <literal>statistics.sqlite</literal> dosyası ile herşeye yeniden başlayabilirsiniz.</para>
+</sect3>
+</sect2>
+</sect1>

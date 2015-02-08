@@ -1,0 +1,22 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The singanswer module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 Podręcznik Użytkownika"><link rel="up" href="extending-solfege.html" title="Rozdział 4. Extending GNU Solfege"><link rel="prev" href="rhythmdictation2-module.html" title="The rhythmdictation2 module"><link rel="next" href="singchord-module.html" title="The singchord module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">singanswer</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="rhythmdictation2-module.html">Poprzedni</a> </td><th width="60%" align="center">Rozdział 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="singchord-module.html">Następny</a></td></tr></table><hr></div><div class="sect1" title="The singanswer module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="singanswer-module"></a>The <code class="literal">singanswer</code> module</h2></div></div></div><p>Here is a minimal lesson file:</p><pre class="programlisting">
+header {
+  <a class="xref" href="lesson-files.html#lf-module">module</a> = singanswer
+  <a class="xref" href="lesson-files.html#lf-version">version</a> = "3.1.4"
+  <a class="xref" href="lesson-files.html#lf-title">title</a> = "Sing the root of the chord"
+}
+question {
+    question_text = "Sing the root"
+    music = chord("c' e' g'")
+    answer = chord("c'")
+}
+question {
+    question_text = "Sing the root"
+    music = chord("a' c'' e''")
+    answer = chord("a'")
+}
+</pre><p>Additional variables you can put in the header. Click on the link to
+get an explanation:
+</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>
+  <a class="xref" href="lesson-files.html#lf-have_repeat_arpeggio_button">have_repeat_arpeggio_button</a>
+  </p></li></ul></div><p>
+</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="rhythmdictation2-module.html">Poprzedni</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Początek rozdziału</a></td><td width="40%" align="right"> <a accesskey="n" href="singchord-module.html">Następny</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">rhythmdictation2</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Spis treści</a></td><td width="40%" align="right" valign="top"> The <code class="literal">singchord</code> module</td></tr></table></div></body></html>

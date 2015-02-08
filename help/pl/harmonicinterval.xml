@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Interwały harmoniczne</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu do ćwiczeń interwałowych rozpoznawanych przy użyciu przycisków.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Jest to jedno z zadań przydatnych w ćwiczeniu interwałów. Jego pomysł jest bardzo prosty: naciskasz przycisk <guibutton>Nowy interwał</guibutton>, aby usłyszeć przypadkowo wybrany interwał, a następnie określasz co usłyszałeś.</para>
+
+<para>Jeśli używasz interfejsu z przyciskami możesz kliknąć na nie prawym przyciskiem myszy, by usłyszeć jak brzmi dany interwał.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

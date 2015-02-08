@@ -1,0 +1,372 @@
+# Solfege - free ear training software
+# Copyright (C) 2004, 2005, 2011 Tom Cato Amundsen
+# License is GPL, see file COPYING
+
+header {
+    lesson_id = "csound-intonation-p4-30cent"
+        module = idbyname
+        help = "idbyname-intonation"
+        title = _("Is the interval flat, in tune or sharp? %s cent wrong") % 30
+        lesson_heading = _("Just interval: %s") % _("Perfect Fourth") + " (4:3)"
+        filldir = vertic
+}
+
+question {
+ name = _i("intonation|flat")
+ set=0
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 220.000000
+   i1 + 1 288.294042
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=0
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 220.000000
+   i1 + 1 293.333333
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=0
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 220.000000
+   i1 + 1 298.460710
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=1
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 233.081881
+   i1 + 1 305.436898
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=1
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 233.081881
+   i1 + 1 310.775841
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=1
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 233.081881
+   i1 + 1 316.208107
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=2
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 246.941651
+   i1 + 1 323.599121
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=2
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 246.941651
+   i1 + 1 329.255534
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=2
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 246.941651
+   i1 + 1 335.010820
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=3
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 261.625565
+   i1 + 1 342.841326
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=3
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 261.625565
+   i1 + 1 348.834087
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=3
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 261.625565
+   i1 + 1 354.931600
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=4
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 277.182631
+   i1 + 1 363.227732
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=4
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 277.182631
+   i1 + 1 369.576841
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=4
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 277.182631
+   i1 + 1 376.036931
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=5
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 293.664768
+   i1 + 1 384.826377
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=5
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 293.664768
+   i1 + 1 391.553024
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=5
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 293.664768
+   i1 + 1 398.397250
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=6
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 311.126984
+   i1 + 1 407.709344
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=6
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 311.126984
+   i1 + 1 414.835978
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=6
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 311.126984
+   i1 + 1 422.087183
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=7
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 329.627557
+   i1 + 1 431.953004
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=7
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 329.627557
+   i1 + 1 439.503409
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=7
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 329.627557
+   i1 + 1 447.185793
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=8
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 349.228231
+   i1 + 1 457.638266
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=8
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 349.228231
+   i1 + 1 465.637642
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=8
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 349.228231
+   i1 + 1 473.776845
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=9
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 369.994423
+   i1 + 1 484.850853
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=9
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 369.994423
+   i1 + 1 493.325897
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=9
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 369.994423
+   i1 + 1 501.949082
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=10
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 391.995436
+   i1 + 1 513.681585
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=10
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 391.995436
+   i1 + 1 522.660581
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=10
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 391.995436
+   i1 + 1 531.796527
+ """)
+}
+
+question {
+ name = _i("intonation|flat")
+ set=11
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 415.304698
+   i1 + 1 544.226682
+ """)
+}
+
+question {
+ name = _i("intonation|in tune")
+ set=11
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 415.304698
+   i1 + 1 553.739597
+ """)
+}
+
+question {
+ name = _i("intonation|sharp")
+ set=11
+ csound(load("share/sinus.orc"), """
+   f1 0 4096 10 1 1.25 0.95 0.8 0.6 0.4 0.2 
+   i1 0 1 415.304698
+   i1 + 1 563.418794
+ """)
+}

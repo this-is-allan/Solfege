@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Théorie de la musique</title>
+<sect1 id="theory-scales">
+<title>Gammes</title>
+<para>Davide Bonetti est l'auteur d'une large part des exercices sur les échelles et de quelques-unes des pages d'explications les concernant. Vous pouvez lire ces pages <ulink url="../C/scales/modes.html">ici</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Intervalles</title>
+<para>En théorie de la musique, on utilise le mot « intervalle » pour désigner la différence de hauteur entre deux notes. Ils sont appelés intervalles harmoniques si les deux sons sont entendus simultanément, et mélodiques s'ils sont entendus successivement.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Les noms d'intervalle sont en deux parties : par exemple, une "tierce majeure" ou une "quinte juste". Dans "Harmony" de Walter Piston, les 2 parties se nomment <emphasis>nom générique</emphasis> et <emphasis>qualification</emphasis>. Wikipedia parle du <emphasis>nom</emphasis> et du <emphasis>qualificatif</emphasis>. </para>
+
+<para>Pour déterminer le nom d'un intervalle, on compte les notes sur la portée sans se préoccuper des altérations. Donc si l'intervalle que vous voulez nommer s'étend du mi au sol dièse, on compte jusqu'à 3 (mi fa sol) et on en déduit que l'intervalle est une tierce.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>Le rôle de la qualification est de spécifier la taille exacte de l'intervalle. Les unissons, les quartes, les quintes et les octaves peuvent être diminués, justes ou augmentés. Un intervalle mineur contient un demi-ton de moins que son correspondant majeur. Un intervalle diminué contient un demi-ton de moins que son équivalent juste ou mineur, et un intervalle augmenté contient un demi-ton de plus qu'un intervalle juste ou majeur.</para>
+
+<para>Les altérations modifient la taille des intervalles. L'ajout d'un dièse à la note supérieure d'un intervalle l'agrandit d'un demi-ton. Il en est de même pour l'ajout d'un bémol à sa note inférieure. Et l'ajout d'un bémol à la note supérieure - ou d'un dièse à la note inférieure - réduit d'un demi-ton la taille de cet intervalle. Dans les paragraphes suivants, le nommage des intervalles est expliqué plus en détail.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Secondes</title>
+<para>Les secondes sont faciles à reconnaître : les deux notes sont voisines sur la portée. Une des deux notes se trouve sur une ligne et l'autre dans l'interligne immédiatement supérieur ou inférieur. A une seconde mineure correspond un intervalle conjoint d'un demi-ton. A une seconde majeure correspond un intervalle conjoint d'un ton et contient deux demi-tons.</para>
+
+<para>Pour apprendre à identifier les secondes, il faut d'abord se souvenir des types d'intervalle conjoint (ton ou demi-ton) qui se trouvent entre les notes successives de la gamme. Ainsi que vous pouvez le voir dans la <xref linkend="theory-intervals-seconds"/>, seuls les intervalles mi-fa et si-do font un demi-ton (secondes mineures), tous les autres font un ton (secondes majeures). Vous pouvez le vérifier <xref linkend="theory-intervals-seconds"/> en regardant le clavier d'un piano : vous verrez qu'il n'y a pas de touche noire entre mi et fa, ni entre si et do.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Si la seconde a des altérations, il faut se demander si ces altérations modifient la taille de l'intervalle. Voici quelques exemples.</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>On enlève l'altération de l'intervalle comme indiqué dans la <xref linkend="theory-intervals-seconds-1"/>, on constate que fa-sol est une seconde majeure. Ensuite, en remettant le bémol à la note supérieure, l'intervalle, s'étant réduit d'un demi-ton, se transforme en seconde mineure.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>On enlève les altérations, on constate que l'intervalle la-si est une seconde majeure. Vous vous souvenez de la <xref linkend="theory-intervals-seconds"/>, n'est-ce pas ? Ensuite on remet le bémol à la note la, et l'intervalle se transforme en seconde augmentée. Finalement, en remettant aussi le bémol à la note si, on obtient une seconde majeure.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>On enlève les altérations, on constate que l'intervalle mi-fa est une seconde mineure. Ensuite on remet le bémol de la note inférieure, l'intervalle est augmenté d'un demi-ton et devient une seconde majeure. Finalement, on remet le dièse à la note supérieure ce qui agrandit l'intervalle d'un demi-ton et le transforme en seconde augmentée.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Tierces</title>
+<para>Une tierce mineure se décompose en une seconde mineure plus une seconde majeure, soit trois demi-tons au total. Une tierce majeure se décompose en deux secondes majeures, ou quatre demi-tons. La <xref linkend="theory-intervals-thirds"/> décrit toutes les tierces de la gamme de do majeur. Retenez que les tierces do-mi, fa-la et sol-si sont majeures. Les quatres tierces qui restent sont mineures.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Ensuite, examinez les altérations pour voir si elles changent la qualification de l'intervalle. La méthode est exactement la même que pour les secondes.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Quarte</title>
+<para>La quarte juste comporte deux tons et un demi-ton. Elle se décompose en deux secondes majeures plus une seconde mineure. La <xref linkend="theory-intervals-fourths"/> décrit toutes les quartes de la gamme de do majeur. Retenez que la quarte fa-si est augmentée. Toutes les autres sont justes.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Quinte</title>
+<para>Une quinte juste comprend 3 tons et un demi-ton et se décompose en trois secondes majeures plus une seconde mineure. La <xref linkend="theory-intervals-fifths"/> décrit toutes les quintes de la gamme de do majeur. Retenez que toutes ces quintes sont justes, sauf fa-si qui est diminuée.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Quand un intervalle comporte des altérations, il faut examiner les effets de ces altérations sur la taille de l'intervalle. La quinte dinimuée a un demi-ton de moins que la quinte juste, et la quinte augmentée comporte un demi-ton de plus. Voici quelques exemples :</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>D'après la <xref linkend="theory-intervals-fifths"/>, nous savons que l'intervalle si-fa est une quinte diminuée. Le son le plus bas de la <xref linkend="theory-intervals-fifths-1"/> est précédé d'un bémol qui agrandit l'intervalle d'un demi-ton pour en faire une quinte juste.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>D'après la <xref linkend="theory-intervals-fifths"/>, l'intervalle mi-si est une quinte juste. Dans la <xref linkend="theory-intervals-fifths-2"/>, le mi est précédé d'un bémol, ce qui produit un intervalle augmenté. Mais le si est également précédé d'un double bémol, ce qui réduit l'intervalle de 2 demi-tons et le transforme en quinte dinimuée.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Sixtes</title>
+<para>Pour identifier les sixtes, le plus simple est de <link linkend="inverting-intervals"> renverser l'intervalle </link> et d'identifier la tierce. Alors la règle suivante s'applique :</para>
+
+<itemizedlist>
+<listitem><para>Si la tierce est diminuées, la sixte est augmentée</para></listitem>
+<listitem><para>Si la tierce est mineure, la sixte est majeure</para></listitem>
+<listitem><para>Si la tierce est majeure, la sixte est mineure</para></listitem>
+<listitem><para>Si la tierce est augmentée, la sixte est diminuée</para></listitem>
+</itemizedlist>
+
+<para>Si vous trouvez difficile de renverser les intervalles, souvenez-vous que les sixtes mi-do, la-fa et si-sol sont mineures, les quatre autres étant majeures. Ensuite vous examinez les altérations pour voir si elles modifient la qualification de l'intervalle. La méthode est la même que pour les secondes.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Septièmes</title>
+<para>La méthode de qualification des septièmes est la même que pour les sixtes ; si vous renversez une septième, vous obtenez une seconde.</para>
+
+<para>Si vous trouvez difficile de renverser les intervalles, souvenez-vous que les septièmes do-si et fa-mi sont majeures, les cinq autres étant majeures. Ensuite vous examinez les altérations pour voir si elles modifient la qualification de l'intervalle. La méthode est la même que pour les secondes.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Renverser un intervalle</title>
+<para>Renverser un intervalle, c'est déplacer sa note la plus basse une octave au-dessus ou sa note la plus haute une octave au-dessous. Le nom générique de l'intervalle change de la manière suivante :</para>
+<itemizedlist>
+<listitem><para>La seconde devient une septième.</para></listitem>
+<listitem><para>La tierce devient une sixte.</para></listitem>
+<listitem><para>La quarte deviant une quinte.</para></listitem>
+<listitem><para>La quinte devient une quarte.</para></listitem>
+<listitem><para>La sixte devient une tierce.</para></listitem>
+<listitem><para>La septième devient une seconde.</para></listitem>
+</itemizedlist>
+
+<para>La qualification change de la manière suivante :</para>
+<itemizedlist>
+<listitem><para>Diminué devient augmenté.</para></listitem>
+<listitem><para>Mineur devient majeur.</para></listitem>
+<listitem><para>Juste reste juste.</para></listitem>
+<listitem><para>Majeur devient mineur.</para></listitem>
+<listitem><para>Augmenté devient dinimué.</para></listitem>
+</itemizedlist>
+
+<para>Ci-dessous deux exemples : une tierce majeure, renversée, devient une sixte mineure et une septième mineure, renversée, devient une seconde majeure.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

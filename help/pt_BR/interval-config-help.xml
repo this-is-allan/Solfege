@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Configuração</title>
+<para>Na página de configuração do exercício, há uma caixa de escolhas onde você pode selecionar maneiras diferentes de responder a questão. Atualmente há um piano, guitarra, baixo e uns poucos tipos de acordeão, além da interface padrão com botões. Abaixo está uma tela mostrando a interface do piano.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela do programa ao se praticar intervalos usando a interface de botões.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

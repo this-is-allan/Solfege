@@ -1,0 +1,15 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The idtone module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 Gebruikershandleiding"><link rel="up" href="extending-solfege.html" title="Hoofdstuk 4. Extending GNU Solfege"><link rel="prev" href="idproperty-module.html" title="The idproperty module"><link rel="next" href="melodicinterval-module.html" title="The melodicinterval module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">idtone</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="idproperty-module.html">Terug</a> </td><th width="60%" align="center">Hoofdstuk 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="melodicinterval-module.html">Volgende</a></td></tr></table><hr></div><div class="sect1" title="The idtone module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idtone-module"></a>The <code class="literal">idtone</code> module</h2></div></div></div><p>Here is a minimal lesson file:</p><pre class="programlisting">
+header {
+    <a class="xref" href="lesson-files.html#lf-module">module</a> = idtone
+    <a class="xref" href="lesson-files.html#lf-title">title</a> = "Id tone 3"
+    black_keys_weight =  0, 0,    0, 0, 0
+    white_keys_weight = 1, 1, 1, 0, 0, 0, 0
+}
+</pre><p>The 'weight' of a tone tell how big chance is it that the program will
+select this tone as the next to identify. Think of the weight of a tone as
+the number of lottery tickets with the name of the tone.</p><p>The variable <code class="varname">black_keys_weight</code> set the weight of the
+tones c#, d#, f#, g# and a#, and <code class="varname">white_keys_weight</code> will set
+the weight of the tones c, d, e, f, g, a, b. In the example above, the tones c,
+d and e get an equal weight of 1, the other tones 0. This mean that the only
+tones that will be asked for are c, d and e, and that the three tones share the
+same probability to be selected.</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="idproperty-module.html">Terug</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Omhoog</a></td><td width="40%" align="right"> <a accesskey="n" href="melodicinterval-module.html">Volgende</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">idproperty</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Begin</a></td><td width="40%" align="right" valign="top"> The <code class="literal">melodicinterval</code> module</td></tr></table></div></body></html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Diziler</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>Solfege yazılımı dizi alıştırmalarının sadece üç çeşidini içerir.</para>
+<itemizedlist>
+<listitem><para>Solfege bir dizi çalacaktır, ve diziyi dizi adlarının olduğu düğmelerden birine tıklayarak tanımlamalısınız.</para>
+</listitem>
+<listitem><para>Solfege bir dizi çalacaktır, ve siz dizinin yapısını tanımlamalısınız. Bu diziler size '1', '2' ve '3' gibi düğmelerden oluşan etiketlerle gösterilecektir. Bu numaralar küçük ikili, büyük ikili ve küçük üçlü aralıklarını temsil edeceklerdir.</para></listitem>
+<listitem><para>Solfege size bir dizi çalacak ve siz de dereceyi belirleyeceksiniz. Örneğin, Solfege doğal minör dizisini almış ve bu diziyi size dizinin herhangi bir sesinden başlayarak çalmaya başlayabilir, ve siz dizinin hangi notadan başladığını belirlemelisiniz.</para></listitem>
+</itemizedlist>
+
+</sect1>

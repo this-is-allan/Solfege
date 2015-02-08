@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Editor de folhas de teste para treinamento auditivo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela da janela do editor de conjuntos de treinamento.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Esta ferramenta está disponível no menu <guimenu>Arquivo</guimenu>. Use-o para criar testes de treinamento auditivo para serem impressos em papel. O Solfege vai gerar duas versões do documento: um para estudantes completarem, e outro com a resposta correta já escrita. Esta ferramenta foi adicionada por requisição de um usuário, mas não sabemos se tem alguma utilidade prática geral. Então favor <link linkend="online-resources">nos contactar</link> se você realmente aplicar isso, e deixe-nos saber se é usável.</para>
+
+<para>O botão <guibutton>Adicionar</guibutton> irromperá um menu com todos os exercícios a partir da página frontal ativa da qual esta ferramenta pode criar exercícios: aqueles escritos usando os módulos <link linkend="idbyname-module">idbyname</link>, <link linkend="melodicinterval-module">melodicinterval</link> e <link linkend="harmonicinterval-module">harmonicinterval</link>. Com arquivos de lição escritos para o módulo <literal>idbyname</literal>, somente os objetos musicais <link linkend="lfunc-chord">chord</link>, <link linkend="lfunc-rvoice">rvoice</link> e <link linkend="lfunc-voice">voice</link> são suportados.</para>
+
+<para><guibutton>Criar Folha</guibutton> abrirá um diálogo que permitirá a você escolher ou criar um diretório vazio, e então salvar os arquivos HTML ou LaTex e os gráficos naquele diretório.</para>
+
+<para>Quando você salvar e carregar os arquivos que definem testes de treinamento auditivo, o programa lembrará as questões aleatórias, de modo que carregar um arquivo e clicar em <guibutton>Criar Folha</guibutton> vai criar exatamente o mesmo teste. Clique em <guibutton>Embaralhar</guibutton> para criar um novo conjunto aleatório de questões.</para>
+</sect1>

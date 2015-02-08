@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Rütm</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt akordiharjutusest.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Programm mängib juhuslikult genereeritud rütmi ja te peaksite selle rütmi järgi mängima. Kasutaja saab rütmi sisestada vajutades nuppudele, mis kujutavad mingeid rütmielemente.</para>
+
+<para>When you have entered enough rhythm elements, Solfege will check your
+answer. If everything is correct it will display a happy face, otherwise
+a sad face, and all wrong rhythms will be marked.</para>
+
+<para>Kui mingi osa teie vastusest oli vigane ja te vajutate vastuse kõrvale tekkivale kurvale näole (või mõnele rütmielemendi nupule ülalpool), kustutakse vastusest kõik elemendid alates esimesest veast ning saate sisestada need grupid uuesti.</para>
+
+<para>Kui vajutate nupule 'Mängi', saate kuulata, kuidas kõlab teie vastus.</para>
+
+<para>Praeguse seisuga genereeritakse rütmiharjutused antud rütmielementidest juhuslikult. See pole võibolla parim programmiline lahendus ning loodetavasti lisandub tulevikus ka teisi rütmiharjutuste tüüpe.</para>
+
+</sect1>

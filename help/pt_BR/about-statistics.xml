@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>Sobr estatísticas</title>
+<para>Alguns exercícios mostrarão estatísticas para diferentes períodos de tempo: <emphasis>Seção</emphasis>, <emphasis>Hoje</emphasis>, <emphasis>Últimos 7 dias</emphasis> e <emphasis>Total</emphasis>. O programa usa dois tipos diferentes de tabela.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela da tabela de percentuais da página de estatíticas.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>A primeira tabela, como mostrado na tela acima, tem uma linha para cada questão no arquivo de lição. <emphasis>Percentual</emphasis> é o percentual de vezes que a questão foi respondida corretamente. <emphasis>Contagem</emphasis> é o número de vezes que a questão foi apresentada.</para>
+
+<para>No segundo tipo de tabela, as colunas têm os mesmo rótulos que as linhas, mas os rótulos não são mostrados porque isso faria a tabela muito larga. Então, na tela acima, a coluna 1 deveria ter o rótulo <emphasis>m3↑</emphasis> e a coluna 2 <emphasis>M3↑</emphasis>. Para questões identificadas pelo rótulo de cada linha, cada coluna diz quantas vezes o usuário respondeu as diferentes respostas possíveis. O número em negrito é a quantidade de vezes que a resposta correta foi dada.</para>
+
+</sect1>

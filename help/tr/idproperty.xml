@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Müziğe verilecek çok seçenekli cevaplar</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu sayfa tüm alıştırmaların bulunduğu genel yardım sayfasıdır ve bu alıştırmalar <literal>idproperty</literal> alıştırma modülü kullanılarak yazılmıştır. Alıştırmalar daha detaylı yardım metinleri ile görüntülenecektir.</para>
+
+<para>Yukarıdaki ekran görüntüsü bir alıştırmanın nasıl göründüğünü göstermektedir.</para>
+
+<para>Alıştırma bir soru içerecek ve bir müzik çalacaktır, ve düşmelerden oluşan tablodaki sütünlardaki cevaplardan birini seçeceksiniz. Bir sütündaki doğru cevabı seçerseniz, etiket kalın olacak ve "Doğru" mesajı durum çubuğunda yanıp sönecektir.</para>
+
+<para>Alıştırmada bir <guibutton>Arpeji tekrarla</guibutton> düğmesi bulunur, bu durum soru veya soruların arpej olarak da çalınabilme olacağı varsa geçerlidir.</para>
+</sect1>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Intonation</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran du logiciel.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Dans cet exercice, Solfege joue un intervalle et vous devez apprécier la justesse de cet intervalle. Vous l'indiquez en cliquant sur l'un des boutons libellés 'trop petit', 'juste' ou 'trop grand'. Il est aussi possible que l'un de ces trois boutons soit absent. </para>
+
+</sect1>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Gestionnaire de profils</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Grâce au gestionnaire de profil, il est possible de faire partager à plusieurs utilisateurs un même compte sur le système d'exploitation. Les profils d'utilisateurs partagent le même fichier de configuration mais chacun d'entre eux a ses propres statistiques et ses résultats de tests.</para>
+
+<para>Lorsqu'il existe plusieurs profils, le gestionnaire de profils s'affiche au démarrage du logiciel. On peut aussi y accéder en sélectionnant <guimenuitem>Gestionnaire de profils</guimenuitem>, dans le menu <guimenu>Fichier</guimenu>.</para>
+
+<para>Cochez <emphasis>Ne pas demander au démarrage</emphasis> si vous ne souhaitez pas voir le gestionnaire de profils au démarrage. Dans ce cas le logiciel se souviendra du dernier profil sélectionné avant sa fermeture, et démarrera sur ce profil.</para>
+</sect1>

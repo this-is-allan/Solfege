@@ -1,0 +1,42 @@
+/* XPM */
+static char *out/feta20-flags-u5[] = {
+/* width height ncolors chars_per_pixel */
+"8 33 2 1",
+/* colors */
+"` c #000",
+"a c #FF",
+/* pixels */
+"`aaaaaaa",
+"`aaaaaaa",
+"`aaaaaaa",
+"`aaaaaaa",
+"`aaaaaaa",
+"``aaaaaa",
+"```aaaaa",
+"````aaaa",
+"`a``aaaa",
+"`aa``aaa",
+"`aaa``aa",
+"``aaa`aa",
+"```aa``a",
+"````aa`a",
+"`a```a`a",
+"`aaa```a",
+"`aaaa``a",
+"``aaa``a",
+"``aaaaa`",
+"```aaaa`",
+"a```aaa`",
+"aaa``aa`",
+"aaaa```a",
+"aaaaa``a",
+"aaaaaa`a",
+"aaaaaaa`",
+"aaaaaaa`",
+"aaaaaaa`",
+"aaaaaaa`",
+"aaaaaaa`",
+"aaaaaa`a",
+"aaaaaa`a",
+"aaaaa`aa"
+};

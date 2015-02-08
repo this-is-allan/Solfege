@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Sesi nitelendir</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu ses hafızası ve aralık alıştırmasının birleşimidir. Bazı kişiler bu tür bir çalışmanın size mükemmel bir duyuş yetisi (absolut kulak) kazandırdığına inanırlar, ama ben inanmıyorum.</para>
+
+<para>Programın temelinde size bir ses duyurup bunu belirlemenizi istemek ve bu sesi bir önce verilen ses ile karşılaştırmanızı beklemektir.</para>
+
+<para>Başlamak için program size bir ses çalacak ve onun adını durum çubuğunda gösterecektir. Siz sesleri piyano tuşesine tıklayarak veya klavye tuşlarındaki kısayol tuşlarına basarak nitelendireceksiniz.</para>
+
+<para>Bir sesi doğal yoldan tahmin etmeden duymak için piyano tuşesine tıklayın. (Bazıları buna kopya çekmek diyor...)</para>
+
+<para>Solfege yazılımı, ilk sayfadaki "Sesi tanımlayın"a tıklayarak bulabileceğiniz alıştırma setleri barındırmaktadır. İlk alıştırma ile başlamanız ve sırayla diğerlerine geçmeniz sonucunda iyi bir puana sahip olabileceksiniz. %99 doğru gibi.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Elle yapılandırma</title>
+
+<para>Eğer ön sayfadan "Kendi Yapılandır"  seçeneğini seçersen bu alıştırmayı istediğiniz gibi yapılandırabilirsiniz.</para>
+
+<para>Bu alıştırmayı kullanmanın bazı yolları vardır. Kişisel olarak, bu alıştırmayı çok kullanmadım, ve aşağıdaki kısımlar sadece önerilerden ibarettir.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Nota nota</title>
+<para>Sadece birinci zorluktaki c-d-e notalarıyla başlayın. Puanınız en az 96% doğruya ulaştığında, f sesini ekleyin ve devam edin. Alıştırmalar, tüm 12 ses ile alıştırmanızı bitirene kadar her aşamada yeni ses ekleyin. Bunu yapmak, bu bölümün başında anlatılanları uygulamakla aynı anlama gelecektir.</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Ağır LA</title>
+
+<para>Ağırlık 11 (veya daha yüksek) derecesinde sesi yapılandırın ve seslerin tümünün ağırlığı 1 olsun. Bu yolla program sesi daha sık çalacak, böylece sesi hatırlayacak ve bu sesi diğer sesleri hatırlamak için bir referans sesi olarak görmeye başlayacaksınız. Bu şekilde bir süre pratik yaptıktan sonra, daha zor alıştırmalara daha cesaretle geçebileceksiniz.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Yapılandır</title>
+
+<para>Eğer "Kendiniz Yapılandırın"ı çalıştırırsanız, yapılandır penceresinin tepesinde farklı seslerin ne kadar önemli olduğunu programa söyleyeceksiniz. Eğer örneğin siz bir sese 11 puan, tümünden herbirine 1 puan verirseniz (11+11*1)/11*100 = 50% rastgele tonlar bir la olacaktır. </para>
+
+<para>Aşağıda rastgele seslerin hangi oktavdan geleceğini seçebilirsiniz.</para>
+
+<para>Bundan sonra eskisini çözdüyseniz Solfege otomatik olarak size yeni bir soru soracaktır.</para>
+
+<para>Aşağıdaki çerçevede eğer cevabınız yanlışsa, bazı kendiliğinden açıklanmış güzel seçenekleri ayarlayabilirsiniz.</para>
+
+<para>Klavye kısayolları <link linkend="preferences-window">tercihler penceresinde</link> ayarlanabilir.</para>
+</sect3>
+</sect2>
+</sect1>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Toonladders</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>Tot dusver heeft Solfege drie verschillende toonladderoefeningen.</para>
+<itemizedlist>
+<listitem><para>Solfege zal een toonladder spelen en je moet aangeven welke ladder het is door te klikken op de knop met de laddernaam.</para>
+</listitem>
+<listitem><para>Solfege zal een toonladder spelen en je dient de structuur van de ladder te bepalen. Hiertoe krijgt je een verzameling knoppen voorgeschoteld met als opschriften '1', '2' en '3'. Deze getallen staan voor de intervallen kleine secunde, grote secunde en kleine terts die tussen de noten van de ladder zitten.</para></listitem>
+<listitem><para>Solfege zal een ladder spelen en je moet de rang bepalen. Solfege kan bijvoorbeeld een natuurlijke mineurladder kiezen en beginnen te spelen bij een van de noten. Je moet dan bepalen wat de beginnoot is. </para></listitem>
+</itemizedlist>
+
+</sect1>

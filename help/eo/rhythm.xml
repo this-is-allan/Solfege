@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Ritmo</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo dum plenumado de akordo-ekzerco.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>La programo ludas hazarde generitajn ritmojn, kaj la uzanto devos reprodukti la ritmon. La uzanto enigas la ritmon per klakado sur la butonoj reprezentantaj malsamajn ritmerojn.</para>
+
+<para>Kiam vi enigas sufiĉe da ritmeroj, Solfege kontrolos vian respondon. Se ĉio estos korekte ĝi montrigos feliĉan mienulon, male malĝojan, kaj ĉiuj eraraj ritmoj estos markitaj.</para>
+
+<para>Se iu el viaj respondoj estos erara, ĉio ekde la unua malkorekta ero estos forigita tiam (tenante iun ajn korektan ritmon ĉe la komenco de via respondo), kiam vi klakos sur la malĝoja mieno, kaj kiam vi klakos sur la ritmo-butonoj supre de la paĝo.</para>
+
+<para>Vi povas klaki la butonon 'Ludi' por aŭdi vian sugeston.</para>
+
+<para>La demandoj prezentataj de tiu ĉi ekzenco aktuale estas farataj per elekto de ritmeroj hazarde. Tiu ĉi ne estas la plej bona maniero, kaj ni esperas ke pli interesa maniero generi demandojn estos disponebla en venonta lanĉo.</para>
+
+</sect1>

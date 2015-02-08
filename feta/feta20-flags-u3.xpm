@@ -1,0 +1,32 @@
+/* XPM */
+static char *out/feta20-flags-u3[] = {
+/* width height ncolors chars_per_pixel */
+"8 23 2 1",
+/* colors */
+"` c #000",
+"a c #FF",
+/* pixels */
+"`aaaaaaa",
+"`aaaaaaa",
+"`aaaaaaa",
+"`aaaaaaa",
+"`aaaaaaa",
+"``aaaaaa",
+"```aaaaa",
+"```aaaaa",
+"````aaaa",
+"`aa``aaa",
+"`aaa``aa",
+"`aaaa`aa",
+"`aaaaa`a",
+"`aaaaa`a",
+"`aaaaaa`",
+"`aaaaaa`",
+"aaaaaaa`",
+"aaaaaaa`",
+"aaaaaaa`",
+"aaaaaa`a",
+"aaaaaa`a",
+"aaaaaa`a",
+"aaaaa`aa"
+};

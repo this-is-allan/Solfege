@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Intonatsioon</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt programmist.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Selles harjutuses mängib Solfege ette intervalli ning teie peate arvama, kuidas on intervall intoneeritud. Seda saab teha vajutades nupule 'liiga väike' ('too small'), 'puhas' ('pure')  või 'liiga suur' ('too large'). Võib ka olla, et üks kolmest nupust puudub.</para>
+
+</sect1>

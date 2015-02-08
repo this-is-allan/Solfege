@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Chanter 12 notes au hasard</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Dans cet exercice, le logiciel affiche tous les 12 tons de la gamme dans un ordre aléatoire et joue le premier. Vous devez alors chanter toutes les notes et à la fin vous constatez si la dernière note correspond. Il s'agit donc d'une sorte de test de votre capacité à chanter à vue plutôt que d'un exercice pour apprendre à chanter les intervalles. Vous trouverez d'autres exercices sur les intervalles.</para>
+
+</sect1>

@@ -1,0 +1,26 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The toneincontext module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 User Manual"><link rel="up" href="extending-solfege.html" title="Chapter 4. Extending GNU Solfege"><link rel="prev" href="singinterval-module.html" title="The singinterval module"><link rel="next" href="twelvetone-module.html" title="The twelvetone module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">toneincontext</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="singinterval-module.html">Prev</a> </td><th width="60%" align="center">Chapter 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="twelvetone-module.html">Next</a></td></tr></table><hr></div><div class="sect1" title="The toneincontext module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="toneincontext-module"></a>The <code class="literal">toneincontext</code> module</h2></div></div></div><div class="warning" title="Warning" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Warning</h3><p>This module is still begin worked on. The lesson file
+format will most likely change in the next releases. Right now the music
+in the cadences must be a string with complete mpd code. Using
+music objects will not work now.
+</p></div><p>Here is a minimal lesson file:</p><pre class="programlisting">
+header {
+  <a class="xref" href="lesson-files.html#lf-module">module</a> = toneincontext
+  <a class="xref" href="lesson-files.html#lf-version">version</a> = "3.21.0"
+  <a class="xref" href="lesson-files.html#lf-title">title</a> = "First 4 scale tones"
+  <a class="xref" href="toneincontext-module.html#lf-tones">tones</a> = 3, 4
+}
+cadence {
+  music = "\staff\relative g'{ &lt;g e c&gt; &lt;a f c&gt; &lt;g f d b&gt; &lt;g e c&gt; }"
+}
+</pre><p>The cadence block should be in C major. The program will select
+cadence by random if you write more than one cadence block.
+</p><p>If you don't define the <a class="xref" href="toneincontext-module.html#lf-tones">tones</a>
+variable, the program will let you select tones in the config page of the
+exercise.
+</p><div class="variablelist" title="Header variables"><p class="title"><b>Header variables</b></p><dl><dt><span class="term"><code class="literal"><a name="lf-tones"></a>tones</code></span></dt><dd><p>list of integers from 0 to 12.
+    </p></dd><dt><span class="term"><code class="literal"><a name="lf-random_tonic"></a>random_tonic</code></span></dt><dd><p>Set to <code class="literal">no</code> if you don't want
+    transposition. Default value is <code class="literal">yes</code>.
+    </p></dd><dt><span class="term"><code class="literal"><a name="lf-tone_in_cadence"></a>tone_in_cadence</code></span></dt><dd><p>If set to <code class="literal">yes</code>, the tone to identify
+    will be played together with the last tone of the cadence. Default
+    value is <code class="literal">no</code>.
+    </p></dd></dl></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="singinterval-module.html">Prev</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Up</a></td><td width="40%" align="right"> <a accesskey="n" href="twelvetone-module.html">Next</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">singinterval</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Home</a></td><td width="40%" align="right" valign="top"> The <code class="literal">twelvetone</code> module</td></tr></table></div></body></html>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Harmonisch interval</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma tijdens het oefenen van intervallen gebruikmakend van de knoppeninterface.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Deze oefening is een van de oefeningen die je kan gebruiken om intervallen te oefenen. Het idee is eenvoudig: je klikt op de knop <guibutton>Nieuw interval</guibutton> om een willekeurig interval te spelen en vervolgens vertel je welk interval dat was.</para>
+
+<para>Als je de knoppeninterface gebruikt, kan je rechtsklikken op de knoppen om de respectievelijke intervallen te beluisteren.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

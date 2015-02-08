@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Misoj</title>
+<para>Raportu misojn al la miso-spurilo ĉe <ulink url="http://bugs.solfege.org/">http://bugs.solfege.org</ulink>. Alternative, vi povas sendi mesaĝon al <email>bug-solfege@gnu.org</email>. Ĝeneralaj demandoj kaj flikoj devos esti sendataj al <email>solfege-devel@lists.sourceforge.net</email>.</para>
+
+<para>Bonvolu detaligi viajn rapordojn pri misoj. ''Mi trovas erar-mesaĝon en fenestro kiam mi provas lanĉi la programon.'' ne estas utila por mi. Dum raportado de misoj:</para>
+
+<itemizedlist>
+<listitem><para>Rakontu al mi kiun version de Solfege vi uzas. Bonvolu kontroli ĉu pli nova eldono disponeblas. Se vi nur volas uzi stabilajn eldonojn, tiel vi ne devas testi pli novajn disvolgiĝantajn eldonojn.</para></listitem>
+<listitem><para>Kiun operaciuman sistemon vi uzas? Version?</para></listitem>
+<listitem><para>Priskribu akurate kion vi faris kiam la eraro okazis.</para></listitem>
+<listitem><para>Sendu ĝustan kopion de la erar-mesaĝoj. Ili utileblas al la aŭtoro de Solfege eĉ se vi pensas ke ili ŝajnas esti ĉifritaj.</para></listitem>
+</itemizedlist>
+</sect1>

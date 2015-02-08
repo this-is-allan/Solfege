@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Intervall singen</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der Übung zum Singen von Intervallen.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>In dieser Übung zeigt Solfege ein oder mehrere Intervalle an, die Sie singen sollen. Leider ist es derzeit noch nicht möglich, in ein Mikrofon zu singen und Solfege überprüfen lassen, ob Sie richtig singen. Daher müssen Sie über richtig oder falsch selbst entscheiden.</para>
+<sect2 id="singinterval-config">
+<title>Konfiguration</title>
+<para>Das Programm wird versuchen, eine Frage zu erstellen, in der Sie alle Töne in einem Bereich singen können, wie es im <link linkend="preferences-window">Einstellungsfenster</link> festgelegt ist. Manchmal ist es nicht möglich, die Frage in diesem Bereich zu verankern, beispielsweise wenn die Übung so angelegt ist, dass viele Intervalle erstellt werden und alle diese Intervalle aufsteigend sind.</para>
+</sect2>
+</sect1>

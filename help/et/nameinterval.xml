@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Nimetage intervallid</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt intervallide harjutusest, kui intervallide määramiseks kasutatakse programmi nuppusid.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Selles harjutuses Solfege mängib ja kuvab intervalli, kasutaja peab selle ära tundma. See on pigem muusikateooria kui kuulmistreeningu harjutus. Intervallide nimetuste kohta vt. <xref linkend="theory-intervals"/>.</para>
+
+<para>Intervalli määramiseks peate vajutama kahele nupule: üks määrab intervalli nime (priim, sekund jne), teine intervalli tüübi (suur, väike, vähendatud jne).</para>
+
+</sect1>

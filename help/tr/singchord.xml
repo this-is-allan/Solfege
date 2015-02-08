@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Akoru söyle</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Eğer bir koro yönetiyorsanız, eğer yakınınızda piyano yoksa, tüm partilerin ilk başlangıç seslerini söylemelisiniz, ya da bir diyapasonunuz olmalı. Eğer erkekseniz, kadın seslerini bir oktav aşağıdan söylemelisiniz.</para>
+
+<para>Yazılım LA sesini (440 hz) sizin için çalacaktır, ve söylemeniz gereken akoru gösterecektir. Solfege yazılımı henüz mikrofonu desteklememektedir, bu yüzden cevabınızın doğruluğunu kendiniz kontrol etmelisiniz.</para>
+
+</sect1>

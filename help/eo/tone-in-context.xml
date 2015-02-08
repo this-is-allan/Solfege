@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="tone-in-context">
+<title>Tono en konteksto</title>
+<informalfigure id="tonecontext">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/toneinkey.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo dum la ekzerco pri tono-en-tonalto.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Klaku <guibutton>Nova</guibutton> kaj la programo ludos in muzikon, ordinare kadencon, sekvata de tono. La uzanto devos trovi la pozicion de la tono en la tonalto reprezentata de la kadenco kaj respondi klakante la butonojn numeritajn de 1 al 7.</para>
+</sect1>

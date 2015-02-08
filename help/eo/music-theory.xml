@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Muzik-teorio</title>
+<sect1 id="theory-scales">
+<title>Gamoj</title>
+<para>Davide Bonetti kontribuis kun ampleksa aro da gam-ekzercoj kaj kun kelkaj paĝoj priskribantaj ĉiujn gamojn. Vi povas vidi la paĝojn <ulink url="../C/scales/modes.html">ĉi tie</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Intervaloj</title>
+<para>En muzik-teorio ni uzas la vorton intervalo kiam ni parolas pri la piĉo-diferenco inter du notoj. Ni nomas ilin harmoniaj intervaloj se du tonoj sonas samtempe kaj melodiaj intervaloj se ili sonas sinsekve.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Intervalo-nomoj konsistas el du partoj. Kelkaj ekzemploj estas "maĵora trito" kaj "perfekta kvinto". En "Harmony", de Walter Piston, la du partoj nomiĝas <emphasis>la specifa nomo</emphasis> kaj <emphasis>la ĝenerala nomo</emphasis>.</para>
+
+<para>Vi trovas la ĝeneralan nomon nombrante la paŝojn en la liniaro, preteratentante iun ajn modifilon. Tiel, se la intervalo kiun vi volas nomi iras de E al G#, vi nombru 3 (E F G) kaj rimarku ke la ĝenerala nomo estas <emphasis>trito</emphasis>.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>La specifa nomo montras la ĝustan grandon de la intervalo. Unutoj, kvartoj, kvintoj kaj oktoj povas estis malpliigitaj, puraj aŭ pliigitaj. Dutoj, tritoj, sestoj kaj septoj povas esti minoraj, maĵoraj, malpliigitaj aŭ pliigitaj. Minora intervalo estas unu duontono pli malgranda ol maĵora intervalo. Malpliigita intervalo estas duontono pli malgranda ol pura aŭ minora intervalo, dum pliigita intervalo etas unu duontono pli granda ol pura aŭ maĵora intervalo.</para>
+
+<para>Modifiloj ŝanĝas la grandon de intervaloj. La intervalo iĝas unu duontono pli granda se vi aldonas dieson al la pli alta noto aŭ bemolon al la pli malalta noto. Kaj ĝi fariĝas unu duontono pli malgranda se vi aldonas bemolon al la pli alta noto aŭ dieson al la pli malalta. En la sekvaj sekcioj, nomado de la intervaloj estos montrata pli detale.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Dutoj</title>
+<para>Dutoj estas facile rekoneblaj: la du notoj estas najbaraj en la liniaro. Unu noto estas en linio, kaj alia estas en spaco supre aŭ malsupre. Minora duto estas duontona paŝo, ankaŭ nomata duonpaŝo. Maĵora duto estas du duontonaj paŝoj, ankaŭ nomata plenpaŝo.</para>
+
+<para>Por lerni identigi dutojn, vi unue devas lerni tion, kiuj dutoj ekzistas inter la naturaj tonoj. Kiel videble en <xref linkend="theory-intervals-seconds"/>, nur la intervaloj E-F kaj B-C estas minoraj dutoj. La ceteraj estas maĵoraj intervaloj. Vi povas konfirmi ke <xref linkend="theory-intervals-seconds"/> korektas rigardante la pianon. Vi rimarkos ke estas neniu nigra klavo inter E kaj F aŭ inter B kaj C.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Se la duto havas modifilojn, do ni devas priatenti ilin por malkovri kiel ili modifas la grandon de la intervalo. Ni identigu iometon da intervaloj!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Ni forigas la modifilon el la intervalo en <xref linkend="theory-intervals-seconds-1"/> kaj rimarku ke la intervalo F-G estas maĵora duto. Kiam ni aldonas bemolon al la pli alta noto, intervalo iĝas unu duontono pli malgranda, kaj fariĝas minora duto.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Ni forigas la modifilojn, kaj rimarku ke la intervalo A-B estas maĵora duto. Vi ankoraŭ memoras <xref linkend="theory-intervals-seconds"/>, ĉu ne? Do ni aldonas la bemolon al la A, kaj la intervalo iĝas pliigita duto. Kaj kiam ni aldonas la bemolon al la B, la intervalo fariĝas maĵora duto.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Ni forigas la modifilojn, kaj rimarku ke la intervalo E-F estas minora duto. Kiam ni aldonas bemolon al la pli malalta noto, la intervalo iĝas duontono pli granda, kaj fariĝas maĵora duto. Kaj kiam ni aldonas dieson al la pli alta noto, la interfalo iĝas unu tono pli granda, fariĝante pliigita duto.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Tritoj</title>
+<para>Minora trito estas unu minora kaj unu maĵora duto, aŭ tri duontonoj. Maĵora trito estas du maĵoraj dutoj, aŭ kvar duontonaj paŝoj. <xref linkend="theory-intervals-thirds"/> montras la tritojn inter ĉiuj naturaj notoj. Vi devos parkeri la maĵorajn intervalojn, C-E, F-A kaj G-B. Tiam vi scios ke la aliaj kvar intervaloj estas minoraj.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Do vi ekzamenos la modifilojn por kontroli ĉu ili ŝanĝas la specifan nomon. Tio ĉi estas farate ĝuste same kiel por dutoj.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Kvarto</title>
+<para>Pura kvarto estas 2½ paŝoj, aŭ du maĵoraj dutoj kaj unu minora duto.  <xref linkend="theory-intervals-fourths"/> montras ĉiujn kvartojn inter naturaj notoj. Vi devos parkeri ke la kvarto F-B estas pliigita, kaj ke la aliaj ses estas puraj.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Kvinto</title>
+<para>Pura kvinto estas 3½ paŝoj, aŭ tri maĵoraj dutoj kaj unu minora duto.  <xref linkend="theory-intervals-fifths"/> montras ĉiujn kvintojn inter naturaj notoj. Vi devos parkeri ke plejparte tiuj intervaloj estas puraj, krom B-F, kiu estas malpliigita.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Se intervalo havas modifilojn, do ni devas ekzameni ilin por kontroli kiel ili ŝanĝas la grandon de la intervalo. Malpliigita kvinto estas unu duontono pli malgranda ol pura intervalo, dum pliigita kvinto estas unu duontono pli granda. Malsupre vi trovos kelkajn ekzemplojn:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Ni memoras el <xref linkend="theory-intervals-fifths"/> ke la intervalo B-F estas malpliigita kvinto. La plej malalta noto en <xref linkend="theory-intervals-fifths-1"/> estas antaŭata de bemolo, kiu igas la intervalon unu duontono pli granda kaj ŝanĝas la intervalon de malpliigita al pura kvinto.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Ni memoras el <xref linkend="theory-intervals-fifths"/> ke la intervalo E-B estas perfekta kvinto. En <xref linkend="theory-intervals-fifths-2"/> la E havas bemolon antaŭ ĝi, pliigantan la intervalon. Sed la B estas antaŭata de duobla bemolo kiu igas la intervalon du duontonaj paŝoj pli malgrandaj kaj ŝanĝas la intervalon al malpliigita kvinto.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Sestoj</title>
+<para>Sestoj estas plej facile identigataj per <link linkend="inverting-intervals">inversigo</link> kaj identigo de la trito. Do la jenaj reguloj aplikendas:</para>
+
+<itemizedlist>
+<listitem><para>Se la trito estas malpliigita, do la sesto estas pliigita</para></listitem>
+<listitem><para>Se la trito estas minora, do la sesto estas maĵora</para></listitem>
+<listitem><para>Se la trito estas maĵora, do la sesto estas minora</para></listitem>
+<listitem><para>Se la trito estas pliigita, do la sesto estas malpliigita</para></listitem>
+</itemizedlist>
+
+<para>Se vi trovas ke inversigi intervalojn malfacilas, do vi povos parkeri ke la intervaloj E-C, A-F kaj B-G estas minoraj. La aliaj kvar estas maĵoraj. Tiam vi ekzamenos la modifilojn por kontroli ĉu ili ŝanĝas la specifan nomon. Tio ĉi estas farate ĝuste same kiel por dutoj.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Septoj</title>
+<para>Septoj estas identigataj same kiel kun sestoj. Kiam vi inversigas septon, vi havas duton.</para>
+
+<para>Se vi trovas ke inversigi intervalojn malfacilas, do vi povos parkeri ke la intervaloj C-B kaj F-E estas maĵoraj. La aliaj kvin estas minoraj. Tiam vi ekzamenos la modifilojn por kontroli ĉu ili ŝanĝas la specifan nomon. Tio ĉi estas farate ĝuste same kiel por dutoj.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Inversigo de intervaloj</title>
+<para>Vi inversigas intervalon kiam vi movas la pli malaltan noton de intervalo unu okton pli alte aŭ la pli altan noton unu okton pli malalte. La ĝenerala nomo ŝanĝas tiel:</para>
+<itemizedlist>
+<listitem><para>Duto iĝas septo.</para></listitem>
+<listitem><para>Trito iĝas sesto.</para></listitem>
+<listitem><para>Kvarto iĝas kvinto.</para></listitem>
+<listitem><para>Kvinto iĝas kvarto.</para></listitem>
+<listitem><para>Sesto iĝas trito.</para></listitem>
+<listitem><para>Septo iĝas duto.</para></listitem>
+</itemizedlist>
+
+<para>La specifa nomo ŝanĝas tiel:</para>
+<itemizedlist>
+<listitem><para>Malpliigita iĝas pliigita.</para></listitem>
+<listitem><para>Minora iĝas maĵora.</para></listitem>
+<listitem><para>Perfekta restas perfekta.</para></listitem>
+<listitem><para>Maĵora iĝas minora.</para></listitem>
+<listitem><para>Pliigita iĝas malpliigita.</para></listitem>
+</itemizedlist>
+
+<para>Malsupre estas du ekzemploj, maĵora trito estas inversigita kaj iĝas minora sesto, kaj minora septo estas inversigita kaj iĝas maĵora duto.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

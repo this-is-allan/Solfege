@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>Sobre estadísticas</title>
+<para>Algunos ejercicios mostrarán estadísticas para diferentes períodos de tiempo: <emphasis>Sesión</emphasis>, <emphasis>Hoy</emphasis>, <emphasis>Últimos 7 días</emphasis> y <emphasis>Total</emphasis>. El programa usa dos tipos diferentes de tablas.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla de la tabla de porcentajes de la página de estadísticas.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>La primera tabla, como muestra la captura de pantalla anterior, tiene una fila para cada pregunta del archivo de lección. <emphasis>Porcentaje</emphasis> es el porcentaje de veces que la pregunta fue respondida correctamente. <emphasis>Cuenta</emphasis> es el número de veces que la pregunta fue realizada.</para>
+
+<para>En el segundo tipo de tabla, las columnas tienen los mismos rótulos que las filas, pero los rótulos no son mostrados porque eso haría muy larga la tabla. Así, en la captura de pantalla anterior, la columna 1 debería tener el rótulo <emphasis>m3↑</emphasis> y la columna 2 <emphasis>M3↑</emphasis>. Para preguntas identificadas por el rótulo de cada línea, cada columna dice cuántas veces el usuario respondió las diferentes respuestas posibles. El número en negrita es la cantidad de veces que fue dada la respuesta correcta.</para>
+
+</sect1>

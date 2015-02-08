@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>identificar a cadência</title>
+<para>Identifique a cadência clicando no botão com seu nome. Como relatado pelo <ulink url="http://bugs.solfege.org/5">erro #5</ulink>, precisamos de exercícios de cadência no Solfege.</para>
+<para>Neste lançamento do Solfege, nós só temos um exercício com cadências maiores. Neste exercício, uma escala maior é tocada para estabelecer a tônica. Talvez isto seja muito pouco? Será que precisamos de um ciclo completo I-IV-V-I antes da questão? Ou talvez seja melhor escrever música de verdade que termine na cadência que desejamos praticar? Estas coisas precisam ser decididas antes de lançarmos a versão 3.12.0. Comentários e músicas podem ser adicionados pelo <ulink url="http://bugs.solfege.org/5"> erro #5</ulink>.</para>
+</sect1>

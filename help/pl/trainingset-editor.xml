@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Edytor treningu</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu okna edytora treningu.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>The training set editor lets you create MIDI/WAV/MP3/OGG files of questions
+so that you can upload them to your pda, cell phone or MP3 player. A solution
+sheet will be generated for you to print out. Then you can let the MP3 player
+play the tracks in random order, and you can use the solution sheet to check
+if you recognized the music correctly.</para>
+
+<para>Możesz użyć edytora treningu do zdefiniowania generowanych ćwiczeń. Możesz zachować swoje ustawienia w pliku, aby móc z nich skorzystać później. Za każdym razem, gdy klikniej przycisk <guibutton>Eksportuj</guibutton> zestaw ćwiczeń zostanie wygenerowany i umieszczony w katalogu, który wybierzesz nowy zestaw plików. Pliki te należy potem ręcznie przenieść do swojego przenośnego urządzenia.</para>
+
+<para>Program umożliwia generowanie pytań z dowolnej liczby lekcji, choć najczęściej wykorzystuje się go do tworzenia wielu pytań z jednej, lub kilku zaledwie lekcji. </para>
+
+<para>Programy używane do konwertowania pomiędzy różnymi formatami są definiowane w <link linkend="preferences-gui"> oknie ustawień </link>. Jeśli masz problemy z konwertowaniem plików MIDI do formatu WAV, MP3, czy OGG, powinieneś sprawdzić te ustawienia.</para>
+
+<variablelist>
+<title>Objaśnienie nagłówków tabeli</title>
+<varlistentry>
+ <term>Ilość</term>
+ <listitem><para>Liczba pytań do utworzenia z danej lekcji.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Powtórz</term>
+ <listitem><para>Ilość powtórzeń każdego pytania.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Opóźnienie</term> <listitem><para>Jak duże opóźnienie ma być między pytaniami. Liczone w ćwierćnutach.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

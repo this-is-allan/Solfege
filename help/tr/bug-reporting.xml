@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Hatalar</title>
+<para>Hata raporları için <ulink url="http://bugs.solfege.org/">http://bugs.solfege.org</ulink>. Ya da, şu adrese e-posta gönderebilirsiniz <email>bug-solfege@gnu.org</email>. Genel konular ve betikler şu e-posta adresine gönderilebilir <email>solfege-devel@lists.sourceforge.net</email>.</para>
+
+<para>Lütfen detaylı hata raporu gönderiniz. '' Programı başlatmayı denediğimde bir hata mesajı alıyorum'' gibi bir ifade benim için yetersizdir. Hata raporu gönderirken şunlara dikkat ediniz:</para>
+
+<itemizedlist>
+<listitem><para>Solfege programının hangi sürümünü kullandığınızı belirtiniz. Eğer daha yeni bir sürümü varsa kontrol ediniz. Eğer sadece kararlı sürümü kullanmak istiyorsanız, bu durumda geliştirme sürümlerini test etme durumunda kalmazsınız.</para></listitem>
+<listitem><para>Hangi işletim sistemi kullanmaktasınız? Versiyonu nedir?</para></listitem>
+<listitem><para>Hata oluştuğunda tama olarak ne yaptığınızı tanımlayınız.</para></listitem>
+<listitem><para>Hata raporunun tam bir kopyasını gönderiniz. Size şifre gibi gözükseler de onların Solfege yazarı için çok daha büyük anlamı vardır.</para></listitem>
+</itemizedlist>
+</sect1>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Tempo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Program będzie nabijał tempo, tak jak metronom. Musisz zgadnąć ilość uderzeń na minutę. Każdy przycisk reprezentuje jedno tempo, a program będzie grał tylko takie tempa, które  zaznaczone są na przyciskach pogrubioną czcionką. Aby zmnienić wybór dostępnych temp, kliknij na przycisk prawym przyciskiem myszy.</para>
+
+<para>Uwaga: rytm opiera się na funkcji <literal>gtk timeout_add</literal>, więc nie jest idealnie precyzyjny.</para>
+
+</sect1>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Entoar o acorde</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Se está dirixindo un coro, deberá entoar as primeiras notas para as diferentes voces e, no caso de que non dispoña dun piano cerca, deberá empregar un diapasón. Se vostede é home, deberá dar o ton para as mulleres unha oitaba máis baixo e viceversa.</para>
+
+<para>O programa reproducirá a nota LA (440 hz) e mostrará un acorde que vostede deberá entoar. O Solfege aínda non dispón de soporte para micrófono, así que será vostede quen decida se a súa  resposta foi correcta ou non.</para>
+
+</sect1>

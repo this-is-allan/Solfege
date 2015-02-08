@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Koputage rütm</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Screenshot of the rhythmtapping.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Programm mängib ette juhuslikult kokku pandud rütmi ning kasutaja peaks selle järgi mängima. Kasutaja saab sisestada rütmi toksides hiirega nupule <emphasis>Tap here</emphasis> või tühikuklahviga, kui nupp <emphasis>Tap here</emphasis> on aktiivne.</para>
+</sect1>

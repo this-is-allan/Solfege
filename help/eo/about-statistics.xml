@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>Pri statistikoj</title>
+<para>Kelkaj ekzercoj montros kelkajn statistikojn por malsamaj tempodaŭroj: <emphasis>Seanco</emphasis>, <emphasis>Hodiaŭ</emphasis>, <emphasis>Lastaj 7 tagoj</emphasis> kaj <emphasis>Sumo</emphasis>. La programo uzas du malsamajn tipojn de tabelo.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekranbildo pri la elcento-tabelo de statistiko-paĝo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>La unua tabelo, kiel montrite en la supra ekranbildo, havas po unu linio por problemo en la leciondosiero. <emphasis>Elcento</emphasis> estas la elcento da fojoj kiom la demandoj estis korekte responditaj. <emphasis>Nombro</emphasis> estas kiom fojoj la problemo estis prezentata.</para>
+
+<para>En la dua tipo de tabelo, la kolumnoj havas la samajn etikedojn ol la linioj, tamen la etikedoj ne estas montrigataj ĉar tio tro larĝigus la tabelon. Do, en la supra ekranbildo, kolumno 1 devus havi la etikedon <emphasis>m3↑</emphasis> kaj kolumno 2 <emphasis>M3↑</emphasis>. Por la problemoj identigataj per la etikedo de ĉiu linio, ĉiu kolumno montras kiom fojoj la uzanto respondis la malsamajn eblajn respondojn. La dikeca cifero montras kiom fojoj la korekta respondo estis donata.</para>
+
+</sect1>

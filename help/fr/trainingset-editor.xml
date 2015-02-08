@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Editeur de jeu de test</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran de la fenêtre d'edition des jeux de test.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Sur l'interface d'édition des jeux de test, vous pouvez créer des fichiers de travail au format MIDI/WAV/MP3/OGG que vous pouvez ensuite transférer sur votre agenda électronique, téléphone portable ou lecteur MP3. Un fichier de solutions, à imprimer, est généré. Alors vous demandez à votre lecteur MP3 de vous passer les pistes dans un ordre aléatoire, et vous utilisez la page des solutions pour vérifier que vous avez bien reconnu les extraits musicaux.</para>
+
+<para>Utilisez l'interface d'édition de matériel d'entraînement pour définir quels sont les exercices à générer. Vous pouvez conserver vos choix dans un fichier pour le ré-utiliser plus tard. Chaque fois que vous cliquer sur <guibutton>Export</guibutton>, de nouveaux fichiers sont générés dans le répertoire de votre choix. Vous devez transférer manuellement les fichiers son générés sur votre lecteur mobile.</para>
+
+<para>Vous pouvez si vous voulez demander au programme de générer des questions à partir d'autant de fichiers de leçons que vous voulez, mais il est plus habituel de générer un grand nombre de questions à partir d'une seule leçon, ou de quelques-unes.</para>
+
+<para>Les convertisseurs de formats de fichier sont définis sur l'interface, page </para>
+
+<variablelist>
+<title>Explication des entêtes du tableau</title>
+<varlistentry>
+ <term>Nombre</term>
+ <listitem><para>Le nombre de questions à générer à partir du fichier de leçon.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Répéter</term>
+ <listitem><para>Le nombre de fois qu'il faut répéter chaque question.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Temps d'attente</term> <listitem><para>La longueur du temps d'attente entre les questions. Mesurée en noires.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

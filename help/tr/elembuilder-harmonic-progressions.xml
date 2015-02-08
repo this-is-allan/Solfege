@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="elembuilder">
+<title>Armonik bağlantı diktesi</title>
+<informalfigure id="elembuilder-progressions-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/elembuilder-harmonic-progressions.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu alıştırmada, Solfege size bir müzik çalacaktır, ve siz armonik bağlantı alıştırmasını simgeleyen düğmelere tıklamalısınız.</para>
+
+</sect1>

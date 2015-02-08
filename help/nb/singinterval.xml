@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Syng intervall</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Screenshot of the sing interval exercise.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>I denne vil Solfege vise notene til et eller flere intervaller, og du skal synge dem. Dessverre er det ikke mulig å synge svaret i en mikrofon og la programmet av gjøre om du synger riktig. Dette må du gjøre selv.</para>
+<sect2 id="singinterval-config">
+<title>Konfigurasjon</title>
+<para>Programmet vil prøve å lage spørsmål der alle tonene er innenfor det omfanget brukeren kan synge. Omfanget kan settes i vinduet <link linkend="preferences-window">brukervalg</link>. Noen ganger er det ikke mulig å holde spørsmålet innenfor dette området, for eksempel hvis øvelsen er satt opp til å lage mange intervaller, og alle intervallene må gå oppover.</para>
+</sect2>
+</sect1>

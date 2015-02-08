@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Taper le rythme</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Saisie d'écran du frappement de rythme.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Le programme joue un rythme aléatoire, et l'utilisateur doit reproduire ce rythme. L'utilisateur entre le rythme en frappant sur le bouton avec le libellé <emphasis>Frapper ici</emphasis>.</para>
+</sect1>

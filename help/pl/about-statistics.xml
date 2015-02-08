@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>O statystykach</title>
+<para>Niektóre ćwiczenia pokazują statystkę dla różnych okresów czasowych: <emphasis>Sesja</emphasis>, <emphasis>Dzisiaj</emphasis>, <emphasis>Ostatnich 7 dni</emphasis> i <emphasis>Ogółem</emphasis>. Program używa dwóch różnych rodzajów tabel.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu pokazujący tabelę procentową ze strony statystyki.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Pierwsza z tabel, jak pokazuje to powyższy zrzut ekranu, ma jeden rząd dla każdego pytania z pliku lekcyjnego. <emphasis>Procent</emphasis> pokazuje ile razy udzielono poprawnej odpowiedzi. <emphasis>Ilość</emphasis> pokazuje ile razy zadano dane pytanie.</para>
+
+<para>W tabeli drugiego typu kolumny mają takie same etykiety dla rzędów, ale etykiety te nie są wyświetlane ponieważ spowodowałoby to, że tabele byłyby zbyt szerokie. Tak więc na powyższym obrazku kolumna 1 powinna mieć etykietę <emphasis>3m↑</emphasis> a kolumna 2 <emphasis>3w↑</emphasis>. Dla pytań oznaczonych etykietami rzędów w kolumnach pokazano ile razy użytkownik udzielił różnych możliwych odpowiedzi. Poprawne odpowiedzi oznaczone są pogrubioną liczbą.</para>
+
+</sect1>

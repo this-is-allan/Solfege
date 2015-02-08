@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Cantar doce notas al azar</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En este ejercicio, o programa mostrará todas as doce notas de la escala en una ordem aleatória e tocará a primeira. Então usted debe cantar todas e verificar se a última se encaixa. Então eso más parece com un exame de leitura e canto do que un ejercicio para aprender a cantar intervalos. Para eso usted debe tentar alguns dos outros ejercicios de intervalos.</para>
+
+</sect1>

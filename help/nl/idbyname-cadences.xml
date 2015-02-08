@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Benoem de candens</title>
+<para>Benoem de cadens door op de knop met zijn naam te klikken. Zoals bevestigt in <ulink url="http://bugs.solfege.org/5">bug #5</ulink> hebben we cadensoefeningen in Solfege nodig.</para>
+<para>In deze versie van Solfege hebben we slechts één oefening met candensen in majeur. De majeure ladder wordt gespeeld om de tonica te krijgen. Misschien is dit te weinig? Hebben we een complete  I-IV-V-I voor deze oefening nodig? Of is het misschien beter om echte muziek te schrijven dat eindigt in de cadens die we willen oefenen? Deze zaken moeten we beschrijven voor versie 3.12.0. Commentaar en muziek kan worden toegevoegd aan <ulink url="http://bugs.solfege.org/5"> bug #5</ulink>.</para>
+</sect1>

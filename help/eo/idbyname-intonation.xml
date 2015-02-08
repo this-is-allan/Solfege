@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Intonacio</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En tiu ĉi ekzerco, Sofege ludos intervalon, kaj vi devos diri kiel la intervalo estas intonaciata. Vi faras tion per klako sur unu el la butonoj kun etikedo 'tro eta', 'pura' aŭ 'tro granda'. Eblas ankaŭ ke unu el tiuj ĉi tri butonoj manku.</para>
+
+</sect1>

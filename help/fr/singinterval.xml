@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Chanter un intervalle</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran de l'exercice Chanter un intervalle.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Dans cet exercice, Solfege va afficher un ou plusieurs intervalles, et vous devrez les chanter. Malheureusement, il n'est pas actuellement possible de chanter dans un microphone et de laisser Solfege décider si ce que vous chantez est correct, donc il vous faudra juger par vous-même si ce que vous chantez est correct ou non.</para>
+<sect2 id="singinterval-config">
+<title>Configuration</title>
+<para>Le programme va essayer de poser une question telle que toutes les notes soient dans l'intervalle que l'utilisateur doit pouvoir chanter conformément à la configuration effectuée dans la <link linkend="preferences-window">fenêtre des préférences</link>. Parfois, il n'est pas possible de respecter l'intervalle, par exemple lorsque l'exercice est configuré pour créer plusieurs intervalles tous ascendants.</para>
+</sect2>
+</sect1>

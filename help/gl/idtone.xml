@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Identificar o ton</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Este é un exercicio de memoria de tons e de intervalos ao mesmo tempo. Algunha xente pensa que este tipo de exercicios poden facerlle dar o ton perfectamente, pero nós non pensamos iso.</para>
+
+<para>Basicamente, o programa dá un ton que vostede terá que identificar mediante a comparación co último ton que lle deu.</para>
+
+<para>Para comezar, o programa dará un ton e mostrará o nome na barra de estado. Vostede identificará os tons premendo no teclado do piano ou empregando os atallos que representan as letras que aparecen en cada tecla.</para>
+
+<para>Prema co botón dereito do rato no teclado do piano para escoitar a nota sen adiviñala antes (algúns dirían que isto é facer trampas...).</para>
+
+<para>Solfege have a set of exercises that you can find by clicking
+“Identify tone” on the front page. You should start with the first
+exercise, and move to the next each time you can practise from some
+minutes and still have quite a good score, for example 96% correct.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Configuración manual</title>
+
+<para>You can configure this exercise as you like if you select select
+“Configure yourself” front the default front page.</para>
+
+<para>Pode realizar o exercicio de varias formas. Persoalmente, non practiquei moito este exercicio, así que os apartados que seguen son só suxestións.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Nota a nota</title>
+<para>
+Start with only the notes c-d-e at weight 1. When your score is at least 96%
+correct, you add the tone f and continue. Add one new tone until you practise
+with all 12 tones. Doing this is the same as using the predefined exercises and
+following the instructions in the start of this chapter.
+</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Peso no la</title>
+
+<para>Configure o ton la no peso 11 (ou maior) e o resto no peso 1. Desta forma o programa reproducirá o ton la a miúdo e vostede poderá recordalo para despois empregar o la como referencia para identificar os demais tons. Cando xa leve un tempo practicado, pode baixar o peso do la para facer o exercicio máis difícil.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Configuración</title>
+
+<para>If run from “Configure yourself”, on the top of the config page you tell
+the program how important the different tones are. If you for example give the
+tone a 11 points and the rest 1 point each, then (11+11*1)/11*100 = 50% of the
+random tones will be an a.</para>
+
+<para>Debaixo diso, vostede seleccionará a que oitavas pertencerán os tons aleatorios.</para>
+
+<para>Daquela, vostede poderá elixir se o Solfege debería facerlle unha nova pregunta de forma automática cando xa teña resolta a anterior.</para>
+
+<para>No cadro de abaixo poderá estabelecer algunhas opcións que lle expliquen que é o que pasa se a súa resposta non é correcta.</para>
+
+<para>The keyboard shortcuts can be configured from the 
+<link linkend="preferences-window">preferences window</link>.
+</para>
+</sect3>
+</sect2>
+</sect1>

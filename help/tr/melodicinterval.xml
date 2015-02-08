@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="melodicinterval">
+<title>Melodik Aralık</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/melodicinterval-buttons.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Düğmeler arabirimlerinin kullanılarak aralıkların çalışıldığı yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Alıştırma rastgele aralıklar üretir veya siz bunları tanımlamaya çalışmalısınız.</para>
+
+<para>Eğer düğmeler arayüzünü kullanıyorsanız, temsil ettiği aralığı duymak için düğmelere sağ tıklamanız gerekir.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+<!--
+<sect2>
+<title>Config</title>
+<para>You can give detailed instructions on what intervals and how many of them to be asked. The statistics are only recorded when you practise only one interval.</para>
+</sect2>-->
+</sect1>

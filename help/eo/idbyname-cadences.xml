@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Identigi la kadencon</title>
+<para>Identigu la kadencon per klaku sur la butono kun ties nomo. Kiel agnoskite en  <ulink url="http://bugs.solfege.org/5">miso #5</ulink> ni bezonas kadencajn ekzercojn en Solfege.</para>
+<para>En tiu ĉi eldono de Solfege, ni nur havas unu ekzercon kun kadencoj maĵoraj. En tiu ĉi ekzerco, maĵora gamo estas ludata por difini la tonikon. Eble tio estas tro malmulte? Ĉu ni bezonas kompletan I-IV-V-I antaŭ ol demandi? Aŭ eble pli bone estus skribi veran muzikon, kiu finiĝas per la kadenco kiun ni deziras trejni? Tio estas afero kiun ni bezonas decidi antaŭ ol lanĉi 3.12.0. Komentoj kaj muzikoj povas esti aldonataj al la <ulink url="http://bugs.solfege.org/5">miso #5</ulink>.</para>
+</sect1>

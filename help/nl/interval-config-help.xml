@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Configuratie</title>
+<para>Op de configuratiepagina van de oefening is een keuzelijst waaruit je de verschillende manieren van beantwoording van de vraag kunt kiezen. Dit kan een piano, gitaar, bas en enkele accordeonsoorten zijn, naast de standaardknoppeninterface. Hieronder staat een schermafdruk van de pianointerface.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma tijdens het oefenen van intervallen gebruikmakend van de knoppeninterface.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Multoblaj elekteblaj respondoj por muziko</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Tiu ĉi paĝo estas ĝenerala helpo-paĝo por ĉiuj ekzercoj skribitaj uzante la ekzerc-modulon <literal>idproperty</literal>. Ekzercoj ordinare skribas pli specifan help-tekston ol tiu ĉi.</para>
+
+<para>La suba ekranbildo montras unu ekzemplon pri kiel ekzerco povas ŝajni.</para>
+
+<para>La ekzerco montrigos demandon kaj ludos iun muzikon, kaj vi devas elekti unu respondon el ĉiu kolumno en la buton-tabelo. Kiam vi elektis la korektan respondon en kolumno, la etikedo iĝos dika, kaj la mesaĝo "Korekte" fulmetos en la stat-breto.</para>
+
+<para>La ekzerco havos <guibutton>Ripeti arpeĝon</guibutton> se unu aŭ pli el la demandoj estas de la tipo, kiu la programo povas ludi arpeĝe.</para>
+</sect1>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Administrilo de Profiloj</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>La administrilo de profiloj ebligas al pluraj uzantoj de Solfege komunuzi konton en la operaciuma sistemo. La profiloj komunuzos la agordo-dosieron sed ili havos apartajn statistikojn kaj test-rezultojn.</para>
+
+<para>La administrilo de profiloj montrigos je program-ekigo ĉu pli ol unu profilo ekzitas. Vi povas ankaŭ aliri la administrilon de plofiloj per elekto de <guimenuitem>Administrilo de profiloj</guimenuitem> el la <guimenu>Dosiero</guimenu>.</para>
+
+<para>Marku <emphasis>Ne demandu dum ekigo</emphasis> se vi ne volas vidi la administrilon de profiloj dum ekigo. Ĝi memoros do la lastan profilon elektitan kiam vi fermas la administrilon de profiloj kaj ekigas la programon kun tiu profilo.</para>
+</sect1>

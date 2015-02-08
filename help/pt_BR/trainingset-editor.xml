@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Editor de conjuntos de treinamento</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela da janela do editor de conjuntos de treinamento.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>O editor de conjuntos de treinamento permite a você criar arquivos MIDI/WAV/MP3/OGG com questões, de modo que você possa carregá-los para seu PDA, celular ou tocador MP3. Uma folha de respostas será gerada para você imprimí-la. Então, você poderá deixar o tocador de MP3 tocar as faixas aleatoriamente, usando o gabarito para verificar se reconheceu a música corretamente.</para>
+
+<para>Você usa o editor de conjuntos de treinamento para definir quais exercícios gerar. Você pode salvar sua definição em um arquivo para usá-lo depois. Toda vez que se clica em <guibutton>Exportar</guibutton>, um novo conjunto de arquivso é gerado em um diretório de sua escolha. Você terá que carregar por si mesmo os arquivos de som gerados para seu aparelho portátil.</para>
+
+<para>O programa permite a você gerar questões a partir de quantos arquivos quiser, mas o usual é gerar grande número de questões a partir de um ou poucos arquivos.</para>
+
+<para>Os programas usados para conversão entre diferentes formatos de arquivo são definidos na página 'Interface', da <link linkend="preferences-gui">janela de preferências</link>. Verifique as definições lá se tiver problemas ao converter arquivos MIDI para os formatos WAV, MP3 ou OGG.</para>
+
+<variablelist>
+<title>Explicação dos cabeçalhos de tabela</title>
+<varlistentry>
+ <term>Contagem</term>
+ <listitem><para>O número de questões a gerar a partir do arquivo de lição.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Repetição</term>
+ <listitem><para>O número de repetições para cada questão.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Atraso</term> <listitem><para>Quanto tempo de atraso entre as questões. É medido em quantidade de semínimas.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

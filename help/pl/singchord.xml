@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Śpiewaj akord</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Kiedy dyrygujesz chórem musisz podawać początkowe dźwięki dla wszystkich głosów, a gdy w pobliżu nie ma fortepianu, musisz posłużyć się kamertonem (chyba, że masz słuch absolutny). Jeśli jesteś mężczyzną dźwięki dla głosów żeńskich podajesz o oktawę niżej i odwrotnie.</para>
+
+<para>Program zagra dźwięk A (440 Hz) i wyświetli akord, który musisz zaśpiewać. Solfege na razie nie obsługuje jeszcze mikrofonu, więc musisz samemu ocenić czy odpowiedź była poprawna, czy nie.</para>
+
+</sect1>

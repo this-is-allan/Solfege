@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Gammes</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>Solgege a pour l'instant trois variantes d'exercices de gammes et d'échelles.</para>
+<itemizedlist>
+<listitem><para>Solfege va jouer une échelle, et vous devrez l'identifier en cliquant sur le bouton portant son nom.</para>
+</listitem>
+<listitem><para>Solfege va jouer une échelle, et vous devrez identifier sa structure. Une série de boutons s'affichera avec pour libellés les nombres '1', '2' et '3'. Ces nombres représentent respectivement la seconde mineure, la seconde majeure et la tierce mineure entre les notes de l'échelle.</para></listitem>
+<listitem><para>Solfege va jouer une échelle, et vous devrez identifier la note de départ. Par exemple, si Solfege joue la gamme mineure naturelle à partir d'une des notes de cette échelle, vous devez déterminer quelle est cette note de départ.</para></listitem>
+</itemizedlist>
+
+</sect1>

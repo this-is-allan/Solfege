@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Kanti 12 hazardajn notojn</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En tiu ĉi ekzerco, la programo montrigos ĉiujn dek du tonojn en la gamo laŭ hazarda ordo kaj ĝi ludos la unuan. Tiam vi devos kanti ĉiujn notojn kaj kontroli ĉu la lasta noto kongruas. Do, tio ĉi similas pli al ekzameno pri tuja elkantado ol al ekzerco pri lernado kiel kanti la intervalojn. Por tio, vi devos provi iun el la aliaj intervalaj ekzercoj.</para>
+
+</sect1>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Määrake noot</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt programmist.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>See harjutus arendab kombineeritult kuulmismälu ning intervallitunnetust. Mõned inimesed arvavad, et see harjutus võimaldab omandada absoluutse kuulmise, kuid mina nii ei usu.</para>
+
+<para>Programm mängib noodi ning teie peate selle noodi ära tundma võrreldes eelmise noodiga.</para>
+
+<para>Alustuseks mängib programm ette ühe nood ning ütleb, mis noodiga on tegu. Te peate näitama, kus asub see noot klaviatuuril (klikkides vastaval klahvikujutisel või vajutades vastavale tähele).</para>
+
+<para>Kui soovite kuulda mõne klahvi kõrgust, ilma et tegelikult vastust pakuks, võite klahvil hiire parema hiireklahviga klõpsata. (Mõned nimetaks seda spikerdamiseks... )</para>
+
+<para>Solfege have a set of exercises that you can find by clicking
+“Identify tone” on the front page. You should start with the first
+exercise, and move to the next each time you can practise from some
+minutes and still have quite a good score, for example 96% correct.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Käsitsi seadistamine</title>
+
+<para>Seda harjutust saab seadistada nii nagu soovite, kui valite standard-esilehlet "Seadistage ise",</para>
+
+<para>Selle harjutuse kasutamiseks on mimeid võimalusi. Mina isiklikult pole seda kasutanud kuigi palju ning alljärgnev lõik on puhtalt soovituslik.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Noot-noodilt</title>
+<para>
+Start with only the notes c-d-e at weight 1. When your score is at least 96%
+correct, you add the tone f and continue. Add one new tone until you practise
+with all 12 tones. Doing this is the same as using the predefined exercises and
+following the instructions in the start of this chapter.
+</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Raske A</title>
+
+<para>Seadistage noot A' kaaluks 11 (või rohkem) ning teiste nootide kaaluks 1. Sellisel moel mängib programm A nooti väga tihti, nii et teil jääb selle noodi kõrgus kõrvu. Kui olete mõnda aega harjutanud, võite vähendada A noodi kaalu, et muuta harjutust raskemaks.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Seaded</title>
+
+<para>Kui te valite "Seadistage ise" seadete lehelt, saate ise määrata, millise kaaluga  mingid noodid on.  Kui te annate ühele noodile a nt 11 punkti ja teistele 1 punkt, siis on tõenöaosus (11+11*1)/11*100 = 50% , et juhuslikult valitud noot on just a.</para>
+
+<para>Sellest allpool saate valida, millises oktavis noodid mängitakse.</para>
+
+<para>Ühtlasi saate määrata, kas programm mängib uue noodi automaatselt, kui olete eelmise ära arvanud.</para>
+
+<para>Ning kastis allpool saate määrata, kas mängida vale noodi peale hoiatussignaal või mitte.</para>
+
+<para>Klaviatuuri lühikombinatsioonid (shortcuts)  või valida <link linkend="preferences-window">Eelistuste aknast</link>.</para>
+</sect3>
+</sect2>
+</sect1>

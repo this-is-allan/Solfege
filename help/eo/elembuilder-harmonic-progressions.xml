@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="elembuilder">
+<title>Diktado de harmonia progresio</title>
+<informalfigure id="elembuilder-progressions-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/elembuilder-harmonic-progressions.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En tiu ĉi ekzerco, Solfege ludos iun muzikon, kaj vi devos klaki sur la butonojn por konstrui reprezenton de harmoniaj progresioj en la ekzerco.</para>
+
+</sect1>

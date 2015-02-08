@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Nomi intervalojn</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la progamo dum trejnado de intervaloj uzante la interfacajn butonojn.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En tiu ĉi ekzerco, Solfege montrigos kaj ludos intervalon, kaj vi devos identigi la intervalon. Tio ĉi estas ekzerco pri muzik-teorio, kaj ne aŭskulto-trejna ekzerco. Por lerni kiel nomi intervalojn vi devos legi <xref linkend="theory-intervals"/>.</para>
+
+<para>Vi identigas la intervalon per klako sur unu butono, kiu montras la specifan nomon kaj la ĝeneralan nomon.</para>
+
+</sect1>

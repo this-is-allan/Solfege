@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Syng akkord</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Skjermbilde fra programmet</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Som kordirigent må man ofte synge første tone til alle stemmene i koret. Hvis du er mann, så må du synge damestemmene en oktav under det de skal klinge. Og omvendt hvis du er kvinne.</para>
+
+<para>Programmet spiller en enstrøken A (440 hz) og viser en akkord som du skal synge. Siden programmet ennå ikke støtter bruk av mikrofon, så må du selv avgjøre om det du synger er korrekt.</para>
+
+</sect1>

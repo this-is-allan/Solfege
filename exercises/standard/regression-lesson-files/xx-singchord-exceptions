@@ -1,0 +1,36 @@
+header {
+  module = singchord
+  title = "singchord mpd errors"
+  lesson_id = "singchord-module-exceptions"
+  have_repeat_slowly_button = yes
+}
+question {
+  name = "satb: c'' | e' | g | c"
+  music = satb("c'' | e' | g | c")
+}
+question {
+  name = "satb: |||"
+  music = satb("|||")
+}
+question {
+  name = "satb:  c | > | |"
+  music = satb(" c | > | |")
+}
+question {
+  name = "satb: c'' | g' | error | c"
+  music = satb("c'' | g' | error | c")
+}
+question {
+  name = "satb: c'' | g' | 
+ ER | c"
+  music = satb("c'' | g' | 
+ ER | c")
+}
+question {
+  name = "satb:  |dfd"
+  music = satb(" |dfd")
+}
+question {
+  name = "satb:  | | |}"
+  music = satb(" | | |}")
+}

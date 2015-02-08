@@ -1,0 +1,40 @@
+/* XPM */
+static char *out/feta20-clefs-C[] = {
+/* width height ncolors chars_per_pixel */
+"21 31 2 1",
+/* colors */
+"` c #000",
+"a c #FF",
+/* pixels */
+"aaaaaaaaaaaa````aaaaa",
+"````a``aaa````````aaa",
+"````a``aa``aaaa````aa",
+"````a``a```aaaa`````a",
+"````a``a````aaaa````a",
+"````a``a`````aaa`````",
+"````a``a`````aaa`````",
+"````a``aa```aaaa`````",
+"````a``aa`aaaaaa`````",
+"````a``aa``aaaaa`````",
+"````a``aa``aaaaa````a",
+"````a``a```aaaaa````a",
+"````a``a````aaa````aa",
+"````a`````````````aaa",
+"````a`````aa````aaaaa",
+"````a`````aaaaaaaaaaa",
+"````a`````aaaaaaaaaaa",
+"````a`````aa````aaaaa",
+"````a`````````````aaa",
+"````a``a````aaa````aa",
+"````a``a```aaaaa````a",
+"````a``aa``aaaaa`````",
+"````a``aa``aaaaa`````",
+"````a``aa`aaaaaa`````",
+"````a``aa```aaaa`````",
+"````a``a`````aaa`````",
+"````a``a`````aaa````a",
+"````a``a````aaa`````a",
+"````a``a```aaaa````aa",
+"````a``aa``a``````aaa",
+"````a``aaa``````aaaaa"
+};

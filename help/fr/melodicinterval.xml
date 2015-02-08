@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="melodicinterval">
+<title>Intervalle mélodique</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/melodicinterval-buttons.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copies d'écran du logiciel montrant l'exercice sur les intervalles avec l'interface à boutons.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Cet exercice crée des intervalles aléatoires et vous devez essayer de les identifier.</para>
+
+<para>Si vous utilisez l'interface à boutons, vous pouvez alors cliquer avec le bouton droit de la souris pour entendre l'intervalle.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+<!--
+<sect2>
+<title>Config</title>
+<para>You can give detailed instructions on what intervals and how many of them to be asked. The statistics are only recorded when you practise only one interval.</para>
+</sect2>-->
+</sect1>

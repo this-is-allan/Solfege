@@ -1,0 +1,432 @@
+FileHeader(1, 
+ Page(_(u'Experimental CSound exercises'), [
+  Column([
+   LinkList(_(u'Melodic intervals'), [
+    Page(_(u'Minor Second'), [
+     Column([
+      LinkList(_(u'Minor Second'), [
+       u'solfege:lesson-files/csound-intonation-min2-40cent',
+       u'solfege:lesson-files/csound-intonation-min2-30cent',
+       u'solfege:lesson-files/csound-intonation-min2-20cent',
+       u'solfege:lesson-files/csound-intonation-min2-15cent',
+       u'solfege:lesson-files/csound-intonation-min2-10cent',
+       u'solfege:lesson-files/csound-intonation-min2-8cent',
+       u'solfege:lesson-files/csound-intonation-min2-6cent',
+       u'solfege:lesson-files/csound-intonation-min2-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Second'), [
+     Column([
+      LinkList(_(u'Major Second'), [
+       u'solfege:lesson-files/csound-intonation-maj2-40cent',
+       u'solfege:lesson-files/csound-intonation-maj2-30cent',
+       u'solfege:lesson-files/csound-intonation-maj2-20cent',
+       u'solfege:lesson-files/csound-intonation-maj2-15cent',
+       u'solfege:lesson-files/csound-intonation-maj2-10cent',
+       u'solfege:lesson-files/csound-intonation-maj2-8cent',
+       u'solfege:lesson-files/csound-intonation-maj2-6cent',
+       u'solfege:lesson-files/csound-intonation-maj2-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Third'), [
+     Column([
+      LinkList(_(u'Minor Third'), [
+       u'solfege:lesson-files/csound-intonation-min3-40cent',
+       u'solfege:lesson-files/csound-intonation-min3-30cent',
+       u'solfege:lesson-files/csound-intonation-min3-20cent',
+       u'solfege:lesson-files/csound-intonation-min3-15cent',
+       u'solfege:lesson-files/csound-intonation-min3-10cent',
+       u'solfege:lesson-files/csound-intonation-min3-8cent',
+       u'solfege:lesson-files/csound-intonation-min3-6cent',
+       u'solfege:lesson-files/csound-intonation-min3-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Third'), [
+     Column([
+      LinkList(_(u'Major Third'), [
+       u'solfege:lesson-files/csound-intonation-maj3-40cent',
+       u'solfege:lesson-files/csound-intonation-maj3-30cent',
+       u'solfege:lesson-files/csound-intonation-maj3-20cent',
+       u'solfege:lesson-files/csound-intonation-maj3-15cent',
+       u'solfege:lesson-files/csound-intonation-maj3-10cent',
+       u'solfege:lesson-files/csound-intonation-maj3-8cent',
+       u'solfege:lesson-files/csound-intonation-maj3-6cent',
+       u'solfege:lesson-files/csound-intonation-maj3-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Perfect Fourth'), [
+     Column([
+      LinkList(_(u'Perfect Fourth'), [
+       u'solfege:lesson-files/csound-intonation-p4-40cent',
+       u'solfege:lesson-files/csound-intonation-p4-30cent',
+       u'solfege:lesson-files/csound-intonation-p4-20cent',
+       u'solfege:lesson-files/csound-intonation-p4-15cent',
+       u'solfege:lesson-files/csound-intonation-p4-10cent',
+       u'solfege:lesson-files/csound-intonation-p4-8cent',
+       u'solfege:lesson-files/csound-intonation-p4-6cent',
+       u'solfege:lesson-files/csound-intonation-p4-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Perfect Fifth'), [
+     Column([
+      LinkList(_(u'Perfect Fifth'), [
+       u'solfege:lesson-files/csound-intonation-p5-40cent',
+       u'solfege:lesson-files/csound-intonation-p5-30cent',
+       u'solfege:lesson-files/csound-intonation-p5-20cent',
+       u'solfege:lesson-files/csound-intonation-p5-15cent',
+       u'solfege:lesson-files/csound-intonation-p5-10cent',
+       u'solfege:lesson-files/csound-intonation-p5-8cent',
+       u'solfege:lesson-files/csound-intonation-p5-6cent',
+       u'solfege:lesson-files/csound-intonation-p5-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Sixth'), [
+     Column([
+      LinkList(_(u'Minor Sixth'), [
+       u'solfege:lesson-files/csound-intonation-min6-40cent',
+       u'solfege:lesson-files/csound-intonation-min6-30cent',
+       u'solfege:lesson-files/csound-intonation-min6-20cent',
+       u'solfege:lesson-files/csound-intonation-min6-15cent',
+       u'solfege:lesson-files/csound-intonation-min6-10cent',
+       u'solfege:lesson-files/csound-intonation-min6-8cent',
+       u'solfege:lesson-files/csound-intonation-min6-6cent',
+       u'solfege:lesson-files/csound-intonation-min6-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Sixth'), [
+     Column([
+      LinkList(_(u'Major Sixth'), [
+       u'solfege:lesson-files/csound-intonation-maj6-40cent',
+       u'solfege:lesson-files/csound-intonation-maj6-30cent',
+       u'solfege:lesson-files/csound-intonation-maj6-20cent',
+       u'solfege:lesson-files/csound-intonation-maj6-15cent',
+       u'solfege:lesson-files/csound-intonation-maj6-10cent',
+       u'solfege:lesson-files/csound-intonation-maj6-8cent',
+       u'solfege:lesson-files/csound-intonation-maj6-6cent',
+       u'solfege:lesson-files/csound-intonation-maj6-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Seventh'), [
+     Column([
+      LinkList(_(u'Minor Seventh'), [
+       u'solfege:lesson-files/csound-intonation-min7-40cent',
+       u'solfege:lesson-files/csound-intonation-min7-30cent',
+       u'solfege:lesson-files/csound-intonation-min7-20cent',
+       u'solfege:lesson-files/csound-intonation-min7-15cent',
+       u'solfege:lesson-files/csound-intonation-min7-10cent',
+       u'solfege:lesson-files/csound-intonation-min7-8cent',
+       u'solfege:lesson-files/csound-intonation-min7-6cent',
+       u'solfege:lesson-files/csound-intonation-min7-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Seventh'), [
+     Column([
+      LinkList(_(u'Major Seventh'), [
+       u'solfege:lesson-files/csound-intonation-maj7-40cent',
+       u'solfege:lesson-files/csound-intonation-maj7-30cent',
+       u'solfege:lesson-files/csound-intonation-maj7-20cent',
+       u'solfege:lesson-files/csound-intonation-maj7-15cent',
+       u'solfege:lesson-files/csound-intonation-maj7-10cent',
+       u'solfege:lesson-files/csound-intonation-maj7-8cent',
+       u'solfege:lesson-files/csound-intonation-maj7-6cent',
+       u'solfege:lesson-files/csound-intonation-maj7-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Perfect Octave'), [
+     Column([
+      LinkList(_(u'Perfect Octave'), [
+       u'solfege:lesson-files/csound-intonation-p8-40cent',
+       u'solfege:lesson-files/csound-intonation-p8-30cent',
+       u'solfege:lesson-files/csound-intonation-p8-20cent',
+       u'solfege:lesson-files/csound-intonation-p8-15cent',
+       u'solfege:lesson-files/csound-intonation-p8-10cent',
+       u'solfege:lesson-files/csound-intonation-p8-8cent',
+       u'solfege:lesson-files/csound-intonation-p8-6cent',
+       u'solfege:lesson-files/csound-intonation-p8-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Ninth'), [
+     Column([
+      LinkList(_(u'Minor Ninth'), [
+       u'solfege:lesson-files/csound-intonation-min9-40cent',
+       u'solfege:lesson-files/csound-intonation-min9-30cent',
+       u'solfege:lesson-files/csound-intonation-min9-20cent',
+       u'solfege:lesson-files/csound-intonation-min9-15cent',
+       u'solfege:lesson-files/csound-intonation-min9-10cent',
+       u'solfege:lesson-files/csound-intonation-min9-8cent',
+       u'solfege:lesson-files/csound-intonation-min9-6cent',
+       u'solfege:lesson-files/csound-intonation-min9-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Ninth'), [
+     Column([
+      LinkList(_(u'Major Ninth'), [
+       u'solfege:lesson-files/csound-intonation-maj9-40cent',
+       u'solfege:lesson-files/csound-intonation-maj9-30cent',
+       u'solfege:lesson-files/csound-intonation-maj9-20cent',
+       u'solfege:lesson-files/csound-intonation-maj9-15cent',
+       u'solfege:lesson-files/csound-intonation-maj9-10cent',
+       u'solfege:lesson-files/csound-intonation-maj9-8cent',
+       u'solfege:lesson-files/csound-intonation-maj9-6cent',
+       u'solfege:lesson-files/csound-intonation-maj9-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Tenth'), [
+     Column([
+      LinkList(_(u'Minor Tenth'), [
+       u'solfege:lesson-files/csound-intonation-min10-40cent',
+       u'solfege:lesson-files/csound-intonation-min10-30cent',
+       u'solfege:lesson-files/csound-intonation-min10-20cent',
+       u'solfege:lesson-files/csound-intonation-min10-15cent',
+       u'solfege:lesson-files/csound-intonation-min10-10cent',
+       u'solfege:lesson-files/csound-intonation-min10-8cent',
+       u'solfege:lesson-files/csound-intonation-min10-6cent',
+       u'solfege:lesson-files/csound-intonation-min10-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Tenth'), [
+     Column([
+      LinkList(_(u'Major Tenth'), [
+       u'solfege:lesson-files/csound-intonation-maj10-40cent',
+       u'solfege:lesson-files/csound-intonation-maj10-30cent',
+       u'solfege:lesson-files/csound-intonation-maj10-20cent',
+       u'solfege:lesson-files/csound-intonation-maj10-15cent',
+       u'solfege:lesson-files/csound-intonation-maj10-10cent',
+       u'solfege:lesson-files/csound-intonation-maj10-8cent',
+       u'solfege:lesson-files/csound-intonation-maj10-6cent',
+       u'solfege:lesson-files/csound-intonation-maj10-5cent',
+       ]),
+      ]),
+     ]),
+    ]),
+   ]),
+  Column([
+   LinkList(_(u'Harmonic intervals'), [
+    Page(_(u'Minor Second'), [
+     Column([
+      LinkList(_(u'Minor Second'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min2-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Second'), [
+     Column([
+      LinkList(_(u'Major Second'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj2-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Third'), [
+     Column([
+      LinkList(_(u'Minor Third'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min3-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Third'), [
+     Column([
+      LinkList(_(u'Major Third'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj3-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Perfect Fourth'), [
+     Column([
+      LinkList(_(u'Perfect Fourth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p4-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Perfect Fifth'), [
+     Column([
+      LinkList(_(u'Perfect Fifth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p5-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Sixth'), [
+     Column([
+      LinkList(_(u'Minor Sixth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min6-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Sixth'), [
+     Column([
+      LinkList(_(u'Major Sixth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj6-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Seventh'), [
+     Column([
+      LinkList(_(u'Minor Seventh'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min7-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Seventh'), [
+     Column([
+      LinkList(_(u'Major Seventh'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj7-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Perfect Octave'), [
+     Column([
+      LinkList(_(u'Perfect Octave'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-p8-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Ninth'), [
+     Column([
+      LinkList(_(u'Minor Ninth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min9-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Ninth'), [
+     Column([
+      LinkList(_(u'Major Ninth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj9-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Minor Tenth'), [
+     Column([
+      LinkList(_(u'Minor Tenth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-min10-5cent',
+       ]),
+      ]),
+     ]),
+    Page(_(u'Major Tenth'), [
+     Column([
+      LinkList(_(u'Major Tenth'), [
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-40cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-30cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-20cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-15cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-10cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-8cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-6cent',
+       u'solfege:lesson-files/csound-intonation-harmonic-maj10-5cent',
+       ]),
+      ]),
+     ]),
+    ]),
+   ]),
+  ]),
+ )

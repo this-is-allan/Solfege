@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Kulak eğitim deneme çıktısı düzenleyicisi</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Eğitim seti düzenleme penceresinin ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Bu araca <guimenu>Dosya</guimenu> menüsünden ulaşabilirsiniz. Onun kulak eğitimi testlerini kağıda basmak için kullanabilirsiniz. Solfege belgenin 2 ayrı çıktı türünü üretecektr: biri öğrencilerin tamamlaması için, ve diğeri de cevap anahtarı olacaktır. Bu araç bir kullanıcıdan gelen istek üzerine eklenmiştir, fakat bize bu konuda bir geri dönüşte bulunulmamıştır. Bu yüzden, eğer gerçekten bu özelliği kullanıyorsanız, bundan bizim de haberimiz olması için lütfen  <link linkend="online-resources">bize ulaşın</link>.</para>
+
+<para>Gördüğünüz <guibutton>Ekle</guibutton> düğmesi alıştırmalar oluşturabileceğiniz ve etkin tüm alıştırmaları ağaç görünümde gösterildiği bir açılan menü gösterecektir. Bunu yazarken kullanılan  alıştırma modüllerü <link linkend="idbyname-module">idbyname</link>, <link linkend="melodicinterval-module">melodicinterval</link> ve <link linkend="harmonicinterval-module">harmonicinterval</link> alıştırma modülleridir. Ders dosyalarından yazılmış olan  <literal>idbyname</literal> modülü, sadece <link linkend="lfunc-chord">chord</link>, <link linkend="lfunc-rvoice">rvoice</link> ve <link linkend="lfunc-voice">voice</link> müzik objeleri desteklenmektedir.</para>
+
+<para><guibutton>Tablo oluştur</guibutton> bir seçenekler penceresi açacak ve siz bir dizini seçme veya oluşturma olanağı bulacaksınız, ve ardından bu dizine HTML veya LaTex ve resim dosyalarını kaydedebileceksiniz.</para>
+
+<para>Kulak eğitimi testleri tanımları dosyalarını kaydedip ve yüklediğinizde, program rastgele soruları hatırlayacak, böylece bir dosyayı <guibutton>Tablo Oluştur</guibutton> düğmesine tıklayıp yüklediğinizde aynı test tekrardan oluşturulmuş olacaktır. Yeni bir rastgele soru seti oluşturmak için <guibutton>Rastgele Oluştur</guibutton> düğmesine basınız.</para>
+</sect1>

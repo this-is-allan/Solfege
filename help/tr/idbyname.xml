@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname">
+<title>Soruları düğmelere tıklayarak cevaplayınız</title>
+<para>Bu sayfa tüm alıştırmaların bulunduğu genel yardım sayfasıdır ve bu alıştırmalar <literal>idproperty</literal> alıştırma modülü kullanılarak yazılmıştır. Alıştırmalar daha detaylı yardım metinleri ile görüntülenecektir.</para>
+
+<para>Sorunun cevabını duyarak veya görüntüleyerek almak için düğmeye tıklayınız. Alıştırmaların başında çoğunlukla o alıştırmanın amacını belirten bir başlık göreceksiniz.</para>
+</sect1>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Identificar o acorde</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>A finalidade deste exercicio é identificar o acorde que se está reproducindo.</para>
+<para>Comece o exercicio premendo en <guibutton>Novo</guibutton>. Logo o Solfege reproducirá un acorde e vostede terá que identificalo nun dos botóns que hai debaixo da liña de mensaxes de estado.</para>
+
+<para>Se a súa resposta foi correcta, o programa mostrará o acorde na liña de funcionalidades e a mensaxe "Correcto" aparecerá na barra de estado. Entón, vostede poderá premer no botón <guibutton>Novo</guibutton> para que haxa unha pregunta nova.</para>
+
+<para>Se a súa resposta é incorrecta, será a mensaxe "Incorrecto" a que apareza na barra de estado.</para>
+
+</sect1>

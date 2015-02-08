@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Oefenset-editor</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het oefenset-editorscherm</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>De oefenset-editor maakt het mogelijk MIDI/WAV/MP3/OGG-bestanden van vragen aan te maken zodat je deze op je PDA, mobiele telefoon of MP3-speler kunt zetten. Er wordt een oplossingenpagina aangemaakt die je kunt afdrukken. Je laat de MP3-speler de nummers in willekeurige volgorde afspelen en met de oplossingenpagina controleer je of je de muziek kunt herkennen.</para>
+
+<para>Je kunt de oefenset-editor gebruiken om op te geven welke oefeningen aangemaakt moeten worden. De definities bewaar je in een bestand voor toekomstig gebruik. Iedere keer dat je op knop <guibutton>Exporteren</guibutton> klikt, wordt een nieuwe verzameling bestanden aangemaakt in een map naar keuze. Je kunt de gegenereerde geluidsbestanden handmatig op je mobiele apparaat zetten.</para>
+
+<para>Het programma laat je vragen aanmaken uit net zoveel lesbestanden als je wenst, maar meestal wordt er een grote hoeveelheid vragen gegenereerd uit een enkele bestand of uit een beperkt aantal bestanden.</para>
+
+<para>De programma's om tussen verschillende bestandsoorten te converteren wordt opgegeven in het tabblad Externe programma's van het <link linkend="preferences-gui">Voorkeurenscherm</link>. Controleer de instellingen als je problemen ondervindt bij het omzetten van de MIDI-bestanden naar WAV, MP3 of OGG.</para>
+
+<variablelist>
+<title>Tabelkoppen uitgelegd</title>
+<varlistentry>
+ <term>Aantal</term>
+ <listitem><para>Het aantal vragen om uit de lesbestanden te genereren.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Herhaal</term>
+ <listitem><para>Het aantal malen dat een vraag herhaald moet worden.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Tijdsvertraging</term> <listitem><para>De lengte van de pauze tussen de vragen, uitgedrukt in de duur van een kwartnoot.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

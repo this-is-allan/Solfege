@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Rozpoznaj dźwięk</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>To ćwiczenie łączy w sobie rozwijanie pamięci dźwięków i umiejętności interwałowych. Niektórzy uważają, że ćwiczenia tego typu mogą wyrabiać słuch absolutny.</para>
+
+<para>W skrócie: program gra dźwięk, a Ty musisz go rozpoznać, porównując z ostatnim zagranym dźwiękiem.</para>
+
+<para>Na początku program zagra jeden dźwięk i wyświetli jego nazwę. Rozpoznajesz dźwięki klikając na klawiaturze, lub używając skrótów klawiszowych,tzn. liter, którymi oznaczone są poszczególne klawisze.</para>
+
+<para>Klikając prawym przyciskiem myszy na klawiaturę fortepianu możesz usłyszeć jak brzmi dany dźwięk, bez udzielania odpowiedzi (niektórzy nazywają to oszukiwaniem....)</para>
+
+<para>Solfege have a set of exercises that you can find by clicking
+“Identify tone” on the front page. You should start with the first
+exercise, and move to the next each time you can practise from some
+minutes and still have quite a good score, for example 96% correct.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Ręczna konfiguracja</title>
+
+<para>Możesz skonfigurować to ćwiczenie według swoich potrzeb, wybierając "Zrób to sam" z domyślnej strony głównej.</para>
+
+<para>Istnieje kilka sposobów w jaki można ćwiczyć. Następna sekcja zawiera kilka sugestii.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Nuta po nucie</title>
+<para>
+Start with only the notes c-d-e at weight 1. When your score is at least 96%
+correct, you add the tone f and continue. Add one new tone until you practise
+with all 12 tones. Doing this is the same as using the predefined exercises and
+following the instructions in the start of this chapter.
+</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Stałe A</title>
+
+<para>Ustaw dźwięk 'a' na poziomie 11 (lub wyższym), a resztę dźwięków na poziomie 1. Dzięki temu program będzie grał ten dźwięk bardzo często, tak abyś go zapamiętał i używał jako punktu odniesienia dla rozpoznania innych dźwięków. Kiedy już trochę poćwiczysz możesz zmniejszyć jego poziom tak, aby ćwiczenie było trudniejsze.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Konfiguracja</title>
+
+<para>Na górze strony Konfiguracji wskazujesz programowi jak ważne są poszczególne dźwięki. Jeśli przykładowo ustawisz dźwięk 'a' na poziomie 11, a wszystkie pozostałe na poziomie 1 to (11+11*1)/11*100 = 50% przypadkowych dźwięków będzie dźwiękiem 'a'.</para>
+
+<para>Poniżej wybierasz w jakiej oktawie mają pojawiać się losowane dźwięki.</para>
+
+<para>Możesz także wybrać, czy Solfege ma zadawać automatycznie nowe pytanie, jeśli rozwiązałeś poprzednie.</para>
+
+<para>W ramce na dole możesz ustalić nie potrzebującą komentarza opcję zdarzenia w wypadku błędnej odpowiedzi.</para>
+
+<para>Skróty klawiszowe mogą być ustawione w <link linkend="preferences-window"> Oknie ustawień</link>.</para>
+</sect3>
+</sect2>
+</sect1>

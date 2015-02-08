@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="online-resources">
+<title>Çevrimiçi kaynaklar</title>
+<para>Solfege anasayfası <ulink url="http://www.solfege.org">http://www.solfege.org</ulink>. Daha duruk bilgiler içeren daha küçük web sayfasının linki<ulink url="http://www.gnu.org/software/solfege/">http://www.gnu.org/software/solfege/</ulink>.</para>
+<sect2 id="download-solfege">
+<title>Solfege Yazılımını İndir</title>
+<para>Kaynak kodunu indirebileceğiniz link<ulink url="http://ftp.gnu.org/gnu/solfege">http://ftp.gnu.org/gnu/solfege</ulink>. Eğer maceracı biriyseniz, kararsız sürümü deneyebilirsiniz (biraz hatalı, fakat bazı yeni özellikle içerebilir) buradan yükleyebilirsiniz<ulink url="http://alpha.gnu.org/gnu/solfege">http://alpha.gnu.org/gnu/solfege</ulink>. Bu sürümlerde daha çok hata olabilir, fakat yazılımın yeni özelliklerini deneme şansınız ve bazı hataları bulup raporlama şansınız var.</para>
+<para>Kaynak kodu ve bazı önceden derlenmiş ikililere ulaşmak için<ulink url="http://sourceforge.net/project/showfiles.php?group_id=1465">http://sourceforge.net/project/showfiles.php?group_id=1465</ulink>.</para>
+<para>Eğer Debian kullanıyorsanız<userinput>apt-get install solfege</userinput> komutu ile yazılımı yükleyip kurabilirsiniz.</para>
+</sect2>
+<sect2 id="mailing-lists">
+<title>Posta listeleri</title>
+<sect3 id="mailing-list-solfege-announce">
+<title><email>solfege-announce@lists.sourceforge.net</email></title>
+<para>Çok düşük trafik, azaltılmış ve Solfege yazılımının kararlı sürümlerinin duyurulması için kullanılacak olan bir link. (<ulink url="http://lists.sourceforge.net/mailman/listinfo/solfege-announce">Subscription</ulink> | <ulink url="http://sourceforge.net/mailarchive/forum.php?forum_id=7332">Archive</ulink>)</para>
+</sect3>
+<sect3 id="mailing-list-solfege-devel">
+<title><email>solfege-devel@lists.sourceforge.net</email></title>
+<para>Eğer Solfege yazılımının yükleme ve kurulmasında bazı problemler yaşıyorsanız, ya da sorularınız, yorumlarınız veya Solfege geliştirmek ile ilgili fikirleriniz varsa, yazara veya Sourceforge'daki forumlara ileti göndermek yerine bunları listelere gönderiniz. solfege-devel listesine üye olmadan da ileti gönderebilirsiniz. (<ulink url="http://lists.sourceforge.net/mailman/listinfo/solfege-devel">Subscription</ulink> | <ulink url="http://sourceforge.net/mailarchive/forum.php?forum_id=3968">Archive</ulink>)</para>
+</sect3>
+<sect3 id="mailing-list-bug-solfege">
+<title><email>bug-solfege@gnu.org</email></title>
+<para>Hata raporlarının gönderildiği standart GNU adresi.  Bu liste'nin şu anda iletildiği posta adresi <email>solfege-devel@lists.sourceforge.net</email></para>
+</sect3>
+</sect2>
+</sect1>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Intervalo harmônico</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela do programa ao se praticar intervalos usando a interface de botões.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Este exercício é um dos que você pode usar para praticar intervalos. O conceito é bastante simples: Você pressiona o botão <guibutton>Novo intervalo</guibutton> para tocar um intervalo aleatório, e então você deve dizer que intervalo era.</para>
+
+<para>Se você está usando a interface de botões, então pode clicar com o direito nos botões para ouvir o intervalo que eles representam.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

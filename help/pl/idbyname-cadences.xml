@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Kadencje</title>
+<para>Rozpoznaj kadencję klikając na przycisk z jej nazwą. Jak wiadomo z <ulink url="http://bugs.solfege.org/5">bug #5</ulink> w Solfege potrzebne są ćwiczenia z kadencjami.</para>
+<para>W tym wydaniu Solfege'a mamy tylko jedno ćwiczenie z kadencjami w majorze.W ćwiczeniu tym na początku grana jest gama majorowa po to, aby utwierdzić tonikę. Być może jest to za mało? Może lepsza byłaby kompletna triada I-IV-V-I, grana przed pytaniem? Albo lepszy będzie fragment żywej muzyki, zakończony kadencją? Zagadnienia te należy rozważyć przed ogłoszeniem wersji 3.12.0. Komentarze i muzyka może być dodawana na <ulink url="http://bugs.solfege.org/5"> bug #5</ulink>.</para>
+</sect1>

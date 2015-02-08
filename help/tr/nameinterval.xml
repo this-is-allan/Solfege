@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Aralıklar adlandır</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Düğmeler arabirimlerinin kullanılarak aralıkların çalışıldığı yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu alıştırmada, Solfege bir aralık gösterecek, ve siz de aralığı niteleyeceksiniz. Bu bir müzik teorisi alıştırmasıdır, ve kulak eğitim alıştırması değildir. Aralıkları nasıl niteleyebileceğinizi öğrenmek için şunu okumalısınız <xref linkend="theory-intervals"/>.</para>
+
+<para>Aralığı düğmeye tıklayarak özel ismini ve genel ismini söyleyerek nitelersiniz.</para>
+
+</sect1>

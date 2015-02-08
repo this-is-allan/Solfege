@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Müzik Kuramı</title>
+<sect1 id="theory-scales">
+<title>Diziler</title>
+<para>Davide Bonetti önemli boyutta dizi alıştırmaları ve tüm dizileri anlatan sayfalarla önemli katkılarda bulunmuştır. Bu sayfaları bulabileceğiniz yer <ulink url="../C/scales/modes.html">burasıdır</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Aralıklar</title>
+<para>Müzik kuramında iki nota arasındaki uzaklıktan bahsederken aralık kelimesini kullanırız. Eğer iki ses aynı anda duyuluyorsa buna armonik aralıklar, eğer peşpeşe duyuluyorlarsa melodik aralıklar deriz.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Aralık adları iki parçadan oluşur. Örneğin "büyük üçlü" and "tam beşli". Walter Piston'un "Armoni" kitabında bu iki parça <emphasis>özel isim</emphasis> ve <emphasis>genel isim</emphasis> olarak tanımlanmıştır. Wikipedia sayfalarında bu iki parça <emphasis>aralık niteliği</emphasis> ve <emphasis>aralık numarası</emphasis> olarak tanımlanır. Bazıları ise aralıklardan bahsederken <emphasis>sayısal boyut</emphasis> terimini kullanmaktadır.</para>
+
+<para>Genel ismi arızaları gözardı ederek dizek üzerindeki perdeleri sayarak bulursunuz. Böylece eğer adlandırmak istediğiniz aralık Mi'den Sol diyez'e gidiyorsa, 3 ses (mi, fa, sol) sayarız ve genel ismin <emphasis>üçlü</emphasis> olduğunu görürüz.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>Özel isim bize aralığın tam adını anlatır. Sesdeşler, dörtlüler, beşliler ve sekizliler eksilmiş, saf veya artmış olabilir. İkililer, üçlüler, altılıar ve yedililer küçük, büyük, eksiltilmiş veya arttırılmış olabilir. Bir küçük aralık, büyüğüne göre yarım perde daha küçüktür. Bir eksiltilmiş aralık minör aralığına göre bir yarım perde daha küçük, bir arttırılmış aralık tam veya büyük olanına göre yarım perde daha büyüktür.</para>
+
+<para>Arızalar aralığın boyutunu değiştirebilirler. Bir aralığın ikinci sesine diyez veya ilk sesine bir bemol eklerseniz arlık yarım perde daha büyük olacaktır.  Ve ikinci ses bemol veya birinci sese diyez eklerseniz aralık bir yarım perde daha küçük olacaktor. Gelen bölümde aralıkların adlandırılması daha detaylı biçimde anlatılmaktadır.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>İkililer</title>
+<para>İkilileri tanımak kolaydır: dizekteki komşu seslerdir bunlar. Notanın biri çizginin tam içinde ötekisi ise bir sonraki veya bir önceki boşluktadır. Küçük ikili yarım perde, büyük ikili tam perde uzaklığındadır.</para>
+
+<para>İkilileri tanımayı öğrenmek için, önce doğal skalada hangi sesler arasında ikililerin kendiliğinden oluştuğunu anlamalısınız. Burada gördüğünüz gibi <xref linkend="theory-intervals-seconds"/>, sadece E-F ve B-C sesleri küçük ikilidir. Diğerlerinin tümü büyük aralıklardır. Buraya bakarak <xref linkend="theory-intervals-seconds"/> piyano tuşesinden de bunu doğrulayabilirsiniz. Göreceğiniz gibi E ve F ile B ve C arasında hiç siyah tuş yoktur.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Eğer ikililer arıza almış ise, aralığın boyutunda bunların neyi değiştirdiğine bir bakalım. Bir kaç aralık tanımlayalım!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Şu aralıkdan arızayı kaldıralım <xref linkend="theory-intervals-seconds-1"/> ve F-G seslerinin büyük ikili oluşturduğunu görelim. İkinci sese bemol eklediğimizde, aralığın boyutu yarım perde küçülür, ve küçük ikili olur.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Arızaları kaldırınca, A-B'nin büyük ikili olduğunu görürüz. Hatırlıyorsunuz <xref linkend="theory-intervals-seconds"/>, değil mi? Sonra La sesine bemol ekleyince aralık artık ikili olur. Ve Si sesine de bemol ekleyince, aralık büyük ikili olur.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Arızaları kaldırınca Mi-Fa'nın küçük ikili olduğunu görürüz. Alttaki sese bemol ekleyince, iki ses arasındaki aralık bir yarım perde açılır, ve büyük ikili olur. Üstteki sese diyez eklersek aralık yarım perde daha büyür ve artmış ikili olur.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Üçlüler</title>
+<para>Bir küçük üçlü aralığı, bir küçük ve bir büyük ikiliden veya üç yarım perdeden oluşur. Bir büyük üçlü aralığı iki büyük ikiliden veya dört yarım perdeden oluşur. <xref linkend="theory-intervals-thirds"/> tüm doğal yapıdaki üçlüleri gösterir. Büyük aralıkları ezberlemelisiniz, Do-Mi, Fa-La ve Sol-Si. Bunun dışındaki diğer dört aralık küçüktür.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Bundan sonra arızaların aralıkların özel isimlerini nasıl değiştirdiğine bakabilirsiniz. Bu ikililerin başına gelen yöntemle aynıdır.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Dörtlü</title>
+<para>Düz dörtlü 2½ perde, veya iki büyük ikili ve bir küçük ikiliden oluşur. <xref linkend="theory-intervals-fourths"/> doğal dizideki tüm dörtlüleri gösterir. Fa-Si arasındaki dörtlünün artmış ve diğer altısının düz olduğunu ezberlemelisiniz.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Beşli</title>
+<para>Düz beşli 3½ perde, veya üç büyük ikili ve bir küçük ikiliden oluşur. <xref linkend="theory-intervals-fifths"/> doğal yapıdaki tüm beşlileri gösterir. Si-Fa dışındaki artmış dışındaki diğerlerinin düz beşli olduğunu ezberlemelisiniz.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Eğer aralıkta arıza varsa, bunun aralığın boyutunu nasıl değiştirdiğini kontrol etmeliyiz. Bir eksiltilmiş beşli tam beşliden bir yarım perde daha küçük, ve bir artmış beşli bir yarım perde daha büyüktir. Aşağıda bununla ilgili bir kaç örnek bulacaksınız:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Şuradan anımsarsanız <xref linkend="theory-intervals-fifths"/> Si-Fa artık beşlidir. Burada alttaki ses <xref linkend="theory-intervals-fifths-1"/> bemol almış olup aralığı bir yarım perde büyütür ve aralığın niteliğini eksiltilmiş den tam beşliye dönüştürür.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Şurada da görüldüğü gibi <xref linkend="theory-intervals-fifths"/> Mi-Si aralığı tam beşlidir. Burada <xref linkend="theory-intervals-fifths-2"/> Mi bir bemol almakta olup, aralığı artmış hale getirmektedir. Fakat ardından Si çift bemol alarak aralığı iki yarım perde küçük hale getirir ve aralığı eksik beşliye dönüştürmektedir.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Altılılar</title>
+<para>Altılılar tanımlanması en kolay aralıklardır çünkü <link linkend="inverting-intervals"> aralığı çevirdiğimizde</link> aralık üçlü olur. Sonra gelen kural uygulanmaya başlar:</para>
+
+<itemizedlist>
+<listitem><para>Eğer üçlü eksiltilmiş ise, o zaman altılı artmış olur</para></listitem>
+<listitem><para>Eğer üçlü küçük ise, altılı büyük olur</para></listitem>
+<listitem><para>Eğer üçlü büyük ise, altılı küçük olur</para></listitem>
+<listitem><para>Eğer üçlü artmış ise, o zaman altılı eksiltilmiş olur</para></listitem>
+</itemizedlist>
+
+<para>Eğer aralıklar size zor gelirse, Mi-Do, La-Fa ve Si-Sol seslerinin küçük olduğunu ezberleyin. Diğer dördü büyüktür. Sonra, arıza varsa özel adları değiştirip değiştirmediğini kontrol edin. Bunu ikililere yaptığımız gibi diğerlerine de uygulayabiliriz.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Yedililer</title>
+<para>Yedililer, altılılara yapıdlığı tanımlanırlar. Yediliyi çevirdiğinizde, ikili elde edersiniz.</para>
+
+<para>Eğer aralıkları çevirmek size zor gelirse, Do-Si ve Fa-Mi seslerinin büyük olduğunu ezberleyin. Diğer beşi küçüktür. Sonra, arıza varsa özel adları değiştirip değiştirmediğinizi kontrol edin. Bunu ikililere yaptığımız gibi diğerlerine de uygulayabiliriz.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Aralıklların Çevrimi</title>
+<para>Bir aralığın çevrimini yaparken birinci sesi bir oktav yukarı veya ikinci sesi bir oktav aşağıya alırsınız. Böylece genel isimlerde şöylesi değişiklikler olur:</para>
+<itemizedlist>
+<listitem><para>İkililer çevrilince yedili olur.</para></listitem>
+<listitem><para>Üçlü çevrilince altılı olur.</para></listitem>
+<listitem><para>Dörtlü çevrilince beşli olur.</para></listitem>
+<listitem><para>Beşli çevrilince dörtlü olur.</para></listitem>
+<listitem><para>Altılı çevrilince üçlü olur.</para></listitem>
+<listitem><para>Yedili çevrilince ikili olur.</para></listitem>
+</itemizedlist>
+
+<para>Özel adlı aralıklardaki değişikli ise şöyle olur:</para>
+<itemizedlist>
+<listitem><para>Eksiltilmiş aralık çevrilince artmış olur.</para></listitem>
+<listitem><para>Küçük çevrilince büyük olur.</para></listitem>
+<listitem><para>Tam, tam kalır.</para></listitem>
+<listitem><para>Büyük çevrilince küçük olur.</para></listitem>
+<listitem><para>Artmış çevrilince eksiltilmiş olur.</para></listitem>
+</itemizedlist>
+
+<para>Aşağıda iki örnek vardır, bir büyük üçlü çevrilmiş ve küçük altılı olmuş, ve bir küçük yedili çevrilmiş ve büyük ikili olmuştur.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

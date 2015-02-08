@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Eğitim seti düzenleyicisi</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Eğitim seti düzenleme penceresinin ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Eğitim seti düzenleyicisi soruların MİDİ/WAV/MP3/OGG dosyalarını üretmenize ve bunları pda, cep telefonu, MP3 çalar gibi taşınabilir aygıtlara yüklemenize olanak tanır. Çözüm tablosu çıktısını almanız için üretilecektir. Ondan sonra, MP3 çalıcınız ile izleri karışık sırada çalabilecek ve çözüm tablonuzu müziği doğru algılayıp algılamadığını anlamak için  kullanabileceksiniz.</para>
+
+<para>Eğitim seti düzenleyicinizi hangi alıştırmaların oluşturulacağını belirlemek için kullanırsınız. Daha sonra kullanmak üzere tanımınızı bir dosyaya kayıt edebilirsiniz. Her seferinde şu düğmeye  <guibutton>Dışarı Aktar</guibutton> basarak seçtiğiniz dizinde yeni dosya setleri oluşur. Taşınabilir aygıtınıza oluşturduğunuz ses dosyalarını elle yüklemeniz gerekecektir.</para>
+
+<para>Bu program size hoşunuza giden ders dosyalarından sorular türetmenize imkan tanır, fakat daha tipik bir yolu tercih ederseniz bir veya birkaç dersten yola çıkarak bir sürü soru türetmektir.</para>
+
+<para>Farklı dosya yapılarını birbirleri arasında dönüştürmekte kullanılan programlar <link linkend="preferences-gui">tercihler penceresi</link>ni Grafik kullanıcı arayüzü sayfasında tanımlanmıştır. Eğer, MIDI dosyalarını WAV, MP3 veya OGG kipine dönüştürmekte sorunlar yaşıyorsanız oradaki tanımlamaları lütfen denetleyiniz.</para>
+
+<variablelist>
+<title>Tablo başlıkları açıklaması</title>
+<varlistentry>
+ <term>Say</term>
+ <listitem><para>Ders dosyasından üretilecek soruların sayısı.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Tekrarla</term>
+ <listitem><para>Her sorunun tekrarlanma sayısı.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Gecikme</term> <listitem><para>Sorular arasındaki gecikmenin ne kadar olacağı. Dörtlük nota uzunluğunda ayarlandı.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

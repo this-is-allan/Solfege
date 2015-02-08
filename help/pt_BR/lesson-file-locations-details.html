@@ -1,0 +1,47 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>File locations</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 Manual do Usuário"><link rel="up" href="extending-solfege.html" title="Capítulo 4. Extending GNU Solfege"><link rel="prev" href="extending-solfege.html" title="Capítulo 4. Extending GNU Solfege"><link rel="next" href="lesson-files.html" title="Lesson files"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">File locations</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="extending-solfege.html">Anterior</a> </td><th width="60%" align="center">Capítulo 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="lesson-files.html">Próxima</a></td></tr></table><hr></div><div class="sect1" title="File locations"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="lesson-file-locations-details"></a>File locations</h2></div></div></div><div class="sect2" title="INSTALLDIR"><div class="titlepage"><div><div><h3 class="title"><a name="idp6061968"></a>INSTALLDIR</h3></div></div></div><p>In <a class="xref" href="extending-solfege.html#extending-intro" title="Introduction">“Introduction”</a> we showed you just enough to place
+your lesson file to get started. This sections give you all the details
+how files and directories are set up.</p><p>We will write <code class="literal"><a name="INSTALLDIR"></a>INSTALLDIR</code>
+whenever we refer to the directory Solfege is installed in. The exact
+location differ from operating system to operating system, and can be
+found by selecting <span class="guimenu">Help</span> → <span class="guimenuitem">File locations</span> and then lookup «Solfege installation directory».
+Example of locations:
+</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>MS Windows - C:\Program files\GNU Solfege\share\solfege</p></li><li class="listitem"><p>GNU/Linux - /usr/share/solfege</p></li></ul></div><p>Please notice that INSTALLDIR is not necessarily the top directory where
+all files belonging to Solfege is installed. Different operating system place
+files differently. For the purpose of this document INSTALLDIR is the directory
+containing the <code class="filename">solfege/</code> subdirectory containing all the
+python modules that composes the program and the
+<code class="filename">exercises/</code> subdirectory that contains all the lesson
+files.</p></div><div class="sect2" title="USERDATA"><div class="titlepage"><div><div><h3 class="title"><a name="idp6069184"></a><code class="literal"><a name="USERDATA"></a>USERDATA</code></h3></div></div></div><p>Solfege allow for the user to create exercises (and soon also
+exercise modules written in Python). These should not be saved in
+<code class="filename">INSTALLDIR</code> because then they will be lost on
+upgrade.</p><p>The directory to save the lesson files you write yourself depends on the
+operating system you run, and on the locale settings (language). In this
+document we will write USERDATA whenever we refer to the directory found
+if you lookup «Solfege user data» by selecting
+<span class="guimenu">Help</span> → <span class="guimenuitem">File locations</span>. Your files should be saved in directories below USERDATA.
+Example values for USERDATA:
+</p><div class="itemizedlist"><ul class="itemizedlist" type="disc"><li class="listitem"><p>MS Windows 7 - C:\Users\User name\Documents\GNU Solfege
+    </p></li><li class="listitem"><p>MS Windows XP - C:\Documents and settings\User name\My Documents\GNU Solfege</p></li><li class="listitem"><p>GNU/Linux - /home/username/.solfege</p></li></ul></div></div><div class="sect2" title="Lesson files and front page files"><div class="titlepage"><div><div><h3 class="title"><a name="idp6075344"></a>Lesson files and front page files</h3></div></div></div><p>Lesson files and front page files are grouped together in
+subdirectories below <code class="literal">USERDATA/exercises</code>. You can have
+as many subdirectories as you like in <code class="literal">USERDATA/exercises</code>.
+Each file that matches <code class="literal">USERDATA/exercises/*/*</code> will be
+read by the program and used as a front page file if it has the correct
+format. Other files will silently be ignored. This means that you can
+have more than one front page file in a subdirectory, and extra files,
+like README and COPYRIGHT files are ignored.</p><p>Lesson files should be saved in a directory named
+<code class="literal">lesson-files</code> in the same directory as the front page
+file is saved. So if you create some exercises with jazz progressions, you
+might have this file structure on your computer:</p><pre class="programlisting">
+USERDATA/exercises/jazzprog/page.txt
+USERDATA/exercises/jazzprog/lesson-files/prog1
+USERDATA/exercises/jazzprog/lesson-files/prog2
+USERDATA/exercises/jazzprog/lesson-files/prog3
+</pre></div><div class="sect2" title="User lesson files"><div class="titlepage"><div><div><h3 class="title"><a name="idp6079872"></a>User lesson files</h3></div></div></div><p>
+There is one folder name below <code class="literal">USERDATA/exercises</code>
+that is special. In addition to what described above, all lesson files
+in <code class="literal">USERDATA/exercises/user/lesson-files</code> will be
+shown when you select <span class="guimenuitem">User Exercises</span> on the
+<span class="guimenu">File</span> menu. This was done to make it simple to just
+write a lesson file, drop it in a directory and use it.</p><div class="note" title="Nota" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Nota</h3><p>In versions prior to 3.20.3, all lesson files matching
+<code class="literal">USERDATA/exercises/*/lesson-files/*</code> would be listed.
+</p></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="extending-solfege.html">Anterior</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Acima</a></td><td width="40%" align="right"> <a accesskey="n" href="lesson-files.html">Próxima</a></td></tr><tr><td width="40%" align="left" valign="top">Capítulo 4. Extending GNU Solfege </td><td width="20%" align="center"><a accesskey="h" href="index.html">Principal</a></td><td width="40%" align="right" valign="top"> Lesson files</td></tr></table></div></body></html>

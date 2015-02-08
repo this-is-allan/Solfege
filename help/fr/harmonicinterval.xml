@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Intervalle harmonique</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copies d'écran du logiciel montrant l'exercice sur les intervalles avec l'interface à boutons.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Cet exercice est l'un de ceux que vous pouvez utiliser pour pratiquer les intervalles. Le concept est assez simple : vous pressez le bouton <guibutton>Nouvel intervalle</guibutton> pour jouer un intervalle aléatoire, puis vous devez dire de quel intervalle il s'agissait.</para>
+
+<para>Si vous utilisez l'interface à boutons, vous pouvez alors cliquer avec le bouton droit de la souris pour entendre l'intervalle.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

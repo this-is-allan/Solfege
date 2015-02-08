@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Identifier la note</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran du logiciel.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>C'est un exercice combiné d'intervalle et de mémorisation de note. Certaines personnes pensent que ce genre d'exercice peut vous donner l'oreille absolue, mais je ne le pense pas personnellement.</para>
+
+<para>Le fonctionnement est le suivant : le programme joue une note, et vous devez l'identifier en la comparant à la précédente note jouée.</para>
+
+<para>Pour commencer, le programme joue une note et affiche son nom. Vous identifiez les notes en cliquant sur le clavier de piano ou en utilisant les raccourcis clavier qui sont les lettres écrites sur chaque touche.</para>
+
+<para>Faites un clic droit sur le clavier du piano pour entendre une note sans répondre réellement. (Certains esprits mal intentionnés pourraient appeler cela tricher...)</para>
+
+<para>Solfege a un ensemblr d'exercices que vous pouvez trouver en cliquant sur « Identifier une note », depuis la page d'accueil. Il est préférable de commencer par le premier exercice et de passer au suivant chaque fois que vous obtenez un score élevé (par exemple 96%) durant plusieurs minutes d'entraînement. </para>
+
+<sect2 id="idtone-manual-conf">
+<title>Configuration manuelle</title>
+
+<para>Vous pouvez configurer cet exercice à votre idée en choisissant « Configurer soi-même » dans la page d'accueil.</para>
+
+<para>Il y a plusieurs façons d'utiliser cet exercice. Personnellement, je ne l'ai pas vraiment beaucoup utilisé, et les sections ci dessous sont seulement des suggestions.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Note par note</title>
+<para>Commencez avec seulement les notes do, ré et mi, avec un poids de 1. Lorsque votre score est d'au moins 96%, ajoutez le fa, puis une note à la fois pour vous entraîner finalement avec tous les 12 tons. Cela revient au même que d'utiliser les exercices pré-définis en suivant les instructions de début de chapitre.</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>La fréquent</title>
+
+<para>Configurez la note La avec un poids de 11 (ou plus) et les autres notes avec un poids de 1. De cette façon, le programme joue la note La très souvent, donc vous vous en souvenez et l'utilisez comme note de référence pour identifier les autres notes. Après vous être entraîné suffisamment, vous pouvez réduire le poids de la note La pour rendre l'exercice plus difficile. </para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Configuration</title>
+
+<para>En haut de la page de configuration (en mode "Configurez vous-même"), vous indiquez au logiciel l'importance relative des différentes notes. Si par exemple vous donnez à la note La un poids de 11 points et 1 point à toutes les autres, alors 11/(11+11*1)*100 = 50% des notes aléatoires seront un La.</para>
+
+<para>En dessous, vous sélectionnez de quel octave les notes aléatoires peuvent provenir.</para>
+
+<para>Ensuite, vous pouvez indiquer si Solfege doit automatiquement vous poser une nouvelle question lorsque vous avez résolu la précédente.</para>
+
+<para>Dans le cadre en dessous vous pouvez choisir différentes options à propos de ce qui se passe si vous donnez une réponse inexacte.</para>
+
+<para>Les raccourcis clavier se configurent dans <link linkend="preferences-window">la fenêtre des préférences</link>.</para>
+</sect3>
+</sect2>
+</sect1>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Muziektheorie</title>
+<sect1 id="theory-scales">
+<title>Toonladders</title>
+<para>Davide Bonetti heeft aan veel toonladderoefeningen bijgedragen en aan enkele pagina's met beschrijvingen van alle toonladders. Deze pagina's zijn <ulink url="../C/scales/modes.html">hier</ulink> te vinden. </para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Intervallen</title>
+<para>In de muziektheorie wordt er over interval gesproken als we het hoogteverschil bedoelen tussen twee tonen. We noemen deze intervallen harmonisch als twee tonen gelijktijdig klinken en melodisch als ze na elkaar klinken.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Intervalnamen bestaan uit twee delen, zoals in "grote terts" en "reine kwint". In Walter Pistons' "Harmony" worden deze twee delen aangeduid met <emphasis>de specifieke naam</emphasis> resp. <emphasis>de algemene naam</emphasis>. In Wikipedia praat men over <emphasis>intervalkwaliteit</emphasis> resp. <emphasis>intervalnummers</emphasis>. Ook zijn er mensen die over de <emphasis>numerieke grootte</emphasis> van het interval spreken.</para>
+
+<para>Je vindt de algemene naam door het aantal stappen op de notenbalk te tellen, de voortekens daarbij negerend. Het interval van E naar G# wordt dus aangeduid met de algemene naam <emphasis>derde</emphasis> omdat we drie stappen tellen (E F G).</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>De specifieke naam geeft de exacte grootte van het interval aan. Prime, kwart, kwint en octaven kunnen verminderd, rein of overmatig zijn. Secunden, tertsen, sexten en septiemen kunnen klein, groot, verminderd en overmatig zijn. Een klein interval is een semitoon kleiner dan een groot interval. Een verminderd interval is een semitoon kleiner dan een rein of een klein interval, en een overmatig interval is een semitoon lager dan een rein of groot interval.</para>
+
+<para>Voortekens veranderen de grootte van intervallen. Het interval wordt een semitoon lager als je een kruis toevoegd aan het hoogste noot of een mol aan de laagste noot. En het wordt een semitoon kleiner als je een mol aan de hoogste noot of een kruis aan de laagste noot toevoegd. In de volgende delen wordt het benoemen van intervals nader besproken.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Secunden</title>
+<para>Secunden zijn eenvoudig te herkennen: de twee noten zijn buren op de notenbalk. Een noot ligt op de lijn en de ander in de ruimte tussen deze lijn en de boven- of onderliggende lijn. Een kleine secunde is een semitoonstap, ook we halve toon genoemd. Een grote secunde bestaat uit twee semitonen ook wel een hele toon genoemd.</para>
+
+<para>Secunden leer je herkennen door eerst te leren welke secunden er tussen de natuurlijke tonen liggen. Zoals je kunt zien in <xref linkend="theory-intervals-seconds"/>, zijn alleen de intervallen E-F en B-C kleine secunden. De rest zijn grote intervallen. Je kunt nagaan dat <xref linkend="theory-intervals-seconds"/> klopt door naar een piano te kijken. Daar zul je zien dat er geen zwarte toetsen tussen E-F en tussen B-C zitten.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Als een secunde een voorteken heeft, dan moeten we bestuderen hoe deze de grootte van het interval beïnvloedt. Laten we naar een paar intervallen kijken!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>We verwijderen het voorteken van het interval in <xref linkend="theory-intervals-seconds-1"/> en zien dat het interval F-G een grote secunde is. Als we een mol aan de hoogste noot toevoegen, wordt het interval een semitoon kleiner en daarmee een kleine secunde.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>We verwijderen de voortekens en zien dat het interval A-B een grote secunde is. Je herinnert je toch <xref linkend="theory-intervals-seconds"/> nog wel? We voegden daar een mol aan de A toe en daarmee werd het interval een overmatige secunde. Als we een mol toevoegen aan de B, wordt het interval daarmee een grote secunde.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>We verwijderen de voortekens en zien dat het interval E-F een kleine secunde is. Als we een mol toevoegen aan de laagste noot, wordt het interval een semitoon groter en daarmee een grote secunde. En als we een kruis aan de hoogste noot toevoegen, wordt het interval een semitoon groter en daarmee een overmatige secunde. </para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Tertsen</title>
+<para>Een kleine terts bestaat een kleine en een grote secunde, of drie semitonen. Een grote terts bestaan uit twee secunden, of vier semitonen. <xref linkend="theory-intervals-thirds"/> toont de tertsen tussen alle natuurlijke tonen. Je moet de grote intervallen C-E, F-A en G-B onthouden. Je weet dan dat de andere vier intervallen klein zijn.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Vervolgens bekijk je de voortekens om te bepalen hoe ze de specifieke naam veranderen. Dit wordt precies hetzelfde gedaan als bij de secunden.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Kwart</title>
+<para>Een reine kwart bestaat uit 2½ stap, oftewel twee grote secunden en een kleine secunde. <xref linkend="theory-intervals-fourths"/> toont alle kwarten tussen de natuurlijke tonen. Onthoud dat het kwart F-B overmatig is en de andere zes rein.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Kwint</title>
+<para>Een reine kwint bestaat uit 3½ stap, of drie grote secunden en een kleine secunde.  <xref linkend="theory-intervals-fifths"/> toont alle kwinten tussen de natuurlijke tonen. Je moet onthouden dat al deze intervallen rein zijn, behalve B-F die is verminderd.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Als het interval voortekens heeft, dan moet je bepalen hoe ze de grootte van het interval veranderen. Een verminderde kwint is een semitoon kleiner dan een rein interval en een overmatige kwint is een semitoon groter. Hieronder vind je enkele voorbeelden:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>We onthouden uit <xref linkend="theory-intervals-fifths"/> dat het interval B-F een verminderde kwint is. De laagste noot in <xref linkend="theory-intervals-fifths-1"/> wordt voorafgegaan door een mol die het interval een semitoon groter maakt en het interval verandert van een verminderde naar een pure kwint.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>We weten van <xref linkend="theory-intervals-fifths"/> dat interval E-B een reine kwint is. In <xref linkend="theory-intervals-fifths-2"/> gaat een mol vooraf aan de E waarmee het interval overmatig wordt. Echter, als de B voorafgegaan wordt door de dubbelmol, dan wordt het interval twee semitonen kleiner en verandert het inderval in een verminderde kwint.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Sexten</title>
+<para>Sexten zijn het makkelijkst te ontdekken door <link linkend="inverting-intervals"> de intervallen te inverteren</link> en de terts te bepalen. Vervolgens geldt de volgende regel:</para>
+
+<itemizedlist>
+<listitem><para>als de terts verminderd is, dan is de sext overmatig;</para></listitem>
+<listitem><para>als de terts klein is, dan is de sext groot;</para></listitem>
+<listitem><para>als de terts groot is, dan is de sext klein;</para></listitem>
+<listitem><para>als de terts overmatig is, dan is de sext verminderd.</para></listitem>
+</itemizedlist>
+
+<para>Als je inverteren van intervallen moeilijk vindt, dan kan je als ezelsbrug onthouden dat de intervallen E-C en B-G klein zijn. De andere vier zijn groot. Vervolgens bekijk je de voortekens om te zien of ze de specifieke naam veranderen. Dit gebeurt precies zoals bij de secunden.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Septiemen</title>
+<para>Septiemen worden net zo bepaald als sexten. Als je een septiem inverteert krijg je een secunde.</para>
+
+<para>Als je inverteren van intervallen moeilijk vindt, dan kan je als ezelsbrug onthouden dat de intervallen C-B en F-E groot zijn, de andere vijf zijn klein. Vervolgens bekijk je de voortekens om te zien of ze de specifieke naam veranderen. Dit gebeurt precies zoals bij de secunden.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Intervallen inverteren</title>
+<para>Je interteert een interval als je de laagste noot van het interval een octaaf hoger plaatst of de hoogste noot een octaaf lager. De algemene naam verandert als volgt: </para>
+<itemizedlist>
+<listitem><para>secunde wordt septiem</para></listitem>
+<listitem><para>terts wordt sext</para></listitem>
+<listitem><para>kwart wordt kwint</para></listitem>
+<listitem><para>kwint wordt kwart</para></listitem>
+<listitem><para>sext wordt terts</para></listitem>
+<listitem><para>septiem wordt secunde</para></listitem>
+</itemizedlist>
+
+<para>De specifieke naam verandert als volgt:</para>
+<itemizedlist>
+<listitem><para>verminderd wordt overmatig</para></listitem>
+<listitem><para>klein wordt groot</para></listitem>
+<listitem><para>rein blijft rein</para></listitem>
+<listitem><para>groot wordt klein</para></listitem>
+<listitem><para>overmatig wordt verminderd</para></listitem>
+</itemizedlist>
+
+<para>Hieronder staan twee voorbeelden, een grote terts is geïnverteerd en wordt een kleine sext, en een kleine septiem wordt geïnverteerd en wordt een grote secunde.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Batidas por minuto</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>O programa tocará uma marcação de tempo, como um metrônomo. Você deve tentar adivinhar as batidas por minuto. Cada botão representa um tempo, e o programa tocará somente em tempos que tenham um botão com texto em negrito. Clique com o direito nos botões para mudar o estado de uma marcação de tempo.</para>
+
+<para>Nota: o ritmo depende da função <literal>gtk timeout_add</literal> para ser gerado, então não é muito preciso.</para>
+
+</sect1>

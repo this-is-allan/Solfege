@@ -1,0 +1,31 @@
+/* XPM */
+static char *out/feta20-rests-2[] = {
+/* width height ncolors chars_per_pixel */
+"8 22 2 1",
+/* colors */
+"` c #000",
+"a c #FF",
+/* pixels */
+"aa`aaaaa",
+"aaa`aaaa",
+"aaaa`aaa",
+"aaaa``aa",
+"aaaa```a",
+"aaa`````",
+"aa``````",
+"a``````a",
+"``````aa",
+"`````aaa",
+"a```aaaa",
+"aa``aaaa",
+"aaa`aaaa",
+"aaaa`aaa",
+"``````aa",
+"```````a",
+"````````",
+"```aaaaa",
+"a`aaaaaa",
+"a`aaaaaa",
+"aaaaaaaa",
+"aa`aaaaa"
+};

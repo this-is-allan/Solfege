@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Gamoj</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>Solfege havas tri variaĵojn de gam-ekzercoj ĝis nun.</para>
+<itemizedlist>
+<listitem><para>Solfege ludos gamon, kaj vi devos identigi ĝin per klaku sur la butono kun sama nomo de la gamo.</para>
+</listitem>
+<listitem><para>Solfege ludos gamon, kaj vi devos identigi la strukturon de la gamo. Oni prezentos al vi aron da butonoj kun etikedoj numeraj '1', '2' kaj '3'. Tiuj ĉi numeroj reprezentas la intervalojn minora duta, maĵora duta kaj minora trita kiuj estas inter la tonoj de la gamo.</para></listitem>
+<listitem><para>Solfege ludos gamon, kaj vi devos identigi la gradon. Ekzemple, Solfege povas preni la naturan minoran gamon, kaj ludi ĝin el iu ajn el la tonoj en la gamo, kaj vi devos diri ekde kiu tono ĝi komenciĝas.</para></listitem>
+</itemizedlist>
+
+</sect1>

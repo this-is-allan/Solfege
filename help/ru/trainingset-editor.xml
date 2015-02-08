@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Редактор набора упражнений</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Снимок окна редактора набора упражнений</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>The training set editor lets you create MIDI/WAV/MP3/OGG files of questions
+so that you can upload them to your pda, cell phone or MP3 player. A solution
+sheet will be generated for you to print out. Then you can let the MP3 player
+play the tracks in random order, and you can use the solution sheet to check
+if you recognized the music correctly.</para>
+
+<para>Вы используете редактор набора упражнений, чтобы определить, какие упражнения генерировать. Вы можете сохранить Ваше определение в файле для использования позже. Каждый раз, когда Вы щёлкаете <guibutton>Экспорт</guibutton>, новый набор файлов генерируется в выбранном Вами каталоге. Вы должны вручную загрузить сгенерированные звуковые файлы в Ваше мобильное устройство.</para>
+
+<para>Программа позволяет Вам генерировать вопросы из такого числа файлов уроков, какое пожелаете, но наиболее типичным использованием была бы генерация множества вопросов из одного или всего нескольких файлов.</para>
+
+<para>Программы, используемые для конвертации между разными форматами файлов, определены на интерфейсной странице <link linkend="preferences-gui">окна настроек</link>. Пожалуйста, проверьте там параметры, если испытываете проблемы при конвертации MIDI-файлов в формат WAV, MP3 или OGG.</para>
+
+<variablelist>
+<title>Объяснение заголовков таблицы</title>
+<varlistentry>
+ <term>Число</term>
+ <listitem><para>Число вопросов для генерации из файла урока.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Повтор</term>
+ <listitem><para>Число повторов каждого вопроса.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Задержка</term> <listitem><para>Насколько долгой будет задержка между вопросами. Измеряется в продолжительностях четвертных нот.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

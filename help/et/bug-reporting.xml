@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Tõrked (Bugs)</title>
+<para>Programm tõrkeraportid ja täiendamissoovid tuleks kirja panna süsteemi <ulink url="http://bugs.solfege.org/">http://bugs.solfege.org</ulink> abil. Alternatiivina võite saata e-maili aadressile <email>bug-solfege@gnu.org</email>. Üldised küsimused ja programmiuuendused (patches) tuleks saata meililisti <email>solfege-devel@lists.sourceforge.net</email>.</para>
+
+<para>Palun koostage oma tõrkeraportid üksikasjalikult. Tekstist "Ekraanile ilmub veatade, kui proovin käivitada programmi" ei ole kasu. Kui annate teada tõrgetest, palun kirjeldage:</para>
+
+<itemizedlist>
+<listitem><para>Millist Solfege'i versiooni te kasutate. Palun kontrollige, kas uuem versioon on saadaval. Kui soovite kasutada ainult stabiilseid versioone, pole tarvis testida uusi arendusversioone.</para></listitem>
+<listitem><para>Millist operatsioonisüsteemi te kasutate? Millist versiooni?</para></listitem>
+<listitem><para>Kirjeldage täpselt, mida te tegite, kui tõrge juhtus.</para></listitem>
+<listitem><para>Saatke täpne koopia veateatest. See võib anda olulist infot Solfege'i loojatele, olgugi, et teile võib see tunduda teile täieliku krüptograafiana.</para></listitem>
+</itemizedlist>
+</sect1>

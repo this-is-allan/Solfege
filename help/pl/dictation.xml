@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="dictation">
+<title>Dyktanda</title>
+<informalfigure id="dictation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/dictation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu z ćwiczeniem dyktanda.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>To ćwiczenie zawiera dyktanda, ale może być wykorzystywane na dwa sposoby: <itemizedlist>
+<listitem><para>Solfege zagra fragment muzyczny, a Ty masz go zapisać na papierze. Kliknij na przycisk oznaczony ćwierćnutą, aby powtórzyć krótszy fragment muzyki. Żeby sprawdzić czy poprawnie zapisałeś/aś dyktando kliknij na przycisk Pokaż.</para></listitem>
+
+<listitem><para>Możesz użyć go do ćwiczenia czytania nut głosem: kiedy uruchomisz ćwiczenie, wciśnij przycisk Pokaż, a potem spróbuj zaśpiewać dany fragment. Potem możesz użyć przycisku Graj piosenkę lub przycisku z ćwierćnutą, aby program zagrał dany fragment. Sam musisz zdecydować, czy udało ci się dobrze zaśpiewać.</para></listitem>
+</itemizedlist></para>
+
+</sect1>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="elembuilder">
+<title>Dictée de progression harmonique</title>
+<informalfigure id="elembuilder-progressions-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/elembuilder-harmonic-progressions.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran du logiciel.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Dans cet exercice, Solfege joue un peu de musique et vous devez cliquer sur els boutons pour construire une représentation des progressions harmoniques de l'exercice.</para>
+
+</sect1>

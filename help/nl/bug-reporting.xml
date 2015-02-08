@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Fouten</title>
+<para>Fouten kan je melden op <ulink url="http://bugs.solfege.org/">http://bugs.solfege.org</ulink>. Ook kan je een mail sturen naar <email>bug-solfege@gnu.org</email>. Algemene vragen en verbeterde code kan je sturen naar <email>solfege-devel@lists.sourceforge.net</email>.</para>
+
+<para>Beschrijf de fouten a.u.b. gedetailleerd. ''Ik krijg een foutmelding in een scherm als ik het programma start.'' is niet heel bruikbaar. Als je fouten meldt:</para>
+
+<itemizedlist>
+<listitem><para>Noem de versie van Solfege. Controleer of een nieuwere versie beschikbaar is. Als je alleen stabiele versies wilt gebruiken, dan hoef je de nieuwe ontwikkelversie niet te proberen.</para></listitem>
+<listitem><para>Welke besturingssysteem gebruik je? En welke versie?</para></listitem>
+<listitem><para>Beschrijf precies welke handelingen je uitvoerde toen de fout optrad.</para></listitem>
+<listitem><para>Stuur een exacte kopie van de foutmelding op. Zelfs als deze cryptisch lijkt, bevat het nuttige informatie voor de Solfege-auteur.</para></listitem>
+</itemizedlist>
+</sect1>

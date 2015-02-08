@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Akoru nitelendir</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu alıştırmanın amacı çalınan akoru nitelendirmektir.</para>
+<para>Alıştırmaya <guibutton>Yeni</guibutton> düğmesine basarak başlayın. Solfege siz düğmeye basınca bir akor çalacaktır, ve boş dizeğin altındaki düğmelerden birine basarak bu akoru nitelendireceksiniz.</para>
+
+<para>Eğer tahmininiz doğru ise, program akoru dizekte gösterecek ve durum çubuğunda "Doğru" mesajı yanıp sönecektir. Bundan sonra siz  <guibutton>Yeni</guibutton> düğmesine basarak yeni bir soruya hazırlanacaksınız.</para>
+
+<para>Eğer tahmininiz yanlış ise durum çubuğunda  "Yanlış" mesajı gözükecektir.</para>
+
+</sect1>

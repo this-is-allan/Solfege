@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Identigi tonon</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Tio ĉi estas miksa ekzerco por memoro kaj intervaloj. Iuj kredas ke tiu ĉi tipo de ekzerco donas al vi absolutan sonsenson, sed mi ne kredas tion.</para>
+
+<para>La bazo estas: la programo ludas tonon kaj vi devas identigi ĝin per komparado al la lasta tono ludita por vi.</para>
+
+<para>Por enkonduki vin la programo ludos unu tonon kaj montrigos ties nomon ĉe la statbreto. Vi identigas la tonojn per klako sur la klavaro de la fortepiano aŭ uzante la klavkomandojn kiuj estas la literoj skribitaj en ĉiu klavo.</para>
+
+<para>Desktre-klaku sur la klavaro de la fortepiano por aŭskulti noton sen fakte konjekti ĝin. (Iuj nomas tion friponado...)</para>
+
+<para>Solfege havas aron da ekzercoj kiuj vi povas trovi klakinte sur “Identigi tonon” ĉe la antaŭ-paĝo. Vi devos komenci per la unua ekzerco, kaj sekvi al la venonta ĉiam kiam vi trejnas dum kelkaj minutoj tenante bonan rendimenton, ekzemple 96% korekte.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Permana agordado</title>
+
+<para>Vi povas agordi tiun ĉi ekzercon laŭ via plaĉo se vi elektis “Agodi vi mem” en la apriora frontpaĝo.</para>
+
+<para>Ekzistas pluraj manieroj per kiu vi povas uzi tiun ĉi ekezco. Persone, mi ne uzadas multe tiun ĉi ekzercon, kaj la suba sekcio temas nur pri sugestoj.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Pli kaj pli notoj</title>
+<para>Komencu per nur la notoj c-d-e kun pezo 1. Kiam via poentaro atingos minimume 96% da korekteco, vi aldonu la tonon f kaj daŭrigu. Aldonu novan tonon ĝis kiam vi trejnis per ĉiuj 12 tonoj. Fari tion estas la samo ol uzi la antaŭdifinitajn ekzercojn kaj sekvi la indikojn en la komenco de tiu ĉi ĉapitro.</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Peza A</title>
+
+<para>Agordu la tonon 'a' al pezo 11 (aŭ pli granda) kaj la resto de la tonoj al pezo 1. Tiel la programo ludos la tonon 'a' tre ofte, tiel ke vi parkeros la tonon, kaj de tiam vi uzos 'a' kiel referencan tonon por identigi la aliajn tonojn. Kiam vi trejnadis iomete, vi povos malpliigi la pezon de 'a' por pli malfaciligi la ekzercon.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Agordi</title>
+
+<para>Se lanĉita el “Agordu vi mem”, ĉe la supro de la agord-paĝo vi indikas al la programo kiom gravaj la malsamaj tonoj estas. Se vi ekzemple donas al la tono 'a' 11 poentojn kaj al la ceteraj po 1 poento por ĉiu, do (11+11*1)/11*100 = 50% el la hazardaj tonoj estos 'a'.</para>
+
+<para>Sub tio vi elektas el kiuj oktoj la hazardaj tonoj povas veni.</para>
+
+<para>Tiam vi povas elekti ĉu Solfege devos liveri al vi novan demandon aŭtomate kiam vi solvis la pasintan.</para>
+
+<para>En la suba kadro vi povas difini memklarigajn opciojn pri kio okazos kiam vi erare respondos.</para>
+
+<para>La fulmo-klavoj povas esti agordataj el la <link linkend="preferences-window">preferaro-fenestro</link>.</para>
+</sect3>
+</sect2>
+</sect1>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Akkoorden zingen</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Als je een koor dirigeert, dan zal je de begintoon van de verschillende stemmen moeten zingen. Als je geen piano bij de hand hebt, zal je een stemvork moeten gebruiken. Ben je een man, zing dan de noten voor de vrouwelijke stemmen een oktaaf lager, en visa versa.</para>
+
+<para>Het programma zal noot A (440Hz) voor je spelen en het akkoord weergeven dat je moet zingen. Solfege ondersteunt het gebruik van een microfoon nog niet, dus je zal zelf moeten bepalen of het antwoord juist of onjuist is.</para>
+
+</sect1>

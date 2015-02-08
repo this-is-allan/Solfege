@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="dictation">
+<title>Dictee</title>
+<informalfigure id="dictation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/dictation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma tijdens een dicteeoefening.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Deze oefening wordt de dictee-oefening genoemd maar, als de noodzakelijke lesbestanden geschreven zijn, kan het op verschillende manieren gebruikt worden: <itemizedlist>
+<listitem><para>Je kunt Solfege wat muziek laten spelen dat je vervolgens op papier zet. Klik op de knoppen met een kwartnoot-afbeelding om de kleinere delen van de muziek te herhalen. Door op de knop Weergeven te klikken kun je zelf de noten controleren om te zien of dit goed is gegaan.</para></listitem>
+
+<listitem><para>Je kunt deze oefening gebruiken voor het oefenen in bladlezen: als de oefening begint, klik je op Weergeven en probeer je de muziek te zingen. Vervolgens klik je op Speel de muziek in zijn geheel of op de kwartnoot-knoppen om het programma de muziek te laten spelen. Je moet zelf bepalen of je hierin bent geslaagd.</para></listitem>
+</itemizedlist></para>
+
+</sect1>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Музыкальная теория</title>
+<sect1 id="theory-scales">
+<title>Лады</title>
+<para>Давиде Бонетти предоставил большой набор упражнений с ладами и страницы описания всех эти ладов. Вы можете увидеть эти страницы <ulink url="../C/scales/modes.html">здесь</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Интервалы</title>
+<para>В музыкальной теории мы используем слово 'интервал', когда говорим о разнице в высоте между двумя нотами. Мы называем интервалы гармоническими, если две ноты звучат одновременно, и мелодическими интервалами, если они звучат последовательно.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Названия интервалов состоят из двух частей. Примеры: "большая терция " и "чистая квинта ". В "Гармонии " Уолтера Пистона эти две части названы <emphasis>специфическим названием</emphasis> и <emphasis>общим названием</emphasis>. Википедия говорит о <emphasis>качестве интервала</emphasis> и <emphasis>объеме (количестве) интервала</emphasis>. Я встречал людей, говорящих о <emphasis>числовом размере</emphasis> интервала.</para>
+
+<para>Вы определяете общее название, подсчитывая ступеньки на нотном стане, игнорируя любые знаки альтерации. Итак, если интервал, который Вы хотите назвать, расположен от E до G#, тогда мы считаем до трех (E F G) и видим, что общим названием является <emphasis>терция</emphasis>.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>Специфическое название сообщает точный размер интервала. Примы, кварты, квинты и октавы могут быть уменьшенными, чистыми или увеличенными. Секунды, терции, сексты и септимы могут быть малыми, большими, уменьшенными или увеличенными. Малый интервал на один полутон меньше, чем большой интервал. Уменьшенный интервал одним полутоном меньше, чем чистый или малый интервал, а увеличенный интервал полутоном больше, чем чистый или большой интервал.</para>
+
+<para>Знаки альтерации меняют размер интервалов. Интервал становится на полутоном больше, если вы добавляете диез к верхней ноте или бемоль к нижней ноте. И он становится на один полутон меньшим, если добавить бемоль к верхней ноте или диез к нижней. В следующих разделах определение названия интервалов будет показано подробнее.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Секунды</title>
+<para>Секунды легко узнать: две ноты являются соседними на нотном стане. Одна нота находится на линии стана, а другая - в промежутке выше или ниже. Малая секунда - это шаг на полутон. Большая секунда - это два полутоновых шага, также называемых целым тоном.</para>
+
+<para>Чтобы научиться определять секунды, Вам нужно сперва узнать, какие секунды имеются между нотами натурального звукоряда. Как вы можете увидеть на <xref linkend="theory-intervals-seconds"/>, только интервалы E-F и В-С являются малыми секундами. Остальные - большие интервалы. Вы можете проверить, правилен ли <xref linkend="theory-intervals-seconds"/>, глядя на фортепиано. Вы увидите, что чёрных клавиш нет между Е и F, а также между В и С.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Если секунда имеет знаки альтерации, мы должны исследовать их, чтобы узнать, как они меняют размер интервала. Давайте определим несколько интервалов!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Мы удаляем знак альтерации из интервала на <xref linkend="theory-intervals-seconds-1"/> и видим, что интервал F-G является большой секундой. Когда мы добавляем бемоль к верхней ноте, интервал уменьшается на один полутон, превращаясь в малую секунду.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Мы удаляем знаки альтерации и видим, что интервал А-В является большой секундой. Вы ещё помните <xref linkend="theory-intervals-seconds"/>, не так ли? Затем добавляем бемоль к A, и интервал становится увеличенной секундой. А если добавляем бемоль к B, интервал становится большой секундой.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Удаляем знаки альтерации и видим, что интервал E-F является малой секундой. Когда мы добавляем бемоль к нижней ноте, интервал становится на один полутон больше, превращаясь в большую секунду. А когда мы добавляем диез к верхней ноте, интервал становится одним полутоном больше, превращаясь в увеличенную секунду.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Терции</title>
+<para>Малая терция - это одна малая и одна большая секунда, или три полутона. Большая терция - это две больших секунды, или четыре полутона. <xref linkend="theory-intervals-thirds"/> показывает терции от нот натурального звукоряда. Вы должны запомнить большие интервалы C-E,  F-A и G-B. Тогда вы будете знать, что четыре остальных интервала малые.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Затем Вы изучаете знаки альтерации, чтобы понять, меняют ли они специфическое название. Это делается в точности так же, как для секунд.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Кварты</title>
+<para>Чистая кварта - это 2 ½ тона или две больших секунды и одна малая. <xref linkend="theory-intervals-fourths"/> показывает все кварты между нотами натурального звукоряда. Вы должны запомнить, что кварта F-B увеличенная, а остальные шесть являются чистыми.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Квинты</title>
+<para>Чистая квинта - это 3 ½ тона или три больших секунды и одна малая. <xref linkend="theory-intervals-fifths"/> показывает все квинты между нотами натурального звукоряда. Вы должны помнить, что все эти интервалы чистые, кроме B-F, который является уменьшенным.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Если интервал имеет знаки альтерации, мы должны исследовать их, чтобы понять, как они изменяют размер интервала. Уменьшенная квинта одним полутоном меньше, чем чистый интервал, а увеличенная квинта - одним полутоном больше. Ниже вы найдете несколько примеров:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Мы помним из <xref linkend="theory-intervals-fifths"/>, что интервал B-F - это уменьшенная квинта. Нижней ноте на <xref linkend="theory-intervals-fifths-1"/> предшествует бемоль, что делает интервал полутоном больше и превращает интервал из уменьшенной квинту в чистую.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Мы знаем из <xref linkend="theory-intervals-fifths"/>, что интервал E-B - это чистая квинта. На <xref linkend="theory-intervals-fifths-2"/> 'E' имеет спереди бемоль, делающий интервал увеличенным. Но 'B' предшествует дубль-бемоль, который уменьшает интервал на два полутона, и превращает его в уменьшенную квинту.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Сексты</title>
+<para>Сексты проще всего определить, используя <link linkend="inverting-intervals">обращения интервала</link> и определяя терцию. Тогда применяют следующее правило:</para>
+
+<itemizedlist>
+<listitem><para>Если терция - уменьшенная, то секста - увеличенная</para></listitem>
+<listitem><para>Если терция - малая, то секста - большая</para></listitem>
+<listitem><para>Если терция большая, то секста - малая</para></listitem>
+<listitem><para>Если терция - увеличенная, то секста - уменьшенная</para></listitem>
+</itemizedlist>
+
+<para>Если Вы находите обращение интервалов сложным, можете запомнить, что интервалы E-C, A-F и B-G - малые. Остальные четыре - большие. Далее исследуйте знаки альтерации, чтобы понять, изменяют ли они специфическое название. Это делается точно так же, как для секунд.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Септимы</title>
+<para>Септимы определяются тем же способом, что и сексты. Когда Вы обращаете септиму, получается секунда.</para>
+
+<para>Если Вы находите обращение интервалов сложным, можете запомнить, что интервалы C-B и F-E - малые. Остальные пять  - большие. Далее исследуйте знаки альтерации, чтобы понять, меняют ли они специфическое название. Это делается точно так же, как для секунд.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Обращение интервалов</title>
+<para>Вы обращаете интервал, когда перемещаете нижнюю ноту интервала на октаву выше или верхнюю ноту на октаву ниже. Общее название меняется следующим образом:</para>
+<itemizedlist>
+<listitem><para>Секунда становится септимой.</para></listitem>
+<listitem><para>Терция становится секстой.</para></listitem>
+<listitem><para>Кварта становится квинтой</para></listitem>
+<listitem><para>Квинта становится квартой.</para></listitem>
+<listitem><para>Секста становится терцией.</para></listitem>
+<listitem><para>Септима становится секундой.</para></listitem>
+</itemizedlist>
+
+<para>Специфическое название изменяется следующим образом:</para>
+<itemizedlist>
+<listitem><para>Уменьшенная становится увеличенной.</para></listitem>
+<listitem><para>Малая становится большой.</para></listitem>
+<listitem><para>Чистая остается чистой.</para></listitem>
+<listitem><para>Большая становится малой.</para></listitem>
+<listitem><para>Увеличенная становится уменьшенной.</para></listitem>
+</itemizedlist>
+
+<para>Ниже приведены два примера: большая терция обращается и превращается в малую сексту, а малая септима обращается и становится большой секундой.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="preferences-window">
+<title>Eelistused</title>
+<sect2 id="pw-midi-stuff">
+<title>Pillid</title>
+<informalfigure id="preferences-midi">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-midi.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Midi seaded' menüüs 'Eelistused'.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-tempo">
+<title>Tempo</title>
+<!-- translators: don't translate the module names in this paragraph. -->
+<para>Määrake tempo (lööki minutis) mängitava muusika ja arpedžode jaoks. Neid väärtuseid kasutavad harjutused, mis on kirjutatud järgmiste moodulite abil: <literal>compareintervals</literal>, <literal>harmonicintervals</literal>, <literal>idtone</literal>, <literal>melodicinterval</literal>, <literal>singchord</literal>, <literal>singinterval</literal>, <literal>twelvetone</literal>, <literal>rhythm</literal>, <literal>identifybpm</literal>, <literal>nameinterval</literal>. Teised harjutused kas kasutavad tempot, mis on määratud harjutusfailis või seadete lehel harjutuse juures.</para>
+</sect3>
+<sect3 id="pw-preferred-instr">
+<title>Eelistatav pill</title>
+<para>Määrake midi instrument, mida kasutatakse enamuses harjutustest, ning selle tugevus.</para>
+</sect3>
+<sect3 id="pw-chord-instr">
+<title>Akordi pillid</title>
+<para>Solfege võib kasutada akordide mängimiseks kolme pilli. Üks ülemise noodi jaoks, üks keskmiste nootide jaoks ning üks bassinoodi mängimiseks. Sellest võib olla abi, kui leiate, et on raske välja kuulda erinevaid akordi hääli.</para>
+</sect3>
+<sect3 id="pw-perc-instr">
+<title>Eelistatavad löökpillid</title>
+<para>Määrake löökpill, mida kasutatakse tempo andmisel (count in) rütmiharjutustes, ning pill, millega mängitakse muud harjutused.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-user">
+<title>Kasutaja</title>
+<informalfigure id="preferences-user">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-user.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Kasutaja' menüüs 'Eelistused'.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege kasutab seda mõningates harjutustes, kus kasutaja peab laulma.</para>
+<sect3 id="pw-low-high">
+<title>Madalaim/kõrgeim noot, mida kasutaja võib laulda</title>
+<para>Need valiknupud ütlevad Solfege'ile kasutaja hääleulatuse madalaima ja kõrgeima noodi. Neid väärtusi võtab programm kui soovituslikke. Näiteks, kui kasutaja on andnud hääleulatuseks ''c'' kuni ''c''' ning te soovite harjutada deetsimite laulmist, peab programm kasutama ka noote väljaspool antud ulatust.</para> </sect3>
+
+<sect3 id="pw-sex">
+<title>Sugu</title>
+<para>Solfege'il on mõnedes harjutustes, kus kasutaja peab laulma vastuse, vaja teada, kas kasutaja on mees või naine, kuna meeshääl kõlab oktavi võrra madalamalt.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-external-programs">
+<title>Välised programmid</title>
+<informalfigure id="preferences-external-programs-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-external-programs.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest Välised programmid' menüüs 'Eelistused'.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege will search the PATH for the programs you enter on this page.
+So you only have to enter the full path if the programs are installed
+outside the PATH. A warning sign after the entry where you enter the file
+name mean that the program is not found.</para>
+
+<para>Please check the download page on <ulink url="http://www.solfege.org">www.solfege.org</ulink> for up-to-date tips
+and download links if you run MS Windows and have to download and install
+the programs yourself.
+</para>
+
+<sect3 id="pw-convertors">
+<title>Konverteerimisprogrammid</title>
+<para>Sisetage käsud, mille abil on võimalik konverteerida ühest audio formaadist teise. <literal>%(in)s</literal> asendatakse faili nimega, mida konverteeritakse ning <literal>%(out)s</literal> nimega, millesse konverteeritakse. Kui programm salvestab väljundfaili automaatselt uue nimega, siis pole tarvis <literal>%(out)s</literal> määratleda.</para>
+</sect3>
+
+<sect3 id="pw-audio-players">
+<title>Audio esitamise programmid</title>
+<para>Käsud, mille abil on võimalik mängida erinevaid audioformaate. <literal>%s</literal> asendatakse faili nimega, mida hakatakse mängima. Kui te ei lisa muutujat <literal>%s</literal>, siis faili nimi listakse käsurea stringi lõppu.</para>
+</sect3>
+
+<sect3 id="pw-misc">
+<title>Mitmesugust</title>
+<para>Mitmed harjutused kasutavad programme CSound ja MMA. Lilypond-book on vajalik, et teha treeningmaterjali väljaprinte ning kui väljaprint peaks olema dvi formaadis, on vaja programmi latex. Ilma latexita on sellegipoolest võimalik luua treeningmaterjal html formaadis.</para>
+
+<para>Kui sisestatud fail on lõpuga <literal>.py</literal>, siis see skript käivatakse sama pythoni interpretaatori abil, mis Solfege isegi.</para>
+</sect3>
+
+</sect2>
+<sect2 id="preferences-gui">
+<title>Kasutajaliides</title>
+<informalfigure id="preferences-gui-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Kasutajaliides' 'Eelistuste' aknas.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Kasutaja poolt muudetav põhiakna suurus: lubab kasutajal muuta põhiakna suurust.</para>
+<para>Valige keel: kui Solfege ei tuvasta automaatselt süsteemi põhikeelt või kui soovite Solfege'i kasutada mõnes teises keeles kui süsteemi põhikeel, on võimalik valida kasutatav keel käsitsi.</para>
+
+<sect3>
+<title>Identify tone keyboard accelerators</title>
+<informalfigure id="preferences-gui-idtone-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Kasutajaliides' 'Eelistuste' aknas.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>
+Here you can change the keyboard accelerators for the «Identify tone» exercise.
+Click on a row to select the tone you want to change the accelerator for,
+then click again on the second column of the row. Finally you can press
+the key you want to set as the accel for the tone.
+</para>
+<para>
+The «Dvorak» and «ASCII» buttons will set the accelerators to the
+default values for Dvorak and ASCII keyboards.
+</para>
+</sect3>
+
+<sect3>
+<title>Interval keyboard accelerators</title>
+<informalfigure id="preferences-gui-interval-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-interval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Kasutajaliides' 'Eelistuste' aknas.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>
+Here you can change the keyboard accelerators for the interval exercises,
+like the «Harmonic interval» and «Melodic interval» exercises.
+Click on a row to select the tone you want to change the accelerator for,
+then click again on the second column of the row. Finally you can press
+the key you want to set as the accel for the tone.
+</para>
+<para>
+The «Dvorak» and «ASCII» buttons will set the accelerators to the
+default values for Dvorak and ASCII keyboards.
+</para>
+</sect3>
+
+</sect2>
+
+<sect2 id="pw-practise">
+<title>Harjutused</title>
+<informalfigure id="preferences-practise">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-practise.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Harjutused' menüüs 'Eelistused'.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Mitte lubada uusi küsimusi enne, kuni vana harjutus on lahendatud: elimineerib nupu 'Uus', kuni harjutus on lahendatud õigesti või kui kasutaja on vajutanud "Annan alla".</para>
+<para>Korda harjutust, kui vastus oli vale: Mängi harjututust uuesti, kui vastus oli vale.</para>
+<para>Eksperdirežiim: Kui aktiveerite selle režiimi, siis harjutused, mis kasutavad mooduleid <link linkend="idbyname-module">idbyname</link> ja <link linkend="idproperty-module">idproperty</link> , lasevad kasutada ainult vastavaid harjutuste alamrühmi harjutusfailides. Eksperdirežiimis ei salvestata ka statistikat harjutuste täitmise kohta.</para>
+</sect2>
+
+<sect2 id="pw-sound-setup">
+<title>Heli seaded</title>
+<informalfigure id="preferences-sound-setup">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Heli seaded' menüüs 'Eelistused'.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<informalfigure id="preferences-sound-setup-wib32">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup-win32.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Heli seaded' akas 'Eelistused' MS Windows XP korral.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-midi-setup">
+<title>Midi seaded</title>
+<variablelist>
+<title>The exercises that generate sound have several ways to play sound:</title>
+<varlistentry>
+<term>Helitult:</term>
+<listitem>
+<para>Kasuta seda tõrgete otsimiseks (debugging) või muul sarnasel põhjusel. Helisid ei mängita, midi sündmused väljastatakse standardväljundisse (standard output).</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Use ALSA device</term>
+<listitem>
+<para>If you have the Python modules for ALSA installed, you can use the
+ALSA sequencer. If your operating system is GNU/Linux, you have a menu item on
+the Help menu that can download and compile the modules for you.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Kasuta seadet:</term>
+<listitem>
+<para>Parim valik on siin tavaliselt <filename>/dev/music</filename>, kuna sel on parim tugi löökpillidele. <filename>/dev/sequencer2</filename> on tavaliselt link <filename>/dev/music</filename>-le. Kui teie süsteemil pole seadet <filename>/dev/music</filename>, võite selle luua järgmise käsuga ('root' kasutajaõigustes - kui teil on linuxi kernel 2.2 või hilisem):</para>
+<para>cd /dev mknod music u 14 8</para>
+<para>On MS Windows this choice is labeled <literal>Windows multimedia output</literal>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Kasuta välist midi-mängijat:</term>
+<listitem>
+<para>See võib olla kasulik, kui teie operatsioonisüsteem ei kasuta OSS helisüsteemi või kui teie helikaardil on kehv midi süntesaator ning eelistate kasutada programmi timidity.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect3>
+</sect2>
+<sect2 id="pw-statistics">
+<title>Statistika</title>
+<informalfigure id="preferences-statistics">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt leheküljest 'Heli seaded' menüüs 'Eelistused'.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3>
+<title>Statistika versioonist 3.15 või vanemast.</title>
+<para>Solfege versioonid enne 3.16.0 salvestasid statistika paljudesse väikestesse failidesse. Solfege 3.16.0 ja uuemad impordivad vanda statistika uude andmebaasifaili, kui programm esimest korda käivitatakse. Hiljem võite rahulikult vanad statistikafailid ära kustutada. Nende failide sisu talletakse kataloogis <literal>statistics</literal>, mis asub omakorda kataloogis <emphasis>application data</emphasis>.</para>
+</sect3>
+<sect3>
+  <title>Statistika</title>
+  <para>Statistika salvestatakse nüüd faili <literal>statistics.sqlite</literal> kataloogis <emphasis>application data</emphasis>. Selle kataloogi täpse asukoha leiate, kui valite  <guimenuitem>Failide asukohad</guimenuitem> menüüs <guimenu>Abiinfo</guimenu>. Vajutaga <guibutton>Kustuta</guibutton>, et eemaldada senine statistika ja alustada uuesti tühja <literal>statistics.sqlite</literal> failiga.</para>
+</sect3>
+</sect2>
+</sect1>

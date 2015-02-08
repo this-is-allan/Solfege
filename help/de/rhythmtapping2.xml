@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Den Rhythmus klopfen</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Rhythmusklopfens</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Das Programm spielt einen zufällig erzeugten Rhythmus ab, den Sie zu reproduzieren haben. Sie geben den Rhythmus ein, indem Sie auf den Knopf <emphasis>Hier klopfen</emphasis> klicken.</para>
+</sect1>

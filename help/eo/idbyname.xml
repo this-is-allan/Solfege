@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname">
+<title>Respondu problemojn musklakante la butonojn</title>
+<para>Tiu ĉi paĝo estas ĝenerala helpo-paĝo por ĉiuj ekzercoj skribitaj uzante la ekzerc-modulon <literal>idbyname</literal>. Ekzercoj ordinare skribas pli specifan help-tekston ol tiu ĉi.</para>
+
+<para>Musklaku la butonon kiu reprezentas la respondon al la problemo ludata aŭ montrata. Ekzercoj ofte montros kap-alineon klarigante ties celon.</para>
+</sect1>

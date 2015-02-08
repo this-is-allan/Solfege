@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>İstatistikler hakkında</title>
+<para>Bazı alıştırmalar farklı zamanlardaki bazı istatistikleri göstereceklerdir: <emphasis>Oturum</emphasis>, <emphasis>Bugün</emphasis>, <emphasis>Son 7 gün</emphasis> and <emphasis>Toplam</emphasis>. Yazılım, iki tür tablo kullanmaktadır.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>İstatistikler sayfasının yüzdeler tablosunun ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Yukarıdaki ekran görüntüsünde görünen ilk tabloda, ders dosyasındaki her sorunun bir satırı yer almaktadır.  <emphasis>Yüzde</emphasis> doğru cevaplanan soruların sayısın yüzde değeri olarak gösterir. <emphasis>Sayı</emphasis> ise, soruların kaç kez sorulduğunu gösterir.</para>
+
+<para>İkinci tür tabloda, sütunlar satırlar ile aynı etiketlere sahiptir, fakat etiketler tabloyu fazla genişlettikleri için görünmezler. Bu yüzden yukarıdaki ekran görüntüsünde, sütun 1'in sahip olması gereken etiket <emphasis>m3↑</emphasis> ve sütun 2 <emphasis>M3↑</emphasis>dir. Her satırda etiket tarafından tanımlanan sorular için her sütun, kullanıcının farklı çözümlere sahip sorulara kaç kez cevap verdiğini anlatır. Kalın numaralar, doğru cevapların sayısını göstermektedir.</para>
+
+</sect1>

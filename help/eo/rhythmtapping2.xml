@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Frapetu la ritmon</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la ritma frapado.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>La programo ludos hazarde generitan ritmon, kaj la uzanto devos reprodukti ĝin. La uzanto enigas la ritmon per frapetado sur la butono kun etikedo <emphasis>Frapetu tie ĉi</emphasis>.</para>
+</sect1>

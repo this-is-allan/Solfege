@@ -1,0 +1,31 @@
+/* XPM */
+static char *out/feta20-accidentals-0[] = {
+/* width height ncolors chars_per_pixel */
+"5 22 2 1",
+/* colors */
+"` c #000",
+"a c #FF",
+/* pixels */
+"`aaaa",
+"`aaaa",
+"`aaaa",
+"`aaaa",
+"`aaaa",
+"`````",
+"`````",
+"`````",
+"``aa`",
+"`aaa`",
+"`aaa`",
+"`aaa`",
+"`aaa`",
+"`aa``",
+"`````",
+"`````",
+"`````",
+"aaaa`",
+"aaaa`",
+"aaaa`",
+"aaaa`",
+"aaaa`"
+};

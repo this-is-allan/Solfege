@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Ritme</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma tijdens de akkoordenoefening.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Het programma speelt een willekeurig gegenereerd ritme en de gebruiker moet dit naspelen. De gebruiker voert het ritme in door op knoppen te klikken die staan voor verschillende ritmische elementen.</para>
+
+<para>Als je voldoende ritmische elementen hebt ingevoerd, zal Solfege het antwoord controleren. Nadat het allemaal juist is, wordt er een blij gezicht getoond, anders een verdrietig gezicht en worden alle verkeerde ritmen gemarkeerd.</para>
+
+<para>Als een deel van je antwoord fout is, wordt alles vanaf het eerste onjuiste element verwijderd bij het klikken op het verdrietige gezicht of als je klikt op de ritmenknoppen bovenaan de pagina (waarbij de juiste ritmen in het begin van jouw antwoord bewaard blijven).</para>
+
+<para>Je kunt op de knop 'Afspelen' klikken om je suggestie te horen.</para>
+
+<para>De vragen voor deze oefening worden momenteel gemaakt door ritmeelementen willekeurig te selecteren. Dit is niet de beste manier en we hopen een slimmere manier om vragen aan te maken in een nieuwere versie aan te kunnen bieden.</para>
+
+</sect1>

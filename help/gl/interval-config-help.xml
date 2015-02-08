@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Configuración</title>
+<para>Na páxina de configuración do exercicio hai unha caixa de combinación onde vostede poderá seleccionar diferentes formas de responder á pregunta. De momento hai un piano, unha guitarra, un baixo e algúns tipos de acordeóns ademais dos botóns predeterminados que trae a interface. Máis abaixo pódese ver unha captura de pantalla coa interface do piano.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa practicando intervalos e empregando os botóns da interface.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

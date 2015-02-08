@@ -1,0 +1,45 @@
+# Solfege - ear training for GNOME
+# Copyright (C) 2000, 2001, 2002, 2003, 2004, 2006  Tom Cato Amundsen
+# License is GPL, see file COPYING
+
+style "SerifMedium" { font_name = "Serif 18" }
+
+style "TextMedium" { font_name = "Sans 18" }
+style "TextSmall" { font_name = "Sans 12" }
+style "bold-r" { font_name = "Bold" }
+style "BoldStyle" { font_name = "Bold" }
+style "Heading1" { font_name = "Sans 24" }
+style "Heading2" { font_name = "Sans 18" }
+style "Heading3" { font_name = "Sans 16" }
+style "Heading4" { font_name = "Sans Bold 12" }
+style "Heading5" { font_name = "Sans Bold 10" }
+
+style "BpmInactiveLabel" { font_name = "Sans 12" }
+style "BpmActiveLabel" { font_name = "Sans Bold 12" }
+
+widget "*.StatisticsH1" style "Heading4"
+widget "*.StatisticsH2" style "Heading5"
+widget "*.BoldText" style "bold-r"
+widget "*.Heading1" style "Heading1"
+widget "*.Heading2" style "Heading2"
+widget "*.Heading3" style "Heading3"
+widget "*.Feedback" style "TextMedium"
+widget "*.ProgressionLabelNumber" style "TextSmall"
+widget "*.ProgressionNameLabel" style "SerifMedium"
+widget "*.BpmActiveLabel" style "BpmActiveLabel"
+widget "*.BpmInactiveLabel" style "BpmInactiveLabel"
+style "warn2" { bg[NORMAL] = "red" }
+widget "*.DIALOGWARNING2" style "warn2"
+style "warn" { bg[NORMAL] = "yellow" }
+widget "*.DIALOGWARNING" style "warn"
+
+style "bigred" {
+ fg[NORMAL] = "red"
+ font_name = "Sans Bold 24"
+ }
+widget "*.DEBUGWARNING" style "bigred"
+
+style "FlashBarStyle" { font_name = "Sans 16" }
+widget "*.FlashBarLabel" style "FlashBarStyle"
+
+

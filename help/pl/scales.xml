@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Skale</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>Solfege posiada obecnie trzy warianty ćwieczeń skalowych.</para>
+<itemizedlist>
+<listitem><para>Solfege zagra skalę, a Ty powinieneś/aś ją rozpoznać, klikając na przycisk z nazwą skali.</para>
+</listitem>
+<listitem><para>Solfege zagra skalę, a Ty powinieneś/aś rozpoznać jej budowę. Do wyboru są przyciski oznaczone '1', '2', i '3'. Cyfry te symbolizują interwały, tj. sekunda mała, sekunda wielka i sekunda zwiększona (tercja mała), pomiędzy stopniami skali.</para></listitem>
+<listitem><para>Solfege zagra skalę, a Ty powinieneś/aś rozpoznać stopień. Przykładowo: Solfege wybierze skalę minorową eolską i zagra ją od dowolnego stopnia, a Ty musisz wskazać stopień, od którego zagrana była skala.</para></listitem>
+</itemizedlist>
+
+</sect1>

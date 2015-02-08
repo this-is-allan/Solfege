@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="elembuilder">
+<title>Dictado de progresión armónica</title>
+<informalfigure id="elembuilder-progressions-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/elembuilder-harmonic-progressions.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Capturas de pantalla del programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En este ejercicio, Solfege reproducirá alguna música, y usted deberá contestar con una representación de las progresiones armónicas del ejercicio.</para>
+
+</sect1>

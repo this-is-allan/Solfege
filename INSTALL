@@ -1,0 +1,104 @@
+Table of Contents
+*****************
+
+1 INSTALL - how to compile and install GNU Solfege 3.22.2 on a GNU like system
+  1.1 Download
+    1.1.1 Source code
+    1.1.2 Precompiled binaries
+  1.2 Requirements
+  1.3 Configuring and compiling
+    1.3.1 `--disable-pygtk-test'
+    1.3.2 `--disable-oss-sound'
+
+
+1 INSTALL - how to compile and install GNU Solfege 3.22.2 on a GNU like system
+******************************************************************************
+
+This file contains info on how to build and install GNU Solfege.  For
+run-time info, check the README file and the man page.
+
+   The homepage for GNU Solfege, `http://www.solfege.org', might also
+be of interest.
+
+1.1 Download
+============
+
+1.1.1 Source code
+-----------------
+
+The latest version is available from
+`http://sourceforge.net/project/showfiles.php?group_id=1465'.
+
+   The source code is also available from the GNU ftp sites and their
+mirrors: `ftp://alpha.gnu.org/gnu/solfege' and
+`ftp://ftp.gnu.org/gnu/solfege'.
+
+   Solfege has a bzr repository at `http://solfege.org/bzr'.
+
+1.1.2 Precompiled binaries
+--------------------------
+
+Precompiled binaries are made available for some releases. I build the
+windows installer, a linux distribution neutral autopackage for i386
+computers and the debian package myself. But I am depending on users to
+provide binaries for other operating systems. The debian package is
+available directly from `http://www.debian.org'.  The rest are
+available from Sourceforge:
+`http://sourceforge.net/project/showfiles.php?group_id=1465'.
+
+1.2 Requirements
+================
+
+The requirements are listed in the `README' file.
+
+1.3 Configuring and compiling
+=============================
+
+     ./configure
+     make
+     su -c "make install"
+
+   should work, and will install into
+
+       /usr/local/bin
+       /usr/local/share
+       /usr/local/lib
+       /usr/local/etc/solfege
+
+   On FreeBSD you can use gmake:
+
+     ./configure
+     gmake
+     su -c "gmake install"
+
+   Use the `--prefix' and `--sysconfdir' command line options to
+install elsewhere. For example to install in your home directory:
+
+     ./configure --prefix=$HOME/usr --sysconfdir=$HOME/etc
+     make
+     make install
+
+   If you just want to run Solfege without installing, do this:
+     ./configure
+     make
+     ./solfege.py
+
+   The `configure' script can be given a number of options to enable
+and disable various features. Some of them are described below.  For a
+complete list, type:
+
+     ./configure --help
+
+1.3.1 `--disable-pygtk-test'
+----------------------------
+
+Do not test for PyGTK, assume it is installed. Use this option if you
+know the package is installed, but the configure script still cannot
+detect it.
+
+1.3.2 `--disable-oss-sound'
+---------------------------
+
+Use this if you are compiling on an OS that don't have the OSS.  The
+default is `--enable-oss-sound'.
+

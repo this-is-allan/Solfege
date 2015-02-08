@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Identificar a nota</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela do programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Este é um exercício combinado para memorização de notas e intervalos. Algumas pessoas acreditam que este tipo de exercício pode dar a você a perfeita audição (ouvido absoluto), mas eu não acredito.</para>
+
+<para>O básico é: o programa toca uma nota e você precisa identificá-la comparando com a última nota tocada para você.</para>
+
+<para>Para começar, o programa tocará uma nota e mostrará seu nome na barra de estados. Você identifica as notas clicando no teclado do piano ou usando os atalhos de teclado que são as letras escritas em cada tecla.</para>
+
+<para>Clique com o direito no teclado do piano para ouvir uma nota sem realmente adivinhá-la. (Alguns vão chamar isto de trapaça...)</para>
+
+<para>O Solfege tem um conjunto de exercícios que você pode encontrar clicando em "Identificar tom" na página frontal. Você deve começar com o primeiro exercício, e ir para o próximo sempre que ao praticar por alguns minutos mantiver uma boa pontuação, por exemplo, 96% correto.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Configuração manual</title>
+
+<para>Você pode configurar este exercício como quiser se selecionar “Configurar você mesmo” na página frontal padrão.</para>
+
+<para>Há várias maneiras de se aplicar este exercício. Pessoalmente, eu não uso muito este exercício, e as seções abaixo são somente sugestões.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Nota a nota</title>
+<para>Comece com apenas as notas c-d-e no peso 1. Quando sua pontuação for pelo menos 96% correta, você acrescenta a nota f e continua. Adicione um novo tom até que você chegue a 12 tons. Fazendo assim é o mesmo que usar os exercícios pré-definidos e seguir as instruções no começo deste capítulo.</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Lá pesado</title>
+
+<para>Configure com a nota Lá no peso 11 (ou maior) e o resto das notas no peso 1. Deste modo o programa tocará o Lá frequentemente, de modo que você lembrará dela, e então você usará o Lá como tom de referência para identificar outros tons. Quando você tiver praticado um pouco, poderá reduzir o peso do Lá para tornar o exercício mais difícil.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Configurar</title>
+
+<para>Se rodado a partir de “Configurar você mesmo”, po topo da página de configuração, você diz ao programa quão importante são as notas diferentes. Se você por exemplo der à nota Lá 11 pontos e 1 ponto para cada uma das restantes, então (11+11*1)/11*100 = 50% das notas aleatórias serão um Lá.</para>
+
+<para>Abaixo você escolhe de quais oitavas as notas aleatórias podem ser tiradas.</para>
+
+<para>Então você pode escolher se o Solfege deverá dar a você uma nova questão automaticamente quando tiver resolvido a anterior.</para>
+
+<para>No quadro abaixo você pode escolher algumas opções auto-explicativas sobre o que acontece se responder errado.</para>
+
+<para>Os atalhos de teclado podem ser configurados a partir da <link linkend="preferences-window">janela de preferências</link>.</para>
+</sect3>
+</sect2>
+</sect1>

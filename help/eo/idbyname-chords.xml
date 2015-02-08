@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Identigi la akordon</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>La celo de tiu ĉi ekzerco estas identigi la akordon ludatan.</para>
+<para>Ekigu la ekzercon per klako sur <guibutton>Nova</guibutton>. Tiam Solfege ludos akordon, kaj vi devos identigi ĝin per klako sur unu el la butonoj sub la malplena liniaro.</para>
+
+<para>Se vi konjektas korekte, la programo montrigos akordon en la liniaro kaj fulmetos la mesaĝon "Korekte" en la stat-breto. Tiam vi povos klaki la butonon <guibutton>Nova</guibutton> por havi novan demandon.</para>
+
+<para>Se vi konjektas malkorekte la mesaĝo "Malkorekte" estos montrata en la stat-breto.</para>
+
+</sect1>

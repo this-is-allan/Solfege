@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Rhythmus</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Programms mit einer Akkordübung.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Das Programm spielt einen zufällig erzeugten Rhythmus ab, den Sie zu reproduzieren haben. Sie geben den Rhythmus ein, indem Sie auf die Knöpfe klicken, welche die verschiedenen rhythmischen Elemente darstellen.</para>
+
+<para>When you have entered enough rhythm elements, Solfege will check your
+answer. If everything is correct it will display a happy face, otherwise
+a sad face, and all wrong rhythms will be marked.</para>
+
+<para>Falls Teile Ihrer Antwort falsch waren, wird alles ab dem ersten falschen Element entfernt, sobald Sie auf das traurige Gesicht klicken, wobei eventuelle korrekte Rhythmen am Anfang Ihrer Antwort erhalten bleiben. Alternativ können Sie hierzu auf die Rhythmusknöpfe oben auf der Seite klicken.</para>
+
+<para>Klicken Sie auf den »Spielen«-Knopf, um Ihren Vorschlag zu hören.</para>
+
+<para>Die in dieser Übung erstellten Fragen werden momentan aus zufällig gewählten Rhathmuselementen gebildet. Dies ist zugegebenermaßen nicht der beste Weg. Wir hoffen, in späteren Veröffentlichungen dieses Programms einen clevereren Weg zur Erstellung der Fragen anbieten zu können.</para>
+
+</sect1>

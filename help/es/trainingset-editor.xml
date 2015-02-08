@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Editor de set de entrenamiento</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla de la ventana de entrenamiento</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>El editor de conjuntos de entrenamiento permite crear archivos MIDI/WAV/MP3/Ogg con las preguntas, de modo que usted pueda cargarlos en su PDA, teléfono celular o reproductor de MP3. Una hoja de respuestas será generada para su impresión. De esta forma, podrá reproducir aleatoriamente las pistas, usando la hoja para verificar si reconoció correctamente la música.</para>
+
+<para>Utilice el editor de conjuntos de entrenamiento para definir cuáles ejercicios generar. Puede guardar su definición en un archivo para usarlo después. Cada vez que se presione en <guibutton>Exportar</guibutton>, un nuevo conjunto de archivos es generado en el directorio que escoja. Tendrá que subir manualmente los archivos de sonido generados a su dispositivo portátil.</para>
+
+<para>El programa le permite generar preguntas a partir de cuantos archivos quiera, pero lo más usual es generar un gran número de preguntas a partir de uno o solo algunos archivos.</para>
+
+<para>Los programas usados para convertir entre diferentes formatos de archivos son definidos en la página 'Programas externos', de la <link linkend="preferences-gui">ventana de preferencias</link>. Verifique las definiciones allí si tiene problemas al convertir los archivos MIDI a los formatos WAV, MP3 u Ogg.</para>
+
+<variablelist>
+<title>Explicación de los encabezados de tabla</title>
+<varlistentry>
+ <term>Cuenta</term>
+ <listitem><para>El número de preguntas a generar a partir del archivo de lección.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Repetir</term>
+ <listitem><para>El número de repeticiones para cada pregunta.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Retardo</term> <listitem><para>Tiempo de atraso entre preguntas, medido en negras.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

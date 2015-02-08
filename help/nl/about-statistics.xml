@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>Over statistieken</title>
+<para>Sommige oefeningen zullen statistieken over verschillende tijdsperiodes tonen: <emphasis>Sessie</emphasis>, <emphasis>Vandaag</emphasis>, <emphasis>Laatste 7 dagen</emphasis> en <emphasis>Totaal</emphasis>.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk met de percentagetabel van een statistiekpagina.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>De eerste tabel, zoals in de bovenstaande schermafdruk is afgebeeld, bestaat uit een rij voor iedere vraag in het lesbestand. <emphasis>Procent</emphasis> geeft het percentage goed beantwoorde vragen. <emphasis>Aantal</emphasis> het aantal maal dat de vraag gesteld is.</para>
+
+<para>In de tweede tabel hebben kolommen dezelfde labels als de rijen, maar deze worden niet getoond om de tabel niet te breed te maken. In de bovenstaande schermafdruk representeert kolom 1 dus <emphasis>m3↑</emphasis> en kolom 2 <emphasis>M3↑</emphasis>. Voor een vraag van de betreffende rij geeft iedere kolom aan hoe vaak de gebruiker de mogelijke antwoorden heeft beantwoord. Het vetgedrukte getal is het aantal keer dat het correcte antwoord is gegeven.</para>
+
+</sect1>

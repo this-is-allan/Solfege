@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Meerkeuzevragen over muziek</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Deze pagina is een algemene hulppagina over alle oefeningen die geschreven zijn met de <literal>idproperty</literal>-oefenmodule. Oefeningen zullen vaak meer specifieke hulpteksten bevatten dan deze.</para>
+
+<para>De bovenstaande schermafdruk toont een voorbeeld hoe een oefening eruit kan zien.</para>
+
+<para>De oefening toont een vraag en speelt wat muziek af. Je moet één antwoord selecteren uit iedere kolom in de knoppentabel. Als je het juiste antwoord selecteert, dan wordt de knoptekst vet afgedrukt en wordt de melding "Juist" knipperend in de statusbalk getoond.</para>
+
+<para>De oefening zal een knop <guibutton>Herhaal arpeggio</guibutton> hebben als een of meerdere oefeningen door het programma gearpeggieerd kunnen worden gespeeld.</para>
+</sect1>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Nomear os intervalos</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa practicando intervalos e empregando os botóns da interface.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Neste exercicio, o Solfege mostrará e reproducirá un intervalo que vostede terá que identificar. Este é un exercicio de teoría musical e non de adestramento auditivo. Para aprender a darlle nome aos intervalos debería ler <xref linkend="theory-intervals"/>.</para>
+
+<para>Identificará o intervalo premendo no botón que teña o nome específico e o nome xenérico do intervalo.</para>
+
+</sect1>

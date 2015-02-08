@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Aralığı seslendir</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Aralığı seslendirme alıştırmasının ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Bu alıştırmada, Solfege yazılımı bir veya birden fazla aralığı gösterecektir ve bunları seslendirmelisiniz. Ne yazık ki , eğer Solfege yazılımının doğru seslendirme yapıp yapmadığınıza Solfege karar vermesi için sesleri bir mikrofona henüz  söyleyemiyorsanız, o zaman doğru söyleyip söyleyemediğinize kendiniz karar vermek zorundasınız.</para>
+<sect2 id="singinterval-config">
+<title>Yapılandır</title>
+<para>İnsan sesi bölgesinde kalarak bu yazılım bir soru sormayı deneyecek, ki bu işlem <link linkend="preferences-window">tercihler penceresinde </link>yapılandırılmıştır. Bazen, soruları daha makul ses sınırları içinde kullanmak pek mümkün olmamıştır, örneğin bazı alıştırmalar öyle programlanmıştır ki yukarı doğru giden pek çok aralık oluşturulmuştur.</para>
+</sect2>
+</sect1>

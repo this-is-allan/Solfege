@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Editor de conxunto de exercicios</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla da xanela do editor de conxunto de exercicios.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>The training set editor lets you create MIDI/WAV/MP3/OGG files of questions
+so that you can upload them to your pda, cell phone or MP3 player. A solution
+sheet will be generated for you to print out. Then you can let the MP3 player
+play the tracks in random order, and you can use the solution sheet to check
+if you recognized the music correctly.</para>
+
+<para>Empregue o editor de conxunto de exercicios para seleccionar que exercicios quere crear. Pode gardar a súa selección nun ficheiro para empregalo máis adiante. Cada vez que prema <guibutton>Exportar</guibutton> crearase un novo conxunto de ficheiros no directorio que vostede elixa. Deberá cargar os sons creados no seu dispositivo móbil de forma manual.</para>
+
+<para>O programa permítelle crear preguntas a partir de tantos ficheiros de lección como vostede queira, pero o máis común sería crear moitas preguntas dun só ficheiro ou duns poucos.</para>
+
+<para>Os programas empregados para converter os diferentes formatos dos ficheiros aparecen especificados na páxina GUI da <link linkend="preferences-gui">xanela de preferencias</link>. Comprobe eses programas no caso de que teña problemas para converter os ficheiros MIDI en formatos WAV, MP3 ou OGG.</para>
+
+<variablelist>
+<title>Táboa coas cabeceiras explicadas</title>
+<varlistentry>
+ <term>Suma</term>
+ <listitem><para>Número de preguntas creadas a partir do ficheiro de lección.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Repetir</term>
+ <listitem><para>Número de veces que se repite cada pregunta.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Demora</term> <listitem><para>Cal será o tempo do atraso entre as preguntas medido en duración de negras.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

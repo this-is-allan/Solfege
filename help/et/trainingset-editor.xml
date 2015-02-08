@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Õppepaketi redaktor</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipildi salvestus õppepaketi redaktori aknast.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>The training set editor lets you create MIDI/WAV/MP3/OGG files of questions
+so that you can upload them to your pda, cell phone or MP3 player. A solution
+sheet will be generated for you to print out. Then you can let the MP3 player
+play the tracks in random order, and you can use the solution sheet to check
+if you recognized the music correctly.</para>
+
+<para>Õppepaketi redaktoris saate määrata, milliseid harjutusi eksportida. Te võite oma määrangud salvestada faili, et neid hiljem kasutada. Iga kord kui vajutate nupule <guibutton>Eksport</guibutton>, luuakse uus hulk faile teie valitud kataloogi. Te peate laadima failid sellest kataloogist oma kantavasse heliseadmesse ise.</para>
+
+<para>Programm lubab teil eksportida harjutusi kuitahes paljudest harjutusfailidest, kuid kõige tüüpilisem oleks eksportida harjutused vaid ühest või vähestest harjutusfailidest.</para>
+
+<para>Programmid, millega luuakse vastavad helifailid on määratletud seadetes <link linkend="preferences-gui">(Fail-&gt;Eelistused-&gt;Kasutajaliides-&gt;Välised programmid)</link>. Palun kontrollige seadeid sellel lehel, kui teil on probleeme WAV, MP3 või OGG failide salvestamisega.</para>
+
+<variablelist>
+<title>Tabeli päise seletus</title>
+<varlistentry>
+ <term>Arv</term>
+ <listitem><para>Mitu harjutust sellest harjutusfailist valida.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Korda</term>
+ <listitem><para>Mitu korda korrata igat harjutust.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Viivitus</term> <listitem><para>Kui pikk viivitus on harjutuste vahel (mõõdetuna veerandnootides).</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

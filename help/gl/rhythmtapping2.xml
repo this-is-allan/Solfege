@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Tocar o ritmo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Screenshot of the rhythmtapping.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>O programa reproducirá de forma aleatoria os ritmos creados e o usuario deberá repetilos.Para iso terá que introducir o ritmo premendo no botón coa etiqueta <emphasis>Toque aquí</emphasis>.</para>
+</sect1>

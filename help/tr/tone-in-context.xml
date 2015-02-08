@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="tone-in-context">
+<title>Bağlamdaki ses</title>
+<informalfigure id="tonecontext">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/toneinkey.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Programın tuştakises alıştırması yapılırken alınmış ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para><guibutton>Yeni</guibutton>  düğmesine tıklayınca program size bir müzik çalacaktır, ki bu bir sesi izleyen bir kadans olacaktır. Kullanıcı, kadansta verilen notanın posizyonunu bulacak ve soruya 1 ile 7 arasındaki düğmelerden birine tıklayarak  cevap verecektir.</para>
+</sect1>

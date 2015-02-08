@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Afdrukeditor voor gehoortrainingstest</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het oefenset-editorscherm</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Deze functie is beschikbaar in het menu <guimenu>Bestand</guimenu>. Gebruik het om gehoortrainingstesten aan te maken die op papier afgedrukt kunnen worden. Solfege zal twee versies van het document aanmaken: een voor de leerling om in te vullen en een met de correcte antwoorden reeds ingevuld. Deze functie is op verzoek van een gebruiker toegevoegd, maar we weten niet of er werkelijk een toepassing voor is. Als je deze functionaliteit gebruikt, laat het <link linkend="online-resources">ons</link> dan weten en ook of het werkbaar is.</para>
+
+<para>De knop <guibutton>Toevoegen</guibutton> toont een menu met alle oefeningen uit de actieve startpagina waaruit dit hulpmiddel oefeningen kan aanmaken. Tijdens het afdrukken worden de oefenmodules <link linkend="idbyname-module">idbyname</link>, <link linkend="melodicinterval-module">melodicinterval</link> en <link linkend="harmonicinterval-module">harmonicinterval</link> gebruikt. Voor lesbestanden die geschreven zijn voor de module <literal>idbyname</literal> worden alleen de muziekobjecten <link linkend="lfunc-chord">chord</link>, <link linkend="lfunc-rvoice">rvoice</link> and <link linkend="lfunc-voice">voice</link> ondersteund.</para>
+
+<para><guibutton>Pagina aanmaken</guibutton> opent een dialoogvenster waarin je een lege map kunt selecteren of aanmaken. De HTML- of LaTex-bestanden en de afbeeldingen kunnen in die map opgeslagen worden.</para>
+
+<para>Als je bestanden van gehoortrainingstesten opslaat of opent, onthoudt het programma de willekeurige vragen. Het laden van een bestand en vervolgens het klikken op <guibutton>Pagina aanmaken</guibutton> zal daarom een kopie van dezelfde test opleveren. Klik op <guibutton>Husselen</guibutton> om een nieuwe, willekeurige verzameling vragen aan te maken.</para>
+</sect1>

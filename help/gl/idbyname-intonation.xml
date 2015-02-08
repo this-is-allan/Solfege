@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Entoación</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Neste exercicio, o Solfege reproducirá un intervalo e vostede terá que dicir cal é a entoación. Pode facer isto premendo un a un nos botóns que poñen "demasiado baixa", "afinada" ou "demasiado aguda". Tamén pode ocorrer que algún destes tres botóns non apareza.</para>
+
+</sect1>

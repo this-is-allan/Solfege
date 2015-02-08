@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Śpiewaj 12 losowych dźwięków</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>W tym ćwiczeniu program wyświetli wszystkich dwanaście dźwięków w losowej kolejności i zagra pierwszy z nich. Następnie powinieneś zaśpiewać wszystkie nuty i sprawdzić czy ostatnia z nich jest poprawna. Jest to więc bardziej rodzaj egzaminu z czytania nut głosem, niż ćwiczenie do nauki śpiewania interwałów. Jeśli chcesz poćwiczyć to ostatnie powinieneś raczej spróbować innych ćwiczeń.</para>
+
+</sect1>

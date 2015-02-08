@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Kadansı nitelendir</title>
+<para>Kadansları ona ait düğmelere basarak nitelendirebilirsiniz. As acknowledged in <ulink url="http://bugs.solfege.org/5">bug #5</ulink> we need cadence exercises in Solfege.</para>
+<para>Solefege yazılımının bu sürümünde, sadece majör kadanslara ait bir alıştırmamız vardır. Bu alıştırmada, ekseni algılamak için bir majör dizi çalınmaktadır. Belki bu çok azdır? Sorudan önce tam bir I-IV-V-I bağlantısını duymaya istiyor muyuz? Ya da alıştırmasını yapmak istediğimiz kadansı içeren bir müziğe ihtiyacımız olabilir. 3.12.0 sürümünü çıkarmadan önce karar vermemiz gereken konulardan biri de budur. Yorumlarınızı ve müziklerinizi şuraya eklenebilir <ulink url="http://bugs.solfege.org/5"> bug #5</ulink>.</para>
+</sect1>

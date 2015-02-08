@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Entoar o intervalo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do exercicio de entoación do intervalo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Neste exercicio, o Solfege mostrará un ou máis intervalos que vostede deberá entoar. Por desgraza, aínda no é posíbel entoar por un micrófono e deixar que o Solfege valore se a súa entoación foi correcta ou non, así que terá que ser vostede quen decida se esta foi válida.</para>
+<sect2 id="singinterval-config">
+<title>Configuración</title>
+<para>O programa tratará de facer unha pregunta onde todos os tons estean dentro dun rexistro que o usuario poida entoar, tal e como se configura na <link linkend="preferences-window">xanela de preferencias</link>. Ás veces, non é posíbel manter a pregunta dentro deste rexistro, por exemplo cando o exercicio está configurado para crear moitos intervalos onde todos eles son ascendentes.</para>
+</sect2>
+</sect1>

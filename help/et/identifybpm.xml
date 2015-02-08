@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Lööki minutis</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Programm mängib ette mingi tempo (nagu metronoom). Te petate proovima arvata, mis tempoga (mitu lööki minutis) on tegu. Nupud ekraanil tähistastavad vastavaid temposid, programm mängib ainult neid temposid, mis on poolpaksus kirjas. Vajutage parema hiireklahviga temponupule, et muuta seda tempot kasutatavaks või vastupidi.</para>
+
+<para>NB! Täpne pulss sõltub funktsioonist <literal>gtk timeout_add</literal> , seega see ei pruugi olla üliväga täpne.</para>
+
+</sect1>

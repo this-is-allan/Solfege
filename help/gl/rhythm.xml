@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Ritmo</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla do programa executando o exercicio de acordes.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>O programa reproducirá os ritmos que se creen de forma aleatoria. O usuario deberá introducilos premendo os botóns que representan os diferentes elementos rítmicos.</para>
+
+<para>When you have entered enough rhythm elements, Solfege will check your
+answer. If everything is correct it will display a happy face, otherwise
+a sad face, and all wrong rhythms will be marked.</para>
+
+<para>Se algunhas das súas respostas foron incorrectas, borrarase todo a partir do primeiro elemento que estea mal ao premer na cara triste (excepto algún ritmo correcto do comezo da súa resposta) ou ao premer nos botóns para o ritmo do principio da páxina.</para>
+
+<para>Poder premer no botón "Play" para escoitar a súa opción.</para>
+
+<para>De momento as preguntas que fai o exercicio realízanse seleccionando elementos rítmicos de forma aleatoria. Quizais esta non sexa a mellor maneira de facelo, por iso esperamos ter un método máis eficaz de xerar preguntas nunha versión posterior.</para>
+
+</sect1>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="tone-in-context">
+<title>Toon in context</title>
+<informalfigure id="tonecontext">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/toneinkey.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma tijdens een toon-in-sleuteloefening.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Na het klikken op <guibutton>Nieuw</guibutton> zal het programma muziek afspelen, meestal een cadans, gevolgd door een toon. Het is vervolgens aan de gebruiker om de positie van de toon te vinden in de sleutel waarin de cadans staat. Klik hiervoor op een van de knoppen gelabeld van 1 tot 7.</para>
+</sect1>

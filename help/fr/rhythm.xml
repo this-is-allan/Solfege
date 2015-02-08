@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Rythme</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran de l'exercice Accords.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Le programme joue un rythme aléatoire, et l'utilisateur doit reproduire ce rythme. L'utilisateur entre le rythme en cliquant sur des boutons représentant différents éléments rythmiques.</para>
+
+<para>Lorsque vous avez entré suffisamment d'éléments rythmiques, Solfege vérifie votre réponse. Si tout est exact, il affiche un visage souriant, sinon un visage triste et tous les rythmes inexacts sont repérés.</para>
+
+<para>Si une partie de votre réponse est inexacte, tout ce qui est après le premier élément inexact est effacé (mais les rythmes corrects dans le début de votre réponse sont conservés) losque vous cliquez sur le visage triste, ou lorsque vous cliquez sur les boutons des éléments rythmiques. </para>
+
+<para>Vous pouvez cliquer sur 'Jouer' pour écouter votre proposition.</para>
+
+<para>Les questions posées par cet exercice sont pour le moment construites en sélectionnant les éléments au hasard. Ce n'est pas le meilleur moyen de le faire, et nous espérons qu'une façon plus intelligente de construire les questions sera disponible dans une prochaine version.</para>
+
+</sect1>

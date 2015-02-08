@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Kanti intervalon</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la ekzerco por kanti intervalon.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>En tiu ĉi ekzerco, Solfege montrigos unu aŭ pli intervalojn, kaj vi devos kanti ilin. Malfeliĉe, ankoraŭ ne eblas kanti kontraŭ mikrofonon kaj lasi Solfege decidi ĉu vi kantis korekte, do vi devos decidi per vi mem ĉu vi korekte kantas aŭ ne.</para>
+<sect2 id="singinterval-config">
+<title>Agordi</title>
+<para>La programo provos krei demandon kie ĉiuj tonoj estos ene la rango, kiun la uzanto kapablas kanti, kiel agordite en la <link linkend="preferences-window">fenestro de prefereroj</link>. Kelkfoje, ne eblas fari demandon ene de tiu rango, ekzemple kiam temas pri multaj intervaloj kie ĉiuj ili supreniras.</para>
+</sect2>
+</sect1>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Entonación</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Capturas de pantalla del programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>En este ejercicio, Solfege reproducirá un intervalo, y usted deberá decir cómo fue entonado. Puede presionar los botones 'muy pequeño', 'puro' o 'muy largo'. También es posible que falte alguno de los tres botones.</para>
+
+</sect1>

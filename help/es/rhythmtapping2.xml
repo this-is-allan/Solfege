@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Toque el ritmo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla, tocando ritmos.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>El programa reproducirá un ritmo generado aleatoriamente, y el usuario deberá repetirlo, ingresando el ritmo tocando en el botón <emphasis>Toque aquí</emphasis>.</para>
+</sect1>

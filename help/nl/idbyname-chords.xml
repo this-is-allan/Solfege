@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Benoem het akkoord</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Het doel van deze oefening is het gespeelde akkoord te benoemen.</para>
+<para>Begin de oefening door op <guibutton>Nieuw</guibutton> te klikken. Solfege zal dan een akkoord spelen en je moet deze benoemen door op een van de knoppen onder de lege muziekbalk op de te klikken.</para>
+
+<para>Als je keuze juist is zal het programma het akkoord op de muziekbalk tonen en de melding "Juist" in de statusbalk laten knipperen. Je kunt op de knop <guibutton>Nieuw</guibutton> klikken voor de volgende vraag.</para>
+
+<para>Als je keuze onjuist is, wordt de melding "Onjuist" in de statusbalk getoond.</para>
+
+</sect1>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="dictation">
+<title>Diktaat</title>
+<informalfigure id="dictation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/dictation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt programmist diktaadi harjutusega.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Seda harjutust nimetatakse diktaadiks, kuid kui vaja, võib neid harjutusfaile kasutada mitmel moel: <itemizedlist>
+<listitem><para>Te võite lasta Solfege'il mängida teile ette mingi meloodia, mille peate kirja panema paberil. Kui soovite korrata mängitut väiksemate lõikudena, vajutage veerandnoodiga tähisatatud nuppudele. Et kontrollida, kas kirjutasite diktaadi üle õigesti, vajutage nupule 'Näita'.</para></listitem>
+
+<listitem><para>Diktaatide harjutusi võib kasutada ka lehest laulmise treenimiseks: kui alustate vajutates nupule 'Näita', kuvab programm diktaadi ekraanil. Seejärel laulge seda meloodiat ning kontrollige vajutades nupule 'Mängi' või nuppudele veerandnootidega, kas laulsite õigesti.</para></listitem>
+</itemizedlist></para>
+
+</sect1>

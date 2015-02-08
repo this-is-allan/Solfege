@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Harmooniline intervall</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt intervallide harjutusest, kui intervallide määramiseks kasutatakse programmi nuppusid.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>See on üks intervallide harjutamiseks mõeldud harjutustest. Põhimõte on küllaltki lihtne: te vajutate nupule "Uus intervall" ning seejärel peate määrama, millise intervalliga oli tegu.</para>
+
+<para>Kui kasutate intervalli määramiseks intervallinuppe ekraanil, võite klõpsta hiire parema klahviga nupule, et vastavat intervalli kuulda.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

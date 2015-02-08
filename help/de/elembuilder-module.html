@@ -1,0 +1,43 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The elembuilder module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2-Benutzerhandbuch"><link rel="up" href="extending-solfege.html" title="Kapitel 4. Extending GNU Solfege"><link rel="prev" href="dictation-module.html" title="The dictation module"><link rel="next" href="harmonicinterval-module.html" title="The harmonicinterval module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">elembuilder</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="dictation-module.html">Zurück</a> </td><th width="60%" align="center">Kapitel 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="harmonicinterval-module.html">Weiter</a></td></tr></table><hr></div><div class="sect1" title="The elembuilder module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="elembuilder-module"></a>The <code class="literal">elembuilder</code> module</h2></div></div></div><p>Here is a minimal lesson file:</p><pre class="programlisting">
+element progI { label = "I" }
+element progIV { label = "IV" }
+element progV { label = "V" }
+
+header {
+    <a class="xref" href="lesson-files.html#lf-module">module</a> = elembuilder
+    <a class="xref" href="lesson-files.html#lf-title">title</a> = "progression test"
+    <a class="xref" href="elembuilder-module.html#lf-header-elements">elements</a> = auto
+    # uncomment if you want a music displayer.
+    # have_music_displayer = yes
+}
+
+question {
+ <a class="xref" href="lesson-files.html#lf-music">music</a> = rvoice("&lt;c' e g&gt; &lt;b d g&gt; &lt;c e g&gt;")
+ <a class="xref" href="elembuilder-module.html#lf-header-elements">elements</a> = progI, progV, progI
+ <a class="xref" href="lesson-files.html#lf-name">name</a> = "I-V-I"
+}
+question {
+ <a class="xref" href="lesson-files.html#lf-music">music</a> = rvoice("&lt;c' e g&gt; &lt;c f a&gt; &lt;c e g&gt;")
+ <a class="xref" href="elembuilder-module.html#lf-header-elements">elements</a> = progI, progIV, progI
+ <a class="xref" href="lesson-files.html#lf-name">name</a> = "I-IV-I"
+}
+</pre><div class="sect2" title="The element block"><div class="titlepage"><div><div><h3 class="title"><a name="elembuilder-element-block"></a>The element block</h3></div></div></div><p>
+This block defines the elements the user can put together to answer the
+question. Each block is named by the string between <code class="literal">element</code>
+and <code class="literal">{</code>. The block defines one variable,
+<code class="literal">label</code> that is the label the button will get.</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">label</code></span></dt><dd><p><code class="literal">label</code> can either be a plain string or one
+        of the <a class="xref" href="lesson-files.html#labelfunctions" title="Label functions">label functions</a>.</p></dd><dt><span class="term"><code class="literal">sort</code></span></dt><dd><p>If defined, the value of <code class="literal">sort</code> will be used
+        to sort the elements when displaying the buttons. If not defined,
+        the elements will be sorted by their name.</p></dd></dl></div></div><div class="sect2" title="The header block"><div class="titlepage"><div><div><h3 class="title"><a name="elembuilder-header-block"></a>The header block</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal"><a name="lf-header-elements"></a>elements</code></span></dt><dd><p>This variable defines which elements to display. Set this to <code class="literal">auto</code> to display all elements that are needed to answer the questions in the lesson file. You can display more elements that needed to make it more difficult for the user. An example:</p><pre class="programlisting">elements = progI, progIV, progV, progIV, progV_6</pre></dd><dt><span class="term"><code class="literal"><a name="lf-header-music_displayer_stafflines"></a>music_displayer_stafflines</code></span></dt><dd><p>Set this if you want the music displayer to show more than
+    one empty staff line when the music displayer have no music to display.
+    </p></dd></dl></div><p>
+See also <a class="xref" href="lesson-files.html#lf-at_question_start">at_question_start</a>
+and <a class="xref" href="lesson-files.html#lf-music_displayer_stafflines">music_displayer_stafflines</a>.
+</p></div><div class="sect2" title="The question block"><div class="titlepage"><div><div><h3 class="title"><a name="elembuilder-question-block"></a>The question block</h3></div></div></div><div class="variablelist"><dl><dt><span class="term"><code class="literal"><a name="lf-question-elements"></a>elements</code></span></dt><dd><p>This variable defines which elements defines the question.
+    It can be elements, as defined in the example above, or strings
+    or labels defined by the <a class="xref" href="lesson-files.html#labelfunctions" title="Label functions">label functions</a>.</p></dd><dt><span class="term"><code class="literal"><a name="lf-tonic"></a>tonic</code></span></dt><dd><p>The exercise will have a "Play tonic" button if this variable is
+    defined in a question in the lesson file. The variable should contain some
+    music to play to the user so that he knows the tonic of the question.
+    This can be useful in harmonic progressions that does not start on the
+    tonic. This variable is optional. Example:</p><pre class="programlisting">tonic = chord("c e g")</pre></dd><dt><span class="term"><code class="literal">name</code></span></dt><dd><p>The name is needed for storing statistics. A string or
+    a label created by the <a class="xref" href="lesson-files.html#labelfunctions" title="Label functions">label functions</a>. </p></dd></dl></div><p>See also <a class="xref" href="lesson-files.html#lf-vmusic">vmusic</a>.</p></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="dictation-module.html">Zurück</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Nach oben</a></td><td width="40%" align="right"> <a accesskey="n" href="harmonicinterval-module.html">Weiter</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">dictation</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Zum Anfang</a></td><td width="40%" align="right" valign="top"> The <code class="literal">harmonicinterval</code> module</td></tr></table></div></body></html>

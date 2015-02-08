@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Muusikateooria</title>
+<sect1 id="theory-scales">
+<title>Laadid</title>
+<para>Davide Bonetti on kirjutanud suure hulga laadide harjutusi ning mõned leheküljed, mis kirjeldavad kõiki laade. Neid lehekülgi võib näha <ulink url="../C/scales/modes.html">siin</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Intervallid</title>
+<para>Muusikateoorias tähendab mõiste intervall kahe noodi kõrguste vahelist kaugust. Harmooniliseks nimetatakse intervalli siis, kui kaks nooti kõlavad samal ajal ning meloodiliseks, kui noodid kõlavad üksteise järel. </para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Intervallide nimetused koosnevad kahest osast. Näiteks "suur terts" või "puhas kvint". Walter Pistoni "Harmoonias" on neid kaht osa nimetatud <emphasis>täpsustav nimetus</emphasis> ning <emphasis>üldnimetus</emphasis>. Wikipedia nimetab neid <emphasis>interval quality</emphasis>  ja <emphasis>interval number</emphasis>.  Mõned inimesed räägivad intervallide <emphasis>arvväärtusest</emphasis>.</para>
+
+<para>Intervalli üldnime leiab siis, kui lugeda, mitu astet on kahe noodi vahel arvestamata juhuslikke märke. Nii et kui on vaja leida intervall on E ja Gis noodi vahel, saame kolm astet (E,F, G(is)) ning seega on intervalli üldnimetus  <emphasis>terts</emphasis> (kolmas).</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>Intervalli nime täpsustav osa määrab ära intervalli täpse suuruse. Priimid (unisonid), kvardid, kvindid ja oktavid võivad olla vähendatud, puhtad või suurendatud. Sekundid, tertsid, sekstid ja septimid võivad olla suured, väikesed, vähendatud või suurendatud. Väike intervall on pool tooni väiksem kui suur intervall. Vähendatud intervall on pool tooni väiksem kui puhas või väike intervall. Suurendatud intervall on pool tooni suurem kui puhas või suur intervall.</para>
+
+<para>Kõrgendus- või madaldusmärgid muudavad intervalli suurust. Intervall muutub poole tooni võrra suuremaks kui lisada ülemise noodi ette diees või madalama noodi ette bemoll. Ning poole tooni võrra väiksemaks, kui lisada ülemisele noodile bemoll või alumisele diees. Järgnevates lõikudes käsitletakse intervallide nimetusi ja määramist lähemalt.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Sekundid</title>
+<para>Sekundeid on lihtne ära tunda: kaks nooti on noodijoonestikul naabrid. Üks noot on joone peal ning teine joonevahes selle kõrval, väikse sekundi puhul  on nad üksteisest poole tooni ja suure sekundi puhul täistooni (kahe pooltooni) kaugusel. </para>
+
+<para>Et õppida määratlema sekundeid, tuleb esmalt õppida, millised sekundid nö valgete nootide vahel esinevad. Nagu näha,  <xref linkend="theory-intervals-seconds"/>, on ainult E-F ja H-C väikesed sekundid. Ülejäänud on suured sekundid. Seda võite selgelt näha <xref linkend="theory-intervals-seconds"/> ka klaveri klahvistikul - E ja F ning H ja C vahel ei ole musti klahve.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Kui sekundi ühe või teise noodi ees on märgid, peab vaatama, kuidas need määravad sekundi suuruse. Määrakem paar intervalli!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Kui eemaldada märk intervallis <xref linkend="theory-intervals-seconds-1"/>, näeme, et intervall F-G on suur sekund. Kui lisada bemoll ülemise noodi ette, muutub intervall poole tooni võrra väiksemaks ning seega on tegemist väikse sekundiga.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Kui ära võtta märgid, siis intervall A-H on suur sekund. Kas mäletate veel  <xref linkend="theory-intervals-seconds"/>? Kui lisada bemoll A ette, siis muutub intervall poole tooni võrra suuremaks ning tegemist on suurendatud sekundiga. Kui lisada bemoll ka H ette, siis on see intervall suur sekund.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Eemaldame märgid ning näeme, et intervall E-F on väike sekund.  Kui lisada bemoll madalama noodi ette, muutub intervall poole tooni võrra suuremaks ning sellest saab suur sekund. Kui lisame seejärel dieesi ülemise noodi ette, siis muutub intervall veel poole tooni võrra suuremaks ning tegemist on suurendatud sekundiga.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Tertsid</title>
+<para>Väike tertsi saame, kui liita üks suur ja üks väike sekund, ehk kokku kolm pooltooni. Suur terts tekib, kui liita kaks suurt sekundit, ehk siis tema suurus on neli pooltooni. <xref linkend="theory-intervals-thirds"/> näitab kõiki tertse, mis tekivad klaveri valgete klahvide vahel. Meelde tuleks jätta, et suured tertsid on C-E, F-A ja G-H. Kõik ülejäänud on väiksed tertsid.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Seejärel tuleks vaadata märke, kas nad muudavad intervalli täpsustavat nime. Seda tehakse täpselt sama moodi nagu sekunditegi puhul.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Kvardid</title>
+<para>Puhtas kvardi suurus on 2½ tooni ehk kaks suurt sekundit pluss väike sekund.  <xref linkend="theory-intervals-fourths"/> näitab kõiki kvarte, mis tekivad klaveri valgete klahvide vahel. Meelde tuleks jätta, et F-H on suurendatud ning ülejäänud kuus on puhtad kvardid.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Kvindid</title>
+<para>Puhta kvindi ulatus on 3½ tooni, ehk kolm suurt sekundit pluss väike sekund.  <xref linkend="theory-intervals-fifths"/> näitab kõiki kvinte, mis tekivad klaveri valgete klahvide vahel. Meelde tuleks jätta, et kõik need kvindid on puhtad, v.a. H-F, mis on vähendatud.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Kui intervalli ees on märgid, tuleb uurida, kuidas nad muudavad intervalli suurust. Vähendatud kvint on puhtast poole tooni võrra kitsam, suurendatud kvint puhtast poole tooni võrra laiem. Allpool järgnevad paar näidet:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Jooniselt <xref linkend="theory-intervals-fifths"/> mäeltame, et intervall H-F on vähendatud kivint. Madalama noodi ees on bemoll, mis teeb intervalli pool tooni suuremaks ning seega on tegemist puhta kvindiga.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Jooniselt <xref linkend="theory-intervals-fifths"/> teame, et E-H on puhas kvint. Joonisel <xref linkend="theory-intervals-fifths-2"/>  on E ees bemoll, mis teeb intervalli suurendatuks. Kui lisada H ette duubelbemoll, mis teeb intervalli kahe pooltooni võrra väiksemaks, siis on see intervall vähendatud kvint.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Sekstid</title>
+<para>Sekste on kõige kergem määrata, kui muuta see seksti<link linkend="inverting-intervals"> pöördintervalliks</link> tertsiks. Sel juhul kehtib reegel:</para>
+
+<itemizedlist>
+<listitem><para>Kui terts on vähendatud, on sekst suurendatud.</para></listitem>
+<listitem><para>Kui terts on väike, on sekst suur.</para></listitem>
+<listitem><para>Kui terts on suur, on sekst väike.</para></listitem>
+<listitem><para>Kui terts on suurendatud, siis sekst on vähendatud. </para></listitem>
+</itemizedlist>
+
+<para>Kui intervallide pööramine tundub teile raske, võib meelde jätta, et sekstid E-C, A-F ja B-G on väiksed. Ülejäänud neli on suured. Seejärel tuleb uurida märke, kas need muudavad intervalli täpsustavad nime. Seda tehakse täpselt sama moodi nagu sekunditegi puhul.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Septimid</title>
+<para>Septimeid määratakse sama moodi nagu sekste. Septimi pöördintervall on sekund.</para>
+
+<para>Kui intervallide pööramine tundub teile raske, võib meelde jätta, C-H ja F-E on suured septimid. Ülejäänud viis on väiksesed septimid. Seejärel tuleb uurida märke, kas need muudavad intervalli täpsustavad nime. Seda tehakse täpselt sama moodi nagu sekunditegi puhul.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Intervallide pööramine</title>
+<para>Intervallide pööramine tähendab, et intervalli alumine noot tõstetakse oktavi võrra üles või ülemine noot oktavi võrra alla.  Intervalli üldnimetus muutub nii:</para>
+<itemizedlist>
+<listitem><para>Sekundist saab septim.</para></listitem>
+<listitem><para>Tertsist saab sekst.</para></listitem>
+<listitem><para>Kvardist saab kvint.</para></listitem>
+<listitem><para>Kvindist saab kvart.</para></listitem>
+<listitem><para>Sekstist saab terts.</para></listitem>
+<listitem><para>Septimist saab sekund.</para></listitem>
+</itemizedlist>
+
+<para>Intervalli täpustav nimetus muutub nii:</para>
+<itemizedlist>
+<listitem><para>Vähendatust saab suurendatud.</para></listitem>
+<listitem><para>Väiksest saab suur.</para></listitem>
+<listitem><para>Puhas jääb puhtaks.</para></listitem>
+<listitem><para>Suurest saab väike.</para></listitem>
+<listitem><para>Suurendatust saab vähendatud.</para></listitem>
+</itemizedlist>
+
+<para>Allpool järgnevad kaks näidet. Suur terts on pööratud ning sellest saab väike sekst, väike septim on pööratud ja sellest saab suur sekund.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

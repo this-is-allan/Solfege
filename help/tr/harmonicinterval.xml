@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Armonik aralık</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Düğmeler arabirimlerinin kullanılarak aralıkların çalışıldığı yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu alıştırma aralıkları çalışabilecek olduğunuz alıştırmalardan biridir. Anlayış basittir. Siz rastgele bir aralık çalınması için <guibutton>Yeni aralık</guibutton>düğmesine basarsınız ve aralığın hangi nitelikte olduğunu söylersiniz.</para>
+
+<para>Eğer düğmeler arayüzünü kullanıyorsanız, temsil ettiği aralığı duymak için düğmelere sağ tıklamanız gerekir.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

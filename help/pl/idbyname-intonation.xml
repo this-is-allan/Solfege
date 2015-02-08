@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Intonacja</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>W tym ćwiczeniu Solfege zagra interwał, a Ty musisz określicz jego intonacyjną poprawność. Służą do tego przycisku oznaczone jako: 'zbyt mały', 'czysto', 'zbyt duży'. Możliwe jest również, że brakować będzie jednego z przycisków.</para>
+
+</sect1>

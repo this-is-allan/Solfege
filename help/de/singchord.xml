@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Akkord singen</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Programms</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Wenn Sie einen Chor dirigieren, müssen Sie den Einsatzton für die verschiedenen Stimmen singen. Falls Sie nicht gerade ein Klavier zur Hand haben, benötigen Sie eine Stimmgabel. Wenn Sie männlich sind, singen Sie die Töne für die Frauenstimmen eine Oktave tiefer oder eben umgekehrt.</para>
+
+<para>Das Programm spielt den Kammerton A (440 Hz) und zeigt einen Akkord an, den Sie singen müssen. Solfege unterstützt die Einbindung eines Mikrofons derzeit noch nicht, so dass Sie selbst entscheiden müssen, ob Ihre Antwort korrekt ist oder nicht.</para>
+
+</sect1>

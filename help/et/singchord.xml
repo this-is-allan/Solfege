@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Laulge akord</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt programmist.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Kui te juhatate koori, peate andma koorile hääled, ja kui teil pole klaverit käepärast, peate kasutama heliharki. Kui te olete mees, laulate naishäälte noodid oktav madalamalt ning vastupidi.</para>
+
+<para>Programm mängib esmalt ette noodi A (440 Hz) ning näitab akordi, mille peate ette laulma. Solfege'il pole veel mikrofonituge, niisiis peate ise otsustama, kas vastus oli õige või mitte.</para>
+
+</sect1>

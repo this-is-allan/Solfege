@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Trainingsset-Editor</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Trainingsset-Editorfensters.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>The training set editor lets you create MIDI/WAV/MP3/OGG files of questions
+so that you can upload them to your pda, cell phone or MP3 player. A solution
+sheet will be generated for you to print out. Then you can let the MP3 player
+play the tracks in random order, and you can use the solution sheet to check
+if you recognized the music correctly.</para>
+
+<para>Im Trainingsset-Editor können Sie definieren, welche Übungen erstellt werden sollen. Sie können Ihre Definition in einer Datei zur späteren Wiederverwendung speichern. Bei jedem Klick auf <guibutton>Export</guibutton> wird ein neuer Satz von Dateien in einem Ordner Ihrer Wahl erstellt. Die erstellten Audiodateien müssen Sie manuell auf Ihr tragbares Abspielgerät übertragen.</para>
+
+<para>Im Programm können Sie Fragen aus so vielen Lektionsdateien erstellen, wie Sie möchten. Üblicherweise werden Sie allerdings viele Fragen aus einer oder aus wenigen Dateien erstellen.</para>
+
+<para>Die Programme zur Umwandlung der verschiedenen Dateiformate werden in der Seite »Grafische Oberfläche« des <link linkend="preferences-gui">Einstellungsfensters</link> festgelegt. Bitte überprüfen Sie die Definitionen, falls Sie Probleme beim Umwandeln der MIDI-Dateien in die Formate WAV, MP3 oder OGG haben.</para>
+
+<variablelist>
+<title>Erklärungen der Tabellenkopfzeilen</title>
+<varlistentry>
+ <term>Anzahl</term>
+ <listitem><para>Die Anzahl der Fragen, die aus der Lektionsdatei erstellt werden.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Wiederholen</term>
+ <listitem><para>Die Anzahl der Wiederholungen jeder Frage.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Verzögerung</term> <listitem><para>Die Verzögerungszeit zwischen den Fragen. Gemessen in der Länge einer Viertelnote.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

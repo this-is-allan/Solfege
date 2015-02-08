@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Musiktheorie</title>
+<sect1 id="theory-scales">
+<title>Skalen</title>
+<para>Davide Bonetti hat eine große Zahl von Skalenübungen beigesteuert sowie einige Seiten, welche die Skalen beschreiben. Die Seiten sind <ulink url="../C/scales/modes.html">hier</ulink> verfügbar.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Intervalle</title>
+<para>In der Musiktheorie wird die Bezeichnung Intervall für die Tonhöhendifferenz zwischen zwei Tönen verwendet. Es handelt sich um harmonische Intervalle, wenn zwei Töne gleichzeitig erklingen und um melodische Intervalle, wenn sie nacheinander (sukzessive, aufwärts oder abwärts) erklingen.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Die Bezeichnungen der Intervalle bestehen aus zwei Teilen. Beispiele sind die »Große Terz« oder die »Reine Quinte«. In Walter Pistons »Harmony« werden die zwei Teile »spezifische Name« und »allgemeiner Name« genannt. Wikipedia spricht von »Intervallgruppen«, die die jeweiligen Bezeichnungen »klein«, »groß«, »vermindert« usw. zusammenfassen.</para>
+
+<para>Sie können den allgemeinen Namen herausfinden, indem Sie die Ganztonschritte zählen. Wenn sich also das Intervall von E bis Gis erstreckt, zählen Sie von E bis G und erhalten den allgemeinen Namen <emphasis>Terz</emphasis>.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>Die Intervallgruppe bezeichnet die exakte Größe des Intervalls. Primen, Quarten, Quinten und Oktaven können vermindert, rein oder übermäßig sein. Sekunden, Terzen, Sexten und Septimen können klein, groß, vermindert oder übermäßig sein. Ein kleines Intervall ist um einen Halbton kleiner als ein großes Intervall. Ein vermindertes Intervall ist um einen Halbton kleiner als ein reines oder kleines Intervall, und ein übermäßiges Intervall ist um einen Halbton größer als ein reines oder großes Intervall.</para>
+
+<para>Versetzungszeichen ändern die Größe von Intervallen. Das Intervall wird einen Halbton größer, wenn Sie ein Kreuz vor den höchsten Ton setzen, oder um einen Halbton tiefer, wenn Sie ein b vor den tiefsten Ton setzen. Außerdem wird das Intervall einen Halbton kleiner mit einem d vor dem höchsten Ton oder einem Kreuz vor dem tiefsten Ton. In den folgenden Abschnitten wird die Benennung von Intervallen detailliert beschrieben.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Sekunden</title>
+<para>Sekunden sind einfach erkennbar: Es sind die benachbarten Noten in der Notation. Eine der Noten ist auf einer Notenlinie, während die zweite sich im Zwischenraum darunter oder darüber befindet. Eine kleine Sekunde umfasst einen Halbtonschritt. Eine große Sekunde entspricht zwei Halbtonschritten, also einem Ganzton.</para>
+
+<para>Um Sekunden richtig identifizieren zu können, sollten Sie zunächst lernen, welche Sekunden zwischen den Tönen der Durtonleiter liegen. Wie Sie in <xref linkend="theory-intervals-seconds"/> sehen können, sind nur die Intervalle E-F und B-C kleine Sekunden. Die Übrigen sind große Sekunden. Mit einem Klavier lässt sich verdeutlichen, dass <xref linkend="theory-intervals-seconds"/> korrekt ist. Es gibt nämlich keine schwarzen Tasten zwischen E und F und zwischen B und C.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Bei einer Sekunde mit Versetzungszeichen müssen wir herausfinden, wie sich diese auf die Größe des Intervalls auswirken. Lassen Sie uns nun einige Intervalle identifizieren.</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Wir entfernen das Versetzungszeichen von dem Intervall in <xref linkend="theory-intervals-seconds-1"/> und stellen fest, dass es sich bei dem Intervall F-G um eine große Sekunde handelt. Wenn wir ein b zum höchsten Ton hinzufügen, wird das Intervall um einen Halbtonschritt kleiner und daher zu einer kleinen Sekunde.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Wir entfernen die Versetzungszeichen und sehen nun, dass das Intervall A-B eine große Sekunde ist. Erinnern Sie sich noch an <xref linkend="theory-intervals-seconds"/>? Dann fügen wir das b zum A hinzu, wodurch das Intervall zur übermäßigen Sekunde wird. Wenn wir hingegen das b zum B hinzufügen, wird das Intervall zur großen Sekunde.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Wir entfernen die Versetzungszeichen und sehen nun, dass das Intervall E-F eine kleine Sekunde ist. Wenn wir das b zum tiefsten Ton hinzufügen, wird das Intervall einen Halbton größer und wird damit zur großen Sekunde. Wenn wir das Kreuz zum höchsten Ton hinzufügen, wird das Intervall einen Halbton größer und wird zur übermäßigen Sekunde.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Terz</title>
+<para>Eine kleine Terz besteht aus einer kleinen und einer großen Sekunde oder drei Halbtonschritten. Eine große Terz entspricht zwei großen Sekunden oder vier Halbtonschritten. <xref linkend="theory-intervals-thirds"/> zeigt die Terzen zwischen allen natürlichen Tönen. Beachten Sie die großen Intervalle C-E, F-A und G-B. Dann sollten Sie wissen, dass die anderen vier Intervalle klein sind.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Dann untersuchen Sie die Versetzungszeichen, um zu sehen, ob sie den spezifischen Namen ändern. Dies geschieht auf die gleiche Weise wie bei Sekunden.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Quarte</title>
+<para>Eine reine Quarte entspricht 2½ Schritten oder zwei großen Sekunden und einer kleinen Sekunde. <xref linkend="theory-intervals-fourths"/> zeigt alle Quarten zwischen den natürlichen Tönen. Beachten Sie, dass die Quarte F-B übermäßig ist, während die anderen sechs rein sind.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Quinte</title>
+<para>Eine reine Quinte entspricht 3½ Schritten oder drei großen Sekunden und einer kleinen Sekunde. <xref linkend="theory-intervals-fifths"/> zeigt alle Quinten zwischen den natürlichen Tönen. Beachten Sie, dass alle Intervalle rein sind, während B-F vermindert ist.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>If an interval has accidentals, then we must examine them to see how
+they change the size of the interval. A diminished fifth is one semitone
+smaller than a pure interval, and an augmented fifth is one semitone larger.
+Below you will find a few examples:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>We remember from <xref linkend="theory-intervals-fifths"/> that the
+interval B-F is a diminished fifth. The lowest tone in <xref linkend="theory-intervals-fifths-1"/> is preceded by a flat that makes the
+interval one semitone larger and changes the interval from a diminished to a
+pure fifth.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>We know from <xref linkend="theory-intervals-fifths"/> that interval E-B
+is a perfect fifth. In <xref linkend="theory-intervals-fifths-2"/> the E has a
+flat in front of it, making the interval augmented. But then the B is preceded
+by a double flat that makes the interval two semitone steps smaller and changes
+the interval to a diminished fifth.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Sexten</title>
+<para>Sixths are easiest identified by <link linkend="inverting-intervals">
+inverting the interval</link> and identifying the third. Then the following
+rule applies:</para>
+
+<itemizedlist>
+<listitem><para>Wenn die Terz vermindert ist, dann ist die Sexte übermäßig</para></listitem>
+<listitem><para>Wenn die Terz klein ist, dann ist die Sexte groß</para></listitem>
+<listitem><para>Wenn die Terz groß ist, dann ist die Sexte klein</para></listitem>
+<listitem><para>Wenn die Terz übermäßig ist, dann ist die Sexte vermindert</para></listitem>
+</itemizedlist>
+
+<para>If you find inverting intervals difficult, then you can memorise that the
+intervals E-C, A-F and B-G are minor. The other four are major.  Then you
+examine the accidentals to see if they change the specific name. This is done
+exactly the same way as for seconds.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Septimen</title>
+<para>Septimen werden auf die gleiche Weise identifiziert wie Sexten. Wenn Sie eine Septime umkehren, erhalten Sie eine Sekunde.</para>
+
+<para>If you find inverting intervals difficult, then you
+can memorise that the intervals C-B and F-E are major. The other five are
+minor. Then you examine the accidentals to see if they change the specific
+name. This is done exactly the same way as for seconds.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Intervalle invertieren</title>
+<para>You invert an interval when you move the lowest tone of an interval one
+octave higher or the highest tone one octave lower. The general name changes this way:</para>
+<itemizedlist>
+<listitem><para>Eine Sekunde wird zur Septime.</para></listitem>
+<listitem><para>Eine Terz wird zur Sexte.</para></listitem>
+<listitem><para>Eine Quarte wird zur Quinte.</para></listitem>
+<listitem><para>Eine Quinte wird zur Quarte.</para></listitem>
+<listitem><para>Eine Sexte wird zur Terz.</para></listitem>
+<listitem><para>Eine Septime wird zur Sekunde.</para></listitem>
+</itemizedlist>
+
+<para>Die Intervallgruppe ändert sich wie folgt:</para>
+<itemizedlist>
+<listitem><para>Vermindert wird zu übermäßig.</para></listitem>
+<listitem><para>Dur wird Moll.</para></listitem>
+<listitem><para>Perfekt bleibt perfekt.</para></listitem>
+<listitem><para>Dur wird zu Moll</para></listitem>
+<listitem><para>Übermäßig wird zu vermindert.</para></listitem>
+</itemizedlist>
+
+<para>Nachstehend finden Sie zwei Beispiele. Eine große Terz wird umgekehrt und wird zur kleinen Sexte, und eine kleine Septime wird durch Umkehrung zur großen Sekunde.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

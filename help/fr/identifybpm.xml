@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Pulsations par minute</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Le logiciel joue un tempo, comme un métronome. Vous devez alors essayer de deviner combien de pulsations par minute sont jouées. Chaque bouton représente un tempo et le logiciel ne joue que les tempos correspondant à un bouton en gras. Cliquez avec le bouton droit pour changer le statut d'un tempo.</para>
+
+<para>Note : le rythme dépend de la fonction <literal>gtk timeout_add</literal> qui joue les rythmes, par conséquent il n'est pas très précis.</para>
+
+</sect1>

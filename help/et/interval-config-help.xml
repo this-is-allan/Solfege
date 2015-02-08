@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Seaded</title>
+<para>Harjutuse seadete leheküljel võite valida mitmeid võimalusi, kuidas harjutust sooritada. Praeguse seisuga on valikuteks klaver, kitarr, bass(kitarr) ning mõningad akordionitüübid lisaks tavapärastele intervallinuppudele. All järgneb ekraanipilt, mis näitab klaveriliidest.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt intervallide harjutusest, kui intervallide määramiseks kasutatakse programmi nuppusid.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

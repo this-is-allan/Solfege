@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Cantar acorde</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela do programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Ao conduzir um coral, tem que cantar as notas iniciais para as vozes diferentes, e se você não tiver um piano por perto, terá que usar um diapasão. Se você for homem, cantará as notas para as mulheres a uma oitava abaixo, e vice-versa.</para>
+
+<para>O programa tocará a nota Lá (440 Hz) para você, e mostrará um acorde que precisa cantar. O Solfege ainda não tem suporte para um microfone, então você terá que decidir sozinho se sua resposta está correta ou não.</para>
+
+</sect1>

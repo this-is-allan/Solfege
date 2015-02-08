@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>12 rastgele notayı söyleyiniz.</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu alıştırmada, program dizideki tüm on iki sesi karışık sırada gösterecek ve dizinin ilk sesini çalacak. Sonra, siz tüm sesleri söyleyebilir ve son sesin uyup uymadığını kontrol edebilirsiniz. Bu yüzden bu çalışma, aralıkları söyleme alıştırmasından ziyade deşifre sınavı gibidir. Bu sebeple, önce diğer aralık alıştırmalarını denemelisiniz.</para>
+
+</sect1>

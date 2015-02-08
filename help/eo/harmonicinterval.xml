@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Harmona intervalo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la progamo dum trejnado de intervaloj uzante la interfacajn butonojn.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Tiu ĉi ekzerco estas unu el tiuj kiujn vi povas uzi por trejni intervalojn. La koncepto estas tre simpla: Vi premas la butonon <guibutton>Nova intervalo</guibutton> por ludi hazardan intervalon, kaj tiam vi devos diri kiu intervalo ĝi estis.</para>
+
+<para>Se vi uzas la butonan interfacon, do vi povas dekstre-klaki sur la butonoj por aŭskulti la intervalon, kiun ili reprezentas.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

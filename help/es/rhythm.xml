@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Ritmo</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla del programa mostrando un ejercicio de acordes.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>El programa reproduce un ritmo generado aleatoriamente, y el usuario debe reproducir el ritmo. El usuario ingresa el ritmo usando botones que representan diferentes grupos rítmicos.</para>
+
+<para>Cuando haya ingresado suficientes células rítmicas, Solfege verificará su respuesta. Si es correcta, se mostrará una carita feliz, si no, una cara triste, y los ritmos equivocados serán señalados.</para>
+
+<para>Si parte de su respuesta es incorrecta, todo lo que haya desde el primer elemento erróneo será quitado (preservando los ritmos correctos en el inicio de la respuesta) cuando usted aprete en la carita triste, o cuando aprete en los botones rítmicos arriba en la página.</para>
+
+<para>Puede apretar en el botón 'Tocar' para escuchar su sugerencia.</para>
+
+<para>Actualmente, las preguntas de este ejercicio son realizadas seleccionando los ritmos aleatoriamente. Esta no es la mejor manera, por lo que esperamos generarlas de una manera más inteligente en posteriores versiones.</para>
+
+</sect1>

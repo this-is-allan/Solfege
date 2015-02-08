@@ -1,0 +1,34 @@
+header {
+  module = chord
+  title = "chord mpd errors"
+  lesson_id = "chord-module-exceptions"
+  have_repeat_slowly_button = yes
+}
+question {
+  name = "chord: c e g"
+  music = chord("c e g")
+}
+question {
+  name = "chord: c > e g"
+  music = chord("c > e g")
+}
+question {
+  name = "chord: <"
+  music = chord("<")
+}
+question {
+  name = "chord: c ERR g"
+  music = chord("c ERR g")
+}
+question {
+  name = "chord: \c e g"
+  music = chord("\c e g")
+}
+question {
+  name = "chord: \clef noclefsaadlj c e "
+  music = chord("\clef noclefsaadlj c e ")
+}
+question {
+  name = "chord: {"
+  music = chord("{")
+}

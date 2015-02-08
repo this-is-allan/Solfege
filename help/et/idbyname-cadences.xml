@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Määrake kadentsi tüüp</title>
+<para>Määrake kadentsi tüüp klõpsates vastavaele nupule. Nagu öeldud ka raportis  <ulink url="http://bugs.solfege.org/5">bug #5</ulink> on juurde vaja uusi kadentsiharjutusi.</para>
+<para>Selles Solfege'i versioonis on ainult üks kadentside harjutus, mis on mažooris. Selles harjutuses mängitakse ette kõigepealt mažoorne helirida, et anda toonika tunnetus. Võibolla on seda liiga vähe? Kas on tarvis ette mängida nt terve I-IV-V-I järgnevus? Või on parem kirjtutada jupp reaalset muusikat, mis lõpeb kadentsiga, mida tahetakse harjutada? Need on asjad, mida tuleks otsustada, enne kui tuleb välja Solfege 3.12.0. Kommetaarid ja muusika võib lisada <ulink url="http://bugs.solfege.org/5"> bug #5 juurde</ulink>.</para>
+</sect1>

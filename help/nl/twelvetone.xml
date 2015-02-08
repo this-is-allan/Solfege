@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Zing 12 willekeurige noten</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>In deze oefening toont het programma alle twaalf noten op de ladder in een willekeurige volgorde en speelt het de eerste. Je kunt alle noten nazingen en nagaan of de laatste noot overeenkomt. Dit is dus eigenlijk meer een examen in notenlezen dan een oefening om intervallen te leren zingen. Daarvoor moet je eens één van de andere intervaloefeningen proberen.</para>
+
+</sect1>

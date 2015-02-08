@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Escalas</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>O Solfege tem três variantes de exercícios de escalas.</para>
+<itemizedlist>
+<listitem><para>O Solfege tocará uma escala, e você deverá identificá-la clicando no botão com o nome da escala.</para>
+</listitem>
+<listitem><para>O Solfege tocará uma escala, e você deverá identificar a estrutura da escala. Você será apresentado a uma coleção de botões com números de '1', '2' e '3'. Estes números representam os intervalos segunda menor, segunda maior e terça menor que estão entre as notas da escala.</para></listitem>
+<listitem><para>O Solfege tocará uma escala, e você deverá identificar o grau. Por exemplo, o Solfege pode pegar a escala natural menor e tocá-la a partir de qualquer uma das notas da escala, e você precisa dizer de qual nota ela começou.</para></listitem>
+</itemizedlist>
+
+</sect1>

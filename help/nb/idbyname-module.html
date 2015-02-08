@@ -1,0 +1,36 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The idbyname module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 User Manual"><link rel="up" href="extending-solfege.html" title="Kapittel 4. Extending GNU Solfege"><link rel="prev" href="harmonicinterval-module.html" title="The harmonicinterval module"><link rel="next" href="identifybpm-module.html" title="The identifybpm module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">idbyname</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="harmonicinterval-module.html">Forrige</a> </td><th width="60%" align="center">Kapittel 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="identifybpm-module.html">Neste</a></td></tr></table><hr></div><div class="sect1" title="The idbyname module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="idbyname-module"></a>The <code class="literal">idbyname</code> module</h2></div></div></div><p>This is a very generic exercise. In its most basic form, the program will
+play some sound, and you have to select among several buttons that in some way
+represents the music.</p><p>Here is a minimal lesson file:</p><pre class="programlisting">
+header {
+  <a class="xref" href="lesson-files.html#lf-module">module</a> = idbyname
+  <a class="xref" href="lesson-files.html#lf-version">version</a> = "3.1.4"
+  <a class="xref" href="lesson-files.html#lf-title">title</a> = "Menuitem title"
+}
+question {
+ name = "Major"
+ music = chord("c' e' g'")
+}
+question {
+ name = "Minor"
+ music = chord("c' es' g'")
+}
+</pre><div class="variablelist" title="Optional idbyname header variables"><p class="title"><b>Optional idbyname header variables</b></p><dl><dt><span class="term"><code class="literal">filldir = vertic</code></span></dt><dd><a class="indexterm" name="idp6654656"></a><p>Tell the direction the buttons are filled. Default value is <code class="literal">horiz</code>.</p><p>Modules: <code class="literal">idbyname</code>.</p></dd><dt><span class="term"><code class="literal">fillnum</code></span></dt><dd><a class="indexterm" name="idp6658544"></a><p>Tell how many buttons there are in each row or column. 
+     The default value is 1.</p><p>Modules: <code class="literal">idbyname</code>.</p></dd><dt><span class="term"><code class="literal"><a name="lf-labelformat"></a>labelformat</code><code class="literal"> = progression</code></span></dt><dd><a class="indexterm" name="idp6662560"></a><p>The default value is <code class="literal">normal</code>.
+    Set to <code class="literal">progression</code> for lesson files where the name of the
+    questions is a harmonic progression, written in a undocumented, but not
+    difficult format. Check some existing lesson file to see how it works.
+    </p><div class="warning" title="Advarsel" style="margin-left: 0.5in; margin-right: 0.5in;"><h3 class="title">Advarsel</h3><p>Using this variable is deprecated. Do not use it for new
+    lesson files.</p></div><p>
+    </p><p>Modules: <code class="literal">idbyname</code></p></dd><dt><span class="term">
+    
+    <code class="varname"><a name="lf-have_repeat_slowly_button"></a>have_repeat_slowly_button</code>
+    
+    <code class="literal">= yes</code></span></dt><dd><a class="indexterm" name="idp6669120"></a><p>Set to <code class="literal">yes</code> if you want the exercise to have a "Repeat slowly" button.</p><p>Modules: <code class="literal">idbyname</code>.</p></dd></dl></div><p>
+See also <a class="xref" href="lesson-files.html#lf-at_question_start">at_question_start</a>
+and <a class="xref" href="lesson-files.html#lf-music_displayer_stafflines">music_displayer_stafflines</a>.
+</p><div class="sect2" title="Question block"><div class="titlepage"><div><div><h3 class="title"><a name="idp6674176"></a>Question block</h3></div></div></div><div class="itemizedlist" title="Required question variables"><p class="title"><b>Required question variables</b></p><ul class="itemizedlist" type="disc"><li class="listitem"><p><a class="xref" href="lesson-files.html#lf-name">name</a>. Can be a string
+or a label created by the <a class="xref" href="lesson-files.html#labelfunctions" title="Label functions">label functions</a>.</p></li><li class="listitem"><p><a class="xref" href="lesson-files.html#lf-music">music</a></p></li></ul></div><div class="variablelist" title="Optional question variables"><p class="title"><b>Optional question variables</b></p><dl><dt><span class="term"><code class="varname">vmusic</code></span></dt><dd><a class="indexterm" name="idp6680656"></a><p>See <a class="xref" href="lesson-files.html#lf-vmusic">vmusic</a>.</p></dd><dt><span class="term"><code class="varname">cuemusic</code></span></dt><dd><a class="indexterm" name="idp6683984"></a><p>Will be displayed in the music displayer when the user clicks New.
+    Ignored if <code class="literal">at_question_start = play, show</code> or
+    <code class="literal">at_question_start = show</code>, because then the content of
+    <code class="varname">music</code> or <code class="varname">vmusic</code> is displayed when the
+    user clicks New. (Added in Solfege 2.5.1)</p></dd></dl></div></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="harmonicinterval-module.html">Forrige</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Opp</a></td><td width="40%" align="right"> <a accesskey="n" href="identifybpm-module.html">Neste</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">harmonicinterval</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Hjem</a></td><td width="40%" align="right" valign="top"> The <code class="literal">identifybpm</code> module</td></tr></table></div></body></html>

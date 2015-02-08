@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Profielbeheer</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Het profielbeheer laat meerdere Solfege-gebruikers een gebruikersaccount delen op je computer. De profielen gebruiken hetzelfde configuratiebestand, maar hebben afzonderlijke statistieken en testresultaten.</para>
+
+<para>Als er meer dan één profiel bestaat, wordt het profielbeheer tijdens de programmastart getoond. Je kunt het profielbeheer ook starten door <guimenuitem>Profielbeheer</guimenuitem> te selecteren uit <guimenu>Bestand</guimenu>.</para>
+
+<para>Als je het profielbeheer niet wilt zien bij het opstarten, vink je <emphasis>Niet vragen bij het opstarten</emphasis> aan. Het laatst geselecteerde profiel bij het afsluiten van het profielbeheer worden dan bewaard en weer getoond bij het opstarten.</para>
+</sect1>

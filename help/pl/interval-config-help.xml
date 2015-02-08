@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Konfiguracja</title>
+<para>Na zakładce konfiguracji ćwiczeń znajduje się rozwijana lista, na której możesz wybrać różne sposoby odpowiedzi na pytania. Obecnie oprócz interfejsu z przyciskami do wyboru jest także klawiatura fortepianu, gitara, gitara basowa oraz kilka odmian akordeonu. Poniżej znajduje się zrzut ekranu pokazujący interfejs z fortepianem.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu do ćwiczeń interwałowych rozpoznawanych przy użyciu przycisków.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

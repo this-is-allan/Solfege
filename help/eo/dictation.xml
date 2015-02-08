@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="dictation">
+<title>Diktado</title>
+<informalfigure id="dictation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/dictation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo dum la ekzerco pri diktado.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Tiu ĉi ekzerco estas nomata diktado, tamen se la bezonataj leciondosieroj estos skribitaj ĝi povos estis uzata laŭ pluraj manieroj: <itemizedlist>
+<listitem><para>Vi povas lasi ke Solfege ludu iun muzikon por vi, kiun vi devas skribi surpapere. Klaku sur la butonoj kun bildo pri kvarona noto por ripeti pli malgrandajn partojn de la muziko. Vi devas musklaki sur la butonon Montri kaj mem kontroli viajn notojn por konstati ĉu vi iel eraris.</para></listitem>
+
+<listitem><para>Vi povas uzi tiun ĉi ekzercon por trejni tuj-kantadon: Kiam vi ekigas la ekzercon, premu Montri kaj tiam provu kanti la muzikon. Tiam vi povas uzi la butonon 'Ludi la tutan muzikon' aŭ la butonojn kun kvaronaj notoj por lasi ke la programo ludu la muzikon. Vi devas mem decidi ĉu vi sukcesis aŭ ne.</para></listitem>
+</itemizedlist></para>
+
+</sect1>

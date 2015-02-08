@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idtone">
+<title>Noot benoemen</title>
+<informalfigure id="idtone-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Dit is een combinatie van toongeheugen en intervaloefening. Sommigen geloven dat je met deze oefening met een absoluut gehoor kunt krijgen, maar ik denk van niet.</para>
+
+<para>Het principe is als volgt: het programma speelt een toon en je moet deze benoemen door het te vergelijken met de laatste toon die voor je gespeeld is.</para>
+
+<para>Om je op gang te helpen speelt het programma één toon en laat de naam in de statusbalk zien. Je benoemde de tonen door op de pianotoetsen te klikken of met de sneltoetsen waarvan de letters op iedere toets staan.</para>
+
+<para>Rechtsklik op de pianotoetsen om de noot te horen zonder deze te hoeven raden. (Er zijn mensen die dit valsspelen noemen...)</para>
+
+<para>Solfege omvat een aantal oefeningen die je kunt vinden via `Toonherkenning` op de beginpagina. Begin met de eerste oefening en ga pas verder naar de volgende als je de oefeningen een paar minuten kunt volhouden en nog steeds een goede score haalt, bijvoorbeeld 96% correct.</para>
+
+<sect2 id="idtone-manual-conf">
+<title>Handmatige configuratie</title>
+
+<para>Je kunt deze oefening naar eigen voorkeur instellen door “Zelf instellen” te selecteren in de standaard startpagina.</para>
+
+<para>Er zijn verschillende manieren om deze oefening te gebruiken. Persoonlijk heb ik deze oefening niet veel gebruikt en de onderstaande paragrafen zijn slechts suggesties.</para>
+
+<sect3 id="idtone-note-by-note">
+<title>Noot voor noot</title>
+<para>Begin met alleen de noten c-d-e met gewicht 1. Als je score minstens 96% correct is, voeg je toon f toe en ga je verder. Voeg vervolgens net zolang tonen toe totdat je met alle 12 tonen oefent. Dit is hetzelfde als bij de voorgedefinieerde oefeningen en de beschreven instructies aan het begin van dit hoofdstuk.</para>
+</sect3>
+
+<sect3 id="idtone-heavy-a">
+<title>Zware A</title>
+
+<para>Configureer de toon A op gewicht 11 (of hoger) en de rest van de tonen op gewicht 1. Op deze wijze speelt het programma de toon zeer vaak, zodat je deze toon zult onthouden en vervolgens gebruiken als referentie om de andere tonen te benoemen. Als je dit een tijdje hebt geoefend, dan kan je het gewicht iets reduceren om de oefening moeilijker te maken.</para>
+</sect3>
+
+<sect3 id="idtone-config">
+<title>Configuratie</title>
+
+<para>Als gestart via “Zelf instellen”, dan kan je bovenaan de configuratiepagina het programma instrueren hoe belangrijk de verschillende tonen zijn. Als je bijvoorbeeld toon A 11 punten en de rest 1 punt geeft, dan zullen (11+11*1)/11*100 = 50% van de willekeurige tonen een A zijn.</para>
+
+<para>Hieronder kan je selecteren van welke octaven de willekeurige tonen moeten komen.</para>
+
+<para>Je kunt selecteren of Solfege automatisch een nieuwe vraag moet stellen als je de oude hebt opgelost.</para>
+
+<para>In het kader hieronder kan je enkele voor de handliggende opties instellen wat er moet gebeuren bij een onjuist antwoord.</para>
+
+<para>De sneltoeten kunnen worden ingesteld via het <link linkend="preferences-window">voorkeurenvenster</link>.</para>
+</sect3>
+</sect2>
+</sect1>

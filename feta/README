@@ -1,0 +1,12 @@
+
+The pixmaps used to display music is generated from the feta font
+used by GNU Lilypond, copyright Han-Wen Nienhuys, Jan Nieuwenhuizen
+and others. Lilypond is the GNU project music typesetter, if you
+want high quality music typesetting, check it out at
+`http://www.lilypond.org'. Only the generated pixmaps for the font
+are included in GNU Solfege, you should check the source tarball
+for GNU Lilypond for the source code. This because GNU Solfege
+only use a few of the fonts and I had to to some manual tweaking
+to use the fonts. I got permission to do this from Han-Wen
+Nienhuys.
+

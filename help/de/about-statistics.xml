@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>Info zu den Statistiken</title>
+<para>Einige Übungen zeigen Statistiken für verschiedene Zeitspannen an: <emphasis>Sitzung</emphasis>, <emphasis>Heute</emphasis>, <emphasis>Letzte 7 Tage</emphasis> and <emphasis>Gesamt</emphasis>. Das Programm verwendet zwei verschiedene Arten von Tabellen.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto der Prozenttabelle einer Statistikseite.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Die im Bildschirmfoto oben angezeigte erste Tabelle besitzt für jede Frage in der Lektionsdatei eine Spalte. <emphasis>Prozent</emphasis> ist der Prozentsatz an Zeit, in der die Fragen korrekt beantwortet wurden. <emphasis>Anzahl</emphasis> ist die Zahl der Fragen, die richtig beantwortet wurden.</para>
+
+<para>In the second type of table, the columns have the same labels as the rows,
+but the labels are not displayed because it will make the table
+too wide. So in the screenshot above, column 1 should have the label
+<emphasis>m3↑</emphasis> and column 2 <emphasis>M3↑</emphasis>.
+
+For the questions identified by the label of each row, each
+column tell how many times the user have answered the different possible
+answers. The bold number is the number of times the correct answer have
+been give.</para>
+
+</sect1>

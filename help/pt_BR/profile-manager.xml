@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Gerenciador de Perfis</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>O gerenciador de perfis permite que vários usuários do Solfege compartilhem uma mesma conta no sistema operacional. Os perfis vão compartilhar o arquivo de configuração, mas eles manterão estatísticas e resultados de testes em separado.</para>
+
+<para>O gerenciador de perfis mostrará durante a inicialização se existe mais que um perfil. Você pode também acessar o gerenciador de perfis selecionando <guimenuitem>Gerenciador de Perfis</guimenuitem> a partir de <guimenu>Arquivo</guimenu>.</para>
+
+<para>Marque <emphasis>Não perguntar na inicialização</emphasis> se você não quer ver o gerenciador de perfis na inicialização. Será lembrado então o último perfil selecionado quando você fechar o gerenciador de perfis e iniciar o programa com aquele perfil.</para>
+</sect1>

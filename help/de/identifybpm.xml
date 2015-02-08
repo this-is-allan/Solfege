@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Schläge pro Minute</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>The program will play a tempo, like a metronome. You should try to guess
+how many beats per minute is played. Each button represents one tempo, and the
+program will only play in tempos that has a button with bold text.  Right-click
+on buttons to change the status of a tempo.</para>
+
+<para>Beachten Sie: Der Rhythmus hängt von der Funktion <literal>gtk timeout_add</literal> ab und ist daher nicht sehr genau.</para>
+
+</sect1>

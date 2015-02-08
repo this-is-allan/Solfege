@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Batuque o rítmo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela do batuque rítmico.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>O programa tocará um ritmo gerado aleatoriamente, e o usuário deverá reproduzí-lo. O usuário insere o ritmo batucando no botão rotulado como <emphasis>Batuque aqui</emphasis>.</para>
+</sect1>

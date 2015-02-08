@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Profil Düzenleyicisi</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Profil düzenleyicisi, işletim sisteminizde birden fazla Solfege yazılımını kullanıcıların paylaşmasına olanak tanır. Profiller config dosyasını paylaşacaklardır, fakat her kullanıcının ayrı istatistiği ve test sonucu olacaktır.</para>
+
+<para>Eğer birden fazla profil varsa, program başlarken profil düzenleyicisi görüntülenecektir. Ayrıca profil düzenleyicisini şöyle de seçebilirsiniz: <guimenuitem>Profil Düzenleyicisi</guimenuitem> buradan ulaşın <guimenu>Dosya</guimenu>.</para>
+
+<para>Seçin <emphasis>Başlangıçta sorma</emphasis> eğer başlangıçta profil düzenleyicisi görmek istemiyorsanız. Bu durumda program son kullanılan profili hatırlayacak ve programı son kullanılan profil ile açacaktır.</para>
+</sect1>

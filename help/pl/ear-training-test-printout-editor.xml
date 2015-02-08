@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Edytor wydruku edytora nutowego</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu okna edytora treningu.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Narzędzie to dostępne jest w menu <guimenu>Plik</guimenu>. Użyj go do tworzenia wydruku testów słuchowych na papierze. Solfege wygeneruje dwie wersje tego dokumentu: jeden do wypełnienia dla uczniów i drugi z wpisanymi poprawnymi odpowiedziami. </para>
+
+<para>Pod przyciskiem <guibutton>Dodaj</guibutton> znajduje się rozwijane menu zawierające wszystkie ćwiczenia dostępne w aktywnym schemacie lekcyjnym. Przy zapisie ćwiczenie wykorzysuje moduły <link linkend="idbyname-module">idbyname</link>, <link linkend="melodicinterval-module">melodicinterval</link> i <link linkend="harmonicinterval-module">harmonicinterval</link>. Z plików lekcyjnych zapisanych do modułu <literal>idbyname</literal>, dostępne są tylko następujące objekty muzyczne: <link linkend="lfunc-chord">chord</link>, <link linkend="lfunc-rvoice">rvoice</link> i <link linkend="lfunc-voice">voice</link>.</para>
+
+<para><guibutton>Utwórz arkusz</guibutton> otworzy okno dialogowe, w którym będziesz mógł wybrać lub stworzyć pusty katalog, w którym zostaną zapisane pliki HTML, LaTex i pliki graficzne.</para>
+
+<para>Jeśli zapiszesz i wczytasz pliki z testami słuchowymi, program zapamięta kolejność pytań. Wczytanie pliku i kliknięcie przycisku <guibutton> Utwórz arkusz </guibutton> utworzy dokładnie taki sam test. Kliknij <guibutton> Losowo </guibutton> , aby stworzyć nowy losowy zestaw pytań.</para>
+</sect1>

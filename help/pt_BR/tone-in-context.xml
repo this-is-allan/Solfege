@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="tone-in-context">
+<title>Tom no contexto</title>
+<informalfigure id="tonecontext">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/toneinkey.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Tela do programa rodando um exercício de tom-em-tonalidade.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Clique em <guibutton>Novo</guibutton> e o programa tocará alguma música, normalmente uma cadência, seguida de um tom. O usuário deve encontrar a posição do tom na tonalidade representada pela cadência e responder clicando nos botões rotulados de 1 a 7.</para>
+</sect1>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="trainingset-editor">
+<title>Redaktilo de trejnaro</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/trainingset-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo de la fenestro de trejnaro-redaktilo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>La redaktilo de trejnaro ebligas al vi krei dosierojn MIDI/WAV/MP3/OGG kun problemoj, tiel ke vi povos ŝuti ilin al via PDA, portebla telefono kaj MP3-ludilo. Solvo-folio estos generata por ke vi printu ĝin. Tiam vi povos igi ke la MP3-ludilo ludu la dosierojn laŭ hazarda ordo, kaj vi povos uzi la solvo-folion por kontroli ĉu vi korekte identigis la muzikon.</para>
+
+<para>Oni uzas la redaktilon de trejnaro por difini kiujn ekzercojn generi. Vi povas konservi vian difinon en dosiero por posta uzado. Ĉiu fojo kiam vi klakos sur <guibutton>Eksporti</guibutton>, nova aro da dosieroj estos generata en dosierujo elektita de vi. Vi devos permane alŝuti la generitajn son-dosierojn al via portebla aparato.</para>
+
+<para>La programo ebligas al vi generi demandojn el tiom da lecionoj kiom vi deziras, sed la plej kutima maniero estas generi amason da demandoj el nur unu, aŭ el kelkaj dosieroj.</para>
+
+<para>La programoj uzataj por konverti inter malsamaj dosierformoj estas difinataj en paĝo Gui de la <link linkend="preferences-gui">fenestro de preferoj</link>. Bonvolu kontroli la difinojn tie se vi alfrontas problemojn pri konverto de dosieroj MIDI al la formoj WAV, MP3 au OGG.</para>
+
+<variablelist>
+<title>Klarigo pri kolumno-kapoj</title>
+<varlistentry>
+ <term>Nombro</term>
+ <listitem><para>La nombro da demandoj por generi el leciondosiero.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Ripeti</term>
+ <listitem><para>Kiom da fojoj ripeti ĉiun demandon.</para></listitem>
+</varlistentry>
+<varlistentry>
+ <term>Prokrasto</term> <listitem><para>Kiom longe prokrasti inter la demandoj. Mezurite laŭ daŭro de kvaronaj notoj.</para></listitem>
+</varlistentry>
+</variablelist>
+
+</sect1>

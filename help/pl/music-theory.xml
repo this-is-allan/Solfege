@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Teoria muzyki</title>
+<sect1 id="theory-scales">
+<title>Skale</title>
+<para>David Bonetti dostarczył duży zestaw ćwiczeń skalowych i kilka stron opisujących te skale. Możesz obejrzeć te strony <ulink url="../C/scales/modes.html">tutaj</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Interwały</title>
+<para>Interwałem w muzyce nazywamy odległość pomiędzy dwoma dźwiękami. Jeśli dźwięki te brzmią równocześnie to mówimy o interwale harmonicznym, a jeśli następują jeden po drugi to mówimy o interwale melodycznym. </para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Nazwa interwału składa się z dwóch części, np. "tercja wielka", czy "kwinta czysta". Pierwszy człon określa ilość stopni, drugi człon precyzuje rozmiar interwału wskazując dokładną liczbę półtonów. Nazwa "tercja wielka" mówi, że interwał ten ma trzy stopnie (tercja) i cztery półtony (wielka)</para>
+
+<para>Ogólną nazwę interwału określamy licząc stopnie (pola i linie) na pięciolinii, ignorując znaki chromatyczne. Tak więc, jeśli interwał powstaje między dźwiękami e i g#, to znaczy że ma trzy stopnie (e,f, g) i nazywa się <emphasis>tercją</emphasis>.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>Rozmiar interwału wskazuje dokładną liczbę półtonów. Unisony, kwarty, kwinty i oktawy mogą być zmniejszone, czyste lub zwiększone. Sekundy, tercje, seksty i septymy mogą być małe, wielkie, zmniejszone, lub zwiększone. Interwał mały jest o jeden półton mniejszy od wielkiego. Interwał zmniejszony jest o jeden półton mniejszy od czystego, lub małego, zaś interwał zwiększony o jeden półton większy od czystego, lub wielkiego.</para>
+
+<para>Rozmiar interwału zmieniają znaki chromatyczne. Interwał zwiększy się o półton, jeśli do górnej nuty dodamy krzyżyk, lub do dolnej nuty dodamy bemol. Interwał zmniejszy się o półton, jeśli do górnej nuty dodamy bemol, lub do dolnej nuty dodamy krzyżyk. Więcej szczegółów o określaniu interwałów znajduje się w nastepnym rozdziale. </para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Sekundy</title>
+<para>Sekundy łatwo rozpoznać, gdyż dwie nuty znajdują się w bezpośrednim sąsiędztwie na pięciolinii. Jedna z nut leży na polu, druga zaś na linii powyżej, lub poniżej. Mała sekunda ma tylko jeden półton (półton to odległość pomiędzy dwoma najbliższymi klawiszami na klawiaturze, lub progami na gitarze). Wielka sekunda ma dwa półtony i nazywana jest całym tonem.</para>
+
+<para>Aby nauczyć się rozpoznawać sekundy, najpierw naucz się jakie sekundy leżą pomiedzy dźwiękami diatonicznymi (tzn. bez znaków chromatycznych). Tak jak to pokazuje <xref linkend="theory-intervals-seconds"/>, sekundy małe leżą tylko między dźwiękami e-f i h-c. Pozostałe sekundy są wielkie. Możesz sprawdzić to co pokazuje <xref linkend="theory-intervals-seconds"/>, patrząc na klawiaturę fortepianu. Zobaczysz, że pomiędzy dźwiękami e-f i h-c nie ma czarnych klawiszy. </para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Jeśli dźwięki tworzące sekundę zawierają znaki chromatyczne, to będziemy musieli sprawdzić w jaki sposób zmieniają one rozmiar interwału. Spróbujmy rozpoznać kilka!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Usuwamy znak chromatyczny <xref linkend="theory-intervals-seconds-1"/> i widzimy że odległość f-g to wielka sekunda. Kiedy dodamy bemol do górnego dźwięku interwał ten zmniejszy się o półton, więc otrzymujemy sekundę małą.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Usuwamy znaki chromatyczne i widzimy, że odległość a-h to sekunda wielka. Pamiętamy <xref linkend="theory-intervals-seconds"/>, prawda? Skoro obydwa dźwięki (zarówno górny i dolny) są obniżone o półton, to rozmiar interwału nie zmienia się: as-b to interwał sekundy wielkiej, tak samo jak a-h.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Usuwamy znaki chromatyczne i widzimy, że odległość e-f to sekunda mała. Kiedy dodamy bemol do dolnej nuty, interwał stanie się o półtonu większy, czyli będzie sekundą wielką. Kiedy zaś dodamy krzyżyk do górnej nuty, interwał znowu zwiększy się o kolejne półtonu, stając się sekundą zwiększoną.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Tercje</title>
+<para>Tercja to odległość trzech stopni. Tercja mała składa się z sekundy małej i sekundy wielkiej, czyli trzech półtonów. Tercja wielka to dwa całe tony, czyli cztery półtony. <xref linkend="theory-intervals-thirds"/> pokazuje tercje między dźwiękami diatonicznymi. Powinieneś/aś zapamiętać tercje wielkie, c-e, f-a, g-h. Dzięki temu wiesz, że cztery pozotałe tercje są małe (d-f, e-g, a-c, h-d). </para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Następnie sprawdzasz znaki chromatyczne, aby czy zmieniają one rozmiar interwału.  Robi się to dokładnie w taki sam sposób, jak w przypadku sekund.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Kwarta</title>
+<para>Kwarta czysta to 2½  stopnia, lub dwie wielkie sekundy i jedna mała. <xref linkend="theory-intervals-fourths"/> pokazuje wszystkie kwarty pomiędzy dźwiękami diatonicznymi. Powinieneś/aś zapamiętać, że kwarta f-h jest kwartą zwiększoną, a pozostałych sześć to kwarty czyste. </para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Kwinta</title>
+<para>Kwinta czysta to 3½ stopnia lub trzy sekundy wielkie i jedna mała. <xref linkend="theory-intervals-fifths"/> pokazuje wszystkie kwinty pomiędzy dźwiękami naturalnymi. Powinieneś/aś zapamiętać, że wszystkie te interwały są czyste, za wyjątkiem kwinty h-f, która jest zmniejszona.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Jeśli dźwięki tworzące dany interwał mają znaki chromatyczne, to musimy sprawdzić w jaki sposób zmieniają one rozmiar interwału. Kwinta zmniejszona jest o półton mniejsza od kwinty czystej, a kwinta zwiększona o półton większa. Poniżej znajduje się kilka przykładów: </para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Pamiętamy <xref linkend="theory-intervals-fifths"/>, który pokazuje że interwał h-f to kwinta zmniejszona.  <xref linkend="theory-intervals-fifths-1"/> pokazuje, żę niższy dźwięk jest poprzedzony bemolem, który zwiększa interwał o jeden półton, zmieniając go z kwinty zmniejszonej na kwintę czystą.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para><xref linkend="theory-intervals-fifths"/> pokazuje że interwał e-h jest kwintą czystą. <xref linkend="theory-intervals-fifths-2"/> pokazuje, że przed e stoi bemol, który powoduje zwiększenie interwału. Nuta h jest jednak poprzedzona przez podwójny bemol, który zmniejsza interwał o dwa półtony, zamieniając go na kwintę zmniejszoną.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Seksty</title>
+<para>Seksty najłatwiej rozpoznać dzięki <link linkend="inverting-intervals"> przewrotom interwałów </link> i rozpoznawaniu tercji. Robi się to wg następujących reguł:</para>
+
+<itemizedlist>
+<listitem><para>Jeśli tercja jest zmniejszona, to seksta jest zwiększona</para></listitem>
+<listitem><para>Jeśli tercja jest mała, to seksta jest wielka</para></listitem>
+<listitem><para>Jeśli tercja jest wielka, to seksta jest mała</para></listitem>
+<listitem><para>Jeśli tercja jest zwiększona, to seksta jest zmniejszona</para></listitem>
+</itemizedlist>
+
+<para>Jeśli przewroty interwałów sprawiają ci kłopot, to możesz zapamiętać, że interwały e-c, a-f i h-g są sekstami małymi. Pozostałe cztery są wielkie. Później sprawdzamy znaki chromatyczne, aby sprawdzić czy zmieniają one rozmiar interwału. Robimy to w taki sam sposób jak w przypadku sekund.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Septymy</title>
+<para>Septymy rozpoznajemy w dokładnie taki sam sposób, jak seksty. Kiedy zrobisz przewrót septymy, uzyskać sekundę.</para>
+
+<para>Jeśli przewroty sprawiają ci kłopot, to możesz zapamiętać że interwały c-h i f-e są wielkie. Pozostałych sześć septym jest małych. Później sprawdzasz znaki chromatyczne, aby sprawdzić czy zmieniają one rozmiar interwału. Robimy to dokładnie tak sama, jak w przypadku sekund.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Przewroty interwałów</title>
+<para>Przewrót interwału powstaje wtedy, gdy dolny dźwięk przeniesiemy o oktawę wyżej, lub górny dźwięk przeniesiemy o oktawę niżej. Nazwy interwałów zmnieniają się w następujący sposób:</para>
+<itemizedlist>
+<listitem><para>Sekundy dają septymy.</para></listitem>
+<listitem><para>Tercje dają seksty.</para></listitem>
+<listitem><para>Kwarty dają kwinty.</para></listitem>
+<listitem><para>Kwinty dają kwarty.</para></listitem>
+<listitem><para>Seksty dają tercje.</para></listitem>
+<listitem><para>Septymy dają sekundy.</para></listitem>
+</itemizedlist>
+
+<para>Rozmiary interwałów zmieniają się w następujący sposób:</para>
+<itemizedlist>
+<listitem><para>Zmniejszone dają zwiększone.</para></listitem>
+<listitem><para>Małe dają wielkie.</para></listitem>
+<listitem><para>Czysty daje czysty</para></listitem>
+<listitem><para>Wielkie dają małe.</para></listitem>
+<listitem><para>Zwiększone dają zmniejszone.</para></listitem>
+</itemizedlist>
+
+<para>Poniżej znajdują się dwa przykłady: przewrót tercji wielkiej daje sekstę małą, a przewrót septymy małej, daje sekundę wielką.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

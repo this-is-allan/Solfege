@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="dictation">
+<title>Dikte</title>
+<informalfigure id="dictation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/dictation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Programın Dikte alıştırması yapılırken alınmış ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Bu alıştırmaya dikte alıştırması denir, fakat ders dosyaları hazır ise bu alıştırmalar başka şekillerde de kullanılabilir: <itemizedlist>
+<listitem><para>Solfege yazılımı kağıda yazacağınız bir müziği çalar. Müziğin küçük parçalarını tekrar etmesi için dörtlük nota şeklindeki düğmeye basın. Bir hata yapıp yapmadığınızı kontrol etmek için Göster düğmesini tıklamalısınız.</para></listitem>
+
+<listitem><para>Bu alıştırmayı deşifre amaçlı kullanabilirsiniz. Alıştırmaya başladığınızda, Göster'e basın ve müziği söylemeye çalışın. Ondan sonra programın müziğin tamamını çalması için Çal'a veya dörtlük nota şeklindeki düğmelere basın. Başarılı olup olmadığınıza kendiniz karar vermek durumundasınız.</para></listitem>
+</itemizedlist></para>
+
+</sect1>

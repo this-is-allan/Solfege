@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Menedżer profilów</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Menedżer profilów umożliwia korzystanie z Solfege'a wielu użytkowników, korzystającym z tego samego konta w systemie operacyjnym. Profile mają ten sam plik konfiguracyjny, ale oddzielne statystyki i wyniki testów. </para>
+
+<para>Menedżer profilów pojawi się przy uruchamianiu programu, jeśli utworzono więcej niż jeden profil. Menedżer można również uruchomić wybierając <guimenuitem>Menedżer profilów</guimenuitem> z <guimenu>Plik</guimenu>.</para>
+
+<para>Zaznacz <emphasis>Nie pytaj przy starcie</emphasis> jeśli nie chcesz, aby menedżer profilów uruchamiał się przy starcie programu. Zapamięta on wtedy ostatnio wybrany profil i uruchomi program z tym właśnie profilem.</para>
+</sect1>

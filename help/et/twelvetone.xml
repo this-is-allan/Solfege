@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Laulge 12 juhuslikku nooti</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Selles harjutuses paneb programm kõik 12 pooltooni juhuslikku järjekorda ning mängib esimese noodi. Laulge selle järgi kõik 12 nooti ning vaadake, kas viimane noot langeb kokku. Niisiis tegemist on pigem lehest laulmise kui intervallide laulmise harjutamisega. Viimase jaoks peaksite kasutama mõnda spetsiaalselt intervallide laulmiseks mõeldud harjutust.</para>
+
+</sect1>

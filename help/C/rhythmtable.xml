@@ -1,0 +1,281 @@
+<para>
+0:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c4.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c4</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+1:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+2:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+3:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+4:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+5:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c8c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c8 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+6:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8.c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8. c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+7:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c8..png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c8.</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+8:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r4.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r4</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+9:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r8c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r8 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+10:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r8c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r8 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+11:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r16c16c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r16 c16 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+12:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r16c8c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r16 c8 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+13:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r16c16c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r16 c16 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+14:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r8r16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r8 r16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+15:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r16c8..png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r16 c8.</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+16:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c12c12c12.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c12 c12 c12</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+17:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r12c12c12.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r12 c12 c12</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+18:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c12r12c12.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c12 r12 c12</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+19:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c12c12r12.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c12 c12 r12</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+20:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r12r12c12.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r12 r12 c12</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+21:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-r12c12r12.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>r12 c12 r12</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+22:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c4..png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c4.</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+23:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c4c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c4 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+24:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c4.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c4</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+25:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c8c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c8 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+26:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c4c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c4 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+27:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c4.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c4</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+28:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c8c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c8 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+29:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c16c16c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c16 c16 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+30:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c8c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c8 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+31:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c8c16c16c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c8 c16 c16 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+32:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c8c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c8 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+33:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c16c16c8.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c16 c16 c8</phrase>
+      </textobject>
+    </inlinemediaobject> , 
+34:<inlinemediaobject>
+      <imageobject>
+        <imagedata fileref="../../graphics/rhythm-c16c16c16c16c16c16.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+       <phrase>c16 c16 c16 c16 c16 c16</phrase>
+      </textobject>
+    </inlinemediaobject> </para>

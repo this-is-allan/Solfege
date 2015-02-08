@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Frapoj por minuto</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>La programo ludos pulsadon, kiel metronomo. Vi devos provi konjekti kiom frapojn por minuto estas ludata. Ĉiu butono reprezentas unu rapidon, kaj la programo nur ludos laŭ rapidoj kiuj havas butonon kun dikeca teksto. Dekstre-klaku sur butonoj por ŝanĝi la staton de rapido.</para>
+
+<para>Rimarko: la ritmo dependas je la funkcio <literal>gtk timeout_add</literal> por ludi la ritmon, do ĝi ne estas tiomege ĝusta.</para>
+
+</sect1>

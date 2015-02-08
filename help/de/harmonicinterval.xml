@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Harmonisches Intervall</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Programms beim Üben von Intervallen mittels Knöpfen.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>This exercise is one of the exercises you can use to practise intervals.
+The concept is pretty simple: You press the <guibutton>New interval</guibutton>
+button to play a random interval, and then you should tell what interval it
+was.
+</para>
+
+<para>Wenn Sie die Knopf-Oberfläche verwenden, klicken Sie mit der rechten Maustaste auf die Knöpfe, woraufhin das entsprechende Intervall abgespielt wird.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

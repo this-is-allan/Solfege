@@ -1,0 +1,154 @@
+header {
+  module = dictation
+  title = "dictation mpd errors"
+  lesson_id = "dictation-module-exceptions"
+  have_repeat_slowly_button = yes
+}
+question {
+  name = "music: \staff{ c' d' e'}"
+  music = music("\staff{ c' d' e'}")
+}
+question {
+  name = "music: \staff{}
+\staff()
+\staff"
+  music = music("\staff{}
+\staff()
+\staff")
+}
+question {
+  name = "music: \addvoice{ c 
+e g}
+\staff{ x
+ y x}"
+  music = music("\addvoice{ c 
+e g}
+\staff{ x
+ y x}")
+}
+question {
+  name = "music: clkfja slkdfj"
+  music = music("clkfja slkdfj")
+}
+question {
+  name = "music: \staff{ \clef ERROR c"
+  music = music("\staff{ \clef ERROR c")
+}
+question {
+  name = "music: \staff{ \clef ERROR 
+ c"
+  music = music("\staff{ \clef ERROR 
+ c")
+}
+question {
+  name = "music: \staff{ \clef 
+ ERROR 
+ c"
+  music = music("\staff{ \clef 
+ ERROR 
+ c")
+}
+question {
+  name = "music: \staff{ c < }"
+  music = music("\staff{ c < }")
+}
+question {
+  name = "music: }"
+  music = music("}")
+}
+question {
+  name = "voice: < c"
+  music = voice("< c")
+}
+question {
+  name = "voice: 3c EX d"
+  music = voice("3c EX d")
+}
+question {
+  name = "voice: *"
+  music = voice("*")
+}
+question {
+  name = "voice: \time 3\4 c d"
+  music = voice("\time 3\4 c d")
+}
+question {
+  name = "voice: \time 3/x c d"
+  music = voice("\time 3/x c d")
+}
+question {
+  name = "voice: c \time 3\4 c d"
+  music = voice("c \time 3\4 c d")
+}
+question {
+  name = "voice: c4 \times 3/2{ c \times 4/6 { c e } }"
+  music = voice("c4 \times 3/2{ c \times 4/6 { c e } }")
+}
+question {
+  name = "voice: c4. c."
+  music = voice("c4. c.")
+}
+question {
+  name = "voice: c4 { jo "
+  music = voice("c4 { jo ")
+}
+question {
+  name = "voice: c4 >d < e }"
+  music = voice("c4 >d < e }")
+}
+question {
+  name = "voice: c4 <d < e }"
+  music = voice("c4 <d < e }")
+}
+question {
+  name = "voice: \clef xxx c4 d e }"
+  music = voice("\clef xxx c4 d e }")
+}
+question {
+  name = "rvoice: < c"
+  music = rvoice("< c")
+}
+question {
+  name = "rvoice: 3c EX d"
+  music = rvoice("3c EX d")
+}
+question {
+  name = "rvoice: *"
+  music = rvoice("*")
+}
+question {
+  name = "rvoice: \time 3\4 c d"
+  music = rvoice("\time 3\4 c d")
+}
+question {
+  name = "rvoice: \time 3/x c d"
+  music = rvoice("\time 3/x c d")
+}
+question {
+  name = "rvoice: c \time 3\4 c d"
+  music = rvoice("c \time 3\4 c d")
+}
+question {
+  name = "rvoice: c4 \times 3/2{ c \times 4/6 { c e } }"
+  music = rvoice("c4 \times 3/2{ c \times 4/6 { c e } }")
+}
+question {
+  name = "rvoice: c4. c."
+  music = rvoice("c4. c.")
+}
+question {
+  name = "rvoice: c4 { jo "
+  music = rvoice("c4 { jo ")
+}
+question {
+  name = "rvoice: c4 >d < e }"
+  music = rvoice("c4 >d < e }")
+}
+question {
+  name = "rvoice: c4 <d < e }"
+  music = rvoice("c4 <d < e }")
+}
+question {
+  name = "rvoice: \clef xxx c4 d e }"
+  music = rvoice("\clef xxx c4 d e }")
+}

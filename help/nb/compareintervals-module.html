@@ -1,0 +1,18 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The compareintervals module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 User Manual"><link rel="up" href="extending-solfege.html" title="Kapittel 4. Extending GNU Solfege"><link rel="prev" href="chordvoicing-module.html" title="The chordvoicing module"><link rel="next" href="dictation-module.html" title="The dictation module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">compareintervals</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="chordvoicing-module.html">Forrige</a> </td><th width="60%" align="center">Kapittel 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="dictation-module.html">Neste</a></td></tr></table><hr></div><div class="sect1" title="The compareintervals module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="compareintervals-module"></a>The <code class="literal">compareintervals</code> module</h2></div></div></div><p>Here is a minimal lesson file:</p><pre class="programlisting">
+header {
+    <a class="xref" href="lesson-files.html#lf-module">countin_perc</a> = compareintervals
+    <a class="xref" href="lesson-files.html#lf-title">title</a> = "Compare intervals"
+}
+</pre><p>This file will make an exercise that ask you to compare harmonic
+intervals. And since you do not say which intervals, it will ask for all
+intervals from a small second up to a major tenth.</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">first_interval_type</code>, </span><span class="term"><code class="literal">second_interval_type</code></span></dt><dd><p>Let you select if the intervals you are asked to compare should be a
+    melodic or a harmonic interval. The default value is
+    <code class="literal">melodic</code>. Possible values:
+    <code class="literal">harmonic</code> and <code class="literal">melodic</code>.
+    </p><pre class="programlisting">
+    first_interval_type = melodic
+    second_interval_type = harmonic
+    </pre><p>Modules: <code class="literal">compareintervals</code>.</p></dd><dt><span class="term"><code class="literal">first_interval</code>, </span><span class="term"><code class="literal">last_interval</code></span></dt><dd><p>Select which intervals to select from when creating the questions.
+    This variable should be defined the same way as <a class="xref" href="lesson-files.html#lf-ask_for_intervals">ask_for_intervals_0</a>. If these
+    two variables are not defined, then the user will be able to select which
+    intervals to practise from the Config page of the exercise.</p><p>Modules: <code class="literal">compareintervals</code>.</p></dd></dl></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="chordvoicing-module.html">Forrige</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Opp</a></td><td width="40%" align="right"> <a accesskey="n" href="dictation-module.html">Neste</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">chordvoicing</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Hjem</a></td><td width="40%" align="right" valign="top"> The <code class="literal">dictation</code> module</td></tr></table></div></body></html>

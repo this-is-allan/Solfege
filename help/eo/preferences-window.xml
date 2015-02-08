@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="preferences-window">
+<title>Fenestron pri preferoj</title>
+<sect2 id="pw-midi-stuff">
+<title>Instrumentoj</title>
+<informalfigure id="preferences-midi">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-midi.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Midi' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-tempo">
+<title>Rapido</title>
+<!-- translators: don't translate the module names in this paragraph. -->
+<para>Difini la rapidon (po frapoj por minuto) por muziko kaj arpeĝoj. Tiuj ĉi valoroj estas uzataj de ekzercoj skribitaj kun tiuj ĉi ekzerc-moduloj: <literal>compareintervals</literal>, <literal>harmonicintervals</literal>, <literal>idtone</literal>, <literal>melodicinterval</literal>, <literal>singchord</literal>, <literal>singinterval</literal>, <literal>twelvetone</literal>, <literal>rhythm</literal>, <literal>identifybpm</literal>, <literal>nameinterval</literal>. Aliaj ekzercoj havos la rapidon difinitan de la leciondosiero aŭ de la agord-paĝo de la ekzerco.</para>
+</sect3>
+<sect3 id="pw-preferred-instr">
+<title>Preferata instrumento</title>
+<para>Difini la instrumenton midi kaj la laŭtecon uzatan por plej parto el la ekzercoj.</para>
+</sect3>
+<sect3 id="pw-chord-instr">
+<title>Akordaj instrumentoj</title>
+<para>Solfege povas uzi tri malsamajn instrumentojn dum ludado de akordoj. Unu por la plej alta tono, unu por la tonoj en la mezo kaj unu por la basa tono. Tio ĉi povas esti utila se vi trovas malfacile aŭskulti apartajn tonojn en akordoj.</para>
+</sect3>
+<sect3 id="pw-perc-instr">
+<title>Preferata frapinstrumentoj</title>
+<para>Difini la frapinstrumenton uzata por nombri antaŭ la ritmaj demandoj, kaj la instrumento por ludi la demandon.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-user">
+<title>Uzanto</title>
+<informalfigure id="preferences-user">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-user.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Uzanto' de la fenestro de preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege uzas tiun ĉi informon en kelkaj ekzercoj kie la uzanto devas kanti.</para>
+<sect3 id="pw-low-high">
+<title>Malplej/plej alta tono kiun la uzanto povas kanti</title>
+<para>Tiuj ĉi rulbutonoj difinas al Solfege la plej kaj malplej altajn tonojn kiujn la uzanto kapablas kanti. Tiuj ĉi valoroj nur estas konsiderataj de la programo kiel sugestoj. Se ekzemple la valoroj estus difinitaj de <literal>c</literal> al <literal>c'</literal> kaj vi agordis la programon por peti ke vi kantu minorajn kaj maĵorajn dektojn, vi devos kanti notojn for de tiu ĉi rango.</para> </sect3>
+
+<sect3 id="pw-sex">
+<title>Sekso</title>
+<para>Solfege bezonas scii ĉu la uzanto estas viro aŭ ino por krei iujn el la demandoj kie la uzanto kantos la respondon. Tio ĉar la vira voĉo sonas unu okton pli malalte ol la ina voĉo.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-external-programs">
+<title>Eksteraj programoj</title>
+<informalfigure id="preferences-external-programs-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-external-programs.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Eksteraj programoj' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege serĉos la PATH (vojo) por programoj kiujn vi indikis en tiu ĉi paĝo. Do vi nur devas enigi la kompletan vojon se la programoj estas instalitaj ekstere de la indikoj de PATH. Averta signalo post la kampo kie vi enmetas la dosiernomon signifas ke la programo ne estis trovata.</para>
+
+<para>Bonvolu kontroli la elŝuta paĝo ĉe <ulink url="http://www.solfege.org">www.solfege.org</ulink> por ĝisdataj konsiletoj kaj elŝut-ligoj se vi uzas MS-Windows, devante elŝuti kaj instali la programojn vi mem.</para>
+
+<sect3 id="pw-convertors">
+<title>Konvertiloj</title>
+<para>Metu komandliniojn kiuj konvertas inter malsamaj sonformoj. <literal>%(in)s</literal> estos anstataŭataj per la nomo de la dosiero el kiu ni konvertas. Kaj <literal>%(out)s</literal>, per la nomo al kiu ni konvertas. Ne necesas enmeti  <literal>%(out)s</literal> se la programo aŭtomate konservis al nova dosiero kun ĝusta dosier-sufikso.</para>
+</sect3>
+
+<sect3 id="pw-audio-players">
+<title>Sonludiloj</title>
+<para>Komand-linioj kiuj povas ludi malsamajn sonformojn. <literal>%s</literal> estos anstataŭataj per la nomo de la ludota dosiero. La dosiernomo estos aldonata ĉe la ĉeno-fino se vi ne inkluzivigos <literal>%s</literal>.</para>
+</sect3>
+
+<sect3 id="pw-misc">
+<title>Miksaĵo</title>
+<para>Kelketo da ekezcoj uzas la programojn CSound kaj MMA. Lilypond-book estas bezonata por produkti aŭskulto-trejnajn printaĵoj kun testoj, kaj latex estas bezonata kiam la printaĵo devas esti kreata laŭ la formo dvi. Sen latex, vi ankoraŭ povos krei eligon laŭ html.</para>
+
+<para>Se la dosiero enmetita sufiksas per <literal>.py</literal>, tiam la skripto estos plenumata de la sama interpretilo python ankaŭ uzata de Solfege mem.</para>
+</sect3>
+
+</sect2>
+<sect2 id="preferences-gui">
+<title>Interfaco</title>
+<informalfigure id="preferences-gui-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Interfaco' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Reampleksigebla ĉefa fenestro: Ebligas al la uzanto reampleksigi la ĉefa fenestro de solfege.</para>
+<para>Elekti lingvon: Vi povas permane elekti la lingvon kiu vi deziras se Solfege ne detektis tion korekte, aŭ se vi volas uzi Solfege kun alia lingvo ol tiu, de via operaciuma sistemo.</para>
+
+<sect3>
+<title>Identigi la klav-komandojn por tonoj</title>
+<informalfigure id="preferences-gui-idtone-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Interfaco' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Ĉi tie vi povas ŝanĝi la klav-komandojn por la ekzerco «Identigi tonon». Klaku en iu linio por elekti la tonon kies klav-komandon vi volas ŝanĝi, do klaku refoje en la dua kolumno de la linio. Fine, vi povos premi la klavon, kiun vi volas difini kiel tuj-komandon por la tono.</para>
+<para>La butonoj «Dvorak» kaj «ASCII» alĝustigas la klav-komandojn al la originalaj valoroj por klavaroj Dvorak kaj ASCII.</para>
+</sect3>
+
+<sect3>
+<title>Klav-komandoj por intervaloj</title>
+<informalfigure id="preferences-gui-interval-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-interval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Interfaco' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Ĉi tie vi povas ŝanĝi la klav-komandojn por la intervalaj ekzercoj, kiel la «Harmonia intervalo» kaj la «Melodia intervalo». Klaku en iu linio por elekti la intervalon kies klav-komandon vi volas ŝanĝi, do klaku refoje en la dua kolumno de la linio. Fine, vi povos premi la klavon, kiun vi volas difini kiel tuj-komandon por la intervalo.</para>
+<para>La butonoj «Dvorak» kaj «ASCII» alĝustigas la klav-komandojn al la originalaj valoroj por klavaroj Dvorak kaj ASCII.</para>
+</sect3>
+
+</sect2>
+
+<sect2 id="pw-practise">
+<title>Praktiki</title>
+<informalfigure id="preferences-practise">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-practise.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la paĝo 'Praktiki' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Ne permesi novan demandon antaŭ ol la antaŭa estu solvita: Malebligas la butonon 'nova' ĝin nova demando estu korekte respondita aŭ la uzanto klaku sur "rezigni".</para>
+<para>Ripedi demandon se la respondo estis erara: Ludi la sonon refoje kiam la uzanto malkorekte respondas.</para>
+<para>Spertula reĝimo: Ebligante tiun ĉi alternativon en ekzercoj kiuj uzas la modulojn <link linkend="idbyname-module">idbyname</link> kaj <link linkend="idproperty-module">idproperty</link> permesas al vi elekti trejni nur subaro el la problemoj de la leciondosiero. Trejnado per spertula reĝimo konservos neniun statistikon.</para>
+</sect2>
+
+<sect2 id="pw-sound-setup">
+<title>Son-agordo</title>
+<informalfigure id="preferences-sound-setup">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildoj pri la paĝo 'Son-Agordo' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<informalfigure id="preferences-sound-setup-wib32">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup-win32.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildoj pri la paĝo 'Son-Agordo' de la fenestro pri preferoj, funkcianta en MS Windows XP.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-midi-setup">
+<title>MIDI-agordo</title>
+<variablelist>
+<title>La ekzercoj kiuj generas sonon povas ludi ilin divers-maniere:</title>
+<varlistentry>
+<term>Neniu sono:</term>
+<listitem>
+<para>Uzu tion ĉi por rafinado aŭ kiam vi portas Solfege. Neniu sono estas ludata, la eventoj midi estas eligataj al stdout.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Uzi aparaton ALSA</term>
+<listitem>
+<para>Se vi havas la modulojn Python por ALSA instalitaj, vi povas uzi la muzik-vicigilo. Se via mastrum-sistemo estas GNU/Linukso, vi havas menueron en la Help-menuo, kiu povas elŝuti kaj kompili la modulojn por vi.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Uzi aparaton:</term>
+<listitem>
+<para>La plej bona elekto tie ĉi ordinare estas <filename>/dev/music</filename> ĉar ĝi havas la plej bonan subtenon por frapinstrumetoj. <filename>/dev/sequencer2</filename> ordinare estas simbola ligo al <filename>/dev/music</filename>. Se via sistemo ne havas <filename>/dev/music</filename>, vi povas krei ĝin per tiu komando kiel administranto root (se vi uzas linuksan kernon versio 2.2 aŭ pli modernan):</para>
+<para>cd /dev mknod music u 14 8</para>
+<para>En MS-Windows tiu ĉi elekto estas nomata <literal>Windows multimedia output</literal>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Uzi eksteran ludilo MIDI:</term>
+<listitem>
+<para>Tio ĉi povas esti utila dum portado al sistemoj kiuj ne usas OSS, aŭ se vi havas aĉan sintezilon en via sonkarto kaj deziras uzi timidity.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect3>
+</sect2>
+<sect2 id="pw-statistics">
+<title>Statistikoj</title>
+<informalfigure id="preferences-statistics">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildoj pri la paĝo 'Son-Agordo' de la fenestro pri preferoj.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3>
+<title>Statistikoj el 3.15 kaj antaŭa</title>
+<para>Versioj de Solfege antaŭaj al 3.16.0 konservis statistikojn en tre etaj dosieroj. Solfege 3.16.0 kaj pli novaj importos tiujn ĉi dosierojn al la novan datumbazan dosieron dum la unua fojo kiam la programo estas lanĉata, sed ĝi lasos la malnovajn dosierojn en via komputilo. Vi povas sekure forigi tiujn ĉi dosierojn post lanĉo de solfege 3.16.0 aŭ pli nova. La dosieroj estas konservataj en la subdosierujo <literal>statistics</literal> de la dosierujo <emphasis>aplikaĵ-datumaro</emphasis>.</para>
+</sect3>
+<sect3>
+  <title>Statistikoj</title>
+  <para>Statistikoj nun estas konservataj en dosiero <literal>statistics.sqlite</literal> en la dosierujo <emphasis>aplikaĵ-datumaro</emphasis>. La ĝusta loko de la dosierujo povas esti trovata per elekto de <guimenuitem>Dosier-lokoj</guimenuitem> en la menuo <guimenu>Helpo</guimenu>. Musklaku <guibutton>Forigi</guibutton> por nuligi viajn statistikojn kaj ekigi per malplena dosiero <literal>statistics.sqlite</literal>.</para>
+</sect3>
+</sect2>
+</sect1>

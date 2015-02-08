@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Pytania muzyczne wielokrotnego wyboru</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Ta strona zawiera jest jedynie ogólną pomocą dla wszystkich ćwiczeń napisanych przy użyciu modułu ćwiczeń <literal>idproperty</literal>.One same będą z reguły podawać bardziej wyspecjalizowany tekst pomocy niż ten.</para>
+
+<para>Powyższy zrzut ekranu pokazuje jedynie jak może wyglądać jedno z takich ćwiczeń </para>
+
+<para>Program wyświetli pytanie i zagra przykład, a Ty musisz wybrać po jednej odpowiedzi z każdej kolumny przycisków. Jeśli wybierzesz poprawną odpowiedź w danej kolumnie, jej nazwa zostanie pogrubiona, a na pasku statusu pojawi się napis "Poprawnie".</para>
+
+<para>Ćwiczenie zawierać będzie przycisk <guibutton>Powtórz arpeggio</guibutton>, jeśli jedno lub więcej pytań jest takiego typu, że program może je grać w formie arpeggia.</para>
+</sect1>

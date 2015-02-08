@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Intervalle benennen</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Programms beim Üben von Intervallen mittels Knöpfen.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>In dieser Übung zeigt Solfege ein Intervall an und spielt dieses ab. Sie sollen dieses Intervall identifizieren. Dies ist eine Übung zur Musiktheorie und eigentlich keine Übung zum Gehörtraining. Um zu lernen, wie die Intervalle benannt werden, sollten Sie <xref linkend="theory-intervals"/> lesen.</para>
+
+<para>Sie identifizieren ein Intervall, indem Sie auf einen der Knöpfe klicken, die den spezifischen Namen und den allgemeinen Namen bezeichnen.</para>
+
+</sect1>

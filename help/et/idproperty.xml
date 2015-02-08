@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Mitmed valikvastused</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt programmist.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>See lehekülg on üldine abiinfo lehekülg harjutusfailidele, mis on kirjutatud <literal>idproperty</literal> mooduli abil. Harjutusfailidega käib tihti kaasas palju üksikasjalikum abiinfo.</para>
+
+<para>Näide ülal kujutab ühte näidet, kuidas harjutus võib välja näha.</para>
+
+<para>See harjutus kuvab harjutuse numbri ja mängib natuke muusikat, kasutaja peab valima ühe vastuse igast vastuste nuppude reast. Kui te valite õige vastuse, muutub nupu sildi kiri paksemaks ning olekuribal kuvatekse teade "Õige".</para>
+
+<para>Harjutuse puhul kuvatakse nupp <guibutton>Korda arpedžos</guibutton>, kui mõnda harjutust harjutusfailis saab mängida arpedžeeritult.</para>
+</sect1>

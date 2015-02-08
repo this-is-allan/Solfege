@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Bogues</title>
+<para>Informez-nous des bogues rencontrés en utilisant le bug tracker sur cette page </para>
+
+<para>Merci de faire des rapports de bogues détaillés. ''J'ai un message d'erreur dans une fenêtre lorsque j'essaye de lancer le programme'' ne m'est d'aucune utilité. Lorsque vous rapportez des bogues :  </para>
+
+<itemizedlist>
+<listitem><para>Dites moi quelle version de Solfege vous utilisez. Vérifiez SVP si une nouvelle version est disponible. Si vous voulez seulement utiliser des versions stables, n'essayez pas les versions de développement les plus récentes.</para></listitem>
+<listitem><para>Quel système d'exploitation utilisez vous ? Quelle version ?</para></listitem>
+<listitem><para>Décrivez exactement ce que vous faisiez lorsque l'erreur est apparue.</para></listitem>
+<listitem><para>Envoyez une copie exacte du message d'erreur. Si vous n'y comprenez rien, dites-vous bien que c'est différent pour les développeurs.</para></listitem>
+</itemizedlist>
+</sect1>

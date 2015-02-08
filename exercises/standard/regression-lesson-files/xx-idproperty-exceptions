@@ -1,0 +1,83 @@
+header {
+  module = idproperty
+  title = "idproperty mpd errors"
+  lesson_id = "idproperty-module-exceptions"
+  have_repeat_slowly_button = yes
+  flavour = "chord"
+}
+question {
+  name = "chord: c e g"
+  music = chord("c e g")
+}
+question {
+  name = "chord: c > e g"
+  music = chord("c > e g")
+}
+question {
+  name = "chord: <"
+  music = chord("<")
+}
+question {
+  name = "chord: c ERR g"
+  music = chord("c ERR g")
+}
+question {
+  name = "chord: \c e g"
+  music = chord("\c e g")
+}
+question {
+  name = "chord: \clef noclefsaadlj c e "
+  music = chord("\clef noclefsaadlj c e ")
+}
+question {
+  name = "chord: {"
+  music = chord("{")
+}
+question {
+  name = "rvoice: < c"
+  music = rvoice("< c")
+}
+question {
+  name = "rvoice: 3c EX d"
+  music = rvoice("3c EX d")
+}
+question {
+  name = "rvoice: *"
+  music = rvoice("*")
+}
+question {
+  name = "rvoice: \time 3\4 c d"
+  music = rvoice("\time 3\4 c d")
+}
+question {
+  name = "rvoice: \time 3/x c d"
+  music = rvoice("\time 3/x c d")
+}
+question {
+  name = "rvoice: c \time 3\4 c d"
+  music = rvoice("c \time 3\4 c d")
+}
+question {
+  name = "rvoice: c4 \times 3/2{ c \times 4/6 { c e } }"
+  music = rvoice("c4 \times 3/2{ c \times 4/6 { c e } }")
+}
+question {
+  name = "rvoice: c4. c."
+  music = rvoice("c4. c.")
+}
+question {
+  name = "rvoice: c4 { jo "
+  music = rvoice("c4 { jo ")
+}
+question {
+  name = "rvoice: c4 >d < e }"
+  music = rvoice("c4 >d < e }")
+}
+question {
+  name = "rvoice: c4 <d < e }"
+  music = rvoice("c4 <d < e }")
+}
+question {
+  name = "rvoice: \clef xxx c4 d e }"
+  music = rvoice("\clef xxx c4 d e }")
+}

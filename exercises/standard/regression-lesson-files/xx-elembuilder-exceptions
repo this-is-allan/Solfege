@@ -1,0 +1,189 @@
+include("../lesson-files/include/progression-elements")
+header {
+  module = elembuilder
+  title = "elembuilder mpd errors"
+  lesson_id = "elembuilder-module-exceptions"
+  have_repeat_slowly_button = yes
+  elements = auto
+}
+question {
+  name = "voice: c d e"
+  music = voice("c d e")
+elements = progI, progIV
+}
+question {
+  name = "voice: < c"
+  music = voice("< c")
+elements = progI, progIV
+}
+question {
+  name = "voice: 3c EX d"
+  music = voice("3c EX d")
+elements = progI, progIV
+}
+question {
+  name = "voice: *"
+  music = voice("*")
+elements = progI, progIV
+}
+question {
+  name = "voice: \time 3\4 c d"
+  music = voice("\time 3\4 c d")
+elements = progI, progIV
+}
+question {
+  name = "voice: \time 3/x c d"
+  music = voice("\time 3/x c d")
+elements = progI, progIV
+}
+question {
+  name = "voice: c \time 3\4 c d"
+  music = voice("c \time 3\4 c d")
+elements = progI, progIV
+}
+question {
+  name = "voice: c4 \times 3/2{ c \times 4/6 { c e } }"
+  music = voice("c4 \times 3/2{ c \times 4/6 { c e } }")
+elements = progI, progIV
+}
+question {
+  name = "voice: c4. c."
+  music = voice("c4. c.")
+elements = progI, progIV
+}
+question {
+  name = "voice: c4 { jo "
+  music = voice("c4 { jo ")
+elements = progI, progIV
+}
+question {
+  name = "voice: c4 >d < e }"
+  music = voice("c4 >d < e }")
+elements = progI, progIV
+}
+question {
+  name = "voice: c4 <d < e }"
+  music = voice("c4 <d < e }")
+elements = progI, progIV
+}
+question {
+  name = "voice: \clef xxx c4 d e }"
+  music = voice("\clef xxx c4 d e }")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: < c"
+  music = rvoice("< c")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: 3c EX d"
+  music = rvoice("3c EX d")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: *"
+  music = rvoice("*")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: \time 3\4 c d"
+  music = rvoice("\time 3\4 c d")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: \time 3/x c d"
+  music = rvoice("\time 3/x c d")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: c \time 3\4 c d"
+  music = rvoice("c \time 3\4 c d")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: c4 \times 3/2{ c \times 4/6 { c e } }"
+  music = rvoice("c4 \times 3/2{ c \times 4/6 { c e } }")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: c4. c."
+  music = rvoice("c4. c.")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: c4 { jo "
+  music = rvoice("c4 { jo ")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: c4 >d < e }"
+  music = rvoice("c4 >d < e }")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: c4 <d < e }"
+  music = rvoice("c4 <d < e }")
+elements = progI, progIV
+}
+question {
+  name = "rvoice: \clef xxx c4 d e }"
+  music = rvoice("\clef xxx c4 d e }")
+elements = progI, progIV
+}
+question {
+  name = "music: \staff{}
+\staff()
+\staff"
+  music = music("\staff{}
+\staff()
+\staff")
+elements = progI, progIV
+}
+question {
+  name = "music: \addvoice{ c 
+e g}
+\staff{ x
+ y x}"
+  music = music("\addvoice{ c 
+e g}
+\staff{ x
+ y x}")
+elements = progI, progIV
+}
+question {
+  name = "music: clkfja slkdfj"
+  music = music("clkfja slkdfj")
+elements = progI, progIV
+}
+question {
+  name = "music: \staff{ \clef ERROR c"
+  music = music("\staff{ \clef ERROR c")
+elements = progI, progIV
+}
+question {
+  name = "music: \staff{ \clef ERROR 
+ c"
+  music = music("\staff{ \clef ERROR 
+ c")
+elements = progI, progIV
+}
+question {
+  name = "music: \staff{ \clef 
+ ERROR 
+ c"
+  music = music("\staff{ \clef 
+ ERROR 
+ c")
+elements = progI, progIV
+}
+question {
+  name = "music: \staff{ c < }"
+  music = music("\staff{ c < }")
+elements = progI, progIV
+}
+question {
+  name = "music: }"
+  music = music("}")
+elements = progI, progIV
+}

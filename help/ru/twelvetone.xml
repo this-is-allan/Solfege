@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Спойте 12 случайных нот</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>В этом упражнении программа будет показывать все 12 нот в ладу в случайном порядке и воспроизводить первую. После этого вы должны спеть все ноты и посмотреть, совпадает ли последняя нота. Так что это больше похоже на экзамен по пению с листа, чем упражнение для обучения пению интервалов. Для этого вы должны попробовать какие-либо другие встроенные упражнения.</para>
+
+</sect1>

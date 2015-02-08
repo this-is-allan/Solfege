@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="harmonicinterval">
+<title>Harmonic interval</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-buttons-thirds.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Screenshot of the program practising intervals using the buttons interface.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>This exercise is one of the exercises you can use to practise intervals.
+The concept is pretty simple: You press the <guibutton>New interval</guibutton>
+button to play a random interval, and then you should tell what interval it
+was.
+</para>
+
+<para>Hvis du bruker knappe-grensesnittet, så kan du høyreklikke på knappene for å høre det intervallet de representerer.</para>
+
+<xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="interval-config-help.xml"/>
+
+</sect1>

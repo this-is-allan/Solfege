@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="dictation">
+<title>Dictado</title>
+<informalfigure id="dictation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/dictation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla del programa ejecutando un ejercicio de dictado.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Este ejercicio es llamado ejercicio de dictado, pero si los archivos de lección necesarios son escritos, puede ser usado de diferentes formas: <itemizedlist>
+<listitem><para>Puede usar Solfege para reproducir alguna melodía para transcribirla en papel. Utilice los botones con una nota para repetir partes menores de la música. Presionando el botón Mostrar, puede verificar si cometió algún error.</para></listitem>
+
+<listitem><para>Puede usar este ejercicio para practicar solfeo: cuando comienza el ejercicio, presione Mostrar e intente cantar la música.  Recién entonces debería usar el botón 'Tocar todo' o los botones con la negra para reproducir la música. Tiene que decidir por usted mismo si lo hizo correctamente.</para></listitem>
+</itemizedlist></para>
+
+</sect1>

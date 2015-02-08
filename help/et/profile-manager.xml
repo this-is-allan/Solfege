@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Profiilide haldur</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Profiilide haldur lubab mitmel kasutajal kasutada sama  Solfege programmi. Profiilid jagavad sama konfiguratsioonifaili, kuid nad salvestavad statistika ja testide tulemused eraldi. </para>
+
+<para>Profiilihaldur kuvatakse programmi käivitamisel, kui leitakse rohkem kui üks salvestatud profiil.  Profiilihalduri leiate muidu, kui valite <guimenuitem>Profiilide haldur</guimenuitem> menüüst <guimenu>Fail</guimenu>.</para>
+
+<para>Kui soovite, et profiilihaldurit programmi käivitamisel ei kuvataks, märkige ära <emphasis>Ära küsi programmi käivitamisel</emphasis>. Sellisel juhul jätab programm meelde viimase kasutatud profiili ning avab selle programmi käivitamisel.</para>
+</sect1>

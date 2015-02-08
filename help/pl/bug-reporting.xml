@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Błędy</title>
+<para>Raportuj błędy na adres <ulink url="http://bugs.solfege.org/">http://bugs.solfege.org</ulink>. Możesz również wysłać email na adres <email>bug-solfege@gnu.org</email>. Pytania ogólne oraz łatki należy wysyłać na adres <email>solfege-devel@lists.sourceforge.net</email>.</para>
+
+<para>Proszę przygotuj swój raport w sposób szczegółowy. Informacja o tym, żę''Wyskoczył mi błąd, gdy próbowałem uruchomić program.'' nie jest dla mnie zbyt użyteczna. Gdy raportujesz błędy:</para>
+
+<itemizedlist>
+<listitem><para>Napisz jakiej wersji Solfege'a używasz. Sprawdź proszę, czy dostępna jest nowa wersja. Jeśli chcesz po prostu korzystać ze stabilnego wydania (tzw. stable release), to nie musisz używać najnowszej wersji rozwojowej (tzw. development release).</para></listitem>
+<listitem><para>Jakiego systemu operacyjnego używasz? W jakiej wersji?</para></listitem>
+<listitem><para>Opisz dokładnie co robisz, gdy pojawia się błąd.</para></listitem>
+<listitem><para>Przyślij dokładną kopie wiadomości o błędzie. Mają one sens dla autora Solfege'a, nawet jeśli wydają ci się enigmatyczne.</para></listitem>
+</itemizedlist>
+</sect1>

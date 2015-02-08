@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Configuration</title>
+<para>Sur l'onglet de configuration de l'exercice, il y a une liste où vous pouvez sélectionner différentes façons de répondre à la question. Pour l'instant, il y a un piano, une guitare, une basse et plusieurs types d'accordéons en plus de l'interface par défaut à boutons. Voyez ci-dessous une copie d'écran montrant l'interface de piano.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copies d'écran du logiciel montrant l'exercice sur les intervalles avec l'interface à boutons.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Laadid</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>Solfege'is pakub (siiani) harjutamiseks kolme tüüpi harjutusi.</para>
+<itemizedlist>
+<listitem><para>Solfege mängib laadi ette, te peate laadi määrama vajutades vastvale nupule.</para>
+</listitem>
+<listitem><para>Solfege mängib laadi ette, määrake laadi struktuur. Teie ees on nupud '1', '2' ja '3'. Need tähistavad pooltoonide arvu astmete vahel (vastavalt väike, suur ja suurendatud sekund).</para></listitem>
+<listitem><para>Solfege mängib laadi ette, määrake, milliselt laadi astmelt see helirida algas. Nt. võib Solfege võtta loomuliku minoori ja mängida selle alustades mistahes astmelt ning te peate ütlema, milliselt just.</para></listitem>
+</itemizedlist>
+
+</sect1>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Rozpoznaj akord</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Celem tego ćwiczenia jest rozpoznawanie zagranych akordów.</para>
+<para>Rozpocznij ćwiczenie wciskając <guibutton>Nowy</guibutton>. Solfege zagra akord, a Ty musisz go rozpoznać i kliknąć jeden z przycisków umiszczonych poniżej pustej pięciolinii.</para>
+
+<para>Jeśli odpowiedź była poprawna, program wyświetli akord na pięciolinii i pokaże informacje "Poprawnie" na pasku statusu. Możesz wtedy ponownie kliknąć przycisk <guibutton>Nowy</guibutton>, aby odpowiedzieć na nowe pytanie.</para>
+
+<para>Jeśli odpowiedź była błędna na pasku statusu pojawi się informacja "Niepoprawnie".</para>
+
+</sect1>

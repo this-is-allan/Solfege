@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Respuestas múltiples para música</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Capturas de pantalla del programa.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Esta página es de ayuda genérica para todos los ejercicios escritos usando el módulo de ejercicios <literal>idproperty</literal>. Los ejercicios normalmente tendrán textos de ayuda más específicos que esto.</para>
+
+<para>La siguiente captura de pantalla muestra un ejemplo de cómo puede verse un ejercicio.</para>
+
+<para>Este ejercicio mostrará una pregunta y tocará alguna música; usted tendrá que seleccionar una respuesta a partir de cada columna en la tabla de botones. Cuando usted selecciona la respuesta correcta en una columna, su rótulo se verá en negrita, y el mensaje "Correcto" titilará en la barra de estado.</para>
+
+<para>El ejercicio tendrá un botón <guibutton>Repetir el arpeggio</guibutton> si una o más preguntas es del tipo que puede ser reproducido como arpeggio.</para>
+</sect1>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Wystukaj rytmy</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu ćwiczenia z wystukiwania rytmów.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Program gra przypadkowo wygenerowany rytm, a użytkownik powinien go powtórzyć. Rytm wprowadza się stukając w przycisk oznaczony <emphasis>Wystukaj tutaj</emphasis>.</para>
+</sect1>

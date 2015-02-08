@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Yapılandırma</title>
+<para>Alıştırmanın yapılandırma sayfasında, soruya cevap vermenin farklı yollarını seçebileceğiniz karma bir kutu vardır. Orada piyano, gitar, bas ve varsayılan düğmeler arabirimine ek olarak akordiyon'un birkaç türü vardır. Piyano arabirimini gösteren ekran görüntüsü aşağıdadır.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Düğmeler arabirimlerinin kullanılarak aralıkların çalışıldığı yazılımın ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

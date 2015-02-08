@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Identifier l'accord</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran du logiciel.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Le but de cet exercice est d'identifier l'accord joué.</para>
+<para>Commencez l'exercice en pressant le bouton <guibutton>Nouveau</guibutton>. Solfege va jouer un accord et vous devrez l'identifier en cliquant sur l'un des boutons situés sous la portée vide.</para>
+
+<para>Si vous avez deviné, le programme va afficher l'accord sur la portée avec le message "Très Bien". Vous pourrez alors presser le bouton <guibutton>Nouveau</guibutton> pour passer à la question suivante.</para>
+
+<para>Si vous n'avez pas deviné, le message "Faux" sera affiché.</para>
+
+</sect1>

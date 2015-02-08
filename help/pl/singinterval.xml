@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Zaśpiewaj ten interwał</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu ćwiczenia śpiewania interwałów.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>W tym ćwiczeniu Solfege wyświetli jeden, lub więcej interwałów, a Ty powinieneś/aś je zaśpiewać. Obecnie nie jest jeszcze niestety możliwe, by Solfege oceniał poprawność intonacyjną zaśpiewanych do mikrofonu dźwięków, więc na razie musisz tego dokonać sam/a.</para>
+<sect2 id="singinterval-config">
+<title>Konfiguracja</title>
+<para>Program spróbuje stworzyć pytanie, w którym wszystkie dźwięki będą mieścić się w skali użytkownika, tak jak jest to skonfigurowane w <link linkend="preferences-window">oknie ustawień</link>. Niekiedy nie jest możliwe utrzymanie pytania w tej skali, np. gdy pytanie jest tak skonstruowane, aby wiele interwałów postępowało w tym samym kierunku.</para>
+</sect2>
+</sect1>

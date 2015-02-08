@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-chords">
+<title>Määrake akord</title>
+<informalfigure id="idbyname-chord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-chords.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ekraanipilt programmist.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Selle harjutuse ülesanne on määrata akord, mida mängitakse.</para>
+<para>Alustage harjutust vajutades nupule <guibutton>Uus</guibutton>. Solfege mängib seejärel akordi, te peate selle määrama vajutades ühele nuppudest, mis on tühja noodirea all.</para>
+
+<para>Kui arvate õigesti, kuvab programm selle akordi ning olekuribal vilksatab teade "Õige". Seejärel võite vajutada nupule <guibutton>Uus</guibutton>, et proovida uut akordi.</para>
+
+<para>Kui arvate valesti, vilksatab olekuribal teade "Vale".</para>
+
+</sect1>

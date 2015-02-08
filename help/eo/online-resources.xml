@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="online-resources">
+<title>Rimedoj ĉe la reto</title>
+<para>La hejmpaĝo por Solfege estas <ulink url="http://www.solfege.org">http://www.solfege.org</ulink>. Krome, ekzistas pli eta paĝo kun pli fiksa informaro ĉe <ulink url="http://www.gnu.org/software/solfege/">http://www.gnu.org/software/solfege/</ulink>.</para>
+<sect2 id="download-solfege">
+<title>Elŝuti Solfege</title>
+<para>La kodumaĵo disponeblas el <ulink url="http://ftp.gnu.org/gnu/solfege">http://ftp.gnu.org/gnu/solfege</ulink>. Se vi estas aventurema, vi povas provi la malstabilan (erarplena, tamen povas enhavi novaĵojn) eldonojn el <ulink url="http://alpha.gnu.org/gnu/solfege">http://alpha.gnu.org/gnu/solfege</ulink>. Tiuj ĉi eldonoj eble havas pli da eraroj, sed tiel vi havos ŝancon por provi novajn aferojn kaj trovinte erarojn, vi povos raporti ilin.</para>
+<para>Kodumaĵo kaj kelkaj antaŭkompilitaj duumaĵoj disponeblas el <ulink url="http://sourceforge.net/project/showfiles.php?group_id=1465">http://sourceforge.net/project/showfiles.php?group_id=1465</ulink>.</para>
+<para>Se if uzas Debian vi povas <userinput>apt-get install solfege</userinput> por elŝuti kaj instali la programon.</para>
+</sect2>
+<sect2 id="mailing-lists">
+<title>Diskutlistoj</title>
+<sect3 id="mailing-list-solfege-announce">
+<title><email>solfege-announce@lists.sourceforge.net</email></title>
+<para>Tre malalta trafiko, estrata kaj ĝi estos uzata por avizi pri stabilaj eldonoj de Solfege. (<ulink url="http://lists.sourceforge.net/mailman/listinfo/solfege-announce">Aliĝo</ulink> | <ulink url="http://sourceforge.net/mailarchive/forum.php?forum_id=7332">Arkivo</ulink>)</para>
+</sect3>
+<sect3 id="mailing-list-solfege-devel">
+<title><email>solfege-devel@lists.sourceforge.net</email></title>
+<para>Se vi deziras raporti problemojn pri instalado aŭ funkciado de Solfege, aŭ vi havas demandojn, komentojn aŭ ideojn pri kiel plibonigi Solfege, bonvolu sendi tion ĉi al la diskutlisto anstataŭ uzi la forumon ĉe Sourceforge aŭ rekte kontakti la aŭtoron. Vi povas sendi al solfege-devel sen antaŭ-aliĝo. (<ulink url="http://lists.sourceforge.net/mailman/listinfo/solfege-devel">Aliĝo</ulink> | <ulink url="http://sourceforge.net/mailarchive/forum.php?forum_id=3968">Arkivo</ulink>)</para>
+</sect3>
+<sect3 id="mailing-list-bug-solfege">
+<title><email>bug-solfege@gnu.org</email></title>
+<para>La kutima adreso GNU por sendi eraro-raportojn. Tiu ĉi listo estas nuntempe plusendata al <email>solfege-devel@lists.sourceforge.net</email></para>
+</sect3>
+</sect2>
+</sect1>

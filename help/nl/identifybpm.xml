@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Tikken per minuut</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Het programma speelt een tempo zoals een metronoom. Je moet proberen te raden hoeveel tikken per minuut worden gespeeld. Iedere knop vertegenwoordigd een tempo en het programma zal alleen in tempo's spelen die een knop met vetgedrukte tekst hebben. Rechtsklik op knoppen om de status van een tempo te veranderen.</para>
+
+<para>Opmerking: het ritme hangt af van de functie <literal>gtk timeout_add</literal> en is daarom niet heel erg precies.</para>
+
+</sect1>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Konfiguration</title>
+<para>In der Konfigurationsseite der Übung finden Sie ein Kombinationsfeld, in welchem Sie auswählen können, auf welche Weise die Frage beantworten wollen. Gegenwärtig gibt es ein Klavier, eine Gitarre, einen Bass und zwei Akkordeon-Arten zusätzlich zu den Standardknöpfen. Nachstehend finden Sie ein Bildschirmfoto der Klavier-Oberfläche.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildschirmfoto des Programms beim Üben von Intervallen mittels Knöpfen.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

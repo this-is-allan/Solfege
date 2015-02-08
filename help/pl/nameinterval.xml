@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Nazwij interwał</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu do ćwiczeń interwałowych rozpoznawanych przy użyciu przycisków.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>W tym ćwiczeniu Solfege wyświetli i zagra interwał, który musisz nazwać. Jest to ćwiczenie z teorii muzyki, a nie kształcenia słuchu. Aby dowiedzieć się o tym jak rozpoznawać słuchowo interwały przeczytaj <xref linkend="theory-intervals"/>.</para>
+
+<para>Interwał wskazujesz klikając na jeden z przycisków określających nazwę oraz drugi wskazujacy rozmiar interwału.</para>
+
+</sect1>

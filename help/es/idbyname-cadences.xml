@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Identificar la cadencia</title>
+<para>Identifique la cadencia presionando el botón con su nombre. Como consta en <ulink url="http://bugs.solfege.org/5">error #5</ulink>, necesitamos ejercicios sobre cadencias en Solfege.</para>
+<para>En esta versión de Solfege hay solamente un ejercicio con cadencias mayores. En este ejercicio, una escala mayor es tocada para establecer la tónica. ¿Tal vez sea muy poco? ¿Necesitamos de un ciclo completo I-IV-V-I antes de la pregunta? ¿O tal vez sea mejor escribir música real que termina en la cadencia que queremos practicar? Estas cosas necesitan ser decididas antes de lanzar la versión 3.12.0. Comentarios y músicas pueden ser agregados al <ulink url="http://bugs.solfege.org/5"> error #5</ulink>.</para>
+</sect1>

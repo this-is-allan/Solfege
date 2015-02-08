@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Rytm</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Zrzut ekranu programu z ćwieczeniem akordowym.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Program gra przypadkowo wygenerowany rytm, a użytkownik powinien go zapisać. Aby tego dokonać, należy klikać na przyciski oznaczone fragmentami różnych rytmów.</para>
+
+<para>When you have entered enough rhythm elements, Solfege will check your
+answer. If everything is correct it will display a happy face, otherwise
+a sad face, and all wrong rhythms will be marked.</para>
+
+<para>Jeśli część odpowiedzi jest niepoprawna, wszystkie elementy począwszy od pierwszego błędnego zostaną usunięte (przy zachowaniu poprawnych zapisów na początku odpowiedzi), po kliknięci na smutną buźkę, lub przyciski z rytmami na górze strony.</para>
+
+<para>Aby usłyszeć swoją wersję, użyj przycisku 'Graj'.</para>
+
+<para>Zadania w tym ćwiczeniu obecnie tworzone są przez przypadkowe wybieranie fragmentów rytmów. Nie jest to najlepszy sposób, więc mamy nadzieję że w następnych edycjach programu zmienimy go na coś sprytniejszego.</para>
+
+</sect1>

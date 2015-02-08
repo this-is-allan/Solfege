@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-cadences">
+<title>Identifier la cadence</title>
+<para>Identifier la cadence en cliquant sur le bouton portant son nom. Ainsi que nous le reconnaissons sur </para>
+<para>Dans cette version de Solfege, nous n'avons qu'un seul exercice sur les cadences en majeur. Dans cet exercice, une échelle majeure est jouée pour établir la tonique. Peut-être est-ce trop peu ? Faudrait-il jouer la séquence complète I-IV-V-I avant de poser la question ? Ou encore, serait-il préférable d'écrire de la vraie musique terminant par la cadence que nous voulons apprendre à reconnaître ? Nous aurions besoin de vos commentaires et de votre aide pour prendre de bonnes décisions en vue de la version 3.12.0. Commentaires et extraits musicaux peuvent être proposés ici : <ulink url="http://bugs.solfege.org/5"> bug #5</ulink>.</para>
+</sect1>

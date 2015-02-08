@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singchord">
+<title>Kanti akordon</title>
+
+<informalfigure id="singchord-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singchord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la programo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Se vi kondukas koruson, vi devas kanti la komencajn tonojn por malsamaj voĉoj, kaj se vi ne havas fortepianon proksime, vi devas uzi agordilon. Se vi estas viro, vi kantas la tonojn por virinoj, unu okto pli profunde, kaj reciproke.</para>
+
+<para>La programo ludos la tonon A (440 hz) por vi, kaj ĝi montrigos akordon por ke vi kantu. Solfege ankoraŭ ne subtenas mikrofonon, do estas vi mem kiu decidos ĉu via respondo estas korekta aŭ ne.</para>
+
+</sect1>

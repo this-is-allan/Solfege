@@ -1,0 +1,27 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The rhythmtapping module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 Manual de Usuario"><link rel="up" href="extending-solfege.html" title="Capítulo 4. Extending GNU Solfege"><link rel="prev" href="rhythm-module.html" title="The rhythm module"><link rel="next" href="rhythmtapping2-module.html" title="The rhythmtapping2 module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">rhythmtapping</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="rhythm-module.html">Anterior</a> </td><th width="60%" align="center">Capítulo 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="rhythmtapping2-module.html">Siguiente</a></td></tr></table><hr></div><div class="sect1" title="The rhythmtapping module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="rhythmtapping-module"></a>The <code class="literal">rhythmtapping</code> module</h2></div></div></div><p>Exercises using this module will play some music and then the user should
+tap the rhythm. The program will then say if the users rhythm is similar enough
+to the rhythm played by the computer.</p><p>Here is a minimal lesson file:</p><pre class="programlisting">
+header {
+  <a class="xref" href="lesson-files.html#lf-module">module</a> = rhythmtapping
+  <a class="xref" href="lesson-files.html#lf-version">version</a> = "3.7.0"
+  <a class="xref" href="lesson-files.html#lf-title">title</a> = "Rhythm tapping test"
+}
+question {
+ <a class="xref" href="lesson-files.html#lf-music">music</a> = rhythm("c4 c8 c8")
+}
+question {
+ <a class="xref" href="lesson-files.html#lf-music">music</a> = music("\staff\relative c'{c4 d8 e f4}\addvoice\relative c'{c4 b8 c a4}")
+ <a class="xref" href="lesson-files.html#lf-rhythm">rhythm</a> = rhythm("c4 c8 c c4")
+}
+</pre><p>The first question in the example is very simple and self explaining.
+Solfege will play the rhythm defined in the <code class="literal">music</code> variable,
+and the user should tap that rhythm.</p><p>The second question is a little more complicated. Here Solfege will play
+the music defined in the <code class="literal">music</code> variable. And when the user
+taps the rhythm, Solfege will compare the users rhythm with the rhythm defined
+in the <code class="literal">rhythm</code> variable. The reason for using two variables
+is that Solfege is not smart enough to figure out the rhythm if you enter
+polyphonic music. It make no difference if you set the
+<code class="literal">rhythm</code> variable to be a <code class="literal">rhythm</code> music
+object, or another single voice type like <code class="literal">rvoice</code>. This might
+change in the future. You as a lesson file author must make sure the rhythms in
+the two variables are in fact the same.</p><p>See also <a class="xref" href="lesson-files.html#lf-at_question_start">at_question_start</a>.</p></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="rhythm-module.html">Anterior</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Subir</a></td><td width="40%" align="right"> <a accesskey="n" href="rhythmtapping2-module.html">Siguiente</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">rhythm</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Inicio</a></td><td width="40%" align="right" valign="top"> The <code class="literal">rhythmtapping2</code> module</td></tr></table></div></body></html>

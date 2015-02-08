@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="profile-manager">
+<title>Profilverwaltung</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/profile-manager.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>In der Profilverwaltung können Sie festlegen, dass sich mehrere Solfege-Benutzer ein Konto Ihres Betriebssystems teilen. Das Profil verwendet eine gemeinsame Konfigurationsdatei, aber separate Statistiken und Testergebnisse.</para>
+
+<para>Die Profilverwaltung zeigt beim Programmstart an, ob ein oder mehrere Profile existieren. Auf die Profilverwaltung können Sie über <guimenuitem>Profilverwaltung</guimenuitem> im Menü <guimenu>Datei</guimenu> zugreifen.</para>
+
+<para>Aktivieren Sie <emphasis>Nicht beim Start fragen</emphasis>, wenn die Profilverwaltung beim Start nicht angezeigt werden soll. Dann wird das zuletzt in der Profilverwaltung ausgewählte Profil gespeichert und das Programm damit gestartet.</para>
+</sect1>

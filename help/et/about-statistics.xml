@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>Statistikast</title>
+<para>Mõned harjutused kuvavad statistika erinevate aja perioodi kohta: <emphasis>Sessioon</emphasis>, <emphasis>Täna</emphasis>, <emphasis>Viimased 7 päeva</emphasis> ja <emphasis>Kokku</emphasis>.  Programm kasutab kaht eri tüüpi tabeleid.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Pilt protsentuaalsest tabelist statistika lehel. </phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Esimeses tabelis, nagu ülalasetseval joonisel, on iga harjutusfaili harjutuse kohta üks rida. <emphasis>Protsent</emphasis> näitab, kui suur osa oli kõigist katsetest õigeid vastuseid. <emphasis>Arv</emphasis> näitab, mitu korda seda harjutust on sooritatud. </para>
+
+<para>Teist tüüpi tabelis on veergudel samad pealkirjad, mis ridadel, kuid neid ei kuvata, sest see teeks tabeli liiga laiaks. Nii ülalasetseval joonisel peaks veerul 1 olema pealkiri <emphasis>m3↑</emphasis> ja veerul 2 <emphasis>M3↑</emphasis>. Harjutuste nimed on ära toodud ridades ning igas vastavas veerus on näidatud, mitu korda on vastatud igat küsimuse varianti. Numbrit poolpaksus kirjas märgivad õigesti vastatud kordi. </para>
+
+</sect1>

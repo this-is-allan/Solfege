@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Editor de hojas de pruebas para entrenamiento auditivo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla de la ventana de entrenamiento</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Esta herramienta está disponible en el menú <guimenu>archivo</guimenu>. Úsela para crear pruebas de entrenamiento auditivo para ser impresas en papel. Solfege generará dos versiones del documento: una para que complete el estudiante, y otra con las respuestas. Esta herramienta fue agregada a pedido de un usuario, pero no sabemos si es usada en la práctica. Por lo tanto, <link linkend="online-resources">contáctenos</link> si la utiliza, y díganos si es útil.</para>
+
+<para>El botón <guibutton>Agregar</guibutton> hará aparecer un menú con todos los ejercicios a partir de la página principal activa de la cual esta herramienta puede crear ejercicios: ejercicios escritos usando los módulos <link linkend="idbyname-module">idbyname</link>, <link linkend="melodicinterval-module">melodicinterval</link> y <link linkend="harmonicinterval-module">harmonicinterval</link>. Con archivos de lección escritos para el módulo <literal>idbyname</literal>, solamente los objetos musicales <link linkend="lfunc-chord">chord</link>, <link linkend="lfunc-rvoice">rvoice</link> e <link linkend="lfunc-voice">voice</link> son soportados.</para>
+
+<para><guibutton>Crear hoja</guibutton> abrirá un cuadro de diálogo que le permite seleccionar o crear un directorio vacío. Grabe allí los archivos HTML o LaTex y las imágenes.</para>
+
+<para>Cuando guarda y carga archivos que definen pruebas de entrenamiento de oído, el programa recordará las preguntas aleatorias, de modo que al cargar un archivo y apretar <guibutton>Crear hoja</guibutton> se creará exactamente la misma prueba. Aprete <guibutton>Aleatorizar</guibutton> para crear un nuevo conjunto de preguntas aleatorias.</para>
+</sect1>

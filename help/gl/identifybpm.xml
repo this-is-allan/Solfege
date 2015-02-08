@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="identifybpm">
+<title>Compases por minuto</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/identifybpm.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>The program will play a tempo, like a metronome. You should try to guess
+how many beats per minute is played. Each button represents one tempo, and the
+program will only play in tempos that has a button with bold text.  Right-click
+on buttons to change the status of a tempo.</para>
+
+<para>Nota: o ritmo depende da función <literal>gtk timeout_add</literal> para reproducir o ritmo, así que non é moi preciso.</para>
+
+</sect1>

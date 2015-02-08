@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Ritmi vur</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Ritm vuruşunun ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Yazılım rastgele üretilmiş bir ritm çalacak ve kullanıcının ritmi yeniden üretmesi gerekecektir. 'Kullanıcı' değişik ritmik ögeleri içeren düğmelere tıklayarak ritmleri girecektir ve şu düğme kullanılacaktır<emphasis>Buraya vur</emphasis>.</para>
+</sect1>

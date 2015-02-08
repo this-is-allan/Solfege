@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythmtapping2">
+<title>Klik het ritme</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythmtapping2.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het ritmetikken.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Het programma zal een willekeurig gegenereerd ritme afspelen en de gebruiker moet dit ritme reproduceren. De gebruiker voert het ritme in door het klikken op de knop genaamd <emphasis>Klik hier</emphasis>.</para>
+</sect1>

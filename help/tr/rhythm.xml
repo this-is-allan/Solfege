@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="rhythm">
+<title>Ritm</title>
+<informalfigure id="rhythm-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/rhythm.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Programın akor alıştırması çalışırken ki ekran görüntüsü.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Yazılım rastgele üretilmiş bir ritm çalacak ve kullanıcının ritmi yeniden üretmesi gerekecektir. 'Kullanıcı' değişik ritmik ögeleri içeren düğmelere tıklayarak ritmleri girecektir.</para>
+
+<para>Yeterli ritmik unsurları girdikten sonra, Solfege cevabınızı kontrol edecektir. Eğer herşey doğruysa mutlu bir yüz çıkacak,  eğer değilse üzgün bir surat gözükecek ve tüm yanlış ritmler gösterilecektir.</para>
+
+<para>Üzgün surata tıkladığınızda ya da sayfanın üstündeki ritm düğmelerine tıkladığınız zaman, eğer cevaplarınızdan bazıları yanlış ise, baştan sona tüm yanlış ögeler kaldırılacaktır (cevabınızdaki doğru ritmler korunacaktır).</para>
+
+<para>Önerinizi duymak için 'Çal' düğmesine tıklayabilirsiniz.</para>
+
+<para>Bu alıştırmadaki sorular ritm ögelerinin rastgele seçimi ile oluşturulmaktadır aynı zamanda. Bunun yapmanın en iyi yolu bu değildir, ve umarız daha sonraki sürümlerde soruları harmanlamanın daha akılcı yolunu bulacağız.</para>
+
+</sect1>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Editeur d'exercices d'entraînement de l'oreille à imprimer</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran de la fenêtre d'edition des jeux de test.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Cet outil est disponible à partir du menu <guimenu>Fichier</guimenu>. Utilisez-le pour créer des tests d'entraînement auditif à imprimer sur papier. Solfege génère deux version du même document : l'une à compléter, pour les étudiants, et l'autre déjà complétée par la réponse correcte. Cet outil a été ajouté à la demande d'un utilisateur mais nous ne savons pas s'il est réellement utilisé. Par conséquent si vous l'utilisez, nous vous saurions gré de </para>
+
+<para>Le bouton <guibutton>Ajouter</guibutton> fait surgir un petit menu avec tous les exercices de la page en cours pour lesquels cet outil peut créer des exercices: les modules reconna, intervalle m et intervalle harmonique. En ce qui concerne les lereconna, les seuls objets musicaux implaccord, voix r et voix.</para>
+
+<para><guibutton>Nouvelle feuille</guibutton> va ouvrir un dialogue vous permettant de choisir ou de créer un répertoire vide, pour ensuite y sauvegarder les fichiers HTML ou LaTeX, avec les images.</para>
+
+<para>Quand vous enregistrez et que vous chargez les fichiers définissant les tests d'entraînement de l'oreille, le logiciel se souvient des questions tirées au sort, par conséquent si vous cliquez sur <guibutton>Créer une feuille de calcul</guibutton>, c'est le même test exactement sui sera généré. Pour créer un nouvel ensemble de questions, il faut cliquer sur <guibutton>Tirer au sort</guibutton>.</para>
+</sect1>

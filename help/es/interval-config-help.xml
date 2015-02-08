@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Configuración</title>
+<para>En la página de configuración del ejercicio hay una caja de selección desde donde puede seleccionar diferentes formas de responder a una pregunta. Actualmente hay piano, guitarra, bajo y algunos tipos de acordeón, además de la interfaz con botones predeterminada. Debajo puede ver una captura de pantalla al utilizar la interfaz de piano.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Captura de pantalla del programa al practicar intervalos usando la interfaz de botones.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

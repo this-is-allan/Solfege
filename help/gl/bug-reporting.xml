@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="bug-reporting">
+<title>Informe de erros</title>
+<para>Envíe informes de erros ao seguimento de erros en <ulink url="http://bugs.solfege.org/">http://bugs.solfege.org</ulink>. Se o prefire tamén pode mandar un correo electrónico a <email>bug-solfege@gnu.org</email>. As consultas e parches de carácter xeral deberían enviarse a <email>solfege-devel@lists.sourceforge.net</email>.</para>
+
+<para>Por favor, asegúrese de que os seus informes de erros van ben detallados. Algo como "Saíume unha xanela cunha mensaxe de erro cando tratei de iniciar o programa" non me serve de moito. Á hora de informa de erros:</para>
+
+<itemizedlist>
+<listitem><para>Dígame que versión do Solfege está executando e comprobe se hai versións novas dispoñíbeis. Se vostede só quere executar versións estábeis, non debería probar versións máis novas en desenvolvemento.</para></listitem>
+<listitem><para>Que sistema operativo está a empregar e que versión?</para></listitem>
+<listitem><para>Describa con exactitude o que estaba a realizar cando apareceu o erro.</para></listitem>
+<listitem><para>Envíe unha copia exacta das mensaxes de erro, xa que estas teñen sentido para o autor mesmo cando a vostede lle parecen indescifrábeis.</para></listitem>
+</itemizedlist>
+</sect1>

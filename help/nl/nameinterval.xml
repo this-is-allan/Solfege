@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="nameinterval">
+<title>Benoem intervallen</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/nameinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma tijdens het oefenen van intervallen gebruikmakend van de knoppeninterface.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>In deze oefening zal Solfege intervallen tonen en afspelen en moet je deze intervallen benoemen. Dit is een muziektheoretische oefening en geen gehoortraining. Om te leren hoe intervallen genoemd worden, kan je <xref linkend="theory-intervals"/> lezen.</para>
+
+<para>Je moet een interval benoemen door het klikken op een knop met de speficieke en de algemene naam.</para>
+
+</sect1>

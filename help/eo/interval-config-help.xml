@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect2>
+<title>Agordado</title>
+<para>En la agord-paĝo de la ekzerco, ekzistas falmenuo kie vi povas elekti malsamajn manierojn respondi la demandon. Nune ekzistas fortepiano, gitaro, basgitaro kaj malmultaj tipoj de akordionoj aldone al la ordinaraj buton-interfaco. Sube estas bildo montranta la interfacon por fortepiano.</para>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/id-interval-piano.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo pri la progamo dum trejnado de intervaloj uzante la interfacajn butonojn.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+</sect2>

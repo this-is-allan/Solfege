@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idbyname-intonation">
+<title>Intonatie</title>
+<informalfigure id="idbyname-intonation-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/idbyname-intonation.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het programma.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>In deze oefening speelt Solfege een interval en moet je vertellen hoe het interval is geïntoneerd. Dit kan je doen door te klikken op een van de knoppen genaamd 'te klein', 'rein' of 'te groot'. Het is ook mogelijk dat een van deze knoppen ontbreekt.</para>
+
+</sect1>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chapter id="music-theory">
+<title>Teoria musical</title>
+<sect1 id="theory-scales">
+<title>Escalas</title>
+<para>Davide Bonetti contribuiu com um grande número de exercícios de escala e algumas páginas descrevendo todas as escalas. Você pode ver as páginas <ulink url="../C/scales/modes.html">aqui</ulink>.</para>
+</sect1>
+<sect1 id="theory-intervals">
+<title>Intervalos</title>
+<para>Em teoria musical nõs usamos a palavra intervalo quando falamos sobre uma diferença de tom entre duas notas. Nós denominamos intervalos harmônicos se dois tons soam simultaneamente e intervalos melódicos se eles soam sucessivamente.</para>
+
+<!-- translators: This paragraph is messy because the author is writing
+in english, and english is not his mother language. Write this paragraph
+so that is as clear and simple as possible, describing only what is relevant
+for your language -->
+<para>Nomes de intervalos consistem de duas partes. Alguns exemplos são "terça maior" e "quinta justa". No "Harmony", de Walter Piston, as duas partes são denominadas <emphasis>o nome específico</emphasis> e <emphasis>o nome geral</emphasis>. A Wikipedia fala sobre <emphasis>qualidade do intervalo</emphasis> e <emphasis>número do intervalo<emphasis>.</emphasis></emphasis></para>
+
+<para>Você obtém o nome geral contando os passos na pauta, ignorando qualquer acidente. Então se o intervalo que você quer vai de E a G#, então conte 3 (E F G) e observe que o nome geral é <emphasis>terça</emphasis>.</para>
+
+<informalfigure>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</informalfigure>
+
+<para>O nome específico diz o tamanho exato do intervalo. Uníssonos, quartas, quintas e oitavas podem ser diminutas, puras ou aumentadas. Segundas, terças, sextas e sétimas podem ser menores, maiores, diminutas ou aumentadas. Um intervalo menor é aquele um semitom menor que o intervalo maior. Um intervalo diminuto é um semitom menor que um intervalo puro ou menor, e um intervalo aumentado é um semitom maior que um intervalo puro ou maior.</para>
+
+<para>Acidentes modificam o tamanho de intervalos. O intervalo se torma um semitom maior se você adicionar um sustenido à nota mais alta ou um bemol à nota mais baixa. E ele se torna um semitom menor se você adicionar um bemol à nota mais alta ou um sustenido à nota mais baixa. Nas seções seguintes a nomenclatura dos intervalos será mostrada com mais detalhes.</para>
+<!-- #################
+          SECONDS
+     ################# -->
+<sect2 id="theory-seconds">
+<title>Segundas</title>
+<para>Segundas são fácil de reconhecer: as duas notas são vizinhas na pauta. Uma nota está na linha, e outra está no espaço acima ou abaixo. Uma segunda menor tem um passo de semitom. Uma segunda maior tem dois passos de semitom (um tom).</para>
+
+<para>Para aprender a identificar segundas, você tem que aprender primeiro quais segundas estão entre os tons naturais. Como pode se ver em <xref linkend="theory-intervals-seconds"/>, só os intervalos Mi-Fá e Si-Dó são segundas menores. O resto são intervalos maiores. Você pode verificar que <xref linkend="theory-intervals-seconds"/> está correto olhando para o piano. Você verá que não existem teclas pretas entre Mi e Fá e entre Si e Dó.</para>
+
+<figure id="theory-intervals-seconds">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-seconds.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Se a segunda tem acidentes, então temos que examiná-los para saber como eles mudam o tamanho do intervalo. Vamos identificar alguns poucos intervalos!</para>
+
+<figure id="theory-intervals-seconds-1">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-1.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Nós removemos o acidente do intervalo em <xref linkend="theory-intervals-seconds-1"/> e veja que o intervalo Fá-Sol é uma segunda maior. Quando adicionamos o bemol à maior nota, o intervalo se torna um semitom menor, ou seja, torna-se uma segunda menor.</para>
+
+<figure id="theory-intervals-seconds-2">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-2.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Nós removemos os acidentes, e veja que o intervalo Lá-Si é uma segunda maior. Você ainda se lembra de <xref linkend="theory-intervals-seconds"/>, não? Então nós adicionamos um bemol ao Lá, e o intervalo se torna uma segunda aumentada. E quando adicionamos o bemol ao Si, o intervalo se torna uma segunda maior.</para>
+
+<figure id="theory-intervals-seconds-3">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="../C/ly/theory-intervals-seconds-3.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Nós removemos os acidentes, e veja que o intervalo Mi-Fá é uma segunda menor. Quando adicionamos o bemol à nota mais baixa, o intervalo se torna um semitom maior, ou seja, torna-se uma segunda maior. E quando adicionamos um sustenido à nota mais alta, o intervalo se torna um semitom maior, ou seja, torna-se uma segunda aumentada.</para>
+
+</sect2>
+
+<!-- #################
+         THIRDS
+     ################# -->
+
+<sect2 id="theory-thirds">
+<title>Terças</title>
+<para>Uma terça menor é uma segunda menor e uma segunda maior, ou seja, três semitons. Uma terça maior são duas segundas maiores, ou seja, quatro semitons. <xref linkend="theory-intervals-thirds"/> mostra as terças entre todas as notas naturais. Você deve memorizar os intervalos maiores, Dó-Mi, Fá-Lá e Sol-Si. Então você saberá que os outros quatro intervalos são menores.</para>
+
+<figure id="theory-intervals-thirds">
+ <title/>
+ <mediaobject>
+  <imageobject>
+   <imagedata fileref="ly/theory-intervals-thirds.png" format="PNG"/>
+  </imageobject>
+ </mediaobject>
+</figure>
+
+<para>Então você examina os acidentes para ver se eles mudam o nome específico. Isto é feito exatamente do mesmo modo como para as segundas.</para>
+
+</sect2>
+<!-- #################
+          FOURTHS
+     ################# -->
+<sect2 id="theory-fourths">
+<title>Quarta</title>
+<para>Uma quarta pura tem 2½ passos, ou duas segundas maiores e uma segunda menor. <xref linkend="theory-intervals-fourths"/> mostra todas as quartas entre notas naturais. Você deve memorizar que a quarta Fá-Si é aumentada, e que as outras seis são puras.</para>
+
+<figure id="theory-intervals-fourths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fourths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+</sect2>
+
+<!-- #################
+          FIFTHS
+     ################# -->
+<sect2 id="theory-fifths">
+<title>Quinta</title>
+<para>Uma quinta pura tem 3½ passos, ou três segundas maiores e uma segunda menor. <xref linkend="theory-intervals-fifths"/> mostra todas as quintas entre notas naturais. Você deve lembrar que todos esses intervalos são puros, exceto Si-Fá, que é diminuta.</para>
+
+<figure id="theory-intervals-fifths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-fifths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Se um intervalo tem acidentes, então devemos examiná-los para ver como eles mudam o tamanho do intervalo. Uma quinta diminuta é um semitom menor que um intervalo puro, e uma quinta aumentada é um semitom maior. Abaixo você encontra alguns exemplos:</para>
+
+<figure id="theory-intervals-fifths-1">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-1.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Nós lembramos de <xref linkend="theory-intervals-fifths"/> que o intervalo Si-Fá é uma quinta diminuta. A nota mais baixa em <xref linkend="theory-intervals-fifths-1"/> é precedida de um bemol que faz do intervalo um semitom maior e o muda de quinta diminuta para pura.</para>
+
+<figure id="theory-intervals-fifths-2">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="../C/ly/theory-intervals-fifths-2.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+<para>Nós sabemos de <xref linkend="theory-intervals-fifths"/> que o intervalo Mi-Si é uma quinta perfeita. Em <xref linkend="theory-intervals-fifths-2"/> o Mi tem um bemol a sua frente, tornando o intervalo aumentado. Mas o Si é precedido de um dobrado bemol que faz do intervalo dois semitons menor e o muda para uma quinta diminuta.</para>
+</sect2>
+
+<sect2 id="theory-sixths">
+<title>Sextas</title>
+<para>Sextas são mais facilmente identificadas por <link linkend="inverting-intervals"> inversão de intervalos</link> e identificação da terça. Então as seguintes regras se aplicam:</para>
+
+<itemizedlist>
+<listitem><para>Se a terça é diminuta, então a sexta é aumentada</para></listitem>
+<listitem><para>Se a terça é menor, então a sexta é maior</para></listitem>
+<listitem><para>Se a terça é maior, então a sexta é menor</para></listitem>
+<listitem><para>Se a terça é aumentada, então a sexta é diminuta</para></listitem>
+</itemizedlist>
+
+<para>Se você achar a inversão de intervalos difícil, então você pode memorizar que os intervalos Mi-Dó e Si-Sol são menores. Os outros quatro são maiores. Então você examina os acidentes para ver se eles mudam o nome específico. Isto é feito exatamente como para as segundas.</para>
+
+<figure id="theory-intervals-sixths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sixths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect2>
+
+<sect2 id="theory-sevenths">
+<title>Sétimas</title>
+<para>Sétimas são identificadas do mesmo modo como sextas. Quando você inverte uma sétima, obtém uma segunda.</para>
+
+<para>Se você achar a inversão de intervalos difícil, então você pode memorizar que os intervalos Dó-Si e Fá-Mi são maiores. Os outros cinco são menores. Então você examina os acidentes para ver se eles mudam o nome específico. Isto é feito exatamente como para as segundas.</para>
+
+<figure id="theory-intervals-sevenths">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/theory-intervals-sevenths.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+
+</sect2>
+
+</sect1>
+
+<sect1 id="inverting-intervals">
+<title>Invertendo intervalos</title>
+<para>Você inverte um intervalo quando move a nota mais baixa do intervalo uma oitava acima, ou a nota mais alta uma oitava abaixo. O nome geral muda desta maneira:</para>
+<itemizedlist>
+<listitem><para>Segunda se torna sétima.</para></listitem>
+<listitem><para>Terça se torna sexta.</para></listitem>
+<listitem><para>Quarta se torna quinta.</para></listitem>
+<listitem><para>Quinta se torna quarta.</para></listitem>
+<listitem><para>Sexta se torna terça.</para></listitem>
+<listitem><para>Sétima se torna segunda.</para></listitem>
+</itemizedlist>
+
+<para>O nome específico muda desta maneira:</para>
+<itemizedlist>
+<listitem><para>Diminuta se torna aumentada.</para></listitem>
+<listitem><para>Menor se torna maior.</para></listitem>
+<listitem><para>Justa permanece justa.</para></listitem>
+<listitem><para>Maior se torna menor.</para></listitem>
+<listitem><para>Aumentada se torna diminuta.</para></listitem>
+</itemizedlist>
+
+<para>Abaixo estão dois exemplos, uma terça maior é invertida e se torna uma sexta menor, e uma sétima menor é invertida tornando-se uma segunda maior.</para>
+
+<figure id="music-theory-inverting-intervals-fig">
+    <title/>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="ly/inverting-intervals.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+</figure>
+
+</sect1>
+
+</chapter>

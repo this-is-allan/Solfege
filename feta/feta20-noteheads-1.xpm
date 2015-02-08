@@ -1,0 +1,17 @@
+/* XPM */
+static char *out/feta20-noteheads-1[] = {
+/* width height ncolors chars_per_pixel */
+"10 8 2 1",
+/* colors */
+"` c #000",
+"a c #FF",
+/* pixels */
+"aaaa`````a",
+"aa````aaa`",
+"a````aaaa`",
+"a``aaaaa``",
+"``aaaaa``a",
+"`aaaa````a",
+"`aaa````aa",
+"a`````aaaa"
+};

@@ -1,0 +1,29 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>The rhythmdictation2 module</title><link rel="stylesheet" type="text/css" href="../style.css"><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"><link rel="home" href="index.html" title="GNU Solfege 3.22.2 Manual do Usuário"><link rel="up" href="extending-solfege.html" title="Capítulo 4. Extending GNU Solfege"><link rel="prev" href="rhythmdictation-module.html" title="The rhythmdictation module"><link rel="next" href="singanswer-module.html" title="The singanswer module"></head><body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF"><div class="navheader"><table width="100%" summary="Navigation header"><tr><th colspan="3" align="center">The <code class="literal">rhythmdictation2</code> module</th></tr><tr><td width="20%" align="left"><a accesskey="p" href="rhythmdictation-module.html">Anterior</a> </td><th width="60%" align="center">Capítulo 4. Extending GNU Solfege</th><td width="20%" align="right"> <a accesskey="n" href="singanswer-module.html">Próxima</a></td></tr></table><hr></div><div class="sect1" title="The rhythmdictation2 module"><div class="titlepage"><div><div><h2 class="title" style="clear: both"><a name="rhythmdictation2-module"></a>The <code class="literal">rhythmdictation2</code> module</h2></div></div></div><p>Solfege will play a generated rhythm, and then the user should enter
+the rhythm in the rhythm editor. Below is a minimal lesson file. You can
+have as many question blocks as you like. When the program generates
+a random question, it will first select one question block by random,
+and then use it to generate the actual question.
+</p><pre class="programlisting">
+header {
+  <a class="xref" href="lesson-files.html#lf-module">module</a> = rhythmdictation2
+  <a class="xref" href="lesson-files.html#lf-title">title</a> = "Rhythm dictation"
+}
+# Tempo for all questions that does not specify it.
+<a class="xref" href="lesson-files.html#lf-tempo">tempo</a> = 150/4
+# Countin for all questions that does not specify it
+<a class="xref" href="lesson-files.html#lf-countin">countin</a> = rhythm("d4 d d d")
+
+question {
+  <a class="xref" href="rhythmdictation2-module.html#lf-bars">bars</a> = 4/4, 3/4, 4/4
+  <a class="xref" href="rhythmdictation2-module.html#lf-elements">elements</a> = "4", "8 8"
+  # Tempo set here overrides the global tempo
+  <a class="xref" href="lesson-files.html#lf-tempo">tempo</a> = 150/4
+}
+question {
+  <a class="xref" href="rhythmdictation2-module.html#lf-bars">bars</a> = 3/4, 3/4
+  <a class="xref" href="lesson-files.html#lf-countin">countin</a> = rhythm("d4 d d")
+  <a class="xref" href="rhythmdictation2-module.html#lf-elements">elements</a> = "4", "8 8"
+}
+</pre><div class="variablelist"><dl><dt><span class="term"><code class="literal"><a name="lf-bars"></a>bars</code></span></dt><dd><p>The time signatures of the bars to generate. The number of
+    time signatures tell how many bars to generate.
+    </p></dd><dt><span class="term"><code class="literal"><a name="lf-elements"></a>elements</code></span></dt><dd><p>The elements to choose from when generating the rhythm.</p></dd></dl></div></div><div class="navfooter"><hr><table width="100%" summary="Navigation footer"><tr><td width="40%" align="left"><a accesskey="p" href="rhythmdictation-module.html">Anterior</a> </td><td width="20%" align="center"><a accesskey="u" href="extending-solfege.html">Acima</a></td><td width="40%" align="right"> <a accesskey="n" href="singanswer-module.html">Próxima</a></td></tr><tr><td width="40%" align="left" valign="top">The <code class="literal">rhythmdictation</code> module </td><td width="20%" align="center"><a accesskey="h" href="index.html">Principal</a></td><td width="40%" align="right" valign="top"> The <code class="literal">singanswer</code> module</td></tr></table></div></body></html>

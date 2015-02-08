@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="idproperty">
+<title>Multiples choix pour les réponses en musique</title>
+
+<informalfigure id="idproperty-screen1">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/chord.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Copie d'écran du logiciel.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Ceci est une page d'explications générique pour tous les exercices qui utilisent le module <literal>reconnaître le qualicatif</literal>. Ces exercices comportent en général plus d'autres explications qui leur sont propres.</para>
+
+<para>La copie d'écran ci-dessus vous permet de voir à quoi peut ressembler un exercice.</para>
+
+<para>L'exercice affiche une question et joue un peu de musique, alors vous devez choisir une réponse dans chacune des colonnes du tableau de boutons. Quand vous avez choisi la bonne réponse, le libellé du bouton se met en gras et le message « Correct » clignote dans la barre d'état.</para>
+
+<para>Quand l'une des questions au moins peut être jouée arpégée par le programme, l'exercice comporte un bouton <guibutton>Rejouer arpégé</guibutton>.</para>
+</sect1>

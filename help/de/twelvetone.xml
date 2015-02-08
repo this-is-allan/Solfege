@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="twelvetone">
+<title>Zwölf Zufallstöne singen</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/twelvetone.png" format="PNG"/>
+      </imageobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>In dieser Übung zeigt das Programm alle zwölf Töne der Tonleiter in zufälliger Reihenfolge an und spielt den ersten Ton ab. Dann sollten Sie alle Noten singen und prüfen, ob die letzte Note übereinstimmt. Es handelt sich hier mehr um eine Prüfung des sauberen Singens an sich als um das Singen von Intervallen. Dafür sollten Sie sich eine der anderen Intervallübungen anschauen.</para>
+
+</sect1>

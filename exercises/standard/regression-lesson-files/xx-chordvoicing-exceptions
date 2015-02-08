@@ -1,0 +1,60 @@
+header {
+  module = chordvoicing
+  title = "chordvoicing mpd errors"
+  lesson_id = "chordvoicing-module-exceptions"
+  have_repeat_slowly_button = yes
+}
+question {
+  name = "chord: c e g"
+  music = chord("c e g")
+}
+question {
+  name = "chord: c > e g"
+  music = chord("c > e g")
+}
+question {
+  name = "chord: <"
+  music = chord("<")
+}
+question {
+  name = "chord: c ERR g"
+  music = chord("c ERR g")
+}
+question {
+  name = "chord: \c e g"
+  music = chord("\c e g")
+}
+question {
+  name = "chord: \clef noclefsaadlj c e "
+  music = chord("\clef noclefsaadlj c e ")
+}
+question {
+  name = "chord: {"
+  music = chord("{")
+}
+question {
+  name = "satb: |||"
+  music = satb("|||")
+}
+question {
+  name = "satb:  c | > | |"
+  music = satb(" c | > | |")
+}
+question {
+  name = "satb: c'' | g' | error | c"
+  music = satb("c'' | g' | error | c")
+}
+question {
+  name = "satb: c'' | g' | 
+ ER | c"
+  music = satb("c'' | g' | 
+ ER | c")
+}
+question {
+  name = "satb:  |dfd"
+  music = satb(" |dfd")
+}
+question {
+  name = "satb:  | | |}"
+  music = satb(" | | |}")
+}

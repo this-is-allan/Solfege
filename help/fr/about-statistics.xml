@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="about-statistics">
+<title>À propos des statistiques</title>
+<para>Certains exercices montrent des statistiques pour différentes périodes de temps : <emphasis>Session</emphasis>, <emphasis>Journée</emphasis>,<emphasis>7 derniers jours</emphasis> et <emphasis>Total</emphasis>. Le logiciel utilise deux sortes de tableaux.</para>
+
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Saisie d'un écran de statistiques : tableau des pourcentages</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>*Comme vous pouvez le voir sur la saisie d'écran ci-dessus, le premier tableau comporte une rangée par question du fichier de leçon. <emphasis>Pourcentage</emphasis> donne le nombre de réponses justes, en pourcentage, tandis que <emphasis>Nombre</emphasis> donne le nombre de fois où la question a été posée.</para>
+
+<para>Dans le second type de tableaux, les colonnes ont les mêmes libellés que les rangées mais ces libellés ne sont pas affichés parce que cela dépasserait en largeur. Donc, dans la copie d'écran ci-dessus, la 1ère colonne devrait porter le libellé <emphasis>m3↑</emphasis>, et la 2ème colonne le libellé <emphasis>M3↑</emphasis>. Pour chaque question identifiée par le libellé d'une rangée, chaque colonne contient le nombre de fois que l'utilisateur a répondu les diverses possibilités de réponse, le nombre en gras correspondant aux nombre de réponses justes.</para>
+
+</sect1>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="ear-training-test-printout-editor">
+<title>Redaktilo de aŭskultada testo-printaĵo</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/ear-training-test-printout-editor.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Bildo de la fenestro de trejnaro-redaktilo.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Tiu ĉi ilo disponeblas en la menuo <guimenu>Dosiero</guimenu>. Uzu ĝin por krei aŭskultadajn testojn por printi sur papero. Solfege kreos du versiojn de la dokumento: unu por ke la studentoj kompletigu, kaj unu kun la korekta respondo jam skribite. Tiu ĉi ilo estis aldonata pro peto de uzanto, sed ni ne scias ĉu ĝi fakte utilas praktike ĝenerale. Do bonvolu <link linkend="online-resources">kontakti nin</link> se vi vere uzas tion ĉi, kaj sciigu nin ĉu ĝi uzindas.</para>
+
+<para>La butono <guibutton>Aldoni</guibutton> ŝprucos menuon kun ĉiuj ekzercoj de la aktiva frontpaĝo el kiu tiu ĉi ilo povas krei ekzercojn: tiuj verkitaj uzante la ekzerco-modulojn <link linkend="idbyname-module">idbyname</link>, <link linkend="melodicinterval-module">melodicinterval</link> kaj <link linkend="harmonicinterval-module">harmonicinterval</link>. El leciondosieroj skribitaj por la modulo <literal>idbyname</literal>, nur la muzik-objektoj <link linkend="lfunc-chord">chord</link>, <link linkend="lfunc-rvoice">rvoice</link> kaj <link linkend="lfunc-voice">voice</link> estas subtenataj.</para>
+
+<para><guibutton>Krei Folion</guibutton> malfermos dialogon kiu ebligos al vi elekti aŭ krei malplenan dosierujon, kaj tiam konservi dosierojn HTML aŭ LaTex kaj la grafikaĵojn en tiu dosierujo.</para>
+
+<para>Kiam vi konservas kaj ŝargas je la dosieroj difinantaj aŭskultadajn testojn, la programo memoras la hazardajn demandojn, do ŝargi je dosiero kaj klaki en <guibutton>Krei Folion</guibutton> kreos ĝuste la saman teston. Klaku <guibutton>Hazardigi</guibutton> por krei novan hazardan aron da demandoj.</para>
+</sect1>

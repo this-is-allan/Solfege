@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="singinterval">
+<title>Interval zingen</title>
+<informalfigure>
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/singinterval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van een interval-zangoefening.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>In deze oefening zal Solfege één of meerdere intervallen tonen en word je geacht deze te zingen. Helaas is het nog niet mogelijk in een microfoon te zingen en Solfege vervolgens te laten bepalen of je het goed gezongen hebt. Je zult dus zelf moeten bepalen of het juist of onjuist was.</para>
+<sect2 id="singinterval-config">
+<title>Configuratie</title>
+<para>Het programma zal een vraag proberen te maken waarbij alle tonen binnen het stembereik van de gebruiker liggen zoals dit is opgegeven in het <link linkend="preferences-window">Voorkeurenscherm</link>. Soms is het niet mogelijk de vraag binnen dit bereik te houden, bijvoorbeeld als de oefening zo is ingesteld dat er veel intervallen worden gemaakt die alle opgaande zijn.</para>
+</sect2>
+</sect1>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="scales">
+<title>Skalen</title>
+<para>Scales are a complex matter. For example is the greek lydian (C-D-E-F-G-A-B-C) different from the medieval and modern lydian (C-D-E-F#-G-A-B-C).
+	You can read about all the scales used in GNU Solfege <ulink url="../C/scales/modes.html">here</ulink>.</para>
+
+<para>In Solfege gibt es Skalenübungen in drei Varianten.</para>
+<itemizedlist>
+<listitem><para>Solfege spielt eine Skala. Sie haben diese zu identifizieren, indem Sie auf den Knopf mit dem Namen der Skala klicken.</para>
+</listitem>
+<listitem><para>Solfege spielt eine Skala. Sie haben die Struktur dieser Skala zu identifizieren. Es wird eine Reihe von Knöpfen mit den Beschriftungen »1«, »2« und »3« angezeigt. Diese Ziffern stellen die Intervalle »Kleine Sekunde«, »Große Sekunde« und »Kleine Terz« dar, die zwischen den Tönen der Skala liegen.</para></listitem>
+<listitem><para>Solfege spielt eine Skala. Sie haben die Stufe dieser Skala zu identifizieren. Beispielsweise nimmt Solfege die natürliche Mollskala und spielt sie von einem beliebigen Ton der Skala ausgehend ab. Sie müssen erkennen, mit welchem Ton begonnen wurde.</para></listitem>
+</itemizedlist>
+
+</sect1>

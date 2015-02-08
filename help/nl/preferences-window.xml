@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sect1 id="preferences-window">
+<title>Voorkeurenscherm</title>
+<sect2 id="pw-midi-stuff">
+<title>Instrumenten</title>
+<informalfigure id="preferences-midi">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-midi.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad Instrumenten van het voorkeurenscherm.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-tempo">
+<title>Tempo</title>
+<!-- translators: don't translate the module names in this paragraph. -->
+<para>Het tempo (slagen per minuut) voor muziek en arpeggio's instellen. Deze waarden worden gebruikt bij oefeningen die met behulp van de volgende oefeningmodules zijn geschreven: <literal>compareintervals</literal>, <literal>harmonicintervals</literal>, <literal>idtone</literal>, <literal>melodicinterval</literal>, <literal>singchord</literal>, <literal>singinterval</literal>, <literal>twelvetone</literal>, <literal>rhythm</literal>, <literal>identifybpm</literal>, <literal>nameinterval</literal>. Bij andere oefeningen wordt het tempo bepaald in het lesbestand of in de voorkeurenpagina van de oefeningen.</para>
+</sect3>
+<sect3 id="pw-preferred-instr">
+<title>Voorkeursinstrument</title>
+<para>Het MIDI-instrument en de geluidssterkte instellen.</para>
+</sect3>
+<sect3 id="pw-chord-instr">
+<title>Snaarinstrumenten</title>
+<para>Bij het spelen van akkoorden kan Solfege drie verschillende instrumenten gebruiken: één voor de hoogste tonen, één voor de tonen in het middengebied en één voor de bastonen. Dit kan handig zijn als je moeite hebt met het onderscheiden van de individuele tonen.</para>
+</sect3>
+<sect3 id="pw-perc-instr">
+<title>Percussieinstrumenten van voorkeur</title>
+<para>Geef een instrument op voor het aftellen van de ritmevragen, en een instrument voor het spelen van de vraag.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-user">
+<title>Gebruiker</title>
+<informalfigure id="preferences-user">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-user.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad Gebruiker van het Voorkeurenscherm</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege gebruikt deze informatie in sommige oefeningen waar de gebruiker geacht wordt te zingen.</para>
+<sect3 id="pw-low-high">
+<title>Laagste/hoogste toon die de gebruiker kan zingen</title>
+<para>Deze stelknoppen vertellen Solfege wat de hoogste en laagste toon is die de gebruiker kan zingen. Deze waarden worden door het programma als advies beschouwd. Als bijvoorbeeld de waarden ingesteld zijn op <literal>c</literal> tot <literal>c'</literal> en je hebt het programma zodanig geïnstrueerd dat je kleine en grote decimen moet zingen, dan zal je ook noten buiten dit bereik voorgeschoteld krijgen.</para> </sect3>
+
+<sect3 id="pw-sex">
+<title>Stemsoort</title>
+<para>Bij het aanmaken van sommige vragen waarbij de gebruiker de antwoorden moet zingen, moet Solfege weten of de gebruiker een man, vrouw of kind is. De reden is dat de mannelijke stem een octaaf lager klinkt dan vrouwelijke en jeugdige stemmen.</para>
+</sect3>
+</sect2>
+
+<sect2 id="pw-external-programs">
+<title>Externe programma's</title>
+<informalfigure id="preferences-external-programs-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-external-programs.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van tabblad 'Externe programmas' van het Voorkeurenscherm.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Solfege zal het PATH afzoeken naar programma's die je op deze pagina invoert. Je hoeft dus alleen maar het volledige pad op te geven als de programma's buiten PATH zijn geïnstalleerd. Een waarschuwingsteken achter de invoer betekent dat het programma niet is gevonden.</para>
+
+<para>Voor Windows-gebruiker staan actuele tips en downloadkoppelingen op <ulink url="http://www.solfege.org">www.solfege.org</ulink> voor het geval je de programma's zelf moet installeren.</para>
+
+<sect3 id="pw-convertors">
+<title>Omzetters</title>
+<para>Voer opdrachtregels in waarmee verschillende geluidsbestanden omgezet kunnen worden. <literal>%(in)s</literal> zal worden vervangen door de naam van het bestand dat geconverteerd moet worden en <literal>%(out)s</literal> door de naam van het resultaatbestand. Als het programma de uitvoer automatisch bewaard in een nieuw bestand met de juiste bestandsextensie, is het niet nodig om <literal>%(out)s</literal> op te geven.</para>
+</sect3>
+
+<sect3 id="pw-audio-players">
+<title>Audiobestandspelers</title>
+<para>Programma's waarmee verschillende soorten geluidsbestanden afgespeeld kunnen worden. <literal>%s</literal> zal worden vervangen door de naam van het af te spelen bestand. Als je geen <literal>%s</literal> achter het programma zet, zal de bestandsnaam achter het programma wordt gevoegd.</para>
+</sect3>
+
+<sect3 id="pw-misc">
+<title>Diversen</title>
+<para>Enkele oefeningen maken gebruikt van de programma's CSound en MMA. Lilypond-book is vereist om afdrukken van gehoortrainingtesten te maken en LaTeX voor het afdrukken in DVI. Zonder LaTeX kan je wel HTML-uitvoer genereren.</para>
+
+<para>Als het ingevoerde bestand de extensie <literal>.py</literal> heeft, dan zal het script met dezelfde python-interpreter worden uitgevoerd als Solfege.</para>
+</sect3>
+
+</sect2>
+<sect2 id="preferences-gui">
+<title>Interface</title>
+<informalfigure id="preferences-gui-screenshot">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Interface' in het Voorkeurenscherm.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+
+<para>Instelbare grootte hoofdvenster: laat de gebruiker de grootte van het hoofdvenster van Solfege aanpassen.</para>
+<para>Kies je taal: je kunt de taal handmatig instellen als Solfege die niet correct heeft gedetecteerd, of als je een andere taal dan die van het besturingssysteem wilt gebruiken.</para>
+
+<sect3>
+<title>Sneltoetsen voor Toonherkenning</title>
+<informalfigure id="preferences-gui-idtone-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-idtone.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Interface' in het Voorkeurenscherm.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Hier kan je de sneltoetsen wijzigen voor de oefening «Toonherkenning». Klik op een rij om de sneltoets van de betreffende toon te veranderen en klik vervolgens op de tweede kolom. Tenslotte druk je op de toets die je als sneltoets wilt gebruiken.</para>
+<para>De knoppen «Dvorak» en «ACSII» herstellen de sneltoetsen naar de standaardwaarden voor Dvorak- en ASCII-toetsenborden.</para>
+</sect3>
+
+<sect3>
+<title>Sneltoetsen voor Intervallen</title>
+<informalfigure id="preferences-gui-interval-accels">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-gui-interval.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Interface' in het Voorkeurenscherm.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Hier kan je de sneltoetsen wijzigen voor de intervaloefeningen, zoals de oefeningen «Harmonische intervallen» en «Melodische intervallen». Klik op een rij om de sneltoets van de betreffende toon te veranderen en klik vervolgens op de tweede kolom. Tenslotte druk je op de toets die je als sneltoets voor de toon wilt gebruiken.</para>
+<para>De knoppen «Dvorak» en «ACSII» herstellen de sneltoetsen naar de standaardwaarden voor Dvorak- en ASCII-toetsenborden.</para>
+</sect3>
+
+</sect2>
+
+<sect2 id="pw-practise">
+<title>Oefenen</title>
+<informalfigure id="preferences-practise">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-practise.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Oefenen' in het Voorkeurenvenster.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<para>Een nieuwe vraag mag pas gesteld worden nadat de vorige is beantwoord: schakelt de 'Nieuw'-knop uit totdat de vraag juist is beantwoord of de gebruiker op de knop "Opgeven" klikt.</para>
+<para>Vraag herhalen na fout antwoord: speelt het geluid opnieuw af als de gebruiker een onjuist antwoord heeft gegeven.</para>
+<para>Expertmodus: inschakelen van deze optie tijdens oefeningen met de <link linkend="idbyname-module">idbyname</link> en <link linkend="idproperty-module">idproperty</link>-modules geven je de mogelijkheid met alleen een deel van de vragen uit het lesbestand te oefenen. Bij het oefenen met de expertmodus ingeschakeld wordt geen statistische informatie opgeslagen.</para>
+</sect2>
+
+<sect2 id="pw-sound-setup">
+<title>Geluidsinstellingen</title>
+<informalfigure id="preferences-sound-setup">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Geluidsinstellingen' van het Voorkeurenvenster.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<informalfigure id="preferences-sound-setup-wib32">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-sound-setup-win32.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Geluidsinstellingen' van het Voorkeurenscherm.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3 id="pw-midi-setup">
+<title>MIDI-instellingen</title>
+<variablelist>
+<title>De oefeningen die geluid afspelen kunnen dit op verschillende manieren:</title>
+<varlistentry>
+<term>Geen geluid:</term>
+<listitem>
+<para>Gebruik deze optie voor het opsporen van fouten of bij het `porten´ van Solfege. Er worden geen geluiden afgespeeld en de MIDI-gebeurtenissen worden weggeschreven naar stdout.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Gebruik ALSA-apparaat:</term>
+<listitem>
+<para>If you have the Python modules for ALSA installed, you can use the
+ALSA sequencer. If your operating system is GNU/Linux, you have a menu item on
+the Help menu that can download and compile the modules for you.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Gebruik apparaat:</term>
+<listitem>
+<para>De beste keuze voor deze opties is meestal <filename>/dev/music</filename> omdat deze percussieinstrumenten het best ondersteunt. <filename>/dev/sequencer2</filename> is meestal een symbolische koppeling met <filename>/dev/music</filename>. Als je systeem niet over een <filename>/dev/music</filename> beschikt, kan je deze als volgt (als root) aanmaken (Linux kernelversie 2.2 of nieuwer):</para>
+<para>cd /dev mknod music u 14 8</para>
+<para>Onder Windows heet deze keuze <literal>Windows multimedia output</literal>.</para>
+</listitem>
+</varlistentry>
+<varlistentry>
+<term>Externe MIDI-speler gebruiken:</term>
+<listitem>
+<para>Deze optie kan handig zijn bij het omzetten naar systemen die geen OSS gebruiken of bij geluidskaarten met een slechte MIDI-syntheziser waardoor je timidity wilt gebruiken.</para>
+</listitem>
+</varlistentry>
+</variablelist>
+</sect3>
+</sect2>
+<sect2 id="pw-statistics">
+<title>Statistieken</title>
+<informalfigure id="preferences-statistics">
+  <screenshot>
+    <mediaobject>
+      <imageobject>
+        <imagedata fileref="figures/preferences-statistics.png" format="PNG"/>
+      </imageobject>
+      <textobject>
+        <phrase>Schermafdruk van het tabblad 'Geluidsinstellingen' van het Voorkeurenvenster.</phrase>
+      </textobject>
+    </mediaobject>
+  </screenshot>
+</informalfigure>
+<sect3>
+<title>Statistieken van versie 3.15 en ouder</title>
+<para>Solfege-versies vòòr 3.16.0 bewaarde statistieken in veel kleine bestanden. Solfege 3.16.0 en nieuwer zullen deze bestanden importen in de nieuwe database als het programma voor het eerste gestart wordt; de oude bestanden blijven daarbij behouden. Je kunt deze bestanden veilig verwijderen nadat je Solfege 3.16.0 of nieuwer eenmaal gestart hebt. De bestanden zijn opgeslagen in de <literal>statistics</literal> map van de <emphasis>application data</emphasis>.</para>
+</sect3>
+<sect3>
+  <title>Statistieken</title>
+  <para>Statistieken zijn nu opgeslagen in een bestand <literal>statistics.sqlite</literal> in de map <emphasis>application data</emphasis>. De exacte locatie van de map vind je door uit het menu <guimenu>Hulp</guimenu> <guimenuitem>Bestandslocaties</guimenuitem> te selecteren. Klik op <guibutton>Verwijderen</guibutton> om de statistieken te herstellen en met een leeg <literal>statistics.sqlite</literal>-bestand te beginnen.</para>
+</sect3>
+</sect2>
+</sect1>
