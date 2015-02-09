@@ -1,0 +1,1379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generated with glade 3.18.3 -->
+<interface>
+  <requires lib="gtk+" version="3.12"/>
+  <object class="GtkImage" id="image1">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-home</property>
+  </object>
+  <object class="GtkImage" id="image10">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-edit</property>
+  </object>
+  <object class="GtkImage" id="image11">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image12">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image13">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image14">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-properties</property>
+  </object>
+  <object class="GtkImage" id="image15">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-quit</property>
+  </object>
+  <object class="GtkImage" id="image16">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image17">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image18">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image19">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image2">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image20">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image21">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image22">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image23">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image24">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image25">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image3">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image4">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image5">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image6">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-find</property>
+  </object>
+  <object class="GtkImage" id="image7">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image8">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkImage" id="image9">
+    <property name="visible">True</property>
+    <property name="can_focus">False</property>
+    <property name="stock">gtk-missing-image</property>
+  </object>
+  <object class="GtkWindow" id="window1">
+    <property name="width_request">1000</property>
+    <property name="height_request">600</property>
+    <property name="can_focus">False</property>
+    <property name="window_position">center</property>
+    <child>
+      <object class="GtkBox" id="box1">
+        <property name="visible">True</property>
+        <property name="can_focus">False</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkMenuBar" id="menubar_inicio">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <child>
+              <object class="GtkMenuItem" id="menu_arquivo">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">_Arquivo</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu1">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_pagina_frontal">
+                        <property name="label" translatable="yes">Página Frontal</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image1</property>
+                        <property name="use_stock">False</property>
+                        <property name="always_show_image">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_pagina_testes">
+                        <property name="label" translatable="yes">Página de Testes</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image2</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_exerc_recentes">
+                        <property name="label" translatable="yes">Exercícios Recentes</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image3</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_testes_recentes">
+                        <property name="label" translatable="yes">Testes Recentes</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image4</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_exerc_usuarios">
+                        <property name="label" translatable="yes">Exercícios do Usuário</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image5</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_buscar_exerc">
+                        <property name="label" translatable="yes">Buscar Exercícios</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image6</property>
+                        <property name="use_stock">False</property>
+                        <property name="always_show_image">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="menuitem4">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_selec_pagina_frontal">
+                        <property name="label" translatable="yes">Selecionar Página Frontal</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image7</property>
+                        <property name="use_stock">False</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="sub_menu3">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <child>
+                              <object class="GtkImageMenuItem" id="sub_pagina_fronta">
+                                <property name="label" translatable="yes">Página Frontal Padrão</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="image">image8</property>
+                                <property name="use_stock">False</property>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkImageMenuItem" id="sub_exerc_experimentais">
+                                <property name="label" translatable="yes">Exercícios Experimentais com CSound</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="image">image9</property>
+                                <property name="use_stock">False</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="separatormenuitem1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_editar_pagina_frontal">
+                        <property name="label" translatable="yes">Editar Página Frontal</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image10</property>
+                        <property name="use_stock">False</property>
+                        <property name="always_show_image">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_exportar_exerc">
+                        <property name="label" translatable="yes">Exportar Exercícios para Arquivos de Áudio</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image11</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_impress_folha">
+                        <property name="label" translatable="yes">Impressão de Folha de Treinamento de Audição</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image12</property>
+                        <property name="use_stock">False</property>
+                        <property name="always_show_image">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="separatormenuitem2">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_geren_perfis">
+                        <property name="label" translatable="yes">Gerenciador de Perfis</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image13</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_preferencias">
+                        <property name="label" translatable="yes">Preferências</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image14</property>
+                        <property name="use_stock">False</property>
+                        <property name="always_show_image">True</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_sair">
+                        <property name="label" translatable="yes">Sair</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image15</property>
+                        <property name="use_stock">False</property>
+                        <property name="always_show_image">True</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="GtkMenuItem" id="menu_ajuda">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="label" translatable="yes">Aj_uda</property>
+                <property name="use_underline">True</property>
+                <child type="submenu">
+                  <object class="GtkMenu" id="menu2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_manual_usuario">
+                        <property name="label" translatable="yes">Manual do Usuário</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image16</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_local_arquivos">
+                        <property name="label" translatable="yes">Localização de Arquivos</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image17</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_teoria">
+                        <property name="label" translatable="yes">Teoria</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image18</property>
+                        <property name="use_stock">False</property>
+                        <child type="submenu">
+                          <object class="GtkMenu" id="sub_menu4">
+                            <property name="visible">True</property>
+                            <property name="can_focus">False</property>
+                            <child>
+                              <object class="GtkImageMenuItem" id="sub_intervalos">
+                                <property name="label" translatable="yes">Intervalos</property>
+                                <property name="visible">True</property>
+                                <property name="can_focus">False</property>
+                                <property name="image">image25</property>
+                                <property name="use_stock">False</property>
+                              </object>
+                            </child>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_compilar_alsa">
+                        <property name="label" translatable="yes">Baixar e compilar módulos ALSA</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image19</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="separatormenuitem4">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_donativo">
+                        <property name="label" translatable="yes">Donativo</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image21</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkSeparatorMenuItem" id="separatormenuitem3">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_listas_correio">
+                        <property name="label" translatable="yes">Listas de correio, página web, etc</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image22</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_report_erros">
+                        <property name="label" translatable="yes">Reportando erros</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image23</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_ver_erros">
+                        <property name="label" translatable="yes">Ver erros reportados por você</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image24</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                    <child>
+                      <object class="GtkImageMenuItem" id="sub_sobre">
+                        <property name="label" translatable="yes">Sobre</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="image">image20</property>
+                        <property name="use_stock">False</property>
+                      </object>
+                    </child>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">0</property>
+          </packing>
+        </child>
+        <child>
+          <object class="GtkFrame" id="frame1">
+            <property name="visible">True</property>
+            <property name="can_focus">False</property>
+            <property name="vexpand">True</property>
+            <property name="label_xalign">0</property>
+            <property name="shadow_type">none</property>
+            <child>
+              <object class="GtkNotebook" id="btnLeft">
+                <property name="visible">True</property>
+                <property name="can_focus">True</property>
+                <property name="tab_pos">left</property>
+                <child>
+                  <object class="GtkBox" id="box2">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkButton" id="btnInteMeloAsce">
+                        <property name="label" translatable="yes">Intervalos Melódicos Ascendentes</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">10</property>
+                        <signal name="clicked" handler="eventInteMeloAsce" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnInteMeloDesc">
+                        <property name="label" translatable="yes">Intervalos Melódicos Descendentes</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventInteMeloDesce" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnInteMelo">
+                        <property name="label" translatable="yes">Intervalos Melódicos</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventInteMelo" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnInteHarm">
+                        <property name="label" translatable="yes">Intervalos Harmônicos</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventInteHarm" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnCantInte">
+                        <property name="label" translatable="yes">Cantar Intervalos</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventCantInte" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">4</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnCompInte">
+                        <property name="label" translatable="yes">Comparação de Intervalos</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventCompInte" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">5</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="descExerc">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">end</property>
+                        <property name="margin_top">10</property>
+                        <property name="vexpand">True</property>
+                        <property name="ypad">100</property>
+                        <property name="label" translatable="yes">descExerc</property>
+                        <style>
+                          <class name="descExerc"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">6</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnStart">
+                        <property name="label" translatable="yes">Iniciar</property>
+                        <property name="width_request">230</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="margin_top">5</property>
+                        <property name="hexpand">True</property>
+                        <property name="relief">half</property>
+                        <style>
+                          <class name="btnStart"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">7</property>
+                      </packing>
+                    </child>
+                  </object>
+                </child>
+                <child type="tab">
+                  <object class="GtkLabel" id="btnIntervalos">
+                    <property name="width_request">300</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Intervalos</property>
+                    <property name="use_markup">True</property>
+                    <property name="track_visited_links">False</property>
+                    <style>
+                      <class name="labelLeft"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="tab_fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="box3">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkButton" id="btnRitm">
+                        <property name="label" translatable="yes">Ritmo</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">10</property>
+                        <signal name="clicked" handler="eventRitm" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnBatuRitmGera">
+                        <property name="label" translatable="yes">Batucar Ritmo Gerado</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventBatuRitmGera" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnDitaRitm">
+                        <property name="label" translatable="yes">Ditado Rítmico</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventDitaRitm" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="descExerc1">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">end</property>
+                        <property name="margin_top">10</property>
+                        <property name="vexpand">True</property>
+                        <property name="ypad">100</property>
+                        <property name="label" translatable="yes">descExerc</property>
+                        <style>
+                          <class name="descExerc"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnStart1">
+                        <property name="label" translatable="yes">Iniciar</property>
+                        <property name="width_request">230</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="margin_top">5</property>
+                        <property name="hexpand">True</property>
+                        <style>
+                          <class name="btnStart"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">4</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="position">1</property>
+                  </packing>
+                </child>
+                <child type="tab">
+                  <object class="GtkLabel" id="btnRitmo">
+                    <property name="width_request">300</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Ritmo</property>
+                    <property name="use_markup">True</property>
+                    <style>
+                      <class name="labelLeft"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="position">1</property>
+                    <property name="tab_fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="box4">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkButton" id="btnNomeInte">
+                        <property name="label" translatable="yes">Nomear Intervalos</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">10</property>
+                        <signal name="clicked" handler="eventNomeInte" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnNomeEsca">
+                        <property name="label" translatable="yes">Nomear Escalas</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventNomeEsca" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnSilaSolf">
+                        <property name="label" translatable="yes">Sílabas Solfa</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventSilaSolf" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="descExerc2">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">end</property>
+                        <property name="margin_top">10</property>
+                        <property name="vexpand">True</property>
+                        <property name="ypad">100</property>
+                        <property name="label" translatable="yes">descExerc</property>
+                        <style>
+                          <class name="descExerc"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnStart2">
+                        <property name="label" translatable="yes">Iniciar</property>
+                        <property name="width_request">230</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="margin_top">5</property>
+                        <property name="hexpand">True</property>
+                        <style>
+                          <class name="btnStart"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">4</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="position">2</property>
+                  </packing>
+                </child>
+                <child type="tab">
+                  <object class="GtkLabel" id="btnTeoria">
+                    <property name="width_request">300</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Teoria</property>
+                    <property name="use_markup">True</property>
+                    <style>
+                      <class name="labelLeft"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="position">2</property>
+                    <property name="tab_fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="box5">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkButton" id="btnAcorPosiRaiz">
+                        <property name="label" translatable="yes">Acordes na Posição Raiz</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventAcorPosiRaiz" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnInveAcor">
+                        <property name="label" translatable="yes">Inversões de Acordes</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventInveAcor" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnCantAcor">
+                        <property name="label" translatable="yes">Cantar Acorde</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventCantAcor" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnCantNotaAcor">
+                        <property name="label" translatable="yes">Cantar Nota de Acorde</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <signal name="clicked" handler="eventCantNotaAcor" swapped="no"/>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="descExerc3">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">end</property>
+                        <property name="margin_top">10</property>
+                        <property name="vexpand">True</property>
+                        <property name="ypad">100</property>
+                        <property name="label" translatable="yes">descExerc</property>
+                        <style>
+                          <class name="descExerc"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">5</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnStart3">
+                        <property name="label" translatable="yes">Iniciar</property>
+                        <property name="width_request">230</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="margin_top">5</property>
+                        <property name="hexpand">True</property>
+                        <style>
+                          <class name="btnStart"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">6</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="position">3</property>
+                  </packing>
+                </child>
+                <child type="tab">
+                  <object class="GtkLabel" id="btnAcordes">
+                    <property name="width_request">300</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Acordes</property>
+                    <property name="use_markup">True</property>
+                    <style>
+                      <class name="labelLeft"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="position">3</property>
+                    <property name="tab_fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="box6">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkButton" id="btnPrat">
+                        <property name="label" translatable="yes">Praticar</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">10</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="descExerc4">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">end</property>
+                        <property name="margin_top">10</property>
+                        <property name="vexpand">True</property>
+                        <property name="ypad">100</property>
+                        <property name="label" translatable="yes">descExerc</property>
+                        <style>
+                          <class name="descExerc"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnStart4">
+                        <property name="label" translatable="yes">Iniciar</property>
+                        <property name="width_request">230</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="margin_top">5</property>
+                        <property name="hexpand">True</property>
+                        <style>
+                          <class name="btnStart"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="position">4</property>
+                  </packing>
+                </child>
+                <child type="tab">
+                  <object class="GtkLabel" id="btnEscalas">
+                    <property name="width_request">300</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Escalas</property>
+                    <style>
+                      <class name="labelLeft"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="position">4</property>
+                    <property name="tab_fill">False</property>
+                  </packing>
+                </child>
+                <child>
+                  <object class="GtkBox" id="box7">
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="orientation">vertical</property>
+                    <child>
+                      <object class="GtkButton" id="btnEnto">
+                        <property name="label" translatable="yes">Entonação (requer CSound)</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">10</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">0</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnDita">
+                        <property name="label" translatable="yes">Ditado</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">1</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnIdenNota">
+                        <property name="label" translatable="yes">Identificar Nota</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">2</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnOutrExer">
+                        <property name="label" translatable="yes">Outros Exercícios</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">3</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnConfVoceMesm">
+                        <property name="label" translatable="yes">Configurar você mesmo</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">4</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnProgHarm">
+                        <property name="label" translatable="yes">Progressões Harmônicas</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">5</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnOuviNota">
+                        <property name="label" translatable="yes">Ouvir Notas</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">6</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnCade">
+                        <property name="label" translatable="yes">Cadências</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">7</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnTomEmCont">
+                        <property name="label" translatable="yes">Tom em Contexto</property>
+                        <property name="height_request">20</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="margin_top">5</property>
+                        <style>
+                          <class name="btnRight"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">8</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkLabel" id="descExerc5">
+                        <property name="visible">True</property>
+                        <property name="can_focus">False</property>
+                        <property name="valign">end</property>
+                        <property name="margin_top">10</property>
+                        <property name="vexpand">True</property>
+                        <property name="ypad">100</property>
+                        <property name="label" translatable="yes">descExerc</property>
+                        <style>
+                          <class name="descExerc"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">9</property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkButton" id="btnStart5">
+                        <property name="label" translatable="yes">Iniciar</property>
+                        <property name="width_request">230</property>
+                        <property name="height_request">50</property>
+                        <property name="visible">True</property>
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">True</property>
+                        <property name="halign">end</property>
+                        <property name="margin_top">5</property>
+                        <property name="hexpand">True</property>
+                        <style>
+                          <class name="btnStart"/>
+                        </style>
+                      </object>
+                      <packing>
+                        <property name="expand">False</property>
+                        <property name="fill">True</property>
+                        <property name="position">10</property>
+                      </packing>
+                    </child>
+                  </object>
+                  <packing>
+                    <property name="position">5</property>
+                  </packing>
+                </child>
+                <child type="tab">
+                  <object class="GtkLabel" id="btnOutros">
+                    <property name="width_request">300</property>
+                    <property name="height_request">80</property>
+                    <property name="visible">True</property>
+                    <property name="can_focus">False</property>
+                    <property name="label" translatable="yes">Outros</property>
+                    <style>
+                      <class name="labelLeft"/>
+                    </style>
+                  </object>
+                  <packing>
+                    <property name="position">5</property>
+                    <property name="tab_fill">False</property>
+                  </packing>
+                </child>
+                <style>
+                  <class name="btnLeft"/>
+                </style>
+              </object>
+            </child>
+            <child type="label">
+              <object class="GtkLabel" id="label1">
+                <property name="visible">True</property>
+                <property name="can_focus">False</property>
+                <property name="halign">center</property>
+                <property name="valign">end</property>
+                <property name="margin_left">5</property>
+                <property name="margin_top">10</property>
+                <property name="margin_bottom">7</property>
+                <property name="label" translatable="yes">Selecione um Exercício</property>
+                <attributes>
+                  <attribute name="gravity" value="auto"/>
+                </attributes>
+                <style>
+                  <class name="labelInicio"/>
+                </style>
+              </object>
+            </child>
+          </object>
+          <packing>
+            <property name="expand">False</property>
+            <property name="fill">True</property>
+            <property name="position">1</property>
+          </packing>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
