@@ -16,9 +16,9 @@ You can help us to understand Solfege's operation by investigating and documenti
 ## Let's talk?
 Please, if you have any consideration, contact us by e-mail.
 
- - João Almeida - joao.almeida@belojardim.ifpe.edu.br
- - Marcílio Bezerra - marcilioduart@gmail.com
- - Lenilson Júnior - falecom@lenilsonjr.com
- - Allan Carlos - allancarlosdeveloper@gmail.com
- - Lucas Emanuel - lucasem911@gmail.com
- - Rannyeri Rodrigues - rannyerirbatista@gmail.com
+ - João Almeida - joao.almeida@belojardim.ifpe.edu.br (IFPE's Teacher - Project Advisor)
+ - Marcílio Bezerra - marcilioduart@gmail.com (IFPE's Music Student - Musical Methodology)
+ - Lenilson Júnior - falecom@lenilsonjr.com (IFPE's I.T Student - Programmer)
+ - Allan Carlos - allancarlosdeveloper@gmail.com (IFPE's I.T Student - Programmer)
+ - Lucas Emanuel - lucasem911@gmail.com (IFPE's I.T Student - Programmer)
+ - Rannyeri Rodrigues - rannyerirbatista@gmail.com (IFPE's I.T Student - Programmer)
