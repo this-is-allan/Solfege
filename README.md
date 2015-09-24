@@ -1,2 +1,1 @@
-# Solfege-5.0
-teste
+# Projeto de pesquisa do IFPE
