@@ -52,6 +52,10 @@ import gtk
 from solfege import utils
 from solfege import i18n
 
+'''
+    Screen initial of loading
+    Tela inicial de carregamento
+'''
 class SplashWin(gtk.Window):
     def __init__(self):
         gtk.Window.__init__(self, gtk.WINDOW_POPUP)
