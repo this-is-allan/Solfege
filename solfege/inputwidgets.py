@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 # GNU Solfege - free ear training software
 # Copyright (C) 2000, 2001, 2002, 2003, 2004, 2006, 2007, 2008, 2011  Tom Cato Amundsen
 #
@@ -23,6 +26,7 @@ import math
 from solfege import cfg
 from solfege import mpd
 from solfege import utils
+
 
 class CairoCommon(object):
     mark_color = {
