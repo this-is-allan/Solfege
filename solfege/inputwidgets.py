@@ -79,6 +79,9 @@ class CairoCommon(object):
                 self.m_clicked_tones.append(midi_int)
             self.m_callback(mouse_button, interval, midi_int)
 
+''' 
+    Piano (teclado)
+'''
 class PianoKeyboard(gtk.DrawingArea, CairoCommon):
     def __init__(self, num_octaves, lowest_c, key_w=15):
         gtk.DrawingArea.__init__(self)
@@ -97,6 +100,10 @@ class PianoKeyboard(gtk.DrawingArea, CairoCommon):
         self.m_last_redraw = 0
         self.m_black_w = 0.6
         self.set_size_request(int(num_octaves * 7 * key_w + 1), int(self.m_white_h + 1))
+    '''
+        To press a button, play the sound and paint the key of piano.
+        Ao apertar um botão, toque o som e pinte a tecla do piano.
+    '''
     def _on_button_press(self, drawingarea, event):
         assert event.x >= 0
         if event.x < self.m_pos_x or event.x > self.m_num_octaves * 7 * self.m_key_w + self.m_pos_x:
@@ -126,6 +133,10 @@ class PianoKeyboard(gtk.DrawingArea, CairoCommon):
         clicked_on.m_accidental_i = black_clicked
         clicked_on.m_octave_i += clicked_octave
         self.on_button_press_event(event, clicked_on.semitone_pitch())
+    '''
+        Draws the piano
+        Desenha o piano
+    '''
     def draw(self, context):
         num_key = 7 * self.m_num_octaves
         width = num_key * self.m_key_w
