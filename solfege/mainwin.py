@@ -75,6 +75,10 @@ class SplashWin(gtk.Window):
         self.g_infolabel = gtk.Label('')
         vbox.pack_start(self.g_infolabel)
         self.show_all()
+    '''
+        Show the progress of loading
+        Mostra o progresso de carregamento
+    '''
     def show_progress(self, txt):
         self.g_infolabel.set_text(txt)
         while gtk.events_pending():
