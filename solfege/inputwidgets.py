@@ -84,6 +84,7 @@ class CairoCommon(object):
             self.m_callback(mouse_button, interval, midi_int)
 
 ''' 
+    Piano (keyboard)
     Piano (teclado)
 '''
 class PianoKeyboard(gtk.DrawingArea, CairoCommon):
