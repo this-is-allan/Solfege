@@ -22,6 +22,10 @@ import re
 sys.path.append(".")
 
 def create_languages_py():
+
+    '''
+        AQUI APARENTEMENTE SÃO CARREGADAS OS IDIOMAS PARA O USÚARIO ESCOLHER PARA A INTERFACE DO SOLFEGE.
+    '''
     f = file("solfege/languages.py", "w")
 
     print >> f, "# Generated at build time by tools/buildscript.py"
