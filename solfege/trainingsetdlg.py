@@ -334,5 +334,3 @@ class TrainingSetDialog(gtk.Window, gu.EditorDialogBase, lessonfilegui.Exercises
         except osutils.BinaryBaseException, e:
             progress_dialog.destroy()
             solfege.win.display_error_message2(e.msg1, e.msg2)
-
-
